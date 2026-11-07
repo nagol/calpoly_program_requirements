@@ -1,0 +1,3370 @@
+{
+  "program": {
+    "program_version_id": "MATH_BS__2026_2028",
+    "program_code": "MATH_BS",
+    "program_title": "Bachelor of Science in Mathematics",
+    "catalog_code": "2026-2028",
+    "catalog_unit_basis": "SEMESTER",
+    "total_units_required": 120.0,
+    "min_ud_units_required": 40.0,
+    "concentrations": [
+      "GENERAL",
+      "APPLIED",
+      "TEACHING",
+      "PURE"
+    ],
+    "source_snapshot_id": "2026-2028__math_bs__main"
+  },
+  "nodes": [
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "Major & Support Core Courses (49-53 semester units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 49.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 10,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.MATH_1151",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 1151: Linear Algebra",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 20,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1151",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.MATH_1261",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 1261: Calculus I (2)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 30,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1261",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.MATH_1262_OR_MATH_1263",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 1262 or MATH 1263 (Calculus II)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 2.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 40,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1262",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1263",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.MATH_2001",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 2001: Mathematics Orientation",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 50,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2001",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.MATH_2031",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 2031: Transition to Advanced Mathematics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 60,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2031",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.MATH_2263",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 2263: Calculus III",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 70,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2263",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.MATH_2343",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 2343: Differential Equations",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 80,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2343",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_1_MATH_3051_OR_MATH_3111_OR_MATH_3301",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "Select one: MATH 3051 or MATH 3111 or MATH 3301",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 90,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3051",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3111",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3301",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.MATH_3152",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 3152: Advanced Linear Algebra",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 100,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3152",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.MATH_4201",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 4201: Abstract Algebra I",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 110,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4201",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.MATH_4264",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 4264: Real Analysis I",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 120,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4264",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.MATH_4202_OR_MATH_4265",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 4202 or MATH 4265 (Abstract Algebra II)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 130,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4202",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4265",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.SENIOR_PROJECT",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "Senior Project (Select one option)",
+      "rule_type": "K_OF_NODES",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 140,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.SENIOR_PROJECT.MATH_4461_AND_MATH_4462",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.SENIOR_PROJECT",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 4461 & MATH 4462: Senior Project I and Senior Project II",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 150,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.SENIOR_PROJECT.MATH_4461_AND_MATH_4462.MATH_4461",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.SENIOR_PROJECT.MATH_4461_AND_MATH_4462",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 4461",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 160,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4461",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.SENIOR_PROJECT.MATH_4461_AND_MATH_4462.MATH_4462",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.SENIOR_PROJECT.MATH_4461_AND_MATH_4462",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 4462",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 2.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 170,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4462",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.SENIOR_PROJECT.MATH_4463",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.SENIOR_PROJECT",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 4463: Senior Project Seminar",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 180,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4463",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.SENIOR_PROJECT.MATH_4464",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.SENIOR_PROJECT",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 4464: Senior Project Applied Seminar",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 190,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4464",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.CSC_1001_AND_CSC_1001L",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "CSC 1001 & CSC 1001L: Fundamentals of Computer Science and Fundamentals of Computer Science Laboratory",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 200,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.CSC_1001_AND_CSC_1001L.CSC_1001",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.CSC_1001_AND_CSC_1001L",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "CSC 1001",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 210,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.CSC_1001_AND_CSC_1001L.CSC_1001L",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.CSC_1001_AND_CSC_1001L",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "CSC 1001L",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 220,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001L",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.PHYS_1141",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "PHYS 1141: General Physics I (5A & 5C)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 230,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1141",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.STAT_1510",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "STAT 1510: Statistics I",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 240,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_1510",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "Computing / Modeling Elective (Select one option)",
+      "rule_type": "K_OF_NODES",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 250,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD.CSC_2001_AND_CSC_2001L",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "CSC 2001 & CSC 2001L: Data Structures and Data Structures Laboratory",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 260,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD.CSC_2001_AND_CSC_2001L.CSC_2001",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD.CSC_2001_AND_CSC_2001L",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "CSC 2001",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 270,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_2001",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD.CSC_2001_AND_CSC_2001L.CSC_2001L",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD.CSC_2001_AND_CSC_2001L",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "CSC 2001L",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 280,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_2001L",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD.CSC_2600",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "CSC 2600: Computing with Data",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 290,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_2600",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD.MATH_3681",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "MATH 3681: Mathematical Programming",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 300,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3681",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD.PHYS_4202",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "PHYS 4202: Computational Physics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 310,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_4202",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD.STAT_2610",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.MAJOR_CORE.CHOICE_3_COMP_MOD",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "STAT 2610: Introduction to Probability and Simulation",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 320,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_2610",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.CONC_GENERAL",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "General Mathematics Track (21 semester units \u2014 7 courses from List A)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 21.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 330,
+      "footnote_notes": "[2] A maximum of 14 units may be at the 1000-2000-3000 level. [3] A maximum of 4 units may be at the 1000-2000 level. [4] A maximum of 8 units may be from non-MATH prefix courses. [5] Courses can only be used once for major degree credit.",
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.CONC_GENERAL.LIST_A_7",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "List A: General Mathematics Electives (7 courses / 21 units; max 8u non-MATH)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 7,
+      "required_units": 21.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 45,
+      "display_order": 340,
+      "footnote_notes": "[2] A maximum of 14 units may be at the 1000-2000-3000 level. [3] A maximum of 4 units may be at the 1000-2000 level. [4] A maximum of 8 units may be from non-MATH prefix courses. [5] Courses can only be used once for major degree credit.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3011",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3051",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3055",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3111",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3301",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3351",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3511",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3622",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3651",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3681",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4052",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4202",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4265",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4342",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4352",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4461",
+          "subject_code": "MATH",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_MATH_4461_MATH_4462"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4462",
+          "subject_code": "MATH",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_MATH_4461_MATH_4462"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4512",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4531",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4541",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4652",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4653",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4911",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4981",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4982",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3449",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3665",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ECON_3030",
+          "subject_code": "ECON",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ECON_4010",
+          "subject_code": "ECON",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ECON_4012",
+          "subject_code": "ECON",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_2211",
+          "subject_code": "ENGR",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ME_3302",
+          "subject_code": "ME",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1143",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3301",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3305",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3306",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3314",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3323",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3520",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3530",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4610",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4620",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4750",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4770",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4790",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.CONC_PURE",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "PURE",
+      "label": "Pure / General Mathematics Track (21 semester units \u2014 7 courses from List A)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 21.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 350,
+      "footnote_notes": "[2] A maximum of 14 units may be at the 1000-2000-3000 level. [3] A maximum of 4 units may be at the 1000-2000 level. [4] A maximum of 8 units may be from non-MATH prefix courses. [5] Courses can only be used once for major degree credit.",
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.CONC_PURE.LIST_A_7",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.CONC_PURE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "PURE",
+      "label": "List A: General Mathematics Electives (7 courses / 21 units; max 8u non-MATH)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 7,
+      "required_units": 21.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 45,
+      "display_order": 360,
+      "footnote_notes": "[2] A maximum of 14 units may be at the 1000-2000-3000 level. [3] A maximum of 4 units may be at the 1000-2000 level. [4] A maximum of 8 units may be from non-MATH prefix courses. [5] Courses can only be used once for major degree credit.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3011",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3051",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3055",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3111",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3301",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3351",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3511",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3622",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3651",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3681",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4052",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4202",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4265",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4342",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4352",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4461",
+          "subject_code": "MATH",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_MATH_4461_MATH_4462"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4462",
+          "subject_code": "MATH",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_MATH_4461_MATH_4462"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4512",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4531",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4541",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4652",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4653",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4911",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4981",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4982",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3449",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3665",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ECON_3030",
+          "subject_code": "ECON",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ECON_4010",
+          "subject_code": "ECON",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ECON_4012",
+          "subject_code": "ECON",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_2211",
+          "subject_code": "ENGR",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ME_3302",
+          "subject_code": "ME",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1143",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3301",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3305",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3306",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3314",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3323",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3520",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3530",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4610",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4620",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4750",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4770",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4790",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.CONC_APPLIED",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "APPLIED",
+      "label": "Applied Mathematics Track (21 semester units \u2014 4 from List A, 3 from List B)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 21.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 370,
+      "footnote_notes": "[2] A maximum of 14 units may be at the 1000-2000-3000 level. [3] A maximum of 4 units may be at the 1000-2000 level. [4] A maximum of 8 units may be from non-MATH prefix courses. [5] Courses can only be used once for major degree credit.",
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.CONC_APPLIED.LIST_B_3",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.CONC_APPLIED",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "APPLIED",
+      "label": "List B: Applied Mathematics Electives (3 courses / 9 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 3,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 35,
+      "display_order": 380,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3055",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4342",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4352",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4652",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4653",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4911",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.CONC_APPLIED.LIST_A_4",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.CONC_APPLIED",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "APPLIED",
+      "label": "List A: General Mathematics Electives (4 courses / 12 units; max 8u non-MATH)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 4,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 45,
+      "display_order": 390,
+      "footnote_notes": "[2] A maximum of 14 units may be at the 1000-2000-3000 level. [3] A maximum of 4 units may be at the 1000-2000 level. [4] A maximum of 8 units may be from non-MATH prefix courses. [5] Courses can only be used once for major degree credit.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3011",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3051",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3055",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3111",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3301",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3351",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3511",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3622",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3651",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3681",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4052",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4202",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4265",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4342",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4352",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4461",
+          "subject_code": "MATH",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_MATH_4461_MATH_4462"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4462",
+          "subject_code": "MATH",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_MATH_4461_MATH_4462"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4512",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4531",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4541",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4652",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4653",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4911",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4981",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4982",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3449",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3665",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ECON_3030",
+          "subject_code": "ECON",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ECON_4010",
+          "subject_code": "ECON",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ECON_4012",
+          "subject_code": "ECON",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_2211",
+          "subject_code": "ENGR",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ME_3302",
+          "subject_code": "ME",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1143",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3301",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3305",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3306",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3314",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3323",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3520",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3530",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4610",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4620",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4750",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4770",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4790",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.CONC_TEACHING",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "TEACHING",
+      "label": "Teaching Mathematics Track (21 semester units \u2014 3 from List A, 4 from List C)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 21.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 400,
+      "footnote_notes": "[2] A maximum of 14 units may be at the 1000-2000-3000 level. [3] A maximum of 4 units may be at the 1000-2000 level. [4] A maximum of 8 units may be from non-MATH prefix courses. [5] Courses can only be used once for major degree credit.",
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.CONC_TEACHING.LIST_C_4",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.CONC_TEACHING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "TEACHING",
+      "label": "List C: Teaching Mathematics Electives (4 courses / 12 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 4,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 35,
+      "display_order": 410,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3511",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3971",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4512",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4972",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.CONC_TEACHING.LIST_A_3",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.CONC_TEACHING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "TEACHING",
+      "label": "List A: General Mathematics Electives (3 courses / 9 units; max 8u non-MATH)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 3,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 45,
+      "display_order": 420,
+      "footnote_notes": "[2] A maximum of 14 units may be at the 1000-2000-3000 level. [3] A maximum of 4 units may be at the 1000-2000 level. [4] A maximum of 8 units may be from non-MATH prefix courses. [5] Courses can only be used once for major degree credit.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3011",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3051",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3055",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3111",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3301",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3351",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3511",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3622",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3651",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3681",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4052",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4202",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4265",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4342",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4352",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4461",
+          "subject_code": "MATH",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_MATH_4461_MATH_4462"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4462",
+          "subject_code": "MATH",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_MATH_4461_MATH_4462"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4512",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4531",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4541",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4652",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4653",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4911",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4981",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4982",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3449",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3665",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ECON_3030",
+          "subject_code": "ECON",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ECON_4010",
+          "subject_code": "ECON",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ECON_4012",
+          "subject_code": "ECON",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_2211",
+          "subject_code": "ENGR",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ME_3302",
+          "subject_code": "ME",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1143",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3301",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3305",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3306",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3314",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_3323",
+          "subject_code": "PHYS",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3520",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3530",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4610",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4620",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4750",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4770",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4790",
+          "subject_code": "STAT",
+          "is_excluded": "N",
+          "subpool_cap_group": "CAP_NON_MATH_8U",
+          "subpool_max_units": 8.0
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "General Education (2026-2028 Semester Template \u2014 43 total units, 10 in Major/Support)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 43.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 430,
+      "footnote_notes": "Required in Major or Support; also satisfied General Education (GE) requirement.",
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_1",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 1: English Communication and Critical Thinking (9 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 440,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_1.A1A",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_1",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 1A: Written Communication (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 450,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "1A",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_1.A1B",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_1",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 1B: Critical Thinking (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 460,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "1B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_1.A1C",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_1",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 1C: Oral Communication (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 470,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "1C",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_2",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 2: Mathematics and Quantitative Reasoning (3 units in Major + 3 UD units in Major)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 6.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 480,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_2.LD_2",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_2",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 2: Mathematics and Quantitative Reasoning (satisfied in Major by MATH 1261)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 490,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_2.UD_2_5",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_2",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Upper-Division 2/5 (satisfied in Major by MATH 3051/3111/3301)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 500,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-2/5",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_3",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 3: Arts and Humanities (9 units: 3A, 3B, UD-3)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 510,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_3.A3A",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_3",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 3A \u2014 Arts (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 520,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "3A",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_3.A3B",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_3",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 3B \u2014 Humanities (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 530,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "3B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_3.UD_3",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_3",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Upper-Division 3 \u2014 Arts and Humanities (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 540,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-3",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_4",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 4: Social and Behavioral Sciences (9 units from >=2 distinct subject prefixes)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 2,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 550,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_4.A4A",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_4",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 4A \u2014 American Institutions (Title 5) (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 560,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "4A",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_4.A4B",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_4",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 4B \u2014 Social and Behavioral Sciences (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 570,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "4B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_4.UD_4",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_4",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Upper-Division 4 \u2014 Social and Behavioral Sciences (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 580,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-4",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_5",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 5: Physical and Life Sciences (7 units: 5A, 5B, 5C Lab)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 7.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 590,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_5.A5A",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_5",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 5A: Physical Sciences (satisfied in Support by PHYS 1141)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 600,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "5A",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_5.A5B",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_5",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 5B: Life Sciences (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 610,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "5B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_5.A5C_LAB",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE.AREA_5",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 5C: Science Laboratory (taken with 5A or 5B; satisfied by PHYS 1141)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 0.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 55,
+      "display_order": 620,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "5C",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.GE.AREA_6",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 6: Ethnic Studies (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 630,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "6",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.UNIV_GRADUATION",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "University Minimum Graduation Requirements & 120-Unit Total",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 90,
+      "display_order": 640,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.UNIV_GRADUATION.TOTAL_180_UNITS",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 120 Baccalaureate Units (determines remaining Free Electives)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": null,
+      "required_units": 120.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 650,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "ALL_BACCALAUREATE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.UNIV_GRADUATION.UD_60_UNITS",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 40 Upper-Division Units (300-400 / 3000-4000 level)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": null,
+      "required_units": 40.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 40.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 660,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "UD_BACCALAUREATE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.UNIV_GRADUATION.USCP",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "U.S. Cultural Pluralism (USCP)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 670,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "USCP_TAG",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "MATH_BS_26_28.UNIV_GRADUATION.GWR",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Graduation Writing Requirement (GWR)",
+      "rule_type": "MILESTONE",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 680,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "MATH_BS_26_28.UNIV_GRADUATION.GPA_MIN_2_0",
+      "program_version_id": "MATH_BS__2026_2028",
+      "parent_node_id": "MATH_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 2.00 GPA (Cal Poly, Cumulative, and Major)",
+      "rule_type": "MILESTONE",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 690,
+      "footnote_notes": null,
+      "course_matchers": []
+    }
+  ]
+}

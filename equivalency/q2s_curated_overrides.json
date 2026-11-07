@@ -1,0 +1,180 @@
+{
+  "description": "Declarative Q2S mappings supplementing scraped 'Formerly' tags: (1) courses whose catalog description omitted 'Formerly' due to level shifts, and (2) explicit member-level mappings for 3-quarter-to-2-semester compressed series.",
+  "overrides": [
+    {
+      "equiv_id": "CURATED__Q_MATH_341__TO__S_MATH_3111",
+      "equiv_type": "CURATED_Q2S_1_TO_1",
+      "prior_course_set": "Q:MATH_341",
+      "semester_course_set": "S:MATH_3111",
+      "notes": "Theory of Numbers (Q:MATH 341) -> Number Theory (S:MATH 3111); paired in MATH 4201 prereq."
+    },
+    {
+      "equiv_id": "CURATED__Q_MATH_410__TO__S_MATH_3301",
+      "equiv_type": "CURATED_Q2S_1_TO_1",
+      "prior_course_set": "Q:MATH_410",
+      "semester_course_set": "S:MATH_3301",
+      "notes": "Complex Analysis I (Q:MATH 410) -> Complex Analysis (S:MATH 3301); paired in MATH 5302 prereq."
+    },
+    {
+      "equiv_id": "CURATED__Q_STAT_301__TO__S_STAT_1510",
+      "equiv_type": "CURATED_Q2S_1_TO_1",
+      "prior_course_set": "Q:STAT_301",
+      "semester_course_set": "S:STAT_1510",
+      "notes": "Statistics I moved from 300-level (Q:STAT 301) to 1000-level (S:STAT 1510); paired in STAT 3520 prereq."
+    },
+    {
+      "equiv_id": "SMAP__Q_MATH_141__BY__S_MATH_1261",
+      "equiv_type": "SERIES_MEMBER_MAP",
+      "prior_course_set": "Q:MATH_141",
+      "semester_course_set": "S:MATH_1261",
+      "notes": "Semester Calculus I (4 sem = 6 q-units) satisfies Quarter MATH 141."
+    },
+    {
+      "equiv_id": "SMAP__Q_MATH_142__BY__S_MATH_1261_PLUS_1262",
+      "equiv_type": "SERIES_PAIR_COMPLETION",
+      "prior_course_set": "Q:MATH_142",
+      "semester_course_set": "S:MATH_1261+S:MATH_1262",
+      "notes": "Completing both S:MATH 1261 and S:MATH 1262 (12 q-equiv units) covers Q:MATH 141 + 142 + 143."
+    },
+    {
+      "equiv_id": "SMAP__Q_MATH_142__BY__S_MATH_1263",
+      "equiv_type": "SERIES_MEMBER_MAP",
+      "prior_course_set": "Q:MATH_142",
+      "semester_course_set": "S:MATH_1263",
+      "notes": "Bridge Calculus II (S:MATH 1263) bridges Calculus I credit to multivariable/proofs."
+    },
+    {
+      "equiv_id": "SMAP__Q_MATH_143__BY__S_MATH_1262",
+      "equiv_type": "SERIES_MEMBER_MAP",
+      "prior_course_set": "Q:MATH_143",
+      "semester_course_set": "S:MATH_1262",
+      "notes": "Semester Calculus II (4 sem = 6 q-units) satisfies Quarter MATH 143."
+    },
+    {
+      "equiv_id": "SMAP__Q_PHYS_141__BY__S_PHYS_1141",
+      "equiv_type": "SERIES_MEMBER_MAP",
+      "prior_course_set": "Q:PHYS_141",
+      "semester_course_set": "S:PHYS_1141",
+      "notes": "Semester General Physics I (S:PHYS 1141) satisfies Quarter PHYS 141."
+    },
+    {
+      "equiv_id": "SMAP__Q_PHYS_143__BY__S_PHYS_1143",
+      "equiv_type": "SERIES_MEMBER_MAP",
+      "prior_course_set": "Q:PHYS_143",
+      "semester_course_set": "S:PHYS_1143",
+      "notes": "Semester General Physics II (S:PHYS 1143, GE B1 & B3) satisfies Quarter PHYS 142/143."
+    },
+    {
+      "equiv_id": "SMAP__Q_MATH_412__BY__S_MATH_4264",
+      "equiv_type": "SERIES_MEMBER_MAP",
+      "prior_course_set": "Q:MATH_412",
+      "semester_course_set": "S:MATH_4264",
+      "notes": "Semester Real Analysis I (S:MATH 4264) satisfies Quarter MATH 412."
+    },
+    {
+      "equiv_id": "SMAP__Q_MATH_413__BY__S_MATH_4265",
+      "equiv_type": "SERIES_MEMBER_MAP",
+      "prior_course_set": "Q:MATH_413",
+      "semester_course_set": "S:MATH_4265",
+      "notes": "Semester Real Analysis II (S:MATH 4265) satisfies Quarter MATH 413 (or 414 if 413 already met)."
+    },
+    {
+      "equiv_id": "SMAP__Q_MATH_414__BY__S_MATH_4265",
+      "equiv_type": "SERIES_MEMBER_MAP",
+      "prior_course_set": "Q:MATH_414",
+      "semester_course_set": "S:MATH_4265",
+      "notes": "Semester Real Analysis II (S:MATH 4265) can satisfy Quarter MATH 414 when MATH 413 is already satisfied."
+    },
+    {
+      "equiv_id": "SMAP__Q_MATH_481__BY__S_MATH_4201",
+      "equiv_type": "SERIES_MEMBER_MAP",
+      "prior_course_set": "Q:MATH_481",
+      "semester_course_set": "S:MATH_4201",
+      "notes": "Semester Abstract Algebra I (S:MATH 4201) satisfies Quarter MATH 481."
+    },
+    {
+      "equiv_id": "SMAP__Q_MATH_482__BY__S_MATH_4202",
+      "equiv_type": "SERIES_MEMBER_MAP",
+      "prior_course_set": "Q:MATH_482",
+      "semester_course_set": "S:MATH_4202",
+      "notes": "Semester Abstract Algebra II (S:MATH 4202) satisfies Quarter MATH 482 (or 483 if 482 already met)."
+    },
+    {
+      "equiv_id": "SMAP__Q_MATH_483__BY__S_MATH_4202",
+      "equiv_type": "SERIES_MEMBER_MAP",
+      "prior_course_set": "Q:MATH_483",
+      "semester_course_set": "S:MATH_4202",
+      "notes": "Semester Abstract Algebra II (S:MATH 4202) can satisfy Quarter MATH 483 when MATH 482 is already satisfied."
+    },
+    {
+      "equiv_id": "CURATED__Q_MATH_336__TO__Q_MATH_334",
+      "equiv_type": "CURATED_Q2S_1_TO_1",
+      "prior_course_set": "Q:MATH_336",
+      "semester_course_set": "Q:MATH_334",
+      "notes": "Combinatorial Math renumbered from Q:MATH 336 (2017-2022) to Q:MATH 334 (2022-2026) -> S:MATH 3051."
+    },
+    {
+      "equiv_id": "CURATED__Q_MATH_408__TO__Q_MATH_410",
+      "equiv_type": "CURATED_Q2S_1_TO_1",
+      "prior_course_set": "Q:MATH_408",
+      "semester_course_set": "Q:MATH_410",
+      "notes": "Complex Analysis I renumbered from Q:MATH 408 (2017-2022) to Q:MATH 410 (2022-2026) -> S:MATH 3301."
+    },
+    {
+      "equiv_id": "CURATED__Q_MATH_409__TO__Q_MATH_411",
+      "equiv_type": "CURATED_Q2S_1_TO_1",
+      "prior_course_set": "Q:MATH_409",
+      "semester_course_set": "Q:MATH_411",
+      "notes": "Complex Analysis II renumbered from Q:MATH 409 (2017-2022) to Q:MATH 411 (2022-2026)."
+    },
+    {
+      "equiv_id": "CURATED__Q_PHYS_132__TO__Q_PHYS_142",
+      "equiv_type": "CURATED_Q2S_1_TO_1",
+      "prior_course_set": "Q:PHYS_132",
+      "semester_course_set": "Q:PHYS_142",
+      "notes": "General Physics II renumbered from Q:PHYS 132 (2017-2022) to Q:PHYS 142 (2022-2026)."
+    },
+    {
+      "equiv_id": "CURATED__Q_PHYS_133__TO__Q_PHYS_143",
+      "equiv_type": "CURATED_Q2S_1_TO_1",
+      "prior_course_set": "Q:PHYS_133",
+      "semester_course_set": "Q:PHYS_143",
+      "notes": "General Physics III renumbered from Q:PHYS 133 (2017-2022) to Q:PHYS 143 (2022-2026) -> S:PHYS 1143."
+    },
+    {
+      "equiv_id": "SMAP__Q_PHYS_133__BY__S_PHYS_1143",
+      "equiv_type": "SERIES_MEMBER_MAP",
+      "prior_course_set": "Q:PHYS_133",
+      "semester_course_set": "S:PHYS_1143",
+      "notes": "Semester General Physics II (S:PHYS 1143) satisfies pre-2022 Quarter PHYS 133."
+    },
+    {
+      "equiv_id": "CURATED__Q_PHYS_302__TO__Q_PHYS_305",
+      "equiv_type": "CURATED_Q2S_1_TO_1",
+      "prior_course_set": "Q:PHYS_302",
+      "semester_course_set": "Q:PHYS_305",
+      "notes": "Classical Mechanics I renumbered from Q:PHYS 302 (2017-2022) to Q:PHYS 305 (2022-2026) -> S:PHYS 3305."
+    },
+    {
+      "equiv_id": "CURATED__Q_PHYS_303__TO__Q_PHYS_306",
+      "equiv_type": "CURATED_Q2S_1_TO_1",
+      "prior_course_set": "Q:PHYS_303",
+      "semester_course_set": "Q:PHYS_306",
+      "notes": "Classical Mechanics II renumbered from Q:PHYS 303 (2017-2022) to Q:PHYS 306 (2022-2026) -> S:PHYS 3306."
+    },
+    {
+      "equiv_id": "CURATED__Q_PHYS_412__TO__Q_PHYS_425",
+      "equiv_type": "CURATED_Q2S_1_TO_1",
+      "prior_course_set": "Q:PHYS_412",
+      "semester_course_set": "Q:PHYS_425",
+      "notes": "Solid State Physics renumbered from Q:PHYS 412 (2017-2022) to Q:PHYS 425 (2022-2026)."
+    },
+    {
+      "equiv_id": "CURATED__Q_PHYS_417__TO__Q_PHYS_428",
+      "equiv_type": "CURATED_Q2S_1_TO_1",
+      "prior_course_set": "Q:PHYS_417",
+      "semester_course_set": "Q:PHYS_428",
+      "notes": "Nonlinear Dynamical Systems renumbered from Q:PHYS 417 (2017-2022) to Q:PHYS 428 (2022-2026)."
+    }
+  ]
+}
