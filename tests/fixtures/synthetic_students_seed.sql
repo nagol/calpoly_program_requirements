@@ -28,6 +28,14 @@ INSERT INTO stg_upcoming_offerings_raw VALUES ('2272', 'S:CSC_2001L',  3, 16,  0
 INSERT INTO stg_upcoming_offerings_raw VALUES ('2272', 'S:STAT_1510',  5, 45,  0, 'MWF 10:10-11:00');
 INSERT INTO stg_upcoming_offerings_raw VALUES ('2272', 'S:STAT_3520',  2, 14,  0, 'TR 11:10-12:30');
 INSERT INTO stg_upcoming_offerings_raw VALUES ('2272', 'S:ECON_3030',  2, 20,  0, 'TR 9:40-11:00');
+INSERT INTO stg_upcoming_offerings_raw VALUES ('2272', 'S:ME_1125',    3, 25,  0, 'MWF 9:10-10:00');
+INSERT INTO stg_upcoming_offerings_raw VALUES ('2272', 'S:ME_1148',    3, 20,  0, 'TR 10:10-11:30');
+INSERT INTO stg_upcoming_offerings_raw VALUES ('2272', 'S:ME_2212',    2, 15,  0, 'MWF 1:10-2:00');
+INSERT INTO stg_upcoming_offerings_raw VALUES ('2272', 'S:ME_2248',    2, 18,  0, 'TR 2:10-3:30');
+INSERT INTO stg_upcoming_offerings_raw VALUES ('2272', 'S:BUS_2207',   3, 32,  0, 'MWF 10:10-11:00');
+INSERT INTO stg_upcoming_offerings_raw VALUES ('2272', 'S:BUS_2215',   3, 26,  0, 'TR 1:10-2:30');
+INSERT INTO stg_upcoming_offerings_raw VALUES ('2272', 'S:BUS_3346',   2, 19,  0, 'MWF 11:10-12:00');
+INSERT INTO stg_upcoming_offerings_raw VALUES ('2272', 'S:BUS_3387',   2, 22,  0, 'TR 9:40-11:00');
 
 -- ============================================================================
 -- STU_01: Maya (Sophomore, Undeclared Conc -> defaults to GENERAL; catalog inferred -> 2022-2026)
@@ -228,6 +236,36 @@ INSERT INTO stg_student_credit_raw VALUES ('E07_06', 'STU_07', 'COURSE', 'S:PHYS
 INSERT INTO stg_student_credit_raw VALUES ('E07_07', 'STU_07', 'COURSE', 'S:STAT_1510', '2268', 'SEMESTER', 'COMPLETED', 'GRD', 'A',  3.0, 'N', NULL, NULL, NULL, NULL);
 INSERT INTO stg_student_credit_raw VALUES ('E07_08', 'STU_07', 'COURSE', 'S:MATH_3055', '2268', 'SEMESTER', 'COMPLETED', 'GRD', 'A',  3.0, 'N', NULL, NULL, NULL, NULL); -- Claimed by List B (prio 35) before List A (prio 45)!
 INSERT INTO stg_student_credit_raw VALUES ('E07_09', 'STU_07', 'COURSE', 'S:ENGL_1101', '2268', 'SEMESTER', 'COMPLETED', 'GRD', 'A',  3.0, 'N', 'ENGL', 1, '1A',  'N');
+
+-- ============================================================================
+-- STU_08: Lucas (Sophomore, B.S. Mechanical Engineering, 2022-2026 catalog, MECHATRONICS concentration)
+-- Tests: ME_BS major/support/concentration evaluation & Q2S bridge recommendations (S:ME_2212, S:ME_2248).
+-- ============================================================================
+INSERT INTO stg_student_program_raw VALUES ('STU_08', 'Lucas Nguyen', 'ME_BS', '2022-2026', 'MECHATRONICS', '2248', 2);
+INSERT INTO stg_student_milestones_raw VALUES ('STU_08', 'GPA_MIN_2_0', 'MET', 3.48);
+
+INSERT INTO stg_student_credit_raw VALUES ('E08_01', 'STU_08', 'COURSE', 'Q:ME_128',   '2248', 'QUARTER', 'COMPLETED', 'GRD', 'A',  2.0, 'N', NULL, NULL, NULL, NULL);
+INSERT INTO stg_student_credit_raw VALUES ('E08_02', 'STU_08', 'COURSE', 'Q:ME_129',   '2252', 'QUARTER', 'COMPLETED', 'GRD', 'A-', 2.0, 'N', NULL, NULL, NULL, NULL);
+INSERT INTO stg_student_credit_raw VALUES ('E08_03', 'STU_08', 'COURSE', 'Q:ME_130',   '2254', 'QUARTER', 'COMPLETED', 'GRD', 'B+', 2.0, 'N', NULL, NULL, NULL, NULL);
+INSERT INTO stg_student_credit_raw VALUES ('E08_04', 'STU_08', 'COURSE', 'Q:ME_211',   '2258', 'QUARTER', 'COMPLETED', 'GRD', 'A-', 3.0, 'N', NULL, NULL, NULL, NULL);
+INSERT INTO stg_student_credit_raw VALUES ('E08_05', 'STU_08', 'COURSE', 'Q:MATH_141', '2248', 'QUARTER', 'COMPLETED', 'GRD', 'A',  4.0, 'N', NULL, NULL, NULL, NULL);
+INSERT INTO stg_student_credit_raw VALUES ('E08_06', 'STU_08', 'COURSE', 'Q:MATH_142', '2252', 'QUARTER', 'COMPLETED', 'GRD', 'A',  4.0, 'N', NULL, NULL, NULL, NULL);
+INSERT INTO stg_student_credit_raw VALUES ('E08_07', 'STU_08', 'COURSE', 'Q:MATH_143', '2254', 'QUARTER', 'COMPLETED', 'GRD', 'B+', 4.0, 'N', NULL, NULL, NULL, NULL);
+INSERT INTO stg_student_credit_raw VALUES ('E08_08', 'STU_08', 'COURSE', 'Q:PHYS_141', '2252', 'QUARTER', 'COMPLETED', 'GRD', 'B+', 4.0, 'N', NULL, NULL, NULL, NULL);
+
+-- ============================================================================
+-- STU_09: Zoe (Sophomore, B.S. Business Administration, 2022-2026 catalog, ACCOUNTING concentration)
+-- Tests: BUS_BS major/support/concentration evaluation & Q2S bridge recommendations (S:BUS_2215, S:BUS_3346).
+-- ============================================================================
+INSERT INTO stg_student_program_raw VALUES ('STU_09', 'Zoe Kim', 'BUS_BS', '2022-2026', 'ACCOUNTING', '2248', 2);
+INSERT INTO stg_student_milestones_raw VALUES ('STU_09', 'GPA_MIN_2_0', 'MET', 3.65);
+
+INSERT INTO stg_student_credit_raw VALUES ('E09_01', 'STU_09', 'COURSE', 'Q:BUS_206',  '2248', 'QUARTER', 'COMPLETED', 'GRD', 'A',  1.0, 'N', NULL, NULL, NULL, NULL);
+INSERT INTO stg_student_credit_raw VALUES ('E09_02', 'STU_09', 'COURSE', 'Q:BUS_214',  '2252', 'QUARTER', 'COMPLETED', 'GRD', 'A',  4.0, 'N', NULL, NULL, NULL, NULL);
+INSERT INTO stg_student_credit_raw VALUES ('E09_03', 'STU_09', 'COURSE', 'Q:ECON_221', '2248', 'QUARTER', 'COMPLETED', 'GRD', 'A-', 4.0, 'N', NULL, NULL, NULL, NULL);
+INSERT INTO stg_student_credit_raw VALUES ('E09_04', 'STU_09', 'COURSE', 'Q:ECON_222', '2252', 'QUARTER', 'COMPLETED', 'GRD', 'B+', 4.0, 'N', NULL, NULL, NULL, NULL);
+INSERT INTO stg_student_credit_raw VALUES ('E09_05', 'STU_09', 'COURSE', 'Q:MATH_221', '2252', 'QUARTER', 'COMPLETED', 'GRD', 'A-', 4.0, 'N', NULL, NULL, NULL, NULL);
+INSERT INTO stg_student_credit_raw VALUES ('E09_06', 'STU_09', 'COURSE', 'Q:STAT_251', '2254', 'QUARTER', 'COMPLETED', 'GRD', 'A',  4.0, 'N', NULL, NULL, NULL, NULL);
 
 COMMIT;
 

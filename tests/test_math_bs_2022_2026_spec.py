@@ -144,6 +144,37 @@ class TestMathBS2022To2026Spec(unittest.TestCase):
         self.assertGreaterEqual(tot_matchers, 1600)
         self.assertIn("ENGR", combined_manifest["subjects"])
 
+    def test_all_6_me_bs_and_bus_bs_catalogs_validate_and_load_into_oracle_ddl(self) -> None:
+        """All 6 catalog editions (2017-2019 through 2026-2028) for ME_BS and BUS_BS validate & load cleanly."""
+        from src.parser.parse_me_and_bus_catalogs import (
+            BUS_CATALOG_CONFIGS,
+            BUS_CONCENTRATIONS,
+            ME_CATALOG_CONFIGS,
+            ME_CONCENTRATIONS,
+            build_bus_bs_spec_for_catalog,
+            build_me_bs_spec_for_catalog,
+        )
+
+        all_specs = []
+        for cat in ME_CATALOG_CONFIGS:
+            me_spec, me_ref = build_me_bs_spec_for_catalog(cat)
+            validate_program_spec(me_spec)
+            self.assertEqual(me_spec["program"]["concentrations"], ME_CONCENTRATIONS)
+            self.assertGreater(me_ref["total_distinct_courses"], 75)
+            all_specs.append(me_spec)
+
+        for cat in BUS_CATALOG_CONFIGS:
+            bus_spec, bus_ref = build_bus_bs_spec_for_catalog(cat)
+            validate_program_spec(bus_spec)
+            self.assertEqual(bus_spec["program"]["concentrations"], BUS_CONCENTRATIONS)
+            self.assertGreater(bus_ref["total_distinct_courses"], 140)
+            all_specs.append(bus_spec)
+
+        seed_sql = emit_multi_catalog_oracle_seed(all_specs)
+        nodes_cnt, matchers_cnt = verify_sql_loads_cleanly(seed_sql)
+        self.assertGreaterEqual(nodes_cnt, 1400)
+        self.assertGreaterEqual(matchers_cnt, 2600)
+
 
 if __name__ == "__main__":
     unittest.main()

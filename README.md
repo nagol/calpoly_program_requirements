@@ -2,19 +2,16 @@
 
 Deterministic scraping, canonical normalization, Quarter-to-Semester (Q2S) equivalency mapping, CNF prerequisite evaluation, and Oracle SQL degree audit + upcoming-term registration planning.
 
-## Coverage: B.S. Mathematics (`MATH_BS`, 2018–2028)
+## Program & Catalog Coverage (2018–2028)
 
-All **6 Cal Poly Catalog Editions** covering cohorts from **2018 to present**, across all **4 Concentrations** (`GENERAL`, `APPLIED`, `TEACHING`, `PURE`):
+Covers **3 Major Programs** (`MATH_BS`, `ME_BS`, `BUS_BS`) across all **6 Cal Poly Catalog Editions** (`2017-2019`, `2019-2020`, `2020-2021`, `2021-2022`, `2022-2026`, `2026-2028` = **18 program-catalog versions**) and all concentrations:
 
-| Catalog Code | Cohorts Covered | Term Basis | Total / UD Units | Concentrations Covered | Oracle Seed File |
+| Program Code | Program Title | Catalogs Covered | Term Basis / Units | Concentrations Covered | Combined Oracle Seed File |
 |---|---|---|---|---|---|
-| `2017-2019` | 2017–18, **2018–19** | `QUARTER` | `180` / `60` | `GENERAL`, `APPLIED`, `TEACHING`, `PURE` | `sql/seeds/math_bs_2017_2019_seed.sql` |
-| `2019-2020` | **2019–20** | `QUARTER` | `180` / `60` | `GENERAL`, `APPLIED`, `TEACHING`, `PURE` | `sql/seeds/math_bs_2019_2020_seed.sql` |
-| `2020-2021` | **2020–21** | `QUARTER` | `180` / `60` | `GENERAL`, `APPLIED`, `TEACHING`, `PURE` | `sql/seeds/math_bs_2020_2021_seed.sql` |
-| `2021-2022` | **2021–22** | `QUARTER` | `180` / `60` | `GENERAL`, `APPLIED`, `TEACHING`, `PURE` | `sql/seeds/math_bs_2021_2022_seed.sql` |
-| `2022-2026` | **2022–23 .. 2025–26** | `QUARTER` | `180` / `60` | `GENERAL`, `APPLIED`, `TEACHING`, `PURE` | `sql/seeds/math_bs_2022_2026_seed.sql` |
-| `2026-2028` | **2026–27+** | `SEMESTER` | `120` / `40` | `GENERAL`, `APPLIED`, `TEACHING`, `PURE` | `sql/seeds/math_bs_2026_2028_seed.sql` |
-| **Combined** | **All 2018–2028 Cohorts** | Both | `180` Q / `120` S | All 4 Concentrations | `sql/seeds/math_bs_all_catalogs_seed.sql` |
+| `MATH_BS` | **B.S. Mathematics** | `2017-2019` .. `2026-2028` (6 catalogs) | `180` Q / `120` S (`60` Q / `40` S UD) | `GENERAL`, `APPLIED`, `TEACHING`, `PURE` (4) | `sql/seeds/math_bs_all_catalogs_seed.sql` |
+| `ME_BS` | **B.S. Mechanical Engineering** | `2017-2019` .. `2026-2028` (6 catalogs) | `196` Q / `128` S (`60` Q / `40` S UD) | `GENERAL`, `ENERGY_RESOURCES`, `HVACR`, `MECHATRONICS`, `MANUFACTURING` (5) | `sql/seeds/me_bs_all_catalogs_seed.sql` |
+| `BUS_BS` | **B.S. Business Administration** | `2017-2019` .. `2026-2028` (6 catalogs) | `180` Q / `120` S (`60` Q / `40` S UD) | `GENERAL`, `ACCOUNTING`, `CONSUMER_PACKAGING`, `ENTREPRENEURSHIP`, `FINANCIAL_MANAGEMENT`, `INFORMATION_SYSTEMS`, `MANAGEMENT_HR`, `MARKETING`, `REAL_ESTATE_FINANCE`, `QUANTITATIVE_ANALYSIS`, `SUPPLY_CHAIN` (11) | `sql/seeds/bus_bs_all_catalogs_seed.sql` |
+| **All 3 Programs** | **All 18 Program Versions** | **All 2018–2028 Cohorts** | Both (`QUARTER` & `SEMESTER`) | **All 20 Program Concentrations** (`2,161` nodes, `4,322` matchers) | `sql/seeds/all_programs_all_catalogs_seed.sql` |
 
 ---
 
@@ -23,23 +20,26 @@ All **6 Cal Poly Catalog Editions** covering cohorts from **2018 to present**, a
 No external Python packages are required (uses Python 3 standard library only):
 
 ```bash
-# 1. Run the full automated unit & end-to-end SQL test suite (21 tests)
+# 1. Run the full automated unit & end-to-end SQL test suite (24 tests)
 PYTHONPATH=. python3 -m unittest discover -s tests -v
 
-# 2. Run the local degree audit & Spring 2027 registration planner report (STU_01 .. STU_07)
+# 2. Run the local degree audit & Spring 2027 registration planner report (STU_01 .. STU_09)
 PYTHONPATH=. python3 src/audit/run_local_audit.py
 ```
 
 To regenerate the canonical JSON specs and Oracle SQL seeds from the cached HTML snapshots in `snapshots/`:
 
 ```bash
-# Parse all 6 B.S. Mathematics catalogs (2017-2019 through 2026-2028)
+# 1. Parse all 6 B.S. Mathematics catalogs (2017-2019 through 2026-2028)
 PYTHONPATH=. python3 src/parser/parse_math_bs_catalogs.py
 
-# Emit per-catalog and combined Oracle SQL requirement seeds
+# 2. Parse all 6 B.S. Mechanical Engineering & B.S. Business Administration catalogs (2017-2019 through 2026-2028)
+PYTHONPATH=. python3 src/parser/parse_me_and_bus_catalogs.py
+
+# 3. Emit per-catalog, per-program, and unified Oracle SQL requirement seeds
 PYTHONPATH=. python3 src/parser/emit_oracle_sql.py
 
-# Build canonical course catalog, Q2S equivalencies, and CNF prerequisites
+# 4. Build canonical course catalog, Q2S equivalencies, and CNF prerequisites across all 26 subjects
 PYTHONPATH=. python3 src/courses/build_course_catalog.py
 ```
 
@@ -52,9 +52,9 @@ All SQL files in `sql/` are written in **Oracle 19c / 23ai compatible SQL**:
 1. **Create Schema Tables (`cat_*` and `req_*`):**
    Execute `sql/01_schema_oracle.sql` in your Oracle schema/sandbox.
 2. **Load Course Catalog, Q2S Equivalencies & CNF Prerequisites:**
-   Execute `sql/seeds/math_bs_courses_seed.sql` (`1,272` quarter + semester courses, `572` equivalency/exclusion links, `2,586` CNF prerequisite rows).
-3. **Load Multi-Catalog B.S. Mathematics Requirement Trees (`2017-2019` .. `2026-2028`):**
-   Execute `sql/seeds/math_bs_all_catalogs_seed.sql` (`734` requirement nodes, `1,638` course matchers).
+   Execute `sql/seeds/math_bs_courses_seed.sql` (`3,553` quarter + semester courses across `26` subjects, `1,491` equivalency/exclusion links, `6,160` CNF prerequisite rows).
+3. **Load Multi-Program / Multi-Catalog Requirement Trees (`2017-2019` .. `2026-2028`):**
+   Execute `sql/seeds/all_programs_all_catalogs_seed.sql` (`18` program versions across `MATH_BS`, `ME_BS`, and `BUS_BS`; `2,161` requirement nodes; `4,322` course matchers) — or load individual program seeds (`math_bs_all_catalogs_seed.sql`, `me_bs_all_catalogs_seed.sql`, `bus_bs_all_catalogs_seed.sql`).
 4. **Point the 4 Adapter Views to Your Oracle SIS Tables:**
    Open `sql/02_student_adapter_contract.sql` and either:
    - Populate the 4 staging tables (`stg_student_program_raw`, `stg_student_credit_raw`, `stg_student_milestones_raw`, `stg_upcoming_offerings_raw`) from your PeopleSoft / Oracle SIS tables, **or**

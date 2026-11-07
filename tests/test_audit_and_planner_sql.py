@@ -234,6 +234,37 @@ class TestAuditAndPlannerSQL(unittest.TestCase):
         self.assertEqual(self._node("STU_07", "MATH_BS_26_28.GE.AREA_5.A5A")["audit_status"], "MET")
         self.assertEqual(self._node("STU_07", "MATH_BS_26_28.GE.AREA_5.A5C_LAB")["audit_status"], "MET")
 
+    def test_stu08_me_bs_2022_2026_mechatronics_and_next_term_q2s_plan(self) -> None:
+        """STU_08 (Lucas, ME_BS 2022-2026, MECHATRONICS): 196u basis, Major/Support/GE overlap, S:ME_2212 unlocked."""
+        s = self._summary("STU_08")
+        self.assertEqual(s["program_code"], "ME_BS")
+        self.assertEqual(s["catalog_code"], "2022-2026")
+        self.assertEqual(s["concentration_code"], "MECHATRONICS")
+        self.assertAlmostEqual(s["total_units_required"], 196.0)
+        self.assertAlmostEqual(s["units_completed"], 25.0)
+        self.assertAlmostEqual(s["total_units_remaining_to_180"], 171.0)
+
+        self.assertEqual(self._node("STU_08", "ME_BS_22_26.MAJOR_CORE.ME_211")["audit_status"], "MET")
+        opts = self._options("STU_08")
+        self.assertEqual(opts["S:ME_2212"]["prereq_eligibility"], "ELIGIBLE_NOW")
+        self.assertEqual(opts["S:ME_2248"]["prereq_eligibility"], "ELIGIBLE_NOW")
+
+    def test_stu09_bus_bs_2022_2026_accounting_and_next_term_q2s_plan(self) -> None:
+        """STU_09 (Zoe, BUS_BS 2022-2026, ACCOUNTING): 180u basis, BUS 214/ECON 221/222 done, S:BUS_2215 unlocked."""
+        s = self._summary("STU_09")
+        self.assertEqual(s["program_code"], "BUS_BS")
+        self.assertEqual(s["catalog_code"], "2022-2026")
+        self.assertEqual(s["concentration_code"], "ACCOUNTING")
+        self.assertAlmostEqual(s["units_completed"], 21.0)
+
+        self.assertEqual(self._node("STU_09", "BUS_BS_22_26.MAJOR_CORE.BUS_214")["audit_status"], "MET")
+        self.assertEqual(self._node("STU_09", "BUS_BS_22_26.SUPPORT.ECON_221")["audit_status"], "MET")
+        self.assertEqual(self._node("STU_09", "BUS_BS_22_26.SUPPORT.ECON_222")["audit_status"], "MET")
+
+        opts = self._options("STU_09")
+        self.assertEqual(opts["S:BUS_2215"]["prereq_eligibility"], "ELIGIBLE_NOW")
+        self.assertEqual(opts["S:BUS_2207"]["prereq_eligibility"], "ELIGIBLE_NOW")
+
 
 if __name__ == "__main__":
     unittest.main()

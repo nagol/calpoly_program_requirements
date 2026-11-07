@@ -77,12 +77,132 @@ def _make_quarter_math_bs_bundle(catalog_code: str) -> list[dict[str, str]]:
     ]
 
 
+def _make_quarter_me_bs_bundle(catalog_code: str) -> list[dict[str, str]]:
+    base = f"https://catalog.calpoly.edu/previouscatalogs/{catalog_code}/collegesandprograms/collegeofengineering/mechanicalengineering/bsmechanicalengineering"
+    gen_slug = "general-curriculum" if catalog_code in ("2021-2022", "2022-2026") else "generalconcentration"
+    items = [
+        {
+            "snapshot_id": f"{catalog_code}__me_bs__main",
+            "catalog_code": catalog_code,
+            "term_system": "QUARTER",
+            "program_code": "ME_BS",
+            "page_role": "program_main_and_ge",
+            "rel_path": f"{catalog_code}/me_bs/main.html",
+            "url": f"{base}/",
+        },
+        {
+            "snapshot_id": f"{catalog_code}__me_bs__conc_general",
+            "catalog_code": catalog_code,
+            "term_system": "QUARTER",
+            "program_code": "ME_BS",
+            "concentration_code": "GENERAL",
+            "page_role": "concentration",
+            "rel_path": f"{catalog_code}/me_bs/conc_general.html",
+            "url": f"{base}/{gen_slug}/",
+        },
+        {
+            "snapshot_id": f"{catalog_code}__me_bs__conc_hvacr",
+            "catalog_code": catalog_code,
+            "term_system": "QUARTER",
+            "program_code": "ME_BS",
+            "concentration_code": "HVACR",
+            "page_role": "concentration",
+            "rel_path": f"{catalog_code}/me_bs/conc_hvacr.html",
+            "url": f"{base}/hvacrconcentration/",
+        },
+        {
+            "snapshot_id": f"{catalog_code}__me_bs__conc_manufacturing",
+            "catalog_code": catalog_code,
+            "term_system": "QUARTER",
+            "program_code": "ME_BS",
+            "concentration_code": "MANUFACTURING",
+            "page_role": "concentration",
+            "rel_path": f"{catalog_code}/me_bs/conc_manufacturing.html",
+            "url": f"{base}/manufacturingconcentration/",
+        },
+        {
+            "snapshot_id": f"{catalog_code}__me_bs__conc_mechatronics",
+            "catalog_code": catalog_code,
+            "term_system": "QUARTER",
+            "program_code": "ME_BS",
+            "concentration_code": "MECHATRONICS",
+            "page_role": "concentration",
+            "rel_path": f"{catalog_code}/me_bs/conc_mechatronics.html",
+            "url": f"{base}/mechatronicsconcentration/",
+        },
+    ]
+    if catalog_code != "2017-2019":
+        items.append(
+            {
+                "snapshot_id": f"{catalog_code}__me_bs__conc_energy_resources",
+                "catalog_code": catalog_code,
+                "term_system": "QUARTER",
+                "program_code": "ME_BS",
+                "concentration_code": "ENERGY_RESOURCES",
+                "page_role": "concentration",
+                "rel_path": f"{catalog_code}/me_bs/conc_energy_resources.html",
+                "url": f"{base}/energyresourcesconcentration/",
+            }
+        )
+    return items
+
+
+def _make_quarter_bus_bs_bundle(catalog_code: str) -> list[dict[str, str]]:
+    base = f"https://catalog.calpoly.edu/previouscatalogs/{catalog_code}/collegesandprograms/orfaleacollegeofbusiness/bsbusinessadministration"
+    concs = [
+        ("ACCOUNTING", "conc_accounting", "accountingconcentration"),
+        ("CONSUMER_PACKAGING", "conc_consumer_packaging", "consumerpackagingconcentration"),
+        ("ENTREPRENEURSHIP", "conc_entrepreneurship", "entrepreneurshipconcentration"),
+        ("FINANCIAL_MANAGEMENT", "conc_financial_management", "financialmanagementconcentration"),
+        ("INFORMATION_SYSTEMS", "conc_information_systems", "informationsystemsconcentration"),
+        ("MANAGEMENT_HR", "conc_management_hr", "managementandhumanresourcesconcentration"),
+        ("MARKETING", "conc_marketing", "marketingmanagementconcentration"),
+        ("REAL_ESTATE_FINANCE", "conc_real_estate_finance", "realestatefinanceconcentration"),
+    ]
+    items = [
+        {
+            "snapshot_id": f"{catalog_code}__bus_bs__main",
+            "catalog_code": catalog_code,
+            "term_system": "QUARTER",
+            "program_code": "BUS_BS",
+            "page_role": "program_main_and_ge",
+            "rel_path": f"{catalog_code}/bus_bs/main.html",
+            "url": f"{base}/",
+        }
+    ]
+    for c_code, fname, slug in concs:
+        items.append(
+            {
+                "snapshot_id": f"{catalog_code}__bus_bs__{fname}",
+                "catalog_code": catalog_code,
+                "term_system": "QUARTER",
+                "program_code": "BUS_BS",
+                "concentration_code": c_code,
+                "page_role": "concentration",
+                "rel_path": f"{catalog_code}/bus_bs/{fname}.html",
+                "url": f"{base}/{slug}/",
+            }
+        )
+    items.append(
+        {
+            "snapshot_id": f"{catalog_code}__bus_bs__conc_quantitative_analysis",
+            "catalog_code": catalog_code,
+            "term_system": "QUARTER",
+            "program_code": "BUS_BS",
+            "concentration_code": "QUANTITATIVE_ANALYSIS",
+            "page_role": "concentration",
+            "rel_path": f"{catalog_code}/bus_bs/conc_quantitative_analysis.html",
+            "url": f"https://catalog.calpoly.edu/previouscatalogs/{catalog_code}/collegesandprograms/orfaleacollegeofbusiness/bseconomics/quantitativeanalysisconcentration/",
+        }
+    )
+    return items
+
+
+QUARTER_CATALOGS = ("2017-2019", "2019-2020", "2020-2021", "2021-2022", "2022-2026")
+ALL_CATALOGS = (*QUARTER_CATALOGS, "2026-2028")
+
 TARGETS: dict[str, list[dict[str, str]]] = {
-    "math_bs__2017-2019": _make_quarter_math_bs_bundle("2017-2019"),
-    "math_bs__2019-2020": _make_quarter_math_bs_bundle("2019-2020"),
-    "math_bs__2020-2021": _make_quarter_math_bs_bundle("2020-2021"),
-    "math_bs__2021-2022": _make_quarter_math_bs_bundle("2021-2022"),
-    "math_bs__2022-2026": _make_quarter_math_bs_bundle("2022-2026"),
+    **{f"math_bs__{c}": _make_quarter_math_bs_bundle(c) for c in QUARTER_CATALOGS},
     "math_bs__2026-2028": [
         {
             "snapshot_id": "2026-2028__math_bs__main",
@@ -94,19 +214,35 @@ TARGETS: dict[str, list[dict[str, str]]] = {
             "url": "https://catalog.calpoly.edu/science-mathematics/mathematics/mathematics-bs/",
         }
     ],
+    **{f"me_bs__{c}": _make_quarter_me_bs_bundle(c) for c in QUARTER_CATALOGS},
+    "me_bs__2026-2028": [
+        {
+            "snapshot_id": "2026-2028__me_bs__main",
+            "catalog_code": "2026-2028",
+            "term_system": "SEMESTER",
+            "program_code": "ME_BS",
+            "page_role": "program_main_and_concentrations",
+            "rel_path": "2026-2028/me_bs/main.html",
+            "url": "https://catalog.calpoly.edu/engineering/mechanical/mechanical-engineering-bs/",
+        }
+    ],
+    **{f"bus_bs__{c}": _make_quarter_bus_bs_bundle(c) for c in QUARTER_CATALOGS},
+    "bus_bs__2026-2028": [
+        {
+            "snapshot_id": "2026-2028__bus_bs__main",
+            "catalog_code": "2026-2028",
+            "term_system": "SEMESTER",
+            "program_code": "BUS_BS",
+            "page_role": "program_main_and_concentrations",
+            "rel_path": "2026-2028/bus_bs/main.html",
+            "url": "https://catalog.calpoly.edu/business/undergraduate/business-administration-bs/",
+        }
+    ],
 }
-TARGETS["math_bs__all"] = [
-    item
-    for key in (
-        "math_bs__2017-2019",
-        "math_bs__2019-2020",
-        "math_bs__2020-2021",
-        "math_bs__2021-2022",
-        "math_bs__2022-2026",
-        "math_bs__2026-2028",
-    )
-    for item in TARGETS[key]
-]
+for _prog in ("math_bs", "me_bs", "bus_bs"):
+    TARGETS[f"{_prog}__all"] = [
+        item for c in ALL_CATALOGS for item in TARGETS[f"{_prog}__{c}"]
+    ]
 
 
 def load_manifest() -> dict[str, Any]:
@@ -173,7 +309,19 @@ def build_course_subject_items(subjects: list[str]) -> list[dict[str, str]]:
     items: list[dict[str, str]] = []
     for subj in sorted({s.upper() for s in subjects}):
         slug = subj.lower()
-        if subj in ("MATH", "PHYS"):
+        if subj in ("BUS", "ME", "PHYS"):
+            items.append(
+                {
+                    "snapshot_id": f"2017-2019__courses__{slug}",
+                    "catalog_code": "2017-2019",
+                    "term_system": "QUARTER",
+                    "subject_code": subj,
+                    "page_role": "subject_courses",
+                    "rel_path": f"2017-2019/courses/{slug}.html",
+                    "url": f"https://catalog.calpoly.edu/previouscatalogs/2017-2019/coursesaz/{slug}/",
+                }
+            )
+        if subj in ("BUS", "ENGL", "MATH", "ME", "PHYS"):
             items.append(
                 {
                     "snapshot_id": f"2020-2021__courses__{slug}",

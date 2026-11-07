@@ -20,8 +20,10 @@ def normalize_ws(text: str) -> str:
 
 
 def expand_crosslisted_code(raw_code: str) -> list[str]:
-    """Expand 'CSC/CPE 202' -> ['CSC 202', 'CPE 202'] and 'MATH 141' -> ['MATH 141']."""
+    """Expand 'CSC/CPE 202' -> ['CSC 202', 'CPE 202'], 'ME 501/CE 511' -> ['ME 501', 'CE 511'], and 'MATH 141' -> ['MATH 141']."""
     cleaned = normalize_ws(raw_code)
+    if "/" in cleaned and all(re.match(r"^[A-Z]+\s+\d+[A-Z]?$", part.strip()) for part in cleaned.split("/")):
+        return [part.strip() for part in cleaned.split("/")]
     m = re.match(r"^([A-Z]+(?:/[A-Z]+)*)\s+(\d+[A-Z]?)$", cleaned)
     if not m:
         return [cleaned]

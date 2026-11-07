@@ -1,0 +1,4852 @@
+{
+  "program": {
+    "program_version_id": "BUS_BS__2022_2026",
+    "program_code": "BUS_BS",
+    "program_title": "Bachelor of Science in Business Administration",
+    "catalog_code": "2022-2026",
+    "catalog_unit_basis": "QUARTER",
+    "total_units_required": 180.0,
+    "min_ud_units_required": 60.0,
+    "concentrations": [
+      "GENERAL",
+      "ACCOUNTING",
+      "CONSUMER_PACKAGING",
+      "ENTREPRENEURSHIP",
+      "FINANCIAL_MANAGEMENT",
+      "INFORMATION_SYSTEMS",
+      "MANAGEMENT_HR",
+      "MARKETING",
+      "REAL_ESTATE_FINANCE",
+      "QUANTITATIVE_ANALYSIS",
+      "SUPPLY_CHAIN"
+    ],
+    "source_snapshot_id": "2022-2026__bus_bs__main"
+  },
+  "nodes": [
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "Major Core Courses (60 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 60.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 10,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_206",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BUS 206: Business Professionalism and Career Readiness",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 2.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 20,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_206",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_207",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BUS 207: Legal Responsibilities of Business",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 30,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_207",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_214",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BUS 214: Financial Accounting",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 40,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_214",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_215",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BUS 215: Managerial Accounting",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 50,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_215",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_342",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BUS 342: Fundamentals of Corporate Finance",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 60,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_342",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_346",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BUS 346: Principles of Marketing",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 70,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_346",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_387",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BUS 387: Organizational Behavior",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 80,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_387",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_391",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BUS 391: Information Systems",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 90,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_391",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_401_AND_BUS_411",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BUS 401 & BUS 411: General Management and Strategy and Business Knowledge Exit Exam",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 100,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_401_AND_BUS_411.BUS_401",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_401_AND_BUS_411",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BUS 401",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 2.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 110,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_401",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_401_AND_BUS_411.BUS_411",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_401_AND_BUS_411",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BUS 411",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 2.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 120,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_411",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.BUS_404",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BUS 404: Governmental and Social Influences on Business",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 130,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_404",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "Technology Management - Select from the following (4 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 140,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_303",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_326",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_330",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_341",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_371",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.INTERNATIONAL_BUSINESS",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "International Business - Select from the following (4 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 150,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_301",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_302",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_303",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_304",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_410",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_446",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_330",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.MAJOR_CORE.SENIOR_PROJECT",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "Senior Project - Select from the following (4 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 160,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_416",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_461",
+          "subject_code": "BUS",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_BUS_461_BUS_462"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_462",
+          "subject_code": "BUS",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_BUS_461_BUS_462"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_463",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_464",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_464",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.SUPPORT",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "Support Courses (20 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 20.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 170,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.SUPPORT.ECON_221",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "ECON 221: Microeconomics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 180,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_221",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.SUPPORT.ECON_222",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "ECON 222: Macroeconomics (D2)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 190,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_222",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.SUPPORT.MATH_221",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "MATH 221: Calculus for Business and Economics (B4)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 200,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement. [2] Students should follow the advising footnote under the SUPPORT section of the Economics major: \u201cStudents pursuing the Quantitative Analysis concentration should take MATH 141 and MATH 142 instead of MATH 221 \u201d.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_221",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.SUPPORT.STAT_251",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "STAT 251: Statistical Inference for Management I (GE Electives)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 210,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement. [3] STAT 301 (4 units) and STAT 302 (4 units) may be used as a substitute for STAT 251 (4 units) and STAT 252 (5 units). All students must still complete GE Area B requirements. STAT 301 and STAT 302 are not GE courses.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_251",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.SUPPORT.STAT_252",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "STAT 252: Statistical Inference for Management II",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 5.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 220,
+      "footnote_notes": "[3] STAT 301 (4 units) and STAT 302 (4 units) may be used as a substitute for STAT 251 (4 units) and STAT 252 (5 units). All students must still complete GE Area B requirements. STAT 301 and STAT 302 are not GE courses.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_252",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_GENERAL",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "General Business Administration Curriculum (28 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 28.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 230,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_GENERAL.BUS_382",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "BUS 382: Leadership and Organizations",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 240,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_382",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_GENERAL.BUS_384",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "BUS 384: Human Resources Management",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 250,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_384",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_GENERAL.BUS_388",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "BUS 388: Cultivating Human Capital",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 260,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_388",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_GENERAL.BUS_477",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "BUS 477: Management Consulting and Change Management",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 270,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_477",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_GENERAL.BUS_489",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "BUS 489: Negotiation",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 280,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_489",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_GENERAL.APPROVED_ELECTIVES",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "Approved Electives (8 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 8.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 290,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_310",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGR_310",
+          "subject_code": "ENGR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_471",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_476",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_480",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_497",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_303",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_371",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_403",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_428",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ACCOUNTING",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ACCOUNTING",
+      "label": "Accounting Concentration (28 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 28.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 300,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ACCOUNTING.BUS_319",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ACCOUNTING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ACCOUNTING",
+      "label": "BUS 319: Accounting Information Systems",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 310,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_319",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ACCOUNTING.BUS_320",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ACCOUNTING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ACCOUNTING",
+      "label": "BUS 320: Federal Income Taxation for Individuals",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 320,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_320",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ACCOUNTING.BUS_321",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ACCOUNTING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ACCOUNTING",
+      "label": "BUS 321: Intermediate Accounting I",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 330,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_321",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ACCOUNTING.BUS_322",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ACCOUNTING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ACCOUNTING",
+      "label": "BUS 322: Intermediate Accounting II",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 340,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_322",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ACCOUNTING.BUS_424_OR_BUS_323_OR_BUS_412_OR_BUS",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ACCOUNTING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ACCOUNTING",
+      "label": "BUS 424 or BUS 323 or BUS 412 or BUS 417 or BUS 422 or BUS 474 (Accounting Ethics)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 350,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_424",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_323",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_412",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_417",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_422",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_474",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ACCOUNTING.BUS_425",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ACCOUNTING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ACCOUNTING",
+      "label": "BUS 425: Auditing",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 360,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_425",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ACCOUNTING.ACCOUNTING_ELECTIVE",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ACCOUNTING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ACCOUNTING",
+      "label": "Accounting Elective (4 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 370,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_323",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_412",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_417",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_422",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_424",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_474",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "CONSUMER_PACKAGING",
+      "label": "Consumer Packaging Concentration (28 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 28.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 380,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING.BUS_396",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "CONSUMER_PACKAGING",
+      "label": "BUS 396: Consumer Insights",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 390,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_396",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING.BUS_418",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "CONSUMER_PACKAGING",
+      "label": "BUS 418: Listening to the Customer",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 400,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_418",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING.BUS_419",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "CONSUMER_PACKAGING",
+      "label": "BUS 419: Strategic Marketing Measurement",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 410,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_419",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING.ITP_234",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "CONSUMER_PACKAGING",
+      "label": "ITP 234: Packaging Design Fundamentals",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 420,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_234",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING.ITP_330",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "CONSUMER_PACKAGING",
+      "label": "ITP 330: Packaging Fundamentals",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 430,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_330",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING.ITP_475",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "CONSUMER_PACKAGING",
+      "label": "ITP 475: Distribution Packaging Dynamics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 440,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_475",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING.APPROVED_ELECTIVES",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_CONSUMER_PACKAGING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "CONSUMER_PACKAGING",
+      "label": "Approved Electives (4 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 450,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GRC_337",
+          "subject_code": "GRC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_233",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_341",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_408",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_411",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_414",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_415",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_430",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_485",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENTREPRENEURSHIP",
+      "label": "Entrepreneurship Concentration (28 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 28.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 460,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP.BUS_310",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENTREPRENEURSHIP",
+      "label": "BUS 310: Introduction to Entrepreneurship",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 470,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_310",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP.BUS_330",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENTREPRENEURSHIP",
+      "label": "BUS 330: Funding and Managing Startup Companies",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 480,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_330",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP.BUS_418",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENTREPRENEURSHIP",
+      "label": "BUS 418: Listening to the Customer",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 490,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_418",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP.BUS_488",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENTREPRENEURSHIP",
+      "label": "BUS 488: Building a Startup Skill Set",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 500,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_488",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP.ITP_428_OR_ITP_406_OR_BUS_347",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENTREPRENEURSHIP",
+      "label": "ITP 428 or ITP 406 or BUS 347 (Commercialization of New Technologies)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 510,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_428",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_406",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_347",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP.APPROVED_ELECTIVES",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_ENTREPRENEURSHIP",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENTREPRENEURSHIP",
+      "label": "Approved Electives (8 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 8.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 520,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_311",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_392",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_408",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_451",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_458",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:COMS_458",
+          "subject_code": "COMS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_476",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_487",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_489",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_326",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "FINANCIAL_MANAGEMENT",
+      "label": "Financial Management Concentration (28 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 28.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 530,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.BUS_431",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "FINANCIAL_MANAGEMENT",
+      "label": "BUS 431: Security Analysis and Portfolio Management",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 540,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_431",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.BUS_438",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "FINANCIAL_MANAGEMENT",
+      "label": "BUS 438: Advanced Corporate Finance",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 550,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_438",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.BUS_439",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "FINANCIAL_MANAGEMENT",
+      "label": "BUS 439: Fixed Income Securities Market",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 560,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_439",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "FINANCIAL_MANAGEMENT",
+      "label": "Select from the following (12 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 570,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_433",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_434",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_435",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_436",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_437",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_441",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_442",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_443",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_444",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_445",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_448",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_339",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_324",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "FINANCIAL_MANAGEMENT",
+      "label": "Approved Electives (4 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 580,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_320",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_321",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_322",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_412",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_417",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_425",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_468",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_468",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_311",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_313",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_330",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_337",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_339",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_405",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_406",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_408",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_409",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_424",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_440",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "INFORMATION_SYSTEMS",
+      "label": "Information Systems Concentration (28 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 28.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 590,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_392",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "INFORMATION_SYSTEMS",
+      "label": "BUS 392: Business Application Development",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 600,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_392",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_393",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "INFORMATION_SYSTEMS",
+      "label": "BUS 393: Database Systems in Business",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 610,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_393",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_394",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "INFORMATION_SYSTEMS",
+      "label": "BUS 394: Systems Analysis and Design",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 620,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_394",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_399",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "INFORMATION_SYSTEMS",
+      "label": "BUS 399: IT Infrastructure and Security Management",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 630,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_399",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_497",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "INFORMATION_SYSTEMS",
+      "label": "BUS 497: Business Analytics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 640,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_497",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_INFORMATION_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "INFORMATION_SYSTEMS",
+      "label": "Approved Electives (8 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 8.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 650,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_395",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_480",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_490",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_491",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_492",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_493",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_495",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_496",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_498",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_499",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MANAGEMENT_HR",
+      "label": "Management and Human Resources Concentration (28 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 28.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 660,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_382",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MANAGEMENT_HR",
+      "label": "BUS 382: Leadership and Organizations",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 670,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_382",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_384",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MANAGEMENT_HR",
+      "label": "BUS 384: Human Resources Management",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 680,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_384",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_388",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MANAGEMENT_HR",
+      "label": "BUS 388: Cultivating Human Capital",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 690,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_388",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_477",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MANAGEMENT_HR",
+      "label": "BUS 477: Management Consulting and Change Management",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 700,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_477",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_489",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MANAGEMENT_HR",
+      "label": "BUS 489: Negotiation",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 710,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_489",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_MANAGEMENT_HR",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MANAGEMENT_HR",
+      "label": "Approved Electives (8 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 8.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 720,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_310",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGR_310",
+          "subject_code": "ENGR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_471",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_476",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_480",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_497",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_303",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_371",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_403",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_428",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_MARKETING",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MARKETING",
+      "label": "Marketing Concentration (28 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 28.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 730,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_MARKETING.BUS_396",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_MARKETING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MARKETING",
+      "label": "BUS 396: Consumer Insights",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 740,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_396",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_MARKETING.BUS_418",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_MARKETING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MARKETING",
+      "label": "BUS 418: Listening to the Customer",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 750,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_418",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_MARKETING.BUS_455",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_MARKETING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MARKETING",
+      "label": "BUS 455: Marketing Strategy",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 760,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_455",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_MARKETING",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MARKETING",
+      "label": "Select from the following (16 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 16.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 770,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_347",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_419",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_421",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_423",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_430",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_450",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_451",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_452",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_453",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_454",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "REAL_ESTATE_FINANCE",
+      "label": "Real Estate Finance Concentration (28 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 28.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 780,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.BUS_434",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "REAL_ESTATE_FINANCE",
+      "label": "BUS 434: Real Estate Finance",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 790,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_434",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.BUS_435",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "REAL_ESTATE_FINANCE",
+      "label": "BUS 435: Real Estate Investment",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 800,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_435",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.BUS_439",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "REAL_ESTATE_FINANCE",
+      "label": "BUS 439: Fixed Income Securities Market",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 810,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_439",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.ECON_434",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "REAL_ESTATE_FINANCE",
+      "label": "ECON 434: Urban Economics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 820,
+      "footnote_notes": "[1] ECON 434 has a prerequisite of ECON 311 .",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_434",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "REAL_ESTATE_FINANCE",
+      "label": "Approved Electives (12 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 830,
+      "footnote_notes": "[1] ECON 434 has a prerequisite of ECON 311 .",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:AGB_326",
+          "subject_code": "AGB",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_342",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_409",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_443",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_469",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CM_475",
+          "subject_code": "CM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CRP_412",
+          "subject_code": "CRP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CRP_446",
+          "subject_code": "CRP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_311",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_339",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_435",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "QUANTITATIVE_ANALYSIS",
+      "label": "Quantitative Analysis Concentration (28 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 28.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 840,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.ECON_440",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "QUANTITATIVE_ANALYSIS",
+      "label": "ECON 440: Advanced Econometrics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 850,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_440",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.STAT_331",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "QUANTITATIVE_ANALYSIS",
+      "label": "STAT 331: Statistical Computing with R",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 860,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_331",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "QUANTITATIVE_ANALYSIS",
+      "label": "Approved Electives (20 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 20.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 870,
+      "footnote_notes": "[1] Consultation with an advisor is recommended prior to choosing Approved Electives. Courses in Analytics or in Statistics and Decision Analysis provide a focus in analytics. Courses in Statistics and Decision Analysis or in Mathematical Foundations are recommended for students pursuing post-baccalaureate studies.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_393",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_421",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_441",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_491",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_339",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_395",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_392",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CSC_101",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_406",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_409",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:IME_301",
+          "subject_code": "IME",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:IME_305",
+          "subject_code": "IME",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_323",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_324",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_330",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_416",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_419",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_425",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_426",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_427",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ECON_408",
+          "subject_code": "ECON",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_142",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_143",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_206",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_241",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_242",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_244",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_248",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_304",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_306",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_344",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_406",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_412",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_413",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_414",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_416",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_418",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_437",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_451",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_452",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_453",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SUPPLY_CHAIN",
+      "label": "Supply Chain and Packaging Concentration (28 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 28.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 880,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN.BUS_396",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SUPPLY_CHAIN",
+      "label": "BUS 396: Consumer Insights",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 890,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_396",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN.BUS_418",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SUPPLY_CHAIN",
+      "label": "BUS 418: Listening to the Customer",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 900,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_418",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN.BUS_419",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SUPPLY_CHAIN",
+      "label": "BUS 419: Strategic Marketing Measurement",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 910,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BUS_419",
+          "subject_code": "BUS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN.ITP_234",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SUPPLY_CHAIN",
+      "label": "ITP 234: Packaging Design Fundamentals",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 920,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_234",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN.ITP_330",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SUPPLY_CHAIN",
+      "label": "ITP 330: Packaging Fundamentals",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 930,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_330",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN.ITP_475",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SUPPLY_CHAIN",
+      "label": "ITP 475: Distribution Packaging Dynamics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 940,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_475",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.CONC_SUPPLY_CHAIN",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SUPPLY_CHAIN",
+      "label": "Approved Electives (4 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 950,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GRC_337",
+          "subject_code": "GRC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_233",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_341",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_408",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_411",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_414",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_415",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_430",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ITP_485",
+          "subject_code": "ITP",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "General Education (2022-2026 Template \u2014 72 total units, 16 in Major)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 72.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 960,
+      "footnote_notes": "Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_A",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area A: English Language Communication and Critical Thinking (12 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 970,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_A.A1",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_A",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE A1: Oral Communication (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 980,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "A1",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_A.A2",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_A",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE A2: Written Communication (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 990,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "A2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_A.A3",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_A",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE A3: Critical Thinking (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 1000,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "A3",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_B",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area B: Scientific Inquiry and Quantitative Reasoning (16 units + Lab)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 16.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 1010,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_B.B1",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_B",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE B1: Physical Science (satisfied in Major by PHYS 142/143)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 1020,
+      "footnote_notes": "Double-counts with Major Support.",
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "B1",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_B.B2",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_B",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE B2: Life Science",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 1030,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "B2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_B.B4",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_B",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE B4: Mathematics/Quantitative Reasoning (satisfied in Major by MATH 141)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 1040,
+      "footnote_notes": "Golden Four: C- or better.",
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "B4",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_B.UD_B",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_B",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE UD-B: Upper-Division B (satisfied in Major by MATH 334)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 1050,
+      "footnote_notes": "Double-counts with Major MATH 334.",
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_B.B3_LAB",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_B",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE B3: Laboratory Activity (taken with B1 or B2; satisfied by PHYS 142/143)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 0.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 55,
+      "display_order": 1060,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "B3",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_C",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area C: Arts and Humanities (16 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 16.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 1070,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_C.LD",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_C",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Lower-Division Area C (12 units from >=3 distinct subject prefixes)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 3,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1080,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_C.LD.C1",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_C.LD",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE C1: Arts (Arts, Cinema, Dance, Music, Theater)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1090,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "C1",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_C.LD.C2",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_C.LD",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE C2: Humanities (Literature, Philosophy, Languages)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1100,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "C2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_C.LD.LD_C_ELEC",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_C.LD",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE LD_C_ELEC: Lower-Division C Elective (C1 or C2)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 58,
+      "display_order": 1110,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "C1,C2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_C.UD_C",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_C",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Upper-Division C (4 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1120,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-C",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_D",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area D: Social Sciences (12 units from >=2 distinct subject prefixes)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 2,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1130,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_D.D1",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_D",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE D1: American Institutions (Title 5)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1140,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "D1",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_D.D2",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_D",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE D2: Lower-Division D",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1150,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "D2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_D.UD_D",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE.AREA_D",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE UD-D: Upper-Division D",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1160,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-D",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_E",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area E: Lifelong Learning and Self-Development (4 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1170,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "E",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.AREA_F",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area F: Ethnic Studies (4 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1180,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "F",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.GE.GE_ELECTIVES_BCD",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Electives in Areas B, C, and D (8 units across >=2 areas; MATH 142 satisfies 4u B)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 8.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 2,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 70,
+      "display_order": 1190,
+      "footnote_notes": "4 units satisfied in Major by MATH 142 (Area B); remaining 4 units must come from Area C or D.",
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "B,C,D",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.UNIV_GRADUATION",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "University Minimum Graduation Requirements & 180-Unit Total",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 90,
+      "display_order": 1200,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.UNIV_GRADUATION.TOTAL_180_UNITS",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 180 Baccalaureate Units (determines remaining Free Electives)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": null,
+      "required_units": 180.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1210,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "ALL_BACCALAUREATE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.UNIV_GRADUATION.UD_60_UNITS",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 60 Upper-Division Units (300-400 / 3000-4000 level)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": null,
+      "required_units": 60.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 60.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1220,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "UD_BACCALAUREATE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.UNIV_GRADUATION.USCP",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "U.S. Cultural Pluralism (USCP)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1230,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "USCP_TAG",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BUS_BS_22_26.UNIV_GRADUATION.GWR",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Graduation Writing Requirement (GWR)",
+      "rule_type": "MILESTONE",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1240,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BUS_BS_22_26.UNIV_GRADUATION.GPA_MIN_2_0",
+      "program_version_id": "BUS_BS__2022_2026",
+      "parent_node_id": "BUS_BS_22_26.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 2.00 GPA (Cal Poly, Cumulative, and Major)",
+      "rule_type": "MILESTONE",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1250,
+      "footnote_notes": null,
+      "course_matchers": []
+    }
+  ]
+}

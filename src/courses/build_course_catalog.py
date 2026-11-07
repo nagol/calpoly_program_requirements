@@ -31,8 +31,8 @@ CURATED_OVERRIDES_PATH = ROOT_DIR / "equivalency" / "q2s_curated_overrides.json"
 OUT_JSON_PATH = ROOT_DIR / "specs" / "courses" / "math_bs_courses_and_prereqs.json"
 OUT_SQL_PATH = ROOT_DIR / "sql" / "seeds" / "math_bs_courses_seed.sql"
 DDL_PATH = ROOT_DIR / "sql" / "01_schema_oracle.sql"
-PROG_SEED_PATH = ROOT_DIR / "sql" / "seeds" / "math_bs_all_catalogs_seed.sql"
-FALLBACK_PROG_SEED_PATH = ROOT_DIR / "sql" / "seeds" / "math_bs_2022_2026_seed.sql"
+PROG_SEED_PATH = ROOT_DIR / "sql" / "seeds" / "all_programs_all_catalogs_seed.sql"
+FALLBACK_PROG_SEED_PATH = ROOT_DIR / "sql" / "seeds" / "math_bs_all_catalogs_seed.sql"
 
 
 class _UnionFind:
@@ -104,12 +104,13 @@ def build_courses_and_prereqs() -> tuple[
     dict[str, Any],
 ]:
     ref_manifest = json.loads(REF_MANIFEST_PATH.read_text(encoding="utf-8"))
-    all_ref_path = ROOT_DIR / "specs" / "math_bs" / "all_referenced_courses.json"
-    if all_ref_path.exists():
-        all_ref = json.loads(all_ref_path.read_text(encoding="utf-8"))
-        subjects: list[str] = sorted(set(ref_manifest["subjects"]) | set(all_ref.get("subjects", [])))
-    else:
-        subjects = sorted(set(ref_manifest["subjects"]) | {"ENGR"})
+    subj_set: set[str] = set(ref_manifest["subjects"])
+    for prog_slug in ("math_bs", "me_bs", "bus_bs"):
+        all_ref_path = ROOT_DIR / "specs" / prog_slug / "all_referenced_courses.json"
+        if all_ref_path.exists():
+            all_ref = json.loads(all_ref_path.read_text(encoding="utf-8"))
+            subj_set.update(all_ref.get("subjects", []))
+    subjects: list[str] = sorted(subj_set)
 
     q_courses: list[CatalogCourse] = []
     s_courses: list[CatalogCourse] = []
@@ -118,20 +119,23 @@ def build_courses_and_prereqs() -> tuple[
         slug = subj.lower()
         q_path = SNAP_DIR / "2022-2026" / "courses" / f"{slug}.html"
         s_path = SNAP_DIR / "2026-2028" / "courses" / f"{slug}.html"
-        q_courses.extend(parse_quarter_courses_html(q_path.read_text(encoding="utf-8")))
-        s_courses.extend(parse_semester_courses_html(s_path.read_text(encoding="utf-8")))
+        if q_path.exists():
+            q_courses.extend(parse_quarter_courses_html(q_path.read_text(encoding="utf-8")))
+        if s_path.exists():
+            s_courses.extend(parse_semester_courses_html(s_path.read_text(encoding="utf-8")))
 
     primary_q_keys = {c.offering_course_key for c in q_courses}
 
-    # Supplement with 2020-2021 MATH and PHYS courses that were renumbered or retired in 2022-2026
+    # Supplement with 2020-2021 and 2017-2019 courses that were renumbered or retired in 2022-2026
     seen_q_keys = set(primary_q_keys)
-    for legacy_subj in ("math", "phys"):
-        leg_path = SNAP_DIR / "2020-2021" / "courses" / f"{legacy_subj}.html"
-        if leg_path.exists():
-            for lc in parse_quarter_courses_html(leg_path.read_text(encoding="utf-8")):
-                if lc.offering_course_key not in seen_q_keys:
-                    seen_q_keys.add(lc.offering_course_key)
-                    q_courses.append(lc)
+    for leg_cat in ("2020-2021", "2017-2019"):
+        for legacy_subj in ("bus", "engl", "math", "me", "phys"):
+            leg_path = SNAP_DIR / leg_cat / "courses" / f"{legacy_subj}.html"
+            if leg_path.exists():
+                for lc in parse_quarter_courses_html(leg_path.read_text(encoding="utf-8")):
+                    if lc.offering_course_key not in seen_q_keys:
+                        seen_q_keys.add(lc.offering_course_key)
+                        q_courses.append(lc)
 
     all_courses = q_courses + s_courses
     course_by_key = {c.offering_course_key: c for c in all_courses}

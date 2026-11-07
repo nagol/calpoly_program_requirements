@@ -160,28 +160,43 @@ def main() -> None:
         return
 
     catalogs = ["2017-2019", "2019-2020", "2020-2021", "2021-2022", "2022-2026", "2026-2028"]
-    all_specs: list[dict[str, Any]] = []
-    for cat in catalogs:
-        sp = ROOT_DIR / "specs" / "math_bs" / f"{cat}.json"
-        if not sp.exists():
-            continue
-        spec = json.loads(sp.read_text(encoding="utf-8"))
-        all_specs.append(spec)
-        single_sql = emit_oracle_seed(spec)
-        n_cnt, m_cnt = verify_sql_loads_cleanly(single_sql)
-        cat_slug = cat.replace("-", "_")
-        out_p = ROOT_DIR / "sql" / "seeds" / f"math_bs_{cat_slug}_seed.sql"
-        out_p.parent.mkdir(parents=True, exist_ok=True)
-        out_p.write_text(single_sql, encoding="utf-8")
-        print(f"[OK] {cat}: {n_cnt} req_nodes, {m_cnt} req_node_courses -> {out_p.relative_to(ROOT_DIR)}")
+    programs = ["math_bs", "me_bs", "bus_bs"]
+    all_program_specs: list[dict[str, Any]] = []
 
-    combined_sql = emit_multi_catalog_oracle_seed(all_specs)
-    tot_nodes, tot_matchers = verify_sql_loads_cleanly(combined_sql)
-    combined_out = ROOT_DIR / "sql" / "seeds" / "math_bs_all_catalogs_seed.sql"
-    combined_out.write_text(combined_sql, encoding="utf-8")
+    for prog_slug in programs:
+        prog_specs: list[dict[str, Any]] = []
+        for cat in catalogs:
+            sp = ROOT_DIR / "specs" / prog_slug / f"{cat}.json"
+            if not sp.exists():
+                continue
+            spec = json.loads(sp.read_text(encoding="utf-8"))
+            prog_specs.append(spec)
+            all_program_specs.append(spec)
+            single_sql = emit_oracle_seed(spec)
+            n_cnt, m_cnt = verify_sql_loads_cleanly(single_sql)
+            cat_slug = cat.replace("-", "_")
+            out_p = ROOT_DIR / "sql" / "seeds" / f"{prog_slug}_{cat_slug}_seed.sql"
+            out_p.parent.mkdir(parents=True, exist_ok=True)
+            out_p.write_text(single_sql, encoding="utf-8")
+            print(f"[OK] {prog_slug.upper()} {cat}: {n_cnt} req_nodes, {m_cnt} req_node_courses -> {out_p.relative_to(ROOT_DIR)}")
+
+        if prog_specs:
+            prog_combined_sql = emit_multi_catalog_oracle_seed(prog_specs)
+            p_nodes, p_matchers = verify_sql_loads_cleanly(prog_combined_sql)
+            prog_combined_out = ROOT_DIR / "sql" / "seeds" / f"{prog_slug}_all_catalogs_seed.sql"
+            prog_combined_out.write_text(prog_combined_sql, encoding="utf-8")
+            print(
+                f"[OK] {prog_slug.upper()} Combined ({len(prog_specs)} catalogs): "
+                f"{p_nodes} req_nodes, {p_matchers} req_node_courses -> {prog_combined_out.relative_to(ROOT_DIR)}"
+            )
+
+    all_combined_sql = emit_multi_catalog_oracle_seed(all_program_specs)
+    tot_nodes, tot_matchers = verify_sql_loads_cleanly(all_combined_sql)
+    all_combined_out = ROOT_DIR / "sql" / "seeds" / "all_programs_all_catalogs_seed.sql"
+    all_combined_out.write_text(all_combined_sql, encoding="utf-8")
     print(
-        f"[OK] Combined Multi-Catalog Seed ({len(all_specs)} catalogs): "
-        f"{tot_nodes} req_nodes, {tot_matchers} req_node_courses -> {combined_out.relative_to(ROOT_DIR)}"
+        f"[OK] All Programs Multi-Catalog Seed ({len(all_program_specs)} program versions): "
+        f"{tot_nodes} req_nodes, {tot_matchers} req_node_courses -> {all_combined_out.relative_to(ROOT_DIR)}"
     )
 
 

@@ -18,7 +18,7 @@ ROOT_DIR = Path(__file__).resolve().parents[2]
 SQL_PIPELINE = [
     ROOT_DIR / "sql" / "01_schema_oracle.sql",
     ROOT_DIR / "sql" / "seeds" / "math_bs_courses_seed.sql",
-    ROOT_DIR / "sql" / "seeds" / "math_bs_all_catalogs_seed.sql",
+    ROOT_DIR / "sql" / "seeds" / "all_programs_all_catalogs_seed.sql",
     ROOT_DIR / "sql" / "02_student_adapter_contract.sql",
     ROOT_DIR / "sql" / "03_degree_audit_oracle.sql",
     ROOT_DIR / "sql" / "04_term_planner_oracle.sql",
