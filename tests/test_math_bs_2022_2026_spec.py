@@ -175,6 +175,26 @@ class TestMathBS2022To2026Spec(unittest.TestCase):
         self.assertGreaterEqual(nodes_cnt, 1400)
         self.assertGreaterEqual(matchers_cnt, 2600)
 
+    def test_all_30_ceng_cosam_bus_programs_160_catalog_versions_validate(self) -> None:
+        from src.parser.parse_ceng_and_cosam_catalogs import PROGRAM_DEFS
+
+        self.assertEqual(len(PROGRAM_DEFS), 27)
+        spec_files = [
+            p
+            for p in sorted((ROOT_DIR / "specs").glob("*/20*.json"))
+            if "referenced_courses" not in p.name
+        ]
+        self.assertEqual(len(spec_files), 160)
+
+        for sp in spec_files:
+            spec = json.loads(sp.read_text(encoding="utf-8"))
+            validate_program_spec(spec)
+            cat = spec["program"]["catalog_code"]
+            ref_path = sp.parent / f"{cat}_referenced_courses.json"
+            self.assertTrue(ref_path.exists(), f"Missing {ref_path}")
+            ref_data = json.loads(ref_path.read_text(encoding="utf-8"))
+            self.assertGreater(ref_data["total_distinct_courses"], 0)
+
 
 if __name__ == "__main__":
     unittest.main()

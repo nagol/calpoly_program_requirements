@@ -1,0 +1,214 @@
+{
+  "program_version_id": "HLTH_BS__2019_2020",
+  "catalog_code": "2019-2020",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 134,
+  "total_distinct_subjects": 23,
+  "subjects": [
+    "ANT",
+    "BIO",
+    "CHEM",
+    "COMS",
+    "CRP",
+    "ES",
+    "FSN",
+    "HLTH",
+    "HNRS",
+    "ISLA",
+    "JOUR",
+    "KINE",
+    "MCRO",
+    "NR",
+    "PHIL",
+    "PHYS",
+    "POLS",
+    "PSY",
+    "RPTA",
+    "SOC",
+    "SPAN",
+    "STAT",
+    "WGS"
+  ],
+  "courses_by_subject": {
+    "ANT": [
+      "ANT 201",
+      "ANT 250",
+      "ANT 360",
+      "ANT 401",
+      "ANT 402",
+      "ANT 425"
+    ],
+    "BIO": [
+      "BIO 123",
+      "BIO 161",
+      "BIO 162",
+      "BIO 231",
+      "BIO 232",
+      "BIO 302",
+      "BIO 303",
+      "BIO 305"
+    ],
+    "CHEM": [
+      "CHEM 127",
+      "CHEM 128",
+      "CHEM 129",
+      "CHEM 216",
+      "CHEM 217",
+      "CHEM 218",
+      "CHEM 312",
+      "CHEM 313"
+    ],
+    "COMS": [
+      "COMS 212",
+      "COMS 213",
+      "COMS 301",
+      "COMS 316",
+      "COMS 418"
+    ],
+    "CRP": [
+      "CRP 212",
+      "CRP 214",
+      "CRP 215",
+      "CRP 325",
+      "CRP 426"
+    ],
+    "ES": [
+      "ES 350"
+    ],
+    "FSN": [
+      "FSN 210",
+      "FSN 310",
+      "FSN 315"
+    ],
+    "HLTH": [
+      "HLTH 101",
+      "HLTH 255",
+      "HLTH 260",
+      "HLTH 265",
+      "HLTH 297",
+      "HLTH 298",
+      "HLTH 299",
+      "HLTH 305",
+      "HLTH 310",
+      "HLTH 320",
+      "HLTH 334",
+      "HLTH 402",
+      "HLTH 405",
+      "HLTH 410",
+      "HLTH 434",
+      "HLTH 435",
+      "HLTH 450",
+      "HLTH 453",
+      "HLTH 460",
+      "HLTH 461",
+      "HLTH 462",
+      "HLTH 463"
+    ],
+    "HNRS": [
+      "HNRS 304",
+      "HNRS 320"
+    ],
+    "ISLA": [
+      "ISLA 303",
+      "ISLA 320"
+    ],
+    "JOUR": [
+      "JOUR 219",
+      "JOUR 312",
+      "JOUR 412"
+    ],
+    "KINE": [
+      "KINE 255",
+      "KINE 265",
+      "KINE 278",
+      "KINE 297",
+      "KINE 298",
+      "KINE 303",
+      "KINE 304",
+      "KINE 305",
+      "KINE 320",
+      "KINE 349",
+      "KINE 401",
+      "KINE 408",
+      "KINE 434",
+      "KINE 435",
+      "KINE 450",
+      "KINE 453"
+    ],
+    "MCRO": [
+      "MCRO 221",
+      "MCRO 224",
+      "MCRO 225",
+      "MCRO 320",
+      "MCRO 342",
+      "MCRO 421"
+    ],
+    "NR": [
+      "NR 218"
+    ],
+    "PHIL": [
+      "PHIL 339"
+    ],
+    "PHYS": [
+      "PHYS 121",
+      "PHYS 122"
+    ],
+    "POLS": [
+      "POLS 310",
+      "POLS 333",
+      "POLS 351",
+      "POLS 451",
+      "POLS 457",
+      "POLS 459"
+    ],
+    "PSY": [
+      "PSY 201",
+      "PSY 202",
+      "PSY 252",
+      "PSY 256",
+      "PSY 302",
+      "PSY 310",
+      "PSY 311",
+      "PSY 318",
+      "PSY 320",
+      "PSY 330",
+      "PSY 340",
+      "PSY 344",
+      "PSY 350",
+      "PSY 352",
+      "PSY 360",
+      "PSY 372",
+      "PSY 405"
+    ],
+    "RPTA": [
+      "RPTA 450"
+    ],
+    "SOC": [
+      "SOC 110",
+      "SOC 326"
+    ],
+    "SPAN": [
+      "SPAN 101",
+      "SPAN 102",
+      "SPAN 103",
+      "SPAN 104",
+      "SPAN 111",
+      "SPAN 201",
+      "SPAN 202",
+      "SPAN 203"
+    ],
+    "STAT": [
+      "STAT 218",
+      "STAT 313",
+      "STAT 323",
+      "STAT 324",
+      "STAT 330",
+      "STAT 331"
+    ],
+    "WGS": [
+      "WGS 301",
+      "WGS 350",
+      "WGS 457"
+    ]
+  }
+}

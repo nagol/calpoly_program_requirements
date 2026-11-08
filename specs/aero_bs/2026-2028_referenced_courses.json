@@ -1,0 +1,97 @@
+{
+  "program_version_id": "AERO_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 65,
+  "total_distinct_subjects": 7,
+  "subjects": [
+    "AERO",
+    "CHEM",
+    "ENGR",
+    "IME",
+    "MATE",
+    "MATH",
+    "PHYS"
+  ],
+  "courses_by_subject": {
+    "AERO": [
+      "AERO 1121",
+      "AERO 2220",
+      "AERO 3300",
+      "AERO 3301",
+      "AERO 3302",
+      "AERO 3303",
+      "AERO 3304",
+      "AERO 3305",
+      "AERO 3320",
+      "AERO 3331",
+      "AERO 3351",
+      "AERO 3460",
+      "AERO 4401",
+      "AERO 4402",
+      "AERO 4403",
+      "AERO 4405",
+      "AERO 4406",
+      "AERO 4407",
+      "AERO 4408",
+      "AERO 4409",
+      "AERO 4420",
+      "AERO 4421",
+      "AERO 4422",
+      "AERO 4425",
+      "AERO 4431",
+      "AERO 4433",
+      "AERO 4446",
+      "AERO 4450",
+      "AERO 4452",
+      "AERO 4455",
+      "AERO 4456",
+      "AERO 4457",
+      "AERO 4461",
+      "AERO 4462",
+      "AERO 4463",
+      "AERO 4464",
+      "AERO 4470",
+      "AERO 4471",
+      "AERO 5504",
+      "AERO 5507",
+      "AERO 5522",
+      "AERO 5526",
+      "AERO 5534",
+      "AERO 5540",
+      "AERO 5541",
+      "AERO 5548",
+      "AERO 5549",
+      "AERO 5553",
+      "AERO 5557",
+      "AERO 5560",
+      "AERO 5568",
+      "AERO 5569",
+      "AERO 5570",
+      "AERO 5571"
+    ],
+    "CHEM": [
+      "CHEM 1120"
+    ],
+    "ENGR": [
+      "ENGR 2211"
+    ],
+    "IME": [
+      "IME 1140",
+      "IME 1143"
+    ],
+    "MATE": [
+      "MATE 1220"
+    ],
+    "MATH": [
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2263",
+      "MATH 2341"
+    ],
+    "PHYS": [
+      "PHYS 1141",
+      "PHYS 1143"
+    ]
+  }
+}

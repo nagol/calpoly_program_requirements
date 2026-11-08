@@ -1,0 +1,64 @@
+{
+  "program_version_id": "CE_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 29,
+  "total_distinct_subjects": 8,
+  "subjects": [
+    "CE",
+    "CHEM",
+    "ENGR",
+    "ENVE",
+    "GEOL",
+    "MATH",
+    "PHYS",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "CE": [
+      "CE 1111",
+      "CE 1112",
+      "CE 2251",
+      "CE 2259",
+      "CE 3321",
+      "CE 3336",
+      "CE 3337",
+      "CE 3352",
+      "CE 3355",
+      "CE 3375",
+      "CE 3381",
+      "CE 3465",
+      "CE 4466",
+      "CE 4467"
+    ],
+    "CHEM": [
+      "CHEM 1120"
+    ],
+    "ENGR": [
+      "ENGR 2211",
+      "ENGR 2212"
+    ],
+    "ENVE": [
+      "ENVE 1112",
+      "ENVE 3336",
+      "ENVE 3337",
+      "ENVE 3465"
+    ],
+    "GEOL": [
+      "GEOL 2240"
+    ],
+    "MATH": [
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2263",
+      "MATH 2341"
+    ],
+    "PHYS": [
+      "PHYS 1141",
+      "PHYS 1143"
+    ],
+    "STAT": [
+      "STAT 3210"
+    ]
+  }
+}

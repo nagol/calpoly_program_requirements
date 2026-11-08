@@ -1,0 +1,160 @@
+{
+  "program_version_id": "MATE_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 95,
+  "total_distinct_subjects": 18,
+  "subjects": [
+    "BIO",
+    "BMED",
+    "BUS",
+    "CE",
+    "CHEM",
+    "COMS",
+    "ECON",
+    "EE",
+    "ENGL",
+    "ENGR",
+    "ENVE",
+    "IME",
+    "ITP",
+    "MATE",
+    "MATH",
+    "ME",
+    "PHYS",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "BIO": [
+      "BIO 2231",
+      "BIO 2232"
+    ],
+    "BMED": [
+      "BMED 2310",
+      "BMED 2311",
+      "BMED 4434",
+      "BMED 4435",
+      "BMED 4460",
+      "BMED 5530",
+      "BMED 5550"
+    ],
+    "BUS": [
+      "BUS 2207",
+      "BUS 2212",
+      "BUS 3302"
+    ],
+    "CE": [
+      "CE 2259",
+      "CE 3352",
+      "CE 3355"
+    ],
+    "CHEM": [
+      "CHEM 1120",
+      "CHEM 1122",
+      "CHEM 2240",
+      "CHEM 3380",
+      "CHEM 4480",
+      "CHEM 4481"
+    ],
+    "COMS": [
+      "COMS 3301",
+      "COMS 3395"
+    ],
+    "ECON": [
+      "ECON 2030",
+      "ECON 3015"
+    ],
+    "EE": [
+      "EE 2201",
+      "EE 2241"
+    ],
+    "ENGL": [
+      "ENGL 1148"
+    ],
+    "ENGR": [
+      "ENGR 2211"
+    ],
+    "ENVE": [
+      "ENVE 2331",
+      "ENVE 3309",
+      "ENVE 4439"
+    ],
+    "IME": [
+      "IME 1140",
+      "IME 1142",
+      "IME 2315",
+      "IME 3303",
+      "IME 3326",
+      "IME 4401",
+      "IME 4421",
+      "IME 4435"
+    ],
+    "ITP": [
+      "ITP 2211",
+      "ITP 2234",
+      "ITP 3303",
+      "ITP 3330",
+      "ITP 3341",
+      "ITP 3371",
+      "ITP 4404",
+      "ITP 4411"
+    ],
+    "MATE": [
+      "MATE 1110",
+      "MATE 1210",
+      "MATE 1215",
+      "MATE 2190",
+      "MATE 2225",
+      "MATE 2235",
+      "MATE 2245",
+      "MATE 2280",
+      "MATE 3232",
+      "MATE 3310",
+      "MATE 3340",
+      "MATE 3360",
+      "MATE 3401",
+      "MATE 3403",
+      "MATE 3480",
+      "MATE 4300",
+      "MATE 4390",
+      "MATE 4400",
+      "MATE 4402",
+      "MATE 4410",
+      "MATE 4420",
+      "MATE 4422",
+      "MATE 4425",
+      "MATE 4440",
+      "MATE 4450",
+      "MATE 4456",
+      "MATE 4461",
+      "MATE 4462",
+      "MATE 4470",
+      "MATE 4471",
+      "MATE 4481",
+      "MATE 4490"
+    ],
+    "MATH": [
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2263",
+      "MATH 2341"
+    ],
+    "ME": [
+      "ME 2212",
+      "ME 2240",
+      "ME 3234",
+      "ME 3341",
+      "ME 4380",
+      "ME 4451"
+    ],
+    "PHYS": [
+      "PHYS 1141",
+      "PHYS 1143",
+      "PHYS 4425"
+    ],
+    "STAT": [
+      "STAT 3210",
+      "STAT 3800"
+    ]
+  }
+}

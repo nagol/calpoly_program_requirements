@@ -20,16 +20,24 @@ def normalize_ws(text: str) -> str:
 
 
 def expand_crosslisted_code(raw_code: str) -> list[str]:
-    """Expand 'CSC/CPE 202' -> ['CSC 202', 'CPE 202'], 'ME 501/CE 511' -> ['ME 501', 'CE 511'], and 'MATH 141' -> ['MATH 141']."""
+    """Expand 'CSC/CPE 202', 'ME 501/CE 511', 'IME/MATE 458/CPE 488', and 'PSY 201/202'."""
     cleaned = normalize_ws(raw_code)
-    if "/" in cleaned and all(re.match(r"^[A-Z]+\s+\d+[A-Z]?$", part.strip()) for part in cleaned.split("/")):
-        return [part.strip() for part in cleaned.split("/")]
-    m = re.match(r"^([A-Z]+(?:/[A-Z]+)*)\s+(\d+[A-Z]?)$", cleaned)
-    if not m:
-        return [cleaned]
-    prefixes = m.group(1).split("/")
-    num = m.group(2)
-    return [f"{p} {num}" for p in prefixes]
+    parts = re.split(
+        r"(?<=\d)/(?=[A-Z]+(?:/[A-Z]+)*\s+\d)|(?<=\d[A-Z])/(?=[A-Z]+(?:/[A-Z]+)*\s+\d)",
+        cleaned,
+    )
+    expanded: list[str] = []
+    for part in parts:
+        m = re.match(r"^([A-Z]+(?:/[A-Z]+)*)\s+(\d+[A-Z]?(?:/\d+[A-Z]?)*)$", part.strip())
+        if not m:
+            expanded.append(part.strip())
+            continue
+        prefixes = m.group(1).split("/")
+        nums = m.group(2).split("/")
+        for p in prefixes:
+            for n in nums:
+                expanded.append(f"{p} {n}")
+    return expanded
 
 
 def to_offering_key(course_code: str, term_system: str = "QUARTER") -> str:

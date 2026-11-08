@@ -1,0 +1,98 @@
+{
+  "program_version_id": "KINE_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 57,
+  "total_distinct_subjects": 10,
+  "subjects": [
+    "BIO",
+    "CHEM",
+    "COMS",
+    "EIM",
+    "HLTH",
+    "KINE",
+    "MATH",
+    "PHYS",
+    "SCM",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "BIO": [
+      "BIO 1151",
+      "BIO 2231",
+      "BIO 2232"
+    ],
+    "CHEM": [
+      "CHEM 1120"
+    ],
+    "COMS": [
+      "COMS 3387"
+    ],
+    "EIM": [
+      "EIM 2260"
+    ],
+    "HLTH": [
+      "HLTH 1155",
+      "HLTH 1160",
+      "HLTH 2200",
+      "HLTH 2261",
+      "HLTH 2281",
+      "HLTH 3305",
+      "HLTH 3310",
+      "HLTH 3318",
+      "HLTH 4400",
+      "HLTH 4434",
+      "HLTH 4435",
+      "HLTH 4460",
+      "HLTH 4461",
+      "HLTH 4462",
+      "HLTH 4463"
+    ],
+    "KINE": [
+      "KINE 1180",
+      "KINE 2266",
+      "KINE 2278",
+      "KINE 3303",
+      "KINE 3307",
+      "KINE 3312",
+      "KINE 3319",
+      "KINE 3323",
+      "KINE 3324",
+      "KINE 3325",
+      "KINE 3330",
+      "KINE 3349",
+      "KINE 3366",
+      "KINE 3378",
+      "KINE 3382",
+      "KINE 4400",
+      "KINE 4401",
+      "KINE 4403",
+      "KINE 4404",
+      "KINE 4406",
+      "KINE 4408",
+      "KINE 4409",
+      "KINE 4412",
+      "KINE 4445",
+      "KINE 4448",
+      "KINE 4451",
+      "KINE 4460",
+      "KINE 4461",
+      "KINE 4462",
+      "KINE 4463"
+    ],
+    "MATH": [
+      "MATH 1007",
+      "MATH 1261"
+    ],
+    "PHYS": [
+      "PHYS 1121"
+    ],
+    "SCM": [
+      "SCM 3301",
+      "SCM 3363"
+    ],
+    "STAT": [
+      "STAT 1110"
+    ]
+  }
+}

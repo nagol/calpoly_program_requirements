@@ -1,0 +1,2939 @@
+{
+  "program": {
+    "program_version_id": "BIO_BS__2026_2028",
+    "program_code": "BIO_BS",
+    "program_title": "Bachelor of Science in Biological Sciences",
+    "catalog_code": "2026-2028",
+    "catalog_unit_basis": "SEMESTER",
+    "total_units_required": 120.0,
+    "min_ud_units_required": 40.0,
+    "concentrations": [
+      "GENERAL",
+      "ANATOMY_PHYSIOLOGY",
+      "ECOLOGY_EVOLUTION",
+      "MOLECULAR_CELLULAR"
+    ],
+    "source_snapshot_id": "2026-2028__bio_bs__main"
+  },
+  "nodes": [
+    {
+      "node_id": "BIO_BS_26_28.MAJOR_CORE",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "Major Core Courses",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 40.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 10,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.MAJOR_CORE.BIO_1150",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BIO 1150: Life: History and Diversity (5B & 5C)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 20,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_1150",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.MAJOR_CORE.BIO_1151",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BIO 1151: Life: Molecules and Cells",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 30,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_1151",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.MAJOR_CORE.BIO_2253",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BIO 2253: Principles of Ecology and Evolution",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 40,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_2253",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.MAJOR_CORE.BIO_3351",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BIO 3351: Principles of Genetics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 50,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3351",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.MAJOR_CORE.BIO_3352",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BIO 3352: Principles of Animal Physiology",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 60,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3352",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.MAJOR_CORE.ELECTIVE_POOL_1",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "Select from the following (2 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 2.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 70,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4461",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4462",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4463",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.SUPPORT",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "Support Courses",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 80,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.SUPPORT.CHEM_1120",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "CHEM 1120: Fundamentals of Chemical Structure and Properties (5A)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 90,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_1120",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.SUPPORT.CHEM_1122",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "CHEM 1122: Fundamentals of Chemical Reactivity",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 100,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_1122",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.SUPPORT.CHEM_2240_OR_CHEM_2242",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "CHEM 2240 or CHEM 2242 (Organic Chemistry: Fundamentals and Applications)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 110,
+      "footnote_notes": "[3] Students in the Anatomy and Physiology concentration should take CHEM 2242 to satisfy this requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_2240",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_2242",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.SUPPORT.MATH_1264",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "MATH 1264: Calculus for Data Science I (2)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 120,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1264",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.SUPPORT.PHYS_1121_OR_PHYS_1141",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "PHYS 1121 or PHYS 1141 (College Physics I)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 130,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1121",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1141",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.SUPPORT.STAT_1110",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "STAT 1110: Applied Statistical Concepts and Methods",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 140,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_1110",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.SUPPORT.TECHNICAL_ELECTIVES",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "Technical Electives (3-4 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 150,
+      "footnote_notes": "[4] Consultation with an advisor is recommended prior to selecting electives; the best choice for an individual will depend on area of interest and career plans.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_2244",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_1001_CSC_1001L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001L",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_1001_CSC_1001L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:GEOG_2218",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1265",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NR_2218",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:LA_2218",
+          "subject_code": "LA",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1123",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1143",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_1810",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3520",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_GENERAL",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "General Curriculum in Biology (34 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 34.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 160,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_GENERAL.BIO_4400_AND_BIO_4450_AND_BIO_4461_AND_BIO_4462_AND_BIO_4463",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "BIO 4400 & BIO 4450 & BIO 4461 & BIO 4462 & BIO 4463: Select any 4000-level BIO, BOT, MCRO, or MSCI courses except BIO 4400 , BIO 4450 , BIO 4461 , BIO 4462 , BIO 4463",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 170,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_GENERAL.BIO_4400_AND_BIO_4450_AND_BIO_4461_AND_BIO_4462_AND_BIO_4463.BIO_4400",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_GENERAL.BIO_4400_AND_BIO_4450_AND_BIO_4461_AND_BIO_4462_AND_BIO_4463",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "BIO 4400",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.8,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 180,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4400",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_GENERAL.BIO_4400_AND_BIO_4450_AND_BIO_4461_AND_BIO_4462_AND_BIO_4463.BIO_4450",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_GENERAL.BIO_4400_AND_BIO_4450_AND_BIO_4461_AND_BIO_4462_AND_BIO_4463",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "BIO 4450",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.8,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 190,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4450",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_GENERAL.BIO_4400_AND_BIO_4450_AND_BIO_4461_AND_BIO_4462_AND_BIO_4463.BIO_4461",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_GENERAL.BIO_4400_AND_BIO_4450_AND_BIO_4461_AND_BIO_4462_AND_BIO_4463",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "BIO 4461",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.8,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 200,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4461",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_GENERAL.BIO_4400_AND_BIO_4450_AND_BIO_4461_AND_BIO_4462_AND_BIO_4463.BIO_4462",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_GENERAL.BIO_4400_AND_BIO_4450_AND_BIO_4461_AND_BIO_4462_AND_BIO_4463",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "BIO 4462",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.8,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 210,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4462",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_GENERAL.BIO_4400_AND_BIO_4450_AND_BIO_4461_AND_BIO_4462_AND_BIO_4463.BIO_4463",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_GENERAL.BIO_4400_AND_BIO_4450_AND_BIO_4461_AND_BIO_4462_AND_BIO_4463",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "BIO 4463",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.8,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 220,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4463",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_GENERAL.BIO_3300",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "BIO 3300: Select any 3000-4000 level BIO, BOT, MCRO, or MSCI courses except BIO 3300 , BIO 4400 , BIO 4450 , BIO 4461 , BIO 4462 , BIO 4463 , and courses which are \"not open for major credit in Biological Sciences\"",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 230,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3300",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4400",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4450",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4461",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4462",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4463",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_GENERAL.A_MINIMUM_OF_3_UNITS_MUS",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "A minimum of 3 units must be BIO, BOT, MCRO, or MSCI course(s) (16 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 16.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 240,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ANT_4401",
+          "subject_code": "ANT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ASCI_4403",
+          "subject_code": "ASCI",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_2244",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_3330",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_3350",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_3352",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_3354",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_3372",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_4450",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_4454",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_4457",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:COMS_4418",
+          "subject_code": "COMS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_1001_CSC_1001L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001L",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_1001_CSC_1001L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:FSN_2202",
+          "subject_code": "FSN",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:GEOG_2250",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:LA_2218",
+          "subject_code": "LA",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NR_2218",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:GEOG_2218",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1151",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1262",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1265",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NR_1141",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NR_1142",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NR_4418",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:GEOG_4441",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NUTR_3310",
+          "subject_code": "NUTR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHIL_3323",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHIL_3339",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHIL_3340",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHIL_3341",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1123",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PSC_2201",
+          "subject_code": "PSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PSY_2240",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PSY_3320",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:SCM_3302",
+          "subject_code": "SCM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:SS_1120",
+          "subject_code": "SS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:SS_3321",
+          "subject_code": "SS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3430",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3530",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3520",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3800",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3820",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4760",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4790",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:WGQS_3350",
+          "subject_code": "WGQS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ES_3350",
+          "subject_code": "ES",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_ANATOMY_PHYSIOLOGY",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ANATOMY_PHYSIOLOGY",
+      "label": "Anatomy and Physiology (34 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 34.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 250,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_ANATOMY_PHYSIOLOGY.BIO_4431",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_ANATOMY_PHYSIOLOGY",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ANATOMY_PHYSIOLOGY",
+      "label": "BIO 4431: Advanced Anatomy and Physiology I",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 260,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4431",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_ANATOMY_PHYSIOLOGY.BIO_4432",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_ANATOMY_PHYSIOLOGY",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ANATOMY_PHYSIOLOGY",
+      "label": "BIO 4432: Advanced Anatomy and Physiology II",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 270,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4432",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_ANATOMY_PHYSIOLOGY.CHEM_3352",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_ANATOMY_PHYSIOLOGY",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ANATOMY_PHYSIOLOGY",
+      "label": "CHEM 3352: Biochemistry",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 280,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_3352",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_ANATOMY_PHYSIOLOGY.ANATOMY_AND_PHYSIOLOGY_E",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_ANATOMY_PHYSIOLOGY",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ANATOMY_PHYSIOLOGY",
+      "label": "Anatomy and Physiology Electives (11 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 11.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 290,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_2255",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3333",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4413",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4433",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4434",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4436",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4437",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4452",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4456",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_3354",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ANT_4401",
+          "subject_code": "ANT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_2244",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_4450",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_4458",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:COMS_4418",
+          "subject_code": "COMS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_1001_CSC_1001L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001L",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_1001_CSC_1001L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:FSN_2202",
+          "subject_code": "FSN",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1151",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1262",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1265",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MCRO_2224",
+          "subject_code": "MCRO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MCRO_2227",
+          "subject_code": "MCRO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NUTR_3310",
+          "subject_code": "NUTR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NUTR_3315",
+          "subject_code": "NUTR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NUTR_3331",
+          "subject_code": "NUTR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHIL_3323",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHIL_3339",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHIL_3340",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHIL_3341",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1123",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PSY_3320",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:SCM_3302",
+          "subject_code": "SCM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_3302",
+          "subject_code": "ENGR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3520",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:WGQS_3350",
+          "subject_code": "WGQS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_ECOLOGY_EVOLUTION",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ECOLOGY_EVOLUTION",
+      "label": "Ecology, Evolution, Biodiversity, and Conservation (34 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 34.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 300,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_ECOLOGY_EVOLUTION.ECOLOGY_COURSES",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_ECOLOGY_EVOLUTION",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ECOLOGY_EVOLUTION",
+      "label": "Ecology Courses (7 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 7.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 310,
+      "footnote_notes": "[1] Excess units will be applied to Approved Electives.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3327",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4442",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4444",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BOT_3326",
+          "subject_code": "BOT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MSCI_3300",
+          "subject_code": "MSCI",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4413",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4414",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3343",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MSCI_4439",
+          "subject_code": "MSCI",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3321",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3322",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3323",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3324",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3325",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3326",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4429",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BOT_3313",
+          "subject_code": "BOT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BOT_4433",
+          "subject_code": "BOT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MSCI_3324",
+          "subject_code": "MSCI",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ASCI_2239",
+          "subject_code": "ASCI",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_2244",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_3372",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_1001_CSC_1001L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001L",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_1001_CSC_1001L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:GEOG_2218",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NR_2218",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:GEOG_4441",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NR_4418",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1151",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1262",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1265",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NR_1141",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NR_1142",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NR_4442",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NR_4404",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:NR_4445",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1123",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:SCM_3302",
+          "subject_code": "SCM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_1810",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3520",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3430",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3800",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3820",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_4790",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_MOLECULAR_CELLULAR",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MOLECULAR_CELLULAR",
+      "label": "Molecular and Cellular Biology (34 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 34.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 320,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_MOLECULAR_CELLULAR.BIO_2255",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_MOLECULAR_CELLULAR",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MOLECULAR_CELLULAR",
+      "label": "BIO 2255: Molecular and Cellular Biology Lab Skills",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 330,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_2255",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_MOLECULAR_CELLULAR.BIO_4452",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_MOLECULAR_CELLULAR",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MOLECULAR_CELLULAR",
+      "label": "BIO 4452: Cell Biology",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 340,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4452",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_MOLECULAR_CELLULAR.BIO_4457",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_MOLECULAR_CELLULAR",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MOLECULAR_CELLULAR",
+      "label": "BIO 4457: Molecular Biology Laboratory",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 350,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4457",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.CONC_MOLECULAR_CELLULAR.ADVANCED_ELECTIVES",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.CONC_MOLECULAR_CELLULAR",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MOLECULAR_CELLULAR",
+      "label": "Advanced Electives (10 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 10.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 360,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4451",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4455",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_4456",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_3352",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MCRO_4402",
+          "subject_code": "MCRO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ASCI_4403",
+          "subject_code": "ASCI",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_2252",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_3360",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BMED_3360",
+          "subject_code": "BMED",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BMED_4480",
+          "subject_code": "BMED",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_2244",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_3330",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_3354",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_4450",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_4454",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CHEM_4458",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_1001_CSC_1001L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001L",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_1001_CSC_1001L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1151",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1262",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1265",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MCRO_2224",
+          "subject_code": "MCRO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHIL_3323",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHIL_3339",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHIL_3341",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1123",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:SCM_3302",
+          "subject_code": "SCM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3520",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:WGQS_3350",
+          "subject_code": "WGQS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "General Education (2026-2028 Semester Template \u2014 43 total units, 10 in Major/Support)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 43.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 370,
+      "footnote_notes": "Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_1",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 1: English Communication and Critical Thinking (9 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 380,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_1.A1A",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_1",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 1A: Written Communication (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 390,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "1A",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_1.A1B",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_1",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 1B: Critical Thinking (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 400,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "1B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_1.A1C",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_1",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 1C: Oral Communication (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 410,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "1C",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_2",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 2: Mathematics and Quantitative Reasoning (3 units in Major + 3 UD units in Major)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 6.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 420,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_2.LD_2",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_2",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 2: Mathematics and Quantitative Reasoning (satisfied in Major by MATH 1261)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 430,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_2.UD_2_5",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_2",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Upper-Division 2/5 (satisfied in Major by MATH 3051/3111/3301)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 440,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-2/5",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_3",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 3: Arts and Humanities (9 units: 3A, 3B, UD-3)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 450,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_3.A3A",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_3",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 3A \u2014 Arts (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 460,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "3A",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_3.A3B",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_3",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 3B \u2014 Humanities (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 470,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "3B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_3.UD_3",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_3",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Upper-Division 3 \u2014 Arts and Humanities (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 480,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-3",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_4",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 4: Social and Behavioral Sciences (9 units from >=2 distinct subject prefixes)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 2,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 490,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_4.A4A",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_4",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 4A \u2014 American Institutions (Title 5) (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 500,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "4A",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_4.A4B",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_4",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 4B \u2014 Social and Behavioral Sciences (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 510,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "4B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_4.UD_4",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_4",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Upper-Division 4 \u2014 Social and Behavioral Sciences (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 520,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-4",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_5",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 5: Physical and Life Sciences (7 units: 5A, 5B, 5C Lab)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 7.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 530,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_5.A5A",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_5",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 5A: Physical Sciences (satisfied in Support by PHYS 1141)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 540,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "5A",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_5.A5B",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_5",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 5B: Life Sciences (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 550,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "5B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_5.A5C_LAB",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE.AREA_5",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 5C: Science Laboratory (taken with 5A or 5B; satisfied by PHYS 1141)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 0.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 55,
+      "display_order": 560,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "5C",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.GE.AREA_6",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 6: Ethnic Studies (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 570,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "6",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.UNIV_GRADUATION",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "University Minimum Graduation Requirements & 120-Unit Total",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 90,
+      "display_order": 580,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.UNIV_GRADUATION.TOTAL_180_UNITS",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 120 Baccalaureate Units (determines remaining Free Electives)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": null,
+      "required_units": 120.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 590,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "ALL_BACCALAUREATE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.UNIV_GRADUATION.UD_60_UNITS",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 40 Upper-Division Units (300-400 / 3000-4000 level)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": null,
+      "required_units": 40.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 40.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 600,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "UD_BACCALAUREATE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.UNIV_GRADUATION.USCP",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "U.S. Cultural Pluralism (USCP)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 610,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "USCP_TAG",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "BIO_BS_26_28.UNIV_GRADUATION.GWR",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Graduation Writing Requirement (GWR)",
+      "rule_type": "MILESTONE",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 620,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "BIO_BS_26_28.UNIV_GRADUATION.GPA_MIN_2_0",
+      "program_version_id": "BIO_BS__2026_2028",
+      "parent_node_id": "BIO_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 2.00 GPA (Cal Poly, Cumulative, and Major)",
+      "rule_type": "MILESTONE",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 630,
+      "footnote_notes": null,
+      "course_matchers": []
+    }
+  ]
+}

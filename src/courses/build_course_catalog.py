@@ -18,6 +18,7 @@ from typing import Any
 from src.courses.courseblock_parser import (
     CatalogCourse,
     CourseEquivalency,
+    compute_course_level,
     extract_equivalencies_from_semester_course,
     parse_quarter_courses_html,
     parse_semester_courses_html,
@@ -105,11 +106,9 @@ def build_courses_and_prereqs() -> tuple[
 ]:
     ref_manifest = json.loads(REF_MANIFEST_PATH.read_text(encoding="utf-8"))
     subj_set: set[str] = set(ref_manifest["subjects"])
-    for prog_slug in ("math_bs", "me_bs", "bus_bs"):
-        all_ref_path = ROOT_DIR / "specs" / prog_slug / "all_referenced_courses.json"
-        if all_ref_path.exists():
-            all_ref = json.loads(all_ref_path.read_text(encoding="utf-8"))
-            subj_set.update(all_ref.get("subjects", []))
+    for all_ref_path in sorted((ROOT_DIR / "specs").glob("*/all_referenced_courses.json")):
+        all_ref = json.loads(all_ref_path.read_text(encoding="utf-8"))
+        subj_set.update(all_ref.get("subjects", []))
     subjects: list[str] = sorted(subj_set)
 
     q_courses: list[CatalogCourse] = []
@@ -129,13 +128,62 @@ def build_courses_and_prereqs() -> tuple[
     # Supplement with 2020-2021 and 2017-2019 courses that were renumbered or retired in 2022-2026
     seen_q_keys = set(primary_q_keys)
     for leg_cat in ("2020-2021", "2017-2019"):
-        for legacy_subj in ("bus", "engl", "math", "me", "phys"):
-            leg_path = SNAP_DIR / leg_cat / "courses" / f"{legacy_subj}.html"
-            if leg_path.exists():
-                for lc in parse_quarter_courses_html(leg_path.read_text(encoding="utf-8")):
-                    if lc.offering_course_key not in seen_q_keys:
-                        seen_q_keys.add(lc.offering_course_key)
-                        q_courses.append(lc)
+        leg_dir = SNAP_DIR / leg_cat / "courses"
+        if not leg_dir.exists():
+            continue
+        for leg_path in sorted(leg_dir.glob("*.html")):
+            for lc in parse_quarter_courses_html(leg_path.read_text(encoding="utf-8")):
+                if lc.offering_course_key not in seen_q_keys:
+                    seen_q_keys.add(lc.offering_course_key)
+                    q_courses.append(lc)
+
+    # Synthesize fallback CatalogCourse entries for any retired pre-2017 course codes
+    # still referenced in historical program tables so zero offering_course_key references are orphaned.
+    seen_s_keys = {c.offering_course_key for c in s_courses}
+    for sp in sorted((ROOT_DIR / "specs").glob("*/20*.json")):
+        if "referenced_courses" in sp.name:
+            continue
+        spec_data = json.loads(sp.read_text(encoding="utf-8"))
+        for node in spec_data.get("nodes", []):
+            n_units = float(node.get("required_units") or 4.0)
+            n_label = str(node.get("label") or "")
+            title_part = n_label.split(":", 1)[1].strip() if ":" in n_label else n_label
+            for m in node.get("course_matchers", []):
+                okey = m.get("offering_course_key")
+                if not okey or okey in seen_q_keys or okey in seen_s_keys:
+                    continue
+                prefix, rest = okey.split(":", 1)
+                subj_code, c_num = rest.split("_", 1)
+                is_q = prefix == "Q"
+                t_sys = "QUARTER" if is_q else "SEMESTER"
+                c_level = compute_course_level(c_num, t_sys)
+                fallback = CatalogCourse(
+                    offering_course_key=okey,
+                    course_id=None,
+                    subject_code=subj_code,
+                    course_number=c_num,
+                    title=(title_part or f"{subj_code} {c_num} (Historical Catalog Course)")[:200],
+                    term_system=t_sys,
+                    min_units=n_units,
+                    max_units=n_units,
+                    course_level=c_level,
+                    is_baccalaureate="N" if c_level == 0 else "Y",
+                    cr_nc_only="N",
+                    typically_offered=None,
+                    ge_area_2020_2026=None,
+                    ge_area_2026_plus=None,
+                    is_uscp="N",
+                    is_gwr_eligible="N",
+                    raw_prereq_html="",
+                    raw_prereq_text="",
+                    description_text="Synthesized from historical program requirement table.",
+                )
+                if is_q:
+                    seen_q_keys.add(okey)
+                    q_courses.append(fallback)
+                else:
+                    seen_s_keys.add(okey)
+                    s_courses.append(fallback)
 
     all_courses = q_courses + s_courses
     course_by_key = {c.offering_course_key: c for c in all_courses}
@@ -306,7 +354,19 @@ def verify_combined_sql(courses_seed_sql: str) -> None:
     conn.executescript(ddl)
     conn.executescript(c_seed)
     conn.executescript(prog_seed)
+    orphans = conn.execute(
+        """
+        SELECT COUNT(*)
+        FROM req_node_courses rnc
+        WHERE rnc.offering_course_key IS NOT NULL
+          AND NOT EXISTS (
+              SELECT 1 FROM cat_courses c WHERE c.offering_course_key = rnc.offering_course_key
+          )
+        """
+    ).fetchone()[0]
     conn.close()
+    if orphans > 0:
+        raise ValueError(f"Found {orphans} orphaned offering_course_key rows in req_node_courses!")
 
 
 def main() -> None:

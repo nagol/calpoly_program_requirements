@@ -1,0 +1,124 @@
+{
+  "program_version_id": "MET_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 68,
+  "total_distinct_subjects": 15,
+  "subjects": [
+    "CHE",
+    "COM",
+    "CRU",
+    "DL",
+    "EGL",
+    "ENG",
+    "EPO",
+    "ET",
+    "FF",
+    "GOV",
+    "LIB",
+    "MTH",
+    "NAU",
+    "PE",
+    "PHY"
+  ],
+  "courses_by_subject": {
+    "CHE": [
+      "CHE 1110",
+      "CHE 1110L"
+    ],
+    "COM": [
+      "COM 2220L"
+    ],
+    "CRU": [
+      "CRU 1150",
+      "CRU 2250",
+      "CRU 3350"
+    ],
+    "DL": [
+      "DL 1105",
+      "DL 1105L",
+      "DL 1105X"
+    ],
+    "EGL": [
+      "EGL 1100",
+      "EGL 1110",
+      "EGL 2220"
+    ],
+    "ENG": [
+      "ENG 1100",
+      "ENG 3310",
+      "ENG 4430"
+    ],
+    "EPO": [
+      "EPO 1110",
+      "EPO 1125",
+      "EPO 1125L",
+      "EPO 2210",
+      "EPO 2213",
+      "EPO 2214",
+      "EPO 2215",
+      "EPO 2217",
+      "EPO 2220",
+      "EPO 2220L",
+      "EPO 2230",
+      "EPO 2235",
+      "EPO 3310",
+      "EPO 3312",
+      "EPO 3315",
+      "EPO 3322",
+      "EPO 3322L"
+    ],
+    "ET": [
+      "ET 1110",
+      "ET 2230",
+      "ET 2230L",
+      "ET 2232",
+      "ET 2250",
+      "ET 2250L",
+      "ET 3330",
+      "ET 3332",
+      "ET 3340",
+      "ET 3340L",
+      "ET 3342",
+      "ET 3342L",
+      "ET 3344",
+      "ET 3350",
+      "ET 3350L",
+      "ET 3370",
+      "ET 3370L",
+      "ET 4400",
+      "ET 4400L",
+      "ET 4460",
+      "ET 4460L",
+      "ET 4470",
+      "ET 4490",
+      "ET 4490L"
+    ],
+    "FF": [
+      "FF 1100",
+      "FF 3300"
+    ],
+    "GOV": [
+      "GOV 2200"
+    ],
+    "LIB": [
+      "LIB 1100"
+    ],
+    "MTH": [
+      "MTH 2210",
+      "MTH 2211"
+    ],
+    "NAU": [
+      "NAU 1104"
+    ],
+    "PE": [
+      "PE 1101"
+    ],
+    "PHY": [
+      "PHY 2200",
+      "PHY 2200L",
+      "PHY 2205",
+      "PHY 2205L"
+    ]
+  }
+}

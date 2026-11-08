@@ -1,0 +1,1974 @@
+{
+  "program_code": "BIO_BS",
+  "college": "COSAM",
+  "catalogs": [
+    "2017-2019",
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2026",
+    "2026-2028"
+  ],
+  "subjects": [
+    "AEPS",
+    "AG",
+    "ANT",
+    "ASCI",
+    "BIO",
+    "BMED",
+    "BOT",
+    "CHEM",
+    "COMS",
+    "CSC",
+    "DATA",
+    "EDES",
+    "ENGR",
+    "ERSC",
+    "ES",
+    "FSN",
+    "GEOG",
+    "ISLA",
+    "KINE",
+    "LA",
+    "MATH",
+    "MCRO",
+    "MSCI",
+    "NR",
+    "NUTR",
+    "PHIL",
+    "PHYS",
+    "PLSC",
+    "PSC",
+    "PSY",
+    "SCM",
+    "SS",
+    "STAT",
+    "UNIV",
+    "WGQS",
+    "WGS"
+  ],
+  "quarter_courses_by_subject": {
+    "AEPS": [
+      "AEPS 323"
+    ],
+    "AG": [
+      "AG 350"
+    ],
+    "ANT": [
+      "ANT 401"
+    ],
+    "ASCI": [
+      "ASCI 239",
+      "ASCI 329",
+      "ASCI 351",
+      "ASCI 403",
+      "ASCI 405",
+      "ASCI 406",
+      "ASCI 407",
+      "ASCI 438",
+      "ASCI 503"
+    ],
+    "BIO": [
+      "BIO 150",
+      "BIO 160",
+      "BIO 161",
+      "BIO 162",
+      "BIO 202",
+      "BIO 231",
+      "BIO 232",
+      "BIO 263",
+      "BIO 300",
+      "BIO 321",
+      "BIO 322",
+      "BIO 323",
+      "BIO 324",
+      "BIO 327",
+      "BIO 329",
+      "BIO 330",
+      "BIO 335",
+      "BIO 336",
+      "BIO 351",
+      "BIO 361",
+      "BIO 363",
+      "BIO 400",
+      "BIO 401",
+      "BIO 405",
+      "BIO 406",
+      "BIO 407",
+      "BIO 408",
+      "BIO 409",
+      "BIO 410",
+      "BIO 411",
+      "BIO 412",
+      "BIO 413",
+      "BIO 414",
+      "BIO 415",
+      "BIO 419",
+      "BIO 421",
+      "BIO 426",
+      "BIO 427",
+      "BIO 428",
+      "BIO 429",
+      "BIO 434",
+      "BIO 435",
+      "BIO 441",
+      "BIO 442",
+      "BIO 444",
+      "BIO 445",
+      "BIO 446",
+      "BIO 447",
+      "BIO 450",
+      "BIO 452",
+      "BIO 461",
+      "BIO 462",
+      "BIO 463",
+      "BIO 470",
+      "BIO 471",
+      "BIO 472",
+      "BIO 475",
+      "BIO 476"
+    ],
+    "BMED": [
+      "BMED 470"
+    ],
+    "BOT": [
+      "BOT 311",
+      "BOT 313",
+      "BOT 323",
+      "BOT 326",
+      "BOT 433"
+    ],
+    "CHEM": [
+      "CHEM 127",
+      "CHEM 128",
+      "CHEM 129",
+      "CHEM 202",
+      "CHEM 216",
+      "CHEM 217",
+      "CHEM 218",
+      "CHEM 220",
+      "CHEM 223",
+      "CHEM 312",
+      "CHEM 313",
+      "CHEM 314",
+      "CHEM 331",
+      "CHEM 341",
+      "CHEM 369",
+      "CHEM 371",
+      "CHEM 372",
+      "CHEM 377",
+      "CHEM 418",
+      "CHEM 428",
+      "CHEM 441",
+      "CHEM 474",
+      "CHEM 475",
+      "CHEM 476",
+      "CHEM 528"
+    ],
+    "COMS": [
+      "COMS 418"
+    ],
+    "CSC": [
+      "CSC 101"
+    ],
+    "DATA": [
+      "DATA 301"
+    ],
+    "EDES": [
+      "EDES 350"
+    ],
+    "ENGR": [
+      "ENGR 322",
+      "ENGR 350"
+    ],
+    "ERSC": [
+      "ERSC 250"
+    ],
+    "ES": [
+      "ES 350"
+    ],
+    "FSN": [
+      "FSN 310",
+      "FSN 429"
+    ],
+    "GEOG": [
+      "GEOG 218",
+      "GEOG 250",
+      "GEOG 318",
+      "GEOG 350",
+      "GEOG 440",
+      "GEOG 441"
+    ],
+    "ISLA": [
+      "ISLA 350"
+    ],
+    "KINE": [
+      "KINE 406",
+      "KINE 445",
+      "KINE 446"
+    ],
+    "LA": [
+      "LA 218"
+    ],
+    "MATH": [
+      "MATH 161",
+      "MATH 162"
+    ],
+    "MCRO": [
+      "MCRO 224",
+      "MCRO 225",
+      "MCRO 320",
+      "MCRO 342",
+      "MCRO 402",
+      "MCRO 423",
+      "MCRO 424",
+      "MCRO 433",
+      "MCRO 436"
+    ],
+    "MSCI": [
+      "MSCI 300",
+      "MSCI 324",
+      "MSCI 328",
+      "MSCI 428",
+      "MSCI 437",
+      "MSCI 439",
+      "MSCI 440"
+    ],
+    "NR": [
+      "NR 141",
+      "NR 142",
+      "NR 218",
+      "NR 314",
+      "NR 404",
+      "NR 416",
+      "NR 418",
+      "NR 421",
+      "NR 425",
+      "NR 445"
+    ],
+    "PHIL": [
+      "PHIL 323",
+      "PHIL 339",
+      "PHIL 341"
+    ],
+    "PHYS": [
+      "PHYS 121",
+      "PHYS 122",
+      "PHYS 123"
+    ],
+    "PLSC": [
+      "PLSC 323"
+    ],
+    "PSC": [
+      "PSC 201"
+    ],
+    "PSY": [
+      "PSY 320",
+      "PSY 340"
+    ],
+    "SCM": [
+      "SCM 302",
+      "SCM 350",
+      "SCM 451"
+    ],
+    "SS": [
+      "SS 120",
+      "SS 121",
+      "SS 321",
+      "SS 322",
+      "SS 421",
+      "SS 422"
+    ],
+    "STAT": [
+      "STAT 218",
+      "STAT 313",
+      "STAT 324",
+      "STAT 330",
+      "STAT 331",
+      "STAT 334",
+      "STAT 416",
+      "STAT 419",
+      "STAT 421"
+    ],
+    "UNIV": [
+      "UNIV 350"
+    ],
+    "WGQS": [
+      "WGQS 350"
+    ],
+    "WGS": [
+      "WGS 350"
+    ]
+  },
+  "semester_courses_by_subject": {
+    "ANT": [
+      "ANT 4401"
+    ],
+    "ASCI": [
+      "ASCI 2239",
+      "ASCI 4403"
+    ],
+    "BIO": [
+      "BIO 1150",
+      "BIO 1151",
+      "BIO 2252",
+      "BIO 2253",
+      "BIO 2255",
+      "BIO 3300",
+      "BIO 3321",
+      "BIO 3322",
+      "BIO 3323",
+      "BIO 3324",
+      "BIO 3325",
+      "BIO 3326",
+      "BIO 3327",
+      "BIO 3333",
+      "BIO 3343",
+      "BIO 3351",
+      "BIO 3352",
+      "BIO 3360",
+      "BIO 4400",
+      "BIO 4413",
+      "BIO 4414",
+      "BIO 4429",
+      "BIO 4431",
+      "BIO 4432",
+      "BIO 4433",
+      "BIO 4434",
+      "BIO 4436",
+      "BIO 4437",
+      "BIO 4442",
+      "BIO 4444",
+      "BIO 4450",
+      "BIO 4451",
+      "BIO 4452",
+      "BIO 4455",
+      "BIO 4456",
+      "BIO 4457",
+      "BIO 4461",
+      "BIO 4462",
+      "BIO 4463"
+    ],
+    "BMED": [
+      "BMED 3360",
+      "BMED 4480"
+    ],
+    "BOT": [
+      "BOT 3313",
+      "BOT 3326",
+      "BOT 4433"
+    ],
+    "CHEM": [
+      "CHEM 1120",
+      "CHEM 1122",
+      "CHEM 2240",
+      "CHEM 2242",
+      "CHEM 2244",
+      "CHEM 3330",
+      "CHEM 3350",
+      "CHEM 3352",
+      "CHEM 3354",
+      "CHEM 3372",
+      "CHEM 4450",
+      "CHEM 4454",
+      "CHEM 4457",
+      "CHEM 4458"
+    ],
+    "COMS": [
+      "COMS 4418"
+    ],
+    "CSC": [
+      "CSC 1001",
+      "CSC 1001L"
+    ],
+    "ENGR": [
+      "ENGR 3302"
+    ],
+    "ES": [
+      "ES 3350"
+    ],
+    "FSN": [
+      "FSN 2202"
+    ],
+    "GEOG": [
+      "GEOG 2218",
+      "GEOG 2250",
+      "GEOG 4441"
+    ],
+    "LA": [
+      "LA 2218"
+    ],
+    "MATH": [
+      "MATH 1151",
+      "MATH 1262",
+      "MATH 1264",
+      "MATH 1265"
+    ],
+    "MCRO": [
+      "MCRO 2224",
+      "MCRO 2227",
+      "MCRO 4402"
+    ],
+    "MSCI": [
+      "MSCI 3300",
+      "MSCI 3324",
+      "MSCI 4439"
+    ],
+    "NR": [
+      "NR 1141",
+      "NR 1142",
+      "NR 2218",
+      "NR 4404",
+      "NR 4418",
+      "NR 4442",
+      "NR 4445"
+    ],
+    "NUTR": [
+      "NUTR 3310",
+      "NUTR 3315",
+      "NUTR 3331"
+    ],
+    "PHIL": [
+      "PHIL 3323",
+      "PHIL 3339",
+      "PHIL 3340",
+      "PHIL 3341"
+    ],
+    "PHYS": [
+      "PHYS 1121",
+      "PHYS 1123",
+      "PHYS 1141",
+      "PHYS 1143"
+    ],
+    "PSC": [
+      "PSC 2201"
+    ],
+    "PSY": [
+      "PSY 2240",
+      "PSY 3320"
+    ],
+    "SCM": [
+      "SCM 3302"
+    ],
+    "SS": [
+      "SS 1120",
+      "SS 3321"
+    ],
+    "STAT": [
+      "STAT 1110",
+      "STAT 1810",
+      "STAT 3430",
+      "STAT 3520",
+      "STAT 3530",
+      "STAT 3800",
+      "STAT 3820",
+      "STAT 4760",
+      "STAT 4790"
+    ],
+    "WGQS": [
+      "WGQS 3350"
+    ]
+  },
+  "by_catalog": {
+    "2017-2019": {
+      "program_version_id": "BIO_BS__2017_2019",
+      "catalog_code": "2017-2019",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 153,
+      "total_distinct_subjects": 30,
+      "subjects": [
+        "AEPS",
+        "AG",
+        "ANT",
+        "ASCI",
+        "BIO",
+        "BOT",
+        "CHEM",
+        "COMS",
+        "EDES",
+        "ENGR",
+        "ERSC",
+        "ES",
+        "FSN",
+        "GEOG",
+        "ISLA",
+        "KINE",
+        "LA",
+        "MATH",
+        "MCRO",
+        "MSCI",
+        "NR",
+        "PHIL",
+        "PHYS",
+        "PSC",
+        "PSY",
+        "SCM",
+        "SS",
+        "STAT",
+        "UNIV",
+        "WGS"
+      ],
+      "courses_by_subject": {
+        "AEPS": [
+          "AEPS 323"
+        ],
+        "AG": [
+          "AG 350"
+        ],
+        "ANT": [
+          "ANT 401"
+        ],
+        "ASCI": [
+          "ASCI 329",
+          "ASCI 351",
+          "ASCI 403",
+          "ASCI 405",
+          "ASCI 406",
+          "ASCI 438",
+          "ASCI 503"
+        ],
+        "BIO": [
+          "BIO 160",
+          "BIO 161",
+          "BIO 162",
+          "BIO 202",
+          "BIO 263",
+          "BIO 321",
+          "BIO 322",
+          "BIO 323",
+          "BIO 324",
+          "BIO 327",
+          "BIO 329",
+          "BIO 330",
+          "BIO 335",
+          "BIO 336",
+          "BIO 351",
+          "BIO 361",
+          "BIO 400",
+          "BIO 401",
+          "BIO 405",
+          "BIO 406",
+          "BIO 407",
+          "BIO 408",
+          "BIO 409",
+          "BIO 410",
+          "BIO 414",
+          "BIO 415",
+          "BIO 419",
+          "BIO 421",
+          "BIO 426",
+          "BIO 427",
+          "BIO 428",
+          "BIO 429",
+          "BIO 434",
+          "BIO 435",
+          "BIO 441",
+          "BIO 442",
+          "BIO 444",
+          "BIO 445",
+          "BIO 446",
+          "BIO 450",
+          "BIO 452",
+          "BIO 461",
+          "BIO 462",
+          "BIO 463",
+          "BIO 470",
+          "BIO 471",
+          "BIO 472",
+          "BIO 475",
+          "BIO 476"
+        ],
+        "BOT": [
+          "BOT 311",
+          "BOT 313",
+          "BOT 323",
+          "BOT 326",
+          "BOT 433"
+        ],
+        "CHEM": [
+          "CHEM 127",
+          "CHEM 128",
+          "CHEM 129",
+          "CHEM 202",
+          "CHEM 216",
+          "CHEM 217",
+          "CHEM 218",
+          "CHEM 220",
+          "CHEM 223",
+          "CHEM 312",
+          "CHEM 313",
+          "CHEM 331",
+          "CHEM 341",
+          "CHEM 371",
+          "CHEM 372",
+          "CHEM 377",
+          "CHEM 418",
+          "CHEM 441",
+          "CHEM 474",
+          "CHEM 475",
+          "CHEM 476",
+          "CHEM 528"
+        ],
+        "COMS": [
+          "COMS 418"
+        ],
+        "EDES": [
+          "EDES 350"
+        ],
+        "ENGR": [
+          "ENGR 322",
+          "ENGR 350"
+        ],
+        "ERSC": [
+          "ERSC 250"
+        ],
+        "ES": [
+          "ES 350"
+        ],
+        "FSN": [
+          "FSN 310",
+          "FSN 429"
+        ],
+        "GEOG": [
+          "GEOG 250",
+          "GEOG 318",
+          "GEOG 350",
+          "GEOG 440"
+        ],
+        "ISLA": [
+          "ISLA 350"
+        ],
+        "KINE": [
+          "KINE 406",
+          "KINE 445",
+          "KINE 446"
+        ],
+        "LA": [
+          "LA 218"
+        ],
+        "MATH": [
+          "MATH 161",
+          "MATH 162"
+        ],
+        "MCRO": [
+          "MCRO 224",
+          "MCRO 225",
+          "MCRO 320",
+          "MCRO 342",
+          "MCRO 402",
+          "MCRO 423",
+          "MCRO 424",
+          "MCRO 433",
+          "MCRO 436"
+        ],
+        "MSCI": [
+          "MSCI 324",
+          "MSCI 328",
+          "MSCI 437",
+          "MSCI 439",
+          "MSCI 440"
+        ],
+        "NR": [
+          "NR 141",
+          "NR 142",
+          "NR 218",
+          "NR 404",
+          "NR 416",
+          "NR 418",
+          "NR 421",
+          "NR 425"
+        ],
+        "PHIL": [
+          "PHIL 339",
+          "PHIL 341"
+        ],
+        "PHYS": [
+          "PHYS 121",
+          "PHYS 122",
+          "PHYS 123"
+        ],
+        "PSC": [
+          "PSC 201"
+        ],
+        "PSY": [
+          "PSY 320",
+          "PSY 340"
+        ],
+        "SCM": [
+          "SCM 302",
+          "SCM 350",
+          "SCM 451"
+        ],
+        "SS": [
+          "SS 121",
+          "SS 321",
+          "SS 322",
+          "SS 421",
+          "SS 422"
+        ],
+        "STAT": [
+          "STAT 218",
+          "STAT 313",
+          "STAT 324",
+          "STAT 330",
+          "STAT 334",
+          "STAT 416",
+          "STAT 419",
+          "STAT 421"
+        ],
+        "UNIV": [
+          "UNIV 350"
+        ],
+        "WGS": [
+          "WGS 350"
+        ]
+      }
+    },
+    "2019-2020": {
+      "program_version_id": "BIO_BS__2019_2020",
+      "catalog_code": "2019-2020",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 150,
+      "total_distinct_subjects": 32,
+      "subjects": [
+        "AEPS",
+        "AG",
+        "ANT",
+        "ASCI",
+        "BIO",
+        "BOT",
+        "CHEM",
+        "COMS",
+        "CSC",
+        "DATA",
+        "EDES",
+        "ENGR",
+        "ERSC",
+        "ES",
+        "FSN",
+        "GEOG",
+        "ISLA",
+        "KINE",
+        "LA",
+        "MATH",
+        "MCRO",
+        "MSCI",
+        "NR",
+        "PHIL",
+        "PHYS",
+        "PSC",
+        "PSY",
+        "SCM",
+        "SS",
+        "STAT",
+        "UNIV",
+        "WGS"
+      ],
+      "courses_by_subject": {
+        "AEPS": [
+          "AEPS 323"
+        ],
+        "AG": [
+          "AG 350"
+        ],
+        "ANT": [
+          "ANT 401"
+        ],
+        "ASCI": [
+          "ASCI 239",
+          "ASCI 351",
+          "ASCI 403",
+          "ASCI 405",
+          "ASCI 406",
+          "ASCI 438"
+        ],
+        "BIO": [
+          "BIO 160",
+          "BIO 161",
+          "BIO 162",
+          "BIO 202",
+          "BIO 263",
+          "BIO 300",
+          "BIO 321",
+          "BIO 322",
+          "BIO 323",
+          "BIO 324",
+          "BIO 327",
+          "BIO 329",
+          "BIO 330",
+          "BIO 335",
+          "BIO 336",
+          "BIO 351",
+          "BIO 361",
+          "BIO 363",
+          "BIO 400",
+          "BIO 405",
+          "BIO 406",
+          "BIO 407",
+          "BIO 408",
+          "BIO 409",
+          "BIO 410",
+          "BIO 413",
+          "BIO 414",
+          "BIO 415",
+          "BIO 419",
+          "BIO 426",
+          "BIO 427",
+          "BIO 428",
+          "BIO 429",
+          "BIO 434",
+          "BIO 435",
+          "BIO 441",
+          "BIO 442",
+          "BIO 444",
+          "BIO 445",
+          "BIO 446",
+          "BIO 450",
+          "BIO 452",
+          "BIO 461",
+          "BIO 462",
+          "BIO 463",
+          "BIO 470",
+          "BIO 475",
+          "BIO 476"
+        ],
+        "BOT": [
+          "BOT 311",
+          "BOT 313",
+          "BOT 323",
+          "BOT 326",
+          "BOT 433"
+        ],
+        "CHEM": [
+          "CHEM 127",
+          "CHEM 128",
+          "CHEM 129",
+          "CHEM 202",
+          "CHEM 216",
+          "CHEM 217",
+          "CHEM 218",
+          "CHEM 220",
+          "CHEM 223",
+          "CHEM 312",
+          "CHEM 313",
+          "CHEM 331",
+          "CHEM 341",
+          "CHEM 371",
+          "CHEM 372",
+          "CHEM 377",
+          "CHEM 418",
+          "CHEM 428",
+          "CHEM 441",
+          "CHEM 474",
+          "CHEM 475",
+          "CHEM 476"
+        ],
+        "COMS": [
+          "COMS 418"
+        ],
+        "CSC": [
+          "CSC 101"
+        ],
+        "DATA": [
+          "DATA 301"
+        ],
+        "EDES": [
+          "EDES 350"
+        ],
+        "ENGR": [
+          "ENGR 322",
+          "ENGR 350"
+        ],
+        "ERSC": [
+          "ERSC 250"
+        ],
+        "ES": [
+          "ES 350"
+        ],
+        "FSN": [
+          "FSN 310"
+        ],
+        "GEOG": [
+          "GEOG 250",
+          "GEOG 318",
+          "GEOG 440"
+        ],
+        "ISLA": [
+          "ISLA 350"
+        ],
+        "KINE": [
+          "KINE 406",
+          "KINE 445",
+          "KINE 446"
+        ],
+        "LA": [
+          "LA 218"
+        ],
+        "MATH": [
+          "MATH 161",
+          "MATH 162"
+        ],
+        "MCRO": [
+          "MCRO 224",
+          "MCRO 225",
+          "MCRO 320",
+          "MCRO 342",
+          "MCRO 402",
+          "MCRO 423",
+          "MCRO 424",
+          "MCRO 433",
+          "MCRO 436"
+        ],
+        "MSCI": [
+          "MSCI 300",
+          "MSCI 324",
+          "MSCI 428",
+          "MSCI 437",
+          "MSCI 439"
+        ],
+        "NR": [
+          "NR 141",
+          "NR 142",
+          "NR 218",
+          "NR 404",
+          "NR 416",
+          "NR 418",
+          "NR 425"
+        ],
+        "PHIL": [
+          "PHIL 323",
+          "PHIL 339",
+          "PHIL 341"
+        ],
+        "PHYS": [
+          "PHYS 121",
+          "PHYS 122",
+          "PHYS 123"
+        ],
+        "PSC": [
+          "PSC 201"
+        ],
+        "PSY": [
+          "PSY 320",
+          "PSY 340"
+        ],
+        "SCM": [
+          "SCM 302",
+          "SCM 350"
+        ],
+        "SS": [
+          "SS 120",
+          "SS 321",
+          "SS 322",
+          "SS 422"
+        ],
+        "STAT": [
+          "STAT 218",
+          "STAT 313",
+          "STAT 324",
+          "STAT 330",
+          "STAT 331",
+          "STAT 334",
+          "STAT 416",
+          "STAT 419",
+          "STAT 421"
+        ],
+        "UNIV": [
+          "UNIV 350"
+        ],
+        "WGS": [
+          "WGS 350"
+        ]
+      }
+    },
+    "2020-2021": {
+      "program_version_id": "BIO_BS__2020_2021",
+      "catalog_code": "2020-2021",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 150,
+      "total_distinct_subjects": 32,
+      "subjects": [
+        "AEPS",
+        "AG",
+        "ANT",
+        "ASCI",
+        "BIO",
+        "BOT",
+        "CHEM",
+        "COMS",
+        "CSC",
+        "DATA",
+        "EDES",
+        "ENGR",
+        "ERSC",
+        "ES",
+        "FSN",
+        "GEOG",
+        "ISLA",
+        "KINE",
+        "LA",
+        "MATH",
+        "MCRO",
+        "MSCI",
+        "NR",
+        "PHIL",
+        "PHYS",
+        "PSC",
+        "PSY",
+        "SCM",
+        "SS",
+        "STAT",
+        "UNIV",
+        "WGS"
+      ],
+      "courses_by_subject": {
+        "AEPS": [
+          "AEPS 323"
+        ],
+        "AG": [
+          "AG 350"
+        ],
+        "ANT": [
+          "ANT 401"
+        ],
+        "ASCI": [
+          "ASCI 239",
+          "ASCI 351",
+          "ASCI 403",
+          "ASCI 405",
+          "ASCI 406",
+          "ASCI 438"
+        ],
+        "BIO": [
+          "BIO 160",
+          "BIO 161",
+          "BIO 162",
+          "BIO 202",
+          "BIO 263",
+          "BIO 300",
+          "BIO 321",
+          "BIO 322",
+          "BIO 323",
+          "BIO 324",
+          "BIO 327",
+          "BIO 329",
+          "BIO 330",
+          "BIO 335",
+          "BIO 336",
+          "BIO 351",
+          "BIO 361",
+          "BIO 363",
+          "BIO 400",
+          "BIO 405",
+          "BIO 406",
+          "BIO 407",
+          "BIO 408",
+          "BIO 409",
+          "BIO 410",
+          "BIO 413",
+          "BIO 414",
+          "BIO 415",
+          "BIO 419",
+          "BIO 426",
+          "BIO 427",
+          "BIO 428",
+          "BIO 429",
+          "BIO 434",
+          "BIO 435",
+          "BIO 441",
+          "BIO 442",
+          "BIO 444",
+          "BIO 445",
+          "BIO 446",
+          "BIO 450",
+          "BIO 452",
+          "BIO 461",
+          "BIO 462",
+          "BIO 463",
+          "BIO 470",
+          "BIO 475",
+          "BIO 476"
+        ],
+        "BOT": [
+          "BOT 311",
+          "BOT 313",
+          "BOT 323",
+          "BOT 326",
+          "BOT 433"
+        ],
+        "CHEM": [
+          "CHEM 127",
+          "CHEM 128",
+          "CHEM 129",
+          "CHEM 202",
+          "CHEM 216",
+          "CHEM 217",
+          "CHEM 218",
+          "CHEM 220",
+          "CHEM 223",
+          "CHEM 312",
+          "CHEM 313",
+          "CHEM 331",
+          "CHEM 341",
+          "CHEM 371",
+          "CHEM 372",
+          "CHEM 377",
+          "CHEM 418",
+          "CHEM 428",
+          "CHEM 441",
+          "CHEM 474",
+          "CHEM 475",
+          "CHEM 476"
+        ],
+        "COMS": [
+          "COMS 418"
+        ],
+        "CSC": [
+          "CSC 101"
+        ],
+        "DATA": [
+          "DATA 301"
+        ],
+        "EDES": [
+          "EDES 350"
+        ],
+        "ENGR": [
+          "ENGR 322",
+          "ENGR 350"
+        ],
+        "ERSC": [
+          "ERSC 250"
+        ],
+        "ES": [
+          "ES 350"
+        ],
+        "FSN": [
+          "FSN 310"
+        ],
+        "GEOG": [
+          "GEOG 250",
+          "GEOG 318",
+          "GEOG 440"
+        ],
+        "ISLA": [
+          "ISLA 350"
+        ],
+        "KINE": [
+          "KINE 406",
+          "KINE 445",
+          "KINE 446"
+        ],
+        "LA": [
+          "LA 218"
+        ],
+        "MATH": [
+          "MATH 161",
+          "MATH 162"
+        ],
+        "MCRO": [
+          "MCRO 224",
+          "MCRO 225",
+          "MCRO 320",
+          "MCRO 342",
+          "MCRO 402",
+          "MCRO 423",
+          "MCRO 424",
+          "MCRO 433",
+          "MCRO 436"
+        ],
+        "MSCI": [
+          "MSCI 300",
+          "MSCI 324",
+          "MSCI 428",
+          "MSCI 437",
+          "MSCI 439"
+        ],
+        "NR": [
+          "NR 141",
+          "NR 142",
+          "NR 218",
+          "NR 404",
+          "NR 416",
+          "NR 418",
+          "NR 425"
+        ],
+        "PHIL": [
+          "PHIL 323",
+          "PHIL 339",
+          "PHIL 341"
+        ],
+        "PHYS": [
+          "PHYS 121",
+          "PHYS 122",
+          "PHYS 123"
+        ],
+        "PSC": [
+          "PSC 201"
+        ],
+        "PSY": [
+          "PSY 320",
+          "PSY 340"
+        ],
+        "SCM": [
+          "SCM 302",
+          "SCM 350"
+        ],
+        "SS": [
+          "SS 120",
+          "SS 321",
+          "SS 322",
+          "SS 422"
+        ],
+        "STAT": [
+          "STAT 218",
+          "STAT 313",
+          "STAT 324",
+          "STAT 330",
+          "STAT 331",
+          "STAT 334",
+          "STAT 416",
+          "STAT 419",
+          "STAT 421"
+        ],
+        "UNIV": [
+          "UNIV 350"
+        ],
+        "WGS": [
+          "WGS 350"
+        ]
+      }
+    },
+    "2021-2022": {
+      "program_version_id": "BIO_BS__2021_2022",
+      "catalog_code": "2021-2022",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 153,
+      "total_distinct_subjects": 32,
+      "subjects": [
+        "AEPS",
+        "AG",
+        "ANT",
+        "ASCI",
+        "BIO",
+        "BOT",
+        "CHEM",
+        "COMS",
+        "CSC",
+        "DATA",
+        "EDES",
+        "ENGR",
+        "ERSC",
+        "ES",
+        "FSN",
+        "GEOG",
+        "ISLA",
+        "KINE",
+        "LA",
+        "MATH",
+        "MCRO",
+        "MSCI",
+        "NR",
+        "PHIL",
+        "PHYS",
+        "PSC",
+        "PSY",
+        "SCM",
+        "SS",
+        "STAT",
+        "UNIV",
+        "WGS"
+      ],
+      "courses_by_subject": {
+        "AEPS": [
+          "AEPS 323"
+        ],
+        "AG": [
+          "AG 350"
+        ],
+        "ANT": [
+          "ANT 401"
+        ],
+        "ASCI": [
+          "ASCI 239",
+          "ASCI 351",
+          "ASCI 403",
+          "ASCI 405",
+          "ASCI 406",
+          "ASCI 407",
+          "ASCI 438"
+        ],
+        "BIO": [
+          "BIO 160",
+          "BIO 161",
+          "BIO 162",
+          "BIO 202",
+          "BIO 263",
+          "BIO 300",
+          "BIO 321",
+          "BIO 322",
+          "BIO 323",
+          "BIO 324",
+          "BIO 327",
+          "BIO 329",
+          "BIO 330",
+          "BIO 335",
+          "BIO 336",
+          "BIO 351",
+          "BIO 361",
+          "BIO 363",
+          "BIO 400",
+          "BIO 405",
+          "BIO 406",
+          "BIO 407",
+          "BIO 408",
+          "BIO 409",
+          "BIO 410",
+          "BIO 413",
+          "BIO 414",
+          "BIO 415",
+          "BIO 419",
+          "BIO 426",
+          "BIO 427",
+          "BIO 428",
+          "BIO 429",
+          "BIO 434",
+          "BIO 435",
+          "BIO 441",
+          "BIO 442",
+          "BIO 444",
+          "BIO 445",
+          "BIO 446",
+          "BIO 450",
+          "BIO 452",
+          "BIO 461",
+          "BIO 462",
+          "BIO 463",
+          "BIO 470",
+          "BIO 475",
+          "BIO 476"
+        ],
+        "BOT": [
+          "BOT 311",
+          "BOT 313",
+          "BOT 323",
+          "BOT 326",
+          "BOT 433"
+        ],
+        "CHEM": [
+          "CHEM 127",
+          "CHEM 128",
+          "CHEM 129",
+          "CHEM 202",
+          "CHEM 216",
+          "CHEM 217",
+          "CHEM 218",
+          "CHEM 220",
+          "CHEM 223",
+          "CHEM 312",
+          "CHEM 313",
+          "CHEM 331",
+          "CHEM 341",
+          "CHEM 371",
+          "CHEM 372",
+          "CHEM 377",
+          "CHEM 418",
+          "CHEM 428",
+          "CHEM 441",
+          "CHEM 474",
+          "CHEM 475",
+          "CHEM 476"
+        ],
+        "COMS": [
+          "COMS 418"
+        ],
+        "CSC": [
+          "CSC 101"
+        ],
+        "DATA": [
+          "DATA 301"
+        ],
+        "EDES": [
+          "EDES 350"
+        ],
+        "ENGR": [
+          "ENGR 322",
+          "ENGR 350"
+        ],
+        "ERSC": [
+          "ERSC 250"
+        ],
+        "ES": [
+          "ES 350"
+        ],
+        "FSN": [
+          "FSN 310"
+        ],
+        "GEOG": [
+          "GEOG 218",
+          "GEOG 250",
+          "GEOG 441"
+        ],
+        "ISLA": [
+          "ISLA 350"
+        ],
+        "KINE": [
+          "KINE 406",
+          "KINE 445",
+          "KINE 446"
+        ],
+        "LA": [
+          "LA 218"
+        ],
+        "MATH": [
+          "MATH 161",
+          "MATH 162"
+        ],
+        "MCRO": [
+          "MCRO 224",
+          "MCRO 225",
+          "MCRO 320",
+          "MCRO 342",
+          "MCRO 402",
+          "MCRO 423",
+          "MCRO 424",
+          "MCRO 433",
+          "MCRO 436"
+        ],
+        "MSCI": [
+          "MSCI 300",
+          "MSCI 324",
+          "MSCI 428",
+          "MSCI 437",
+          "MSCI 439"
+        ],
+        "NR": [
+          "NR 141",
+          "NR 142",
+          "NR 218",
+          "NR 314",
+          "NR 404",
+          "NR 416",
+          "NR 418",
+          "NR 425",
+          "NR 445"
+        ],
+        "PHIL": [
+          "PHIL 323",
+          "PHIL 339",
+          "PHIL 341"
+        ],
+        "PHYS": [
+          "PHYS 121",
+          "PHYS 122",
+          "PHYS 123"
+        ],
+        "PSC": [
+          "PSC 201"
+        ],
+        "PSY": [
+          "PSY 320",
+          "PSY 340"
+        ],
+        "SCM": [
+          "SCM 302",
+          "SCM 350"
+        ],
+        "SS": [
+          "SS 120",
+          "SS 321",
+          "SS 322",
+          "SS 422"
+        ],
+        "STAT": [
+          "STAT 218",
+          "STAT 313",
+          "STAT 324",
+          "STAT 330",
+          "STAT 331",
+          "STAT 334",
+          "STAT 416",
+          "STAT 419",
+          "STAT 421"
+        ],
+        "UNIV": [
+          "UNIV 350"
+        ],
+        "WGS": [
+          "WGS 350"
+        ]
+      }
+    },
+    "2022-2026": {
+      "program_version_id": "BIO_BS__2022_2026",
+      "catalog_code": "2022-2026",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 158,
+      "total_distinct_subjects": 33,
+      "subjects": [
+        "AG",
+        "ANT",
+        "ASCI",
+        "BIO",
+        "BMED",
+        "BOT",
+        "CHEM",
+        "COMS",
+        "CSC",
+        "DATA",
+        "EDES",
+        "ENGR",
+        "ERSC",
+        "ES",
+        "FSN",
+        "GEOG",
+        "ISLA",
+        "KINE",
+        "LA",
+        "MATH",
+        "MCRO",
+        "MSCI",
+        "NR",
+        "PHIL",
+        "PHYS",
+        "PLSC",
+        "PSC",
+        "PSY",
+        "SCM",
+        "SS",
+        "STAT",
+        "UNIV",
+        "WGQS"
+      ],
+      "courses_by_subject": {
+        "AG": [
+          "AG 350"
+        ],
+        "ANT": [
+          "ANT 401"
+        ],
+        "ASCI": [
+          "ASCI 239",
+          "ASCI 351",
+          "ASCI 403",
+          "ASCI 405",
+          "ASCI 406",
+          "ASCI 407",
+          "ASCI 438"
+        ],
+        "BIO": [
+          "BIO 150",
+          "BIO 161",
+          "BIO 162",
+          "BIO 202",
+          "BIO 231",
+          "BIO 232",
+          "BIO 263",
+          "BIO 300",
+          "BIO 321",
+          "BIO 322",
+          "BIO 323",
+          "BIO 324",
+          "BIO 327",
+          "BIO 329",
+          "BIO 330",
+          "BIO 335",
+          "BIO 336",
+          "BIO 351",
+          "BIO 361",
+          "BIO 363",
+          "BIO 400",
+          "BIO 405",
+          "BIO 406",
+          "BIO 407",
+          "BIO 408",
+          "BIO 409",
+          "BIO 410",
+          "BIO 411",
+          "BIO 412",
+          "BIO 413",
+          "BIO 414",
+          "BIO 415",
+          "BIO 426",
+          "BIO 427",
+          "BIO 428",
+          "BIO 429",
+          "BIO 434",
+          "BIO 435",
+          "BIO 441",
+          "BIO 442",
+          "BIO 444",
+          "BIO 445",
+          "BIO 446",
+          "BIO 447",
+          "BIO 450",
+          "BIO 452",
+          "BIO 461",
+          "BIO 462",
+          "BIO 463",
+          "BIO 470",
+          "BIO 475",
+          "BIO 476"
+        ],
+        "BMED": [
+          "BMED 470"
+        ],
+        "BOT": [
+          "BOT 311",
+          "BOT 313",
+          "BOT 323",
+          "BOT 326",
+          "BOT 433"
+        ],
+        "CHEM": [
+          "CHEM 127",
+          "CHEM 128",
+          "CHEM 129",
+          "CHEM 202",
+          "CHEM 216",
+          "CHEM 217",
+          "CHEM 218",
+          "CHEM 220",
+          "CHEM 223",
+          "CHEM 312",
+          "CHEM 314",
+          "CHEM 331",
+          "CHEM 341",
+          "CHEM 369",
+          "CHEM 372",
+          "CHEM 377",
+          "CHEM 418",
+          "CHEM 428",
+          "CHEM 441",
+          "CHEM 474",
+          "CHEM 475",
+          "CHEM 476"
+        ],
+        "COMS": [
+          "COMS 418"
+        ],
+        "CSC": [
+          "CSC 101"
+        ],
+        "DATA": [
+          "DATA 301"
+        ],
+        "EDES": [
+          "EDES 350"
+        ],
+        "ENGR": [
+          "ENGR 322",
+          "ENGR 350"
+        ],
+        "ERSC": [
+          "ERSC 250"
+        ],
+        "ES": [
+          "ES 350"
+        ],
+        "FSN": [
+          "FSN 310"
+        ],
+        "GEOG": [
+          "GEOG 218",
+          "GEOG 250",
+          "GEOG 441"
+        ],
+        "ISLA": [
+          "ISLA 350"
+        ],
+        "KINE": [
+          "KINE 406",
+          "KINE 445",
+          "KINE 446"
+        ],
+        "LA": [
+          "LA 218"
+        ],
+        "MATH": [
+          "MATH 161",
+          "MATH 162"
+        ],
+        "MCRO": [
+          "MCRO 224",
+          "MCRO 225",
+          "MCRO 320",
+          "MCRO 342",
+          "MCRO 402",
+          "MCRO 423",
+          "MCRO 424",
+          "MCRO 433",
+          "MCRO 436"
+        ],
+        "MSCI": [
+          "MSCI 300",
+          "MSCI 324",
+          "MSCI 428",
+          "MSCI 437",
+          "MSCI 439"
+        ],
+        "NR": [
+          "NR 141",
+          "NR 142",
+          "NR 218",
+          "NR 314",
+          "NR 404",
+          "NR 416",
+          "NR 418",
+          "NR 425",
+          "NR 445"
+        ],
+        "PHIL": [
+          "PHIL 323",
+          "PHIL 339",
+          "PHIL 341"
+        ],
+        "PHYS": [
+          "PHYS 121",
+          "PHYS 122",
+          "PHYS 123"
+        ],
+        "PLSC": [
+          "PLSC 323"
+        ],
+        "PSC": [
+          "PSC 201"
+        ],
+        "PSY": [
+          "PSY 320",
+          "PSY 340"
+        ],
+        "SCM": [
+          "SCM 302",
+          "SCM 350"
+        ],
+        "SS": [
+          "SS 120",
+          "SS 321",
+          "SS 322",
+          "SS 422"
+        ],
+        "STAT": [
+          "STAT 218",
+          "STAT 313",
+          "STAT 324",
+          "STAT 330",
+          "STAT 331",
+          "STAT 334",
+          "STAT 416",
+          "STAT 419",
+          "STAT 421"
+        ],
+        "UNIV": [
+          "UNIV 350"
+        ],
+        "WGQS": [
+          "WGQS 350"
+        ]
+      }
+    },
+    "2026-2028": {
+      "program_version_id": "BIO_BS__2026_2028",
+      "catalog_code": "2026-2028",
+      "term_system": "SEMESTER",
+      "total_distinct_courses": 115,
+      "total_distinct_subjects": 26,
+      "subjects": [
+        "ANT",
+        "ASCI",
+        "BIO",
+        "BMED",
+        "BOT",
+        "CHEM",
+        "COMS",
+        "CSC",
+        "ENGR",
+        "ES",
+        "FSN",
+        "GEOG",
+        "LA",
+        "MATH",
+        "MCRO",
+        "MSCI",
+        "NR",
+        "NUTR",
+        "PHIL",
+        "PHYS",
+        "PSC",
+        "PSY",
+        "SCM",
+        "SS",
+        "STAT",
+        "WGQS"
+      ],
+      "courses_by_subject": {
+        "ANT": [
+          "ANT 4401"
+        ],
+        "ASCI": [
+          "ASCI 2239",
+          "ASCI 4403"
+        ],
+        "BIO": [
+          "BIO 1150",
+          "BIO 1151",
+          "BIO 2252",
+          "BIO 2253",
+          "BIO 2255",
+          "BIO 3300",
+          "BIO 3321",
+          "BIO 3322",
+          "BIO 3323",
+          "BIO 3324",
+          "BIO 3325",
+          "BIO 3326",
+          "BIO 3327",
+          "BIO 3333",
+          "BIO 3343",
+          "BIO 3351",
+          "BIO 3352",
+          "BIO 3360",
+          "BIO 4400",
+          "BIO 4413",
+          "BIO 4414",
+          "BIO 4429",
+          "BIO 4431",
+          "BIO 4432",
+          "BIO 4433",
+          "BIO 4434",
+          "BIO 4436",
+          "BIO 4437",
+          "BIO 4442",
+          "BIO 4444",
+          "BIO 4450",
+          "BIO 4451",
+          "BIO 4452",
+          "BIO 4455",
+          "BIO 4456",
+          "BIO 4457",
+          "BIO 4461",
+          "BIO 4462",
+          "BIO 4463"
+        ],
+        "BMED": [
+          "BMED 3360",
+          "BMED 4480"
+        ],
+        "BOT": [
+          "BOT 3313",
+          "BOT 3326",
+          "BOT 4433"
+        ],
+        "CHEM": [
+          "CHEM 1120",
+          "CHEM 1122",
+          "CHEM 2240",
+          "CHEM 2242",
+          "CHEM 2244",
+          "CHEM 3330",
+          "CHEM 3350",
+          "CHEM 3352",
+          "CHEM 3354",
+          "CHEM 3372",
+          "CHEM 4450",
+          "CHEM 4454",
+          "CHEM 4457",
+          "CHEM 4458"
+        ],
+        "COMS": [
+          "COMS 4418"
+        ],
+        "CSC": [
+          "CSC 1001",
+          "CSC 1001L"
+        ],
+        "ENGR": [
+          "ENGR 3302"
+        ],
+        "ES": [
+          "ES 3350"
+        ],
+        "FSN": [
+          "FSN 2202"
+        ],
+        "GEOG": [
+          "GEOG 2218",
+          "GEOG 2250",
+          "GEOG 4441"
+        ],
+        "LA": [
+          "LA 2218"
+        ],
+        "MATH": [
+          "MATH 1151",
+          "MATH 1262",
+          "MATH 1264",
+          "MATH 1265"
+        ],
+        "MCRO": [
+          "MCRO 2224",
+          "MCRO 2227",
+          "MCRO 4402"
+        ],
+        "MSCI": [
+          "MSCI 3300",
+          "MSCI 3324",
+          "MSCI 4439"
+        ],
+        "NR": [
+          "NR 1141",
+          "NR 1142",
+          "NR 2218",
+          "NR 4404",
+          "NR 4418",
+          "NR 4442",
+          "NR 4445"
+        ],
+        "NUTR": [
+          "NUTR 3310",
+          "NUTR 3315",
+          "NUTR 3331"
+        ],
+        "PHIL": [
+          "PHIL 3323",
+          "PHIL 3339",
+          "PHIL 3340",
+          "PHIL 3341"
+        ],
+        "PHYS": [
+          "PHYS 1121",
+          "PHYS 1123",
+          "PHYS 1141",
+          "PHYS 1143"
+        ],
+        "PSC": [
+          "PSC 2201"
+        ],
+        "PSY": [
+          "PSY 2240",
+          "PSY 3320"
+        ],
+        "SCM": [
+          "SCM 3302"
+        ],
+        "SS": [
+          "SS 1120",
+          "SS 3321"
+        ],
+        "STAT": [
+          "STAT 1110",
+          "STAT 1810",
+          "STAT 3430",
+          "STAT 3520",
+          "STAT 3530",
+          "STAT 3800",
+          "STAT 3820",
+          "STAT 4760",
+          "STAT 4790"
+        ],
+        "WGQS": [
+          "WGQS 3350"
+        ]
+      }
+    }
+  }
+}

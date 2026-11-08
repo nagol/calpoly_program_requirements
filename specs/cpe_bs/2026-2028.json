@@ -1,0 +1,4139 @@
+{
+  "program": {
+    "program_version_id": "CPE_BS__2026_2028",
+    "program_code": "CPE_BS",
+    "program_title": "Bachelor of Science in Computer Engineering",
+    "catalog_code": "2026-2028",
+    "catalog_unit_basis": "SEMESTER",
+    "total_units_required": 124.0,
+    "min_ud_units_required": 40.0,
+    "concentrations": [
+      "GENERAL",
+      "COMPUTER_ARCHITECTURE",
+      "COMPUTER_HARDWARE",
+      "COMPUTER_SYSTEMS",
+      "EMBEDDED_SYSTEMS",
+      "ROBOTICS",
+      "SECURITY"
+    ],
+    "source_snapshot_id": "2026-2028__cpe_bs__main"
+  },
+  "nodes": [
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "Major Core Courses",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 40.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 10,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CPE_CSC_1000",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CPE/CSC 1000: Computing Majors Orientation",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 20,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_1000",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1000",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CSC_1001_AND_CSC_1001L",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CSC 1001 & CSC 1001L: Fundamentals of Computer Science and Fundamentals of Computer Science Laboratory",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 30,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CSC_1001_AND_CSC_1001L.CSC_1001",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE.CSC_1001_AND_CSC_1001L",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CSC 1001",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 40,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CSC_1001_AND_CSC_1001L.CSC_1001L",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE.CSC_1001_AND_CSC_1001L",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CSC 1001L",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 50,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1001L",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CPE_CSC_1024",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CPE/CSC 1024: Introduction to Computing",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 2.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 60,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_1024",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_1024",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CSC_2001_AND_CSC_2001L",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CSC 2001 & CSC 2001L: Data Structures and Data Structures Laboratory",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 70,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CSC_2001_AND_CSC_2001L.CSC_2001",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE.CSC_2001_AND_CSC_2001L",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CSC 2001",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 80,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_2001",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CSC_2001_AND_CSC_2001L.CSC_2001L",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE.CSC_2001_AND_CSC_2001L",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CSC 2001L",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 90,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_2001L",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CPE_CSC_2050",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CPE/CSC 2050: System Software Mechanics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 100,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_2050",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_2050",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CPE_2300",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CPE 2300: Introduction to Computer Systems",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 110,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_2300",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CPE_2301",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CPE 2301: Introduction to HDL and Digital Design Laboratory",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 120,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_2301",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CPE_3160",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CPE 3160: Microcontrollers and Embedded Applications",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 130,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_3160",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CPE_CSC_3201",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CPE/CSC 3201: Introduction to Computer Security",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 140,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_3201",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3201",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CPE_3300",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CPE 3300: Computer Architecture",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 150,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_3300",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CPE_4464",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CPE 4464: Introduction to Computer Networks",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 160,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4464",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.CPE_CSC_4553",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "CPE/CSC 4553: Introduction to Operating Systems",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 170,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4553",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4553",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.EE_2211_AND_EE_2241",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EE 2211 & EE 2241: Electric Circuit Analysis I and Electric Circuit Analysis Laboratory I",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 180,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.EE_2211_AND_EE_2241.EE_2211",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE.EE_2211_AND_EE_2241",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EE 2211",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 2.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 190,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_2211",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.MAJOR_CORE.EE_2211_AND_EE_2241.EE_2241",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.MAJOR_CORE.EE_2211_AND_EE_2241",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EE 2241",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 2.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 200,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_2241",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.SUPPORT",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "Support Courses",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 210,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.SUPPORT.ELECTIVE_POOL_1",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "Select from the following: (5B) (3-4 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 220,
+      "footnote_notes": "[2] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_1111",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BIO_2213",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BOT_1121",
+          "subject_code": "BOT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MCRO_2221",
+          "subject_code": "MCRO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.SUPPORT.MATH_1261",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "MATH 1261: Calculus I (2)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 230,
+      "footnote_notes": "[2] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1261",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.SUPPORT.MATH_1262",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "MATH 1262: Calculus II",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 240,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1262",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.SUPPORT.MATH_2031",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "MATH 2031: Transition to Advanced Mathematics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 250,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2031",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.SUPPORT.PHIL_3323",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "PHIL 3323: Ethics, Science, and Technology (Upper-Division 3)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 260,
+      "footnote_notes": "[2] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHIL_3323",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.SUPPORT.PHYS_1141",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "PHYS 1141: General Physics I (5A & 5C)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 270,
+      "footnote_notes": "[2] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1141",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.SUPPORT.PHYS_1143",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "PHYS 1143: General Physics II",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 280,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_1143",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.SUPPORT.ELECTIVE_POOL_2",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "Select from the following: (Upper-Division 2/5) (3 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 290,
+      "footnote_notes": "[2] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3210",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:STAT_3310",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.SUPPORT.WGQS_3350_OR_WGQS_3351",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "WGQS 3350 or WGQS 3351 (Gender, Race, Culture, Science, and Technology)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 300,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:WGQS_3350",
+          "subject_code": "WGQS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:WGQS_3351",
+          "subject_code": "WGQS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_GENERAL",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "General Curriculum in Computer Engineering (28 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 28.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 310,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_GENERAL.ELECTIVE_POOL_1",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "Select from the following (3 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 320,
+      "footnote_notes": "[1] Excess units at the 2000-5000 level may be applied toward technical electives.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1151",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2341",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_GENERAL.EE_3306_OR_EE_2328",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "EE 3306 or EE 3306L or EE 2328 (Electronics I and Electronics Laboratory I)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 330,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3306",
+          "subject_code": "EE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_EE_3306_EE_3306L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3306L",
+          "subject_code": "EE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_EE_3306_EE_3306L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_2328",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_GENERAL.TECHNICAL_ELECTIVES",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "Technical Electives (14 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 14.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 340,
+      "footnote_notes": "[2] A combined maximum of 8 units may be taken from CPE 4491 , CPE 4492 , CPE 4493 , CPE 4495 , CSC 4091 , CSC 4092 , CSC 4093 , CSC 4191 , CSC 4192 , CSC 4193 , CSC 4291 , CSC 4292 , CSC 4293 , CSC 4400 , CSC 4495 , CSC 4691 , CSC 4692 , CSC 4693 , CSC 4791 , CSC 4792 , CSC 4793 , CSC 4891 , CSC 4892 , CSC 4893 , CSC 4991 , CSC 4992 , CSC 4993 , DATA 4720 , and ENGR 4995 ; of which up to a combined 4 units may be taken from CPE 4400 and CSC 4400 .",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4460",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4460_CPE_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4461",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4460_CPE_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4260",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_4260_CSC_4261"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4261",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_4260_CSC_4261"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_4460",
+          "subject_code": "ENGR",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_ENGR_4460_ENGR_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_4461",
+          "subject_code": "ENGR",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_ENGR_4460_ENGR_4461"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_ARCHITECTURE",
+      "label": "Computer Architecture (27 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 27.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 350,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE.MATH_1151_OR_MATH_2341",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_ARCHITECTURE",
+      "label": "MATH 1151 or MATH 2341 (Linear Algebra)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 360,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1151",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2341",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE.MATH_2263",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_ARCHITECTURE",
+      "label": "MATH 2263: Calculus III",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 370,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2263",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE.PHYS_2211",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_ARCHITECTURE",
+      "label": "PHYS 2211: General Physics III: Modern Physics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 380,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_2211",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE.ELECTIVE_POOL_1",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_ARCHITECTURE",
+      "label": "Select from the following (3-4 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 390,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_3345",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4280",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4455",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4669",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4310",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE.EE_3306_AND_EE_3306L",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_ARCHITECTURE",
+      "label": "EE 3306 & EE 3306L: Electronics I and Electronics Laboratory I",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 400,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE.EE_3306_AND_EE_3306L.EE_3306",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE.EE_3306_AND_EE_3306L",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_ARCHITECTURE",
+      "label": "EE 3306",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 410,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3306",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE.EE_3306_AND_EE_3306L.EE_3306L",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE.EE_3306_AND_EE_3306L",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_ARCHITECTURE",
+      "label": "EE 3306L",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 420,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3306L",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE.CPE_4300",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_ARCHITECTURE",
+      "label": "CPE 4300: Advanced Computer Architecture",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 430,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4300",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE.SENIOR_PROJECT",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_ARCHITECTURE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_ARCHITECTURE",
+      "label": "Senior Project (6 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 6.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 440,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4260",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4260_CPE_4261"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4261",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4260_CPE_4261"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4460",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4460_CPE_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4461",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4460_CPE_4461"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_HARDWARE",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_HARDWARE",
+      "label": "Computer Hardware Engineering (29 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 29.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 450,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_HARDWARE.EE_3306_AND_EE_3306L",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_HARDWARE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_HARDWARE",
+      "label": "EE 3306 & EE 3306L: Electronics I and Electronics Laboratory I",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 460,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_HARDWARE.EE_3306_AND_EE_3306L.EE_3306",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_HARDWARE.EE_3306_AND_EE_3306L",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_HARDWARE",
+      "label": "EE 3306",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 470,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3306",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_HARDWARE.EE_3306_AND_EE_3306L.EE_3306L",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_HARDWARE.EE_3306_AND_EE_3306L",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_HARDWARE",
+      "label": "EE 3306L",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 480,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3306L",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_HARDWARE.EE_4431",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_HARDWARE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_HARDWARE",
+      "label": "EE 4431: Computer-Aided Design of VLSI Devices",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 490,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_4431",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_HARDWARE.MATH_AND_SCIENCE_SUPPORT",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_HARDWARE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_HARDWARE",
+      "label": "Math and Science Support (6 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 6.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 500,
+      "footnote_notes": "[1] Excess units may be applied toward technical electives.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1151",
+          "subject_code": "MATH",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_MATH_1151_MATH_2343"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2343",
+          "subject_code": "MATH",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_MATH_1151_MATH_2343"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2341",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4280",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4400",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4455",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4491",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4492",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4493",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_2212",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_2328",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3302",
+          "subject_code": "EE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_EE_3302_EE_3302L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3302L",
+          "subject_code": "EE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_EE_3302_EE_3302L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3308",
+          "subject_code": "EE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_EE_3308_EE_3308L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3308L",
+          "subject_code": "EE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_EE_3308_EE_3308L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3335",
+          "subject_code": "EE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_EE_3335_EE_3335L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3335L",
+          "subject_code": "EE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_EE_3335_EE_3335L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_4412",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_4452",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_4528",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_2995",
+          "subject_code": "ENGR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_4995",
+          "subject_code": "ENGR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_5995",
+          "subject_code": "ENGR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:IME_1156",
+          "subject_code": "IME",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATE_1220",
+          "subject_code": "MATE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATE_3340",
+          "subject_code": "MATE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_2211",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:PHYS_4425",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4460",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4460_CPE_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4461",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4460_CPE_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4260",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_4260_CSC_4261"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4261",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_4260_CSC_4261"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_4460",
+          "subject_code": "ENGR",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_ENGR_4460_ENGR_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_4461",
+          "subject_code": "ENGR",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_ENGR_4460_ENGR_4461"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_SYSTEMS",
+      "label": "Computer Systems (29 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 29.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 510,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS.MATH_1151_OR_MATH_2341",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_SYSTEMS",
+      "label": "MATH 1151 or MATH 2341 (Linear Algebra)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 520,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1151",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2341",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS.EE_3306_OR_EE_2328",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_SYSTEMS",
+      "label": "EE 3306 or EE 3306L or EE 2328 (Electronics I and Electronics Laboratory I)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 530,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3306",
+          "subject_code": "EE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_EE_3306_EE_3306L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3306L",
+          "subject_code": "EE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_EE_3306_EE_3306L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_2328",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS.ELECTIVE_POOL_1",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_SYSTEMS",
+      "label": "Select from the following (3 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 540,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4214",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4220",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4280",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4310",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4554",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4465",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS.CPE_4650",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_SYSTEMS",
+      "label": "CPE 4650: Scalable Server Implementation and Testing",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 550,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4650",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS.CPE_4669",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_SYSTEMS",
+      "label": "CPE 4669: Distributed Systems",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 560,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4669",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS.SENIOR_PROJECT",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_COMPUTER_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "COMPUTER_SYSTEMS",
+      "label": "Senior Project (6 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 6.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 570,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4460",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4460_CPE_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4461",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4460_CPE_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4260",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_4260_CSC_4261"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4261",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_4260_CSC_4261"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "EMBEDDED_SYSTEMS",
+      "label": "Embedded Systems (27 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 27.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 580,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS.LINEAR_ALGEBRA_DIFFERENT",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "EMBEDDED_SYSTEMS",
+      "label": "Linear Algebra + Differential Equations (6 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 6.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 590,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1151",
+          "subject_code": "MATH",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_MATH_1151_MATH_2343"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2343",
+          "subject_code": "MATH",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_MATH_1151_MATH_2343"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2341",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS.EE_2328",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "EMBEDDED_SYSTEMS",
+      "label": "EE 2328: Signals and Systems",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 600,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_2328",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS.CPE_4180",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "EMBEDDED_SYSTEMS",
+      "label": "CPE 4180: Advanced Microcontrollers and Embedded Applications",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 610,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4180",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS.CPE_4390",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "EMBEDDED_SYSTEMS",
+      "label": "CPE 4390: Introduction to Real-Time Operating Systems",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 620,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4390",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS.CPE_4420",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "EMBEDDED_SYSTEMS",
+      "label": "CPE 4420: High-Performance Embedded Systems",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 630,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4420",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS.CPE_4455",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "EMBEDDED_SYSTEMS",
+      "label": "CPE 4455: Design of Fault-Tolerant Systems",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 640,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4455",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS.SENIOR_PROJECT",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_EMBEDDED_SYSTEMS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "EMBEDDED_SYSTEMS",
+      "label": "Senior Project (4-6 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 650,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4460",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4460_CPE_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4461",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4460_CPE_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4260",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_4260_CSC_4261"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4261",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_4260_CSC_4261"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_4460",
+          "subject_code": "ENGR",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_ENGR_4460_ENGR_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_4461",
+          "subject_code": "ENGR",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_ENGR_4460_ENGR_4461"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_ROBOTICS",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ROBOTICS",
+      "label": "Robotics and Autonomous Systems (30 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 30.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 660,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_ROBOTICS.EE_2328",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_ROBOTICS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ROBOTICS",
+      "label": "EE 2328: Signals and Systems",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 670,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_2328",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_ROBOTICS.ENGR_2211",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_ROBOTICS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ROBOTICS",
+      "label": "ENGR 2211: Introduction to Mechanics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 680,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_2211",
+          "subject_code": "ENGR",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_ROBOTICS.MATH_2341",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_ROBOTICS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ROBOTICS",
+      "label": "MATH 2341: Linear Analysis",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 690,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2341",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_ROBOTICS.ME_2212",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_ROBOTICS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ROBOTICS",
+      "label": "ME 2212: Engineering Dynamics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 700,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ME_2212",
+          "subject_code": "ME",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_ROBOTICS.ROBOTIC_ELECTIVES",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_ROBOTICS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ROBOTICS",
+      "label": "Robotic Electives (11 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 11.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 710,
+      "footnote_notes": "[1] A maximum of 4 units from CPE 4491 , CPE 4492 , CPE 4493 , CPE 4495 , CSC 4091 , CSC 4092 , CSC 4093 , CSC 4192 , CSC 4193 , CSC 4291 , CSC 4292 , CSC 4293 , CSC 4400 , CSC 4495 , CSC 4691 , CSC 4692 , CSC 4693 , CSC 4791 , CSC 4792 , CSC 4793 , CSC 4891 , CSC 4892 , CSC 4893 , CSC 4991 , CSC 4992 , CSC 4993 , DATA 4720 , and ENGR 4995 . [2] Excess units completed for senior project may be applied toward technical electives.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:BMED_3410",
+          "subject_code": "BMED",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4140",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4160",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4180",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4280",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4390",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4420",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4455",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4491",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4492",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4493",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4291",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4292",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4293",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4888",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3302",
+          "subject_code": "EE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_EE_3302_EE_3302L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3302L",
+          "subject_code": "EE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_EE_3302_EE_3302L"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_4419",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_4528",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:IME_4456",
+          "subject_code": "IME",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ME_3313",
+          "subject_code": "ME",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ME_3317",
+          "subject_code": "ME",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ME_3318",
+          "subject_code": "ME",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ME_4416",
+          "subject_code": "ME",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ME_4417",
+          "subject_code": "ME",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ME_4423",
+          "subject_code": "ME",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4460",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4460_CPE_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4461",
+          "subject_code": "CPE",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CPE_4460_CPE_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4260",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_4260_CSC_4261"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4261",
+          "subject_code": "CSC",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_CSC_4260_CSC_4261"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_4460",
+          "subject_code": "ENGR",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_ENGR_4460_ENGR_4461"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_4461",
+          "subject_code": "ENGR",
+          "is_excluded": "N",
+          "pair_group_id": "PAIR_ENGR_4460_ENGR_4461"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_SECURITY",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SECURITY",
+      "label": "Security (30 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 30.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 720,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_SECURITY.MATH_1151",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_SECURITY",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SECURITY",
+      "label": "MATH 1151: Linear Algebra",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 730,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_1151",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_SECURITY.EE_3306_AND_EE_3306L",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_SECURITY",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SECURITY",
+      "label": "EE 3306 & EE 3306L: Electronics I and Electronics Laboratory I",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 740,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_SECURITY.EE_3306_AND_EE_3306L.EE_3306",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_SECURITY.EE_3306_AND_EE_3306L",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SECURITY",
+      "label": "EE 3306",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 750,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3306",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_SECURITY.EE_3306_AND_EE_3306L.EE_3306L",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_SECURITY.EE_3306_AND_EE_3306L",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SECURITY",
+      "label": "EE 3306L",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 760,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:EE_3306L",
+          "subject_code": "EE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_SECURITY.CSC_4260_AND_CSC_4261",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_SECURITY",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SECURITY",
+      "label": "CSC 4260 & CSC 4261: Interdisciplinary Privacy and Security Capstone I and Senior Project - Privacy and Security Capstone II",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 6.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 770,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_SECURITY.CSC_4260_AND_CSC_4261.CSC_4260",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_SECURITY.CSC_4260_AND_CSC_4261",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SECURITY",
+      "label": "CSC 4260",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 780,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4260",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_SECURITY.CSC_4260_AND_CSC_4261.CSC_4261",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_SECURITY.CSC_4260_AND_CSC_4261",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SECURITY",
+      "label": "CSC 4261",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 790,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4261",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.CONC_SECURITY.ELECTIVE_POOL_1",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.CONC_SECURITY",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SECURITY",
+      "label": "Select from the following (3 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 800,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_2263",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3051",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3055",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_3111",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:MATH_4911",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4212",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4220",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4250",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4280",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3001",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3100",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3203",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_3250",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4210",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4214",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4230",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4270",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4291",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4292",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4293",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4310",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4471",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_4472",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_5201",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_5210",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_5220",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_5270",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_5571",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CSC_5572",
+          "subject_code": "CSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:CPE_4495",
+          "subject_code": "CPE",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_2995",
+          "subject_code": "ENGR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_4995",
+          "subject_code": "ENGR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "S:ENGR_5995",
+          "subject_code": "ENGR",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "General Education (2026-2028 Semester Template \u2014 43 total units, 10 in Major/Support)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 43.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 810,
+      "footnote_notes": "Courses may need to be at the 3000-4000 level to ensure completion of the requirement minimum of 40 units of upper-division.",
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_1",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 1: English Communication and Critical Thinking (9 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 820,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_1.A1A",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_1",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 1A: Written Communication (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 830,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "1A",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_1.A1B",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_1",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 1B: Critical Thinking (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 840,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "1B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_1.A1C",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_1",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 1C: Oral Communication (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 850,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "1C",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_2",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 2: Mathematics and Quantitative Reasoning (3 units in Major + 3 UD units in Major)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 6.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 860,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_2.LD_2",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_2",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 2: Mathematics and Quantitative Reasoning (satisfied in Major by MATH 1261)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 870,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_2.UD_2_5",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_2",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Upper-Division 2/5 (satisfied in Major by MATH 3051/3111/3301)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 880,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-2/5",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_3",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 3: Arts and Humanities (9 units: 3A, 3B, UD-3)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 890,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_3.A3A",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_3",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 3A \u2014 Arts (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 900,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "3A",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_3.A3B",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_3",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 3B \u2014 Humanities (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 910,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "3B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_3.UD_3",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_3",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Upper-Division 3 \u2014 Arts and Humanities (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 920,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-3",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_4",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 4: Social and Behavioral Sciences (9 units from >=2 distinct subject prefixes)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 9.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 2,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 930,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_4.A4A",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_4",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 4A \u2014 American Institutions (Title 5) (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 940,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "4A",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_4.A4B",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_4",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 4B \u2014 Social and Behavioral Sciences (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 950,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "4B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_4.UD_4",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_4",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Upper-Division 4 \u2014 Social and Behavioral Sciences (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 960,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-4",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_5",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 5: Physical and Life Sciences (7 units: 5A, 5B, 5C Lab)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 7.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 970,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_5.A5A",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_5",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 5A: Physical Sciences (satisfied in Support by PHYS 1141)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 980,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "5A",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_5.A5B",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_5",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 5B: Life Sciences (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 990,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "5B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_5.A5C_LAB",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE.AREA_5",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE 5C: Science Laboratory (taken with 5A or 5B; satisfied by PHYS 1141)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 0.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 55,
+      "display_order": 1000,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "5C",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.GE.AREA_6",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area 6: Ethnic Studies (3 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1010,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "6",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.UNIV_GRADUATION",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": null,
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "University Minimum Graduation Requirements & 124-Unit Total",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 90,
+      "display_order": 1020,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.UNIV_GRADUATION.TOTAL_180_UNITS",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 124 Baccalaureate Units (determines remaining Free Electives)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": null,
+      "required_units": 124.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1030,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "ALL_BACCALAUREATE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.UNIV_GRADUATION.UD_60_UNITS",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 40 Upper-Division Units (300-400 / 3000-4000 level)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": null,
+      "required_units": 40.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 40.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1040,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "UD_BACCALAUREATE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.UNIV_GRADUATION.USCP",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "U.S. Cultural Pluralism (USCP)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1050,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "USCP_TAG",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "CPE_BS_26_28.UNIV_GRADUATION.GWR",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Graduation Writing Requirement (GWR)",
+      "rule_type": "MILESTONE",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1060,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "CPE_BS_26_28.UNIV_GRADUATION.GPA_MIN_2_0",
+      "program_version_id": "CPE_BS__2026_2028",
+      "parent_node_id": "CPE_BS_26_28.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 2.00 GPA (Cal Poly, Cumulative, and Major)",
+      "rule_type": "MILESTONE",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1070,
+      "footnote_notes": null,
+      "course_matchers": []
+    }
+  ]
+}

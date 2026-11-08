@@ -1,0 +1,137 @@
+{
+  "program_version_id": "BMED_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 87,
+  "total_distinct_subjects": 13,
+  "subjects": [
+    "BIO",
+    "BMED",
+    "BUS",
+    "CE",
+    "CHEM",
+    "ENGR",
+    "IME",
+    "MATE",
+    "MATH",
+    "MCRO",
+    "ME",
+    "PHYS",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "BIO": [
+      "BIO 1151",
+      "BIO 2231",
+      "BIO 2232",
+      "BIO 3312",
+      "BIO 3351",
+      "BIO 4451",
+      "BIO 4452",
+      "BIO 4456",
+      "BIO 4457"
+    ],
+    "BMED": [
+      "BMED 1101",
+      "BMED 2212",
+      "BMED 2310",
+      "BMED 2311",
+      "BMED 2420",
+      "BMED 3102",
+      "BMED 3330",
+      "BMED 3355",
+      "BMED 3360",
+      "BMED 3362",
+      "BMED 3410",
+      "BMED 3425",
+      "BMED 3430",
+      "BMED 4404",
+      "BMED 4422",
+      "BMED 4432",
+      "BMED 4433",
+      "BMED 4434",
+      "BMED 4435",
+      "BMED 4440",
+      "BMED 4445",
+      "BMED 4460",
+      "BMED 4465",
+      "BMED 4466",
+      "BMED 4470",
+      "BMED 4471",
+      "BMED 4480",
+      "BMED 4499",
+      "BMED 5505",
+      "BMED 5510",
+      "BMED 5515",
+      "BMED 5525",
+      "BMED 5530",
+      "BMED 5535",
+      "BMED 5550",
+      "BMED 5555",
+      "BMED 5560",
+      "BMED 5561"
+    ],
+    "BUS": [
+      "BUS 3310"
+    ],
+    "CE": [
+      "CE 4404"
+    ],
+    "CHEM": [
+      "CHEM 1120",
+      "CHEM 1122",
+      "CHEM 2240",
+      "CHEM 3350"
+    ],
+    "ENGR": [
+      "ENGR 2211",
+      "ENGR 2212"
+    ],
+    "IME": [
+      "IME 1140",
+      "IME 1141",
+      "IME 1142",
+      "IME 1143",
+      "IME 3327",
+      "IME 4435",
+      "IME 5527"
+    ],
+    "MATE": [
+      "MATE 1215",
+      "MATE 1220",
+      "MATE 3401",
+      "MATE 4410"
+    ],
+    "MATH": [
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2263",
+      "MATH 2341",
+      "MATH 3351"
+    ],
+    "MCRO": [
+      "MCRO 2224"
+    ],
+    "ME": [
+      "ME 3313",
+      "ME 3328",
+      "ME 3329",
+      "ME 3341",
+      "ME 4401",
+      "ME 4402",
+      "ME 4403",
+      "ME 4404",
+      "ME 4480"
+    ],
+    "PHYS": [
+      "PHYS 1141",
+      "PHYS 1143",
+      "PHYS 2211",
+      "PHYS 3323",
+      "PHYS 4425"
+    ],
+    "STAT": [
+      "STAT 3210"
+    ]
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "program_version_id": "LIBS_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 184,
+  "total_distinct_subjects": 33,
+  "subjects": [
+    "AG",
+    "ASTR",
+    "BIO",
+    "BOT",
+    "CD",
+    "CHEM",
+    "COMS",
+    "EDUC",
+    "EIM",
+    "ENGL",
+    "ENGR",
+    "ERSC",
+    "ES",
+    "GEOG",
+    "GEOL",
+    "HIST",
+    "ISLA",
+    "KINE",
+    "LS",
+    "MATH",
+    "MCRO",
+    "MSCI",
+    "NR",
+    "PHIL",
+    "PHYS",
+    "POLS",
+    "PSC",
+    "PSY",
+    "SCM",
+    "SOC",
+    "STAT",
+    "UNIV",
+    "WGQS"
+  ],
+  "courses_by_subject": {
+    "AG": [
+      "AG 3330"
+    ],
+    "ASTR": [
+      "ASTR 1101",
+      "ASTR 1102",
+      "ASTR 3324"
+    ],
+    "BIO": [
+      "BIO 1114",
+      "BIO 2217",
+      "BIO 2231",
+      "BIO 2232",
+      "BIO 3210",
+      "BIO 3312",
+      "BIO 3315",
+      "BIO 3318",
+      "BIO 4424"
+    ],
+    "BOT": [
+      "BOT 1121",
+      "BOT 3311",
+      "BOT 3326"
+    ],
+    "CD": [
+      "CD 2207",
+      "CD 2254",
+      "CD 3304",
+      "CD 3305",
+      "CD 3306",
+      "CD 3350",
+      "CD 3351",
+      "CD 3356",
+      "CD 4417",
+      "CD 4424",
+      "CD 4460"
+    ],
+    "CHEM": [
+      "CHEM 1110",
+      "CHEM 1112",
+      "CHEM 1120",
+      "CHEM 1122",
+      "CHEM 2240"
+    ],
+    "COMS": [
+      "COMS 3316",
+      "COMS 3390"
+    ],
+    "EDUC": [
+      "EDUC 2207",
+      "EDUC 4427",
+      "EDUC 4440"
+    ],
+    "EIM": [
+      "EIM 3328"
+    ],
+    "ENGL": [
+      "ENGL 2290",
+      "ENGL 3311",
+      "ENGL 3330",
+      "ENGL 3331",
+      "ENGL 3332",
+      "ENGL 3333",
+      "ENGL 3334",
+      "ENGL 3335",
+      "ENGL 3339",
+      "ENGL 3340",
+      "ENGL 3341",
+      "ENGL 3342",
+      "ENGL 3343",
+      "ENGL 3345",
+      "ENGL 3346",
+      "ENGL 3347",
+      "ENGL 3350",
+      "ENGL 3351",
+      "ENGL 3390",
+      "ENGL 3391",
+      "ENGL 3392",
+      "ENGL 3393",
+      "ENGL 4424",
+      "ENGL 4497",
+      "ENGL 4498",
+      "ENGL 4499"
+    ],
+    "ENGR": [
+      "ENGR 3302"
+    ],
+    "ERSC": [
+      "ERSC 3325"
+    ],
+    "ES": [
+      "ES 2253",
+      "ES 2254",
+      "ES 2255",
+      "ES 2256",
+      "ES 3310",
+      "ES 3311",
+      "ES 3312",
+      "ES 3350",
+      "ES 3360",
+      "ES 3380",
+      "ES 3381"
+    ],
+    "GEOG": [
+      "GEOG 1150",
+      "GEOG 3308",
+      "GEOG 3325",
+      "GEOG 3350",
+      "GEOG 3370",
+      "GEOG 3380"
+    ],
+    "GEOL": [
+      "GEOL 2203",
+      "GEOL 2240"
+    ],
+    "HIST": [
+      "HIST 2201",
+      "HIST 2208",
+      "HIST 2210",
+      "HIST 3307",
+      "HIST 3310",
+      "HIST 3311",
+      "HIST 3313",
+      "HIST 3316",
+      "HIST 3319",
+      "HIST 3322",
+      "HIST 3334",
+      "HIST 3335",
+      "HIST 3338"
+    ],
+    "ISLA": [
+      "ISLA 3330"
+    ],
+    "KINE": [
+      "KINE 3310"
+    ],
+    "LS": [
+      "LS 1201",
+      "LS 2230",
+      "LS 2255",
+      "LS 2370",
+      "LS 3211",
+      "LS 3214",
+      "LS 3250",
+      "LS 3301",
+      "LS 3305",
+      "LS 3310",
+      "LS 3350",
+      "LS 3380",
+      "LS 4411",
+      "LS 4412",
+      "LS 4413",
+      "LS 4461",
+      "LS 4462"
+    ],
+    "MATH": [
+      "MATH 1151",
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2031",
+      "MATH 3011",
+      "MATH 3051",
+      "MATH 3055",
+      "MATH 3111",
+      "MATH 3481",
+      "MATH 3482",
+      "MATH 3483",
+      "MATH 3511",
+      "MATH 3971"
+    ],
+    "MCRO": [
+      "MCRO 2221",
+      "MCRO 3342",
+      "MCRO 4421"
+    ],
+    "MSCI": [
+      "MSCI 1111",
+      "MSCI 4440"
+    ],
+    "NR": [
+      "NR 3306",
+      "NR 3310",
+      "NR 3316",
+      "NR 3328"
+    ],
+    "PHIL": [
+      "PHIL 2230",
+      "PHIL 2231",
+      "PHIL 3340"
+    ],
+    "PHYS": [
+      "PHYS 1111",
+      "PHYS 1121",
+      "PHYS 1123",
+      "PHYS 1141",
+      "PHYS 3330"
+    ],
+    "POLS": [
+      "POLS 1112",
+      "POLS 3310",
+      "POLS 3315",
+      "POLS 3319",
+      "POLS 3348",
+      "POLS 3349"
+    ],
+    "PSC": [
+      "PSC 1101",
+      "PSC 1102",
+      "PSC 2201",
+      "PSC 3320",
+      "PSC 3391",
+      "PSC 4424"
+    ],
+    "PSY": [
+      "PSY 2201",
+      "PSY 2205",
+      "PSY 2240",
+      "PSY 3306",
+      "PSY 3318",
+      "PSY 3320",
+      "PSY 3324",
+      "PSY 3325",
+      "PSY 3350",
+      "PSY 3356",
+      "PSY 3357",
+      "PSY 4417",
+      "PSY 4460"
+    ],
+    "SCM": [
+      "SCM 3302",
+      "SCM 3316",
+      "SCM 3330",
+      "SCM 3350",
+      "SCM 3360",
+      "SCM 3368"
+    ],
+    "SOC": [
+      "SOC 3315"
+    ],
+    "STAT": [
+      "STAT 1000",
+      "STAT 1110",
+      "STAT 3710"
+    ],
+    "UNIV": [
+      "UNIV 3330"
+    ],
+    "WGQS": [
+      "WGQS 3324"
+    ]
+  }
+}

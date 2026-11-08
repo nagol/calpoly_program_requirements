@@ -1,0 +1,1354 @@
+{
+  "program_code": "MFGE_BS",
+  "college": "CENG",
+  "catalogs": [
+    "2017-2019",
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2026",
+    "2026-2028"
+  ],
+  "subjects": [
+    "AERO",
+    "AG",
+    "BIO",
+    "BMED",
+    "BUS",
+    "CE",
+    "CHEM",
+    "CPE",
+    "CSC",
+    "EDES",
+    "EE",
+    "ENGL",
+    "ENGR",
+    "HNRS",
+    "IME",
+    "ISLA",
+    "ITP",
+    "MATE",
+    "MATH",
+    "ME",
+    "PHYS",
+    "SCM",
+    "STAT",
+    "UNIV"
+  ],
+  "quarter_courses_by_subject": {
+    "AERO": [
+      "AERO 510",
+      "AERO 511"
+    ],
+    "AG": [
+      "AG 350"
+    ],
+    "BIO": [
+      "BIO 213"
+    ],
+    "BMED": [
+      "BMED 212",
+      "BMED 213",
+      "BMED 410"
+    ],
+    "BUS": [
+      "BUS 310",
+      "BUS 311",
+      "BUS 346",
+      "BUS 382",
+      "BUS 402"
+    ],
+    "CE": [
+      "CE 204",
+      "CE 207"
+    ],
+    "CHEM": [
+      "CHEM 124",
+      "CHEM 125"
+    ],
+    "CPE": [
+      "CPE 488"
+    ],
+    "CSC": [
+      "CSC 232"
+    ],
+    "EDES": [
+      "EDES 350"
+    ],
+    "EE": [
+      "EE 201",
+      "EE 251",
+      "EE 321",
+      "EE 361",
+      "EE 434"
+    ],
+    "ENGL": [
+      "ENGL 147",
+      "ENGL 149"
+    ],
+    "ENGR": [
+      "ENGR 310",
+      "ENGR 350"
+    ],
+    "HNRS": [
+      "HNRS 322"
+    ],
+    "IME": [
+      "IME 101",
+      "IME 140",
+      "IME 141",
+      "IME 142",
+      "IME 144",
+      "IME 156",
+      "IME 212",
+      "IME 223",
+      "IME 244",
+      "IME 301",
+      "IME 303",
+      "IME 305",
+      "IME 312",
+      "IME 314",
+      "IME 315",
+      "IME 319",
+      "IME 322",
+      "IME 327",
+      "IME 330",
+      "IME 331",
+      "IME 335",
+      "IME 336",
+      "IME 342",
+      "IME 351",
+      "IME 356",
+      "IME 400",
+      "IME 401",
+      "IME 408",
+      "IME 409",
+      "IME 410",
+      "IME 415",
+      "IME 416",
+      "IME 417",
+      "IME 418",
+      "IME 420",
+      "IME 421",
+      "IME 424",
+      "IME 428",
+      "IME 429",
+      "IME 430",
+      "IME 432",
+      "IME 435",
+      "IME 441",
+      "IME 442",
+      "IME 443",
+      "IME 450",
+      "IME 451",
+      "IME 456",
+      "IME 457",
+      "IME 458",
+      "IME 460",
+      "IME 470",
+      "IME 471",
+      "IME 481",
+      "IME 482",
+      "IME 483",
+      "IME 510",
+      "IME 511",
+      "IME 520",
+      "IME 527",
+      "IME 541",
+      "IME 542",
+      "IME 543",
+      "IME 544",
+      "IME 545"
+    ],
+    "ISLA": [
+      "ISLA 350"
+    ],
+    "ITP": [
+      "ITP 326",
+      "ITP 329",
+      "ITP 330",
+      "ITP 341",
+      "ITP 371",
+      "ITP 406",
+      "ITP 428"
+    ],
+    "MATE": [
+      "MATE 210",
+      "MATE 215",
+      "MATE 401",
+      "MATE 410",
+      "MATE 430",
+      "MATE 435",
+      "MATE 440",
+      "MATE 445",
+      "MATE 458"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244",
+      "MATH 344",
+      "MATH 350"
+    ],
+    "ME": [
+      "ME 211",
+      "ME 212",
+      "ME 234",
+      "ME 302",
+      "ME 303",
+      "ME 305",
+      "ME 318",
+      "ME 326",
+      "ME 328",
+      "ME 329",
+      "ME 341",
+      "ME 343",
+      "ME 405",
+      "ME 415"
+    ],
+    "PHYS": [
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141",
+      "PHYS 142",
+      "PHYS 143"
+    ],
+    "SCM": [
+      "SCM 350"
+    ],
+    "STAT": [
+      "STAT 321"
+    ],
+    "UNIV": [
+      "UNIV 350"
+    ]
+  },
+  "semester_courses_by_subject": {
+    "BMED": [
+      "BMED 3410",
+      "BMED 4434",
+      "BMED 4435"
+    ],
+    "CHEM": [
+      "CHEM 1120"
+    ],
+    "CSC": [
+      "CSC 1032"
+    ],
+    "EE": [
+      "EE 2115",
+      "EE 2115L"
+    ],
+    "ENGR": [
+      "ENGR 2211",
+      "ENGR 2212"
+    ],
+    "IME": [
+      "IME 1101",
+      "IME 1140",
+      "IME 1141",
+      "IME 1142",
+      "IME 1143",
+      "IME 1156",
+      "IME 1223",
+      "IME 2243",
+      "IME 2315",
+      "IME 3302",
+      "IME 3303",
+      "IME 3327",
+      "IME 3330",
+      "IME 3331",
+      "IME 3332",
+      "IME 3336",
+      "IME 3356",
+      "IME 3410",
+      "IME 3420",
+      "IME 3443",
+      "IME 4319",
+      "IME 4400",
+      "IME 4401",
+      "IME 4408",
+      "IME 4415",
+      "IME 4417",
+      "IME 4418",
+      "IME 4428",
+      "IME 4432",
+      "IME 4435",
+      "IME 4441",
+      "IME 4450",
+      "IME 4456",
+      "IME 4460",
+      "IME 4461",
+      "IME 4462",
+      "IME 4470",
+      "IME 4471",
+      "IME 5510",
+      "IME 5520",
+      "IME 5527",
+      "IME 5541",
+      "IME 5543",
+      "IME 5544",
+      "IME 5545"
+    ],
+    "ITP": [
+      "ITP 3341"
+    ],
+    "MATE": [
+      "MATE 1210",
+      "MATE 1215",
+      "MATE 3401"
+    ],
+    "MATH": [
+      "MATH 1151",
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2263",
+      "MATH 2341"
+    ],
+    "ME": [
+      "ME 3302",
+      "ME 3313",
+      "ME 3315",
+      "ME 3328",
+      "ME 3341",
+      "ME 4480"
+    ],
+    "PHYS": [
+      "PHYS 1141",
+      "PHYS 1143"
+    ],
+    "STAT": [
+      "STAT 3210"
+    ]
+  },
+  "by_catalog": {
+    "2017-2019": {
+      "program_version_id": "MFGE_BS__2017_2019",
+      "catalog_code": "2017-2019",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 114,
+      "total_distinct_subjects": 24,
+      "subjects": [
+        "AERO",
+        "AG",
+        "BIO",
+        "BMED",
+        "BUS",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "EDES",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "HNRS",
+        "IME",
+        "ISLA",
+        "ITP",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "SCM",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "AERO": [
+          "AERO 510",
+          "AERO 511"
+        ],
+        "AG": [
+          "AG 350"
+        ],
+        "BIO": [
+          "BIO 213"
+        ],
+        "BMED": [
+          "BMED 212",
+          "BMED 213",
+          "BMED 410"
+        ],
+        "BUS": [
+          "BUS 310",
+          "BUS 311",
+          "BUS 346"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125"
+        ],
+        "CPE": [
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 232"
+        ],
+        "EDES": [
+          "EDES 350"
+        ],
+        "EE": [
+          "EE 201",
+          "EE 251",
+          "EE 321",
+          "EE 361",
+          "EE 434"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 310",
+          "ENGR 350"
+        ],
+        "HNRS": [
+          "HNRS 322"
+        ],
+        "IME": [
+          "IME 101",
+          "IME 140",
+          "IME 141",
+          "IME 142",
+          "IME 144",
+          "IME 156",
+          "IME 223",
+          "IME 301",
+          "IME 303",
+          "IME 305",
+          "IME 312",
+          "IME 314",
+          "IME 319",
+          "IME 322",
+          "IME 327",
+          "IME 330",
+          "IME 335",
+          "IME 336",
+          "IME 342",
+          "IME 351",
+          "IME 356",
+          "IME 401",
+          "IME 408",
+          "IME 410",
+          "IME 416",
+          "IME 417",
+          "IME 418",
+          "IME 420",
+          "IME 421",
+          "IME 428",
+          "IME 429",
+          "IME 430",
+          "IME 432",
+          "IME 435",
+          "IME 441",
+          "IME 442",
+          "IME 443",
+          "IME 450",
+          "IME 451",
+          "IME 457",
+          "IME 458",
+          "IME 460",
+          "IME 470",
+          "IME 471",
+          "IME 481",
+          "IME 482",
+          "IME 510",
+          "IME 511",
+          "IME 520",
+          "IME 527",
+          "IME 541",
+          "IME 542",
+          "IME 543",
+          "IME 544"
+        ],
+        "ISLA": [
+          "ISLA 350"
+        ],
+        "ITP": [
+          "ITP 326",
+          "ITP 329",
+          "ITP 330",
+          "ITP 341",
+          "ITP 371",
+          "ITP 406",
+          "ITP 428"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 410",
+          "MATE 430",
+          "MATE 440",
+          "MATE 445",
+          "MATE 458"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 344",
+          "MATH 350"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 302",
+          "ME 305",
+          "ME 341",
+          "ME 415"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141"
+        ],
+        "SCM": [
+          "SCM 350"
+        ],
+        "STAT": [
+          "STAT 321"
+        ],
+        "UNIV": [
+          "UNIV 350"
+        ]
+      }
+    },
+    "2019-2020": {
+      "program_version_id": "MFGE_BS__2019_2020",
+      "catalog_code": "2019-2020",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 110,
+      "total_distinct_subjects": 17,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BUS",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "IME",
+        "ITP",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 213"
+        ],
+        "BMED": [
+          "BMED 212",
+          "BMED 213",
+          "BMED 410"
+        ],
+        "BUS": [
+          "BUS 310",
+          "BUS 311",
+          "BUS 346",
+          "BUS 382",
+          "BUS 402"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125"
+        ],
+        "CPE": [
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 232"
+        ],
+        "EE": [
+          "EE 201",
+          "EE 251",
+          "EE 321",
+          "EE 361",
+          "EE 434"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 310",
+          "ENGR 350"
+        ],
+        "IME": [
+          "IME 101",
+          "IME 140",
+          "IME 141",
+          "IME 142",
+          "IME 144",
+          "IME 156",
+          "IME 223",
+          "IME 301",
+          "IME 303",
+          "IME 305",
+          "IME 312",
+          "IME 314",
+          "IME 315",
+          "IME 319",
+          "IME 327",
+          "IME 330",
+          "IME 335",
+          "IME 336",
+          "IME 342",
+          "IME 356",
+          "IME 400",
+          "IME 401",
+          "IME 408",
+          "IME 409",
+          "IME 410",
+          "IME 416",
+          "IME 417",
+          "IME 418",
+          "IME 420",
+          "IME 421",
+          "IME 424",
+          "IME 428",
+          "IME 429",
+          "IME 430",
+          "IME 432",
+          "IME 435",
+          "IME 441",
+          "IME 443",
+          "IME 450",
+          "IME 451",
+          "IME 457",
+          "IME 458",
+          "IME 460",
+          "IME 470",
+          "IME 471",
+          "IME 481",
+          "IME 482",
+          "IME 483",
+          "IME 510",
+          "IME 511",
+          "IME 520",
+          "IME 527",
+          "IME 541",
+          "IME 542",
+          "IME 543",
+          "IME 544",
+          "IME 545"
+        ],
+        "ITP": [
+          "ITP 326",
+          "ITP 330",
+          "ITP 341",
+          "ITP 371",
+          "ITP 406",
+          "ITP 428"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 410",
+          "MATE 430",
+          "MATE 440",
+          "MATE 445",
+          "MATE 458"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 344",
+          "MATH 350"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 302",
+          "ME 305",
+          "ME 341",
+          "ME 415"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141"
+        ],
+        "STAT": [
+          "STAT 321"
+        ]
+      }
+    },
+    "2020-2021": {
+      "program_version_id": "MFGE_BS__2020_2021",
+      "catalog_code": "2020-2021",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 110,
+      "total_distinct_subjects": 17,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BUS",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "IME",
+        "ITP",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 213"
+        ],
+        "BMED": [
+          "BMED 212",
+          "BMED 213",
+          "BMED 410"
+        ],
+        "BUS": [
+          "BUS 310",
+          "BUS 311",
+          "BUS 346",
+          "BUS 382",
+          "BUS 402"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125"
+        ],
+        "CPE": [
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 232"
+        ],
+        "EE": [
+          "EE 201",
+          "EE 251",
+          "EE 321",
+          "EE 361",
+          "EE 434"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 310",
+          "ENGR 350"
+        ],
+        "IME": [
+          "IME 101",
+          "IME 140",
+          "IME 141",
+          "IME 142",
+          "IME 144",
+          "IME 156",
+          "IME 223",
+          "IME 301",
+          "IME 303",
+          "IME 305",
+          "IME 312",
+          "IME 314",
+          "IME 315",
+          "IME 319",
+          "IME 327",
+          "IME 330",
+          "IME 335",
+          "IME 336",
+          "IME 342",
+          "IME 356",
+          "IME 400",
+          "IME 401",
+          "IME 408",
+          "IME 409",
+          "IME 410",
+          "IME 416",
+          "IME 417",
+          "IME 418",
+          "IME 420",
+          "IME 421",
+          "IME 424",
+          "IME 428",
+          "IME 429",
+          "IME 430",
+          "IME 432",
+          "IME 435",
+          "IME 441",
+          "IME 443",
+          "IME 450",
+          "IME 451",
+          "IME 457",
+          "IME 458",
+          "IME 460",
+          "IME 470",
+          "IME 471",
+          "IME 481",
+          "IME 482",
+          "IME 483",
+          "IME 510",
+          "IME 511",
+          "IME 520",
+          "IME 527",
+          "IME 541",
+          "IME 542",
+          "IME 543",
+          "IME 544",
+          "IME 545"
+        ],
+        "ITP": [
+          "ITP 326",
+          "ITP 330",
+          "ITP 341",
+          "ITP 371",
+          "ITP 406",
+          "ITP 428"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 410",
+          "MATE 430",
+          "MATE 440",
+          "MATE 445",
+          "MATE 458"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 344",
+          "MATH 350"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 302",
+          "ME 305",
+          "ME 341",
+          "ME 415"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141"
+        ],
+        "STAT": [
+          "STAT 321"
+        ]
+      }
+    },
+    "2021-2022": {
+      "program_version_id": "MFGE_BS__2021_2022",
+      "catalog_code": "2021-2022",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 119,
+      "total_distinct_subjects": 17,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BUS",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "IME",
+        "ITP",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 213"
+        ],
+        "BMED": [
+          "BMED 212",
+          "BMED 213",
+          "BMED 410"
+        ],
+        "BUS": [
+          "BUS 310",
+          "BUS 311",
+          "BUS 346",
+          "BUS 382"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125"
+        ],
+        "CPE": [
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 232"
+        ],
+        "EE": [
+          "EE 201",
+          "EE 251",
+          "EE 321",
+          "EE 361",
+          "EE 434"
+        ],
+        "ENGL": [
+          "ENGL 147"
+        ],
+        "ENGR": [
+          "ENGR 310",
+          "ENGR 350"
+        ],
+        "IME": [
+          "IME 101",
+          "IME 141",
+          "IME 142",
+          "IME 144",
+          "IME 156",
+          "IME 223",
+          "IME 244",
+          "IME 301",
+          "IME 303",
+          "IME 305",
+          "IME 312",
+          "IME 314",
+          "IME 315",
+          "IME 319",
+          "IME 327",
+          "IME 330",
+          "IME 335",
+          "IME 336",
+          "IME 342",
+          "IME 356",
+          "IME 400",
+          "IME 401",
+          "IME 408",
+          "IME 409",
+          "IME 410",
+          "IME 416",
+          "IME 417",
+          "IME 418",
+          "IME 420",
+          "IME 421",
+          "IME 424",
+          "IME 428",
+          "IME 429",
+          "IME 430",
+          "IME 432",
+          "IME 435",
+          "IME 441",
+          "IME 443",
+          "IME 450",
+          "IME 451",
+          "IME 457",
+          "IME 458",
+          "IME 460",
+          "IME 470",
+          "IME 471",
+          "IME 481",
+          "IME 482",
+          "IME 483",
+          "IME 510",
+          "IME 511",
+          "IME 520",
+          "IME 527",
+          "IME 541",
+          "IME 542",
+          "IME 543",
+          "IME 544",
+          "IME 545"
+        ],
+        "ITP": [
+          "ITP 326",
+          "ITP 330",
+          "ITP 341",
+          "ITP 371",
+          "ITP 406",
+          "ITP 428"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 401",
+          "MATE 410",
+          "MATE 430",
+          "MATE 435",
+          "MATE 440",
+          "MATE 445",
+          "MATE 458"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 344",
+          "MATH 350"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 234",
+          "ME 302",
+          "ME 303",
+          "ME 305",
+          "ME 318",
+          "ME 326",
+          "ME 328",
+          "ME 329",
+          "ME 341",
+          "ME 343",
+          "ME 405",
+          "ME 415"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141"
+        ],
+        "STAT": [
+          "STAT 321"
+        ]
+      }
+    },
+    "2022-2026": {
+      "program_version_id": "MFGE_BS__2022_2026",
+      "catalog_code": "2022-2026",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 123,
+      "total_distinct_subjects": 17,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BUS",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "IME",
+        "ITP",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 213"
+        ],
+        "BMED": [
+          "BMED 212",
+          "BMED 213",
+          "BMED 410"
+        ],
+        "BUS": [
+          "BUS 310",
+          "BUS 311",
+          "BUS 346",
+          "BUS 382"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125"
+        ],
+        "CPE": [
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 232"
+        ],
+        "EE": [
+          "EE 201",
+          "EE 251",
+          "EE 321",
+          "EE 361",
+          "EE 434"
+        ],
+        "ENGL": [
+          "ENGL 147"
+        ],
+        "ENGR": [
+          "ENGR 310",
+          "ENGR 350"
+        ],
+        "IME": [
+          "IME 101",
+          "IME 141",
+          "IME 142",
+          "IME 144",
+          "IME 156",
+          "IME 212",
+          "IME 223",
+          "IME 244",
+          "IME 301",
+          "IME 303",
+          "IME 305",
+          "IME 312",
+          "IME 314",
+          "IME 315",
+          "IME 319",
+          "IME 327",
+          "IME 330",
+          "IME 331",
+          "IME 335",
+          "IME 336",
+          "IME 342",
+          "IME 356",
+          "IME 400",
+          "IME 401",
+          "IME 408",
+          "IME 409",
+          "IME 410",
+          "IME 415",
+          "IME 416",
+          "IME 417",
+          "IME 418",
+          "IME 420",
+          "IME 421",
+          "IME 424",
+          "IME 428",
+          "IME 429",
+          "IME 430",
+          "IME 432",
+          "IME 435",
+          "IME 441",
+          "IME 443",
+          "IME 450",
+          "IME 451",
+          "IME 456",
+          "IME 457",
+          "IME 458",
+          "IME 460",
+          "IME 470",
+          "IME 471",
+          "IME 481",
+          "IME 482",
+          "IME 483",
+          "IME 510",
+          "IME 511",
+          "IME 520",
+          "IME 527",
+          "IME 541",
+          "IME 542",
+          "IME 543",
+          "IME 544",
+          "IME 545"
+        ],
+        "ITP": [
+          "ITP 326",
+          "ITP 330",
+          "ITP 341",
+          "ITP 371",
+          "ITP 406",
+          "ITP 428"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 401",
+          "MATE 410",
+          "MATE 430",
+          "MATE 435",
+          "MATE 440",
+          "MATE 445",
+          "MATE 458"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 344",
+          "MATH 350"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 234",
+          "ME 302",
+          "ME 303",
+          "ME 305",
+          "ME 318",
+          "ME 326",
+          "ME 328",
+          "ME 329",
+          "ME 341",
+          "ME 343",
+          "ME 405",
+          "ME 415"
+        ],
+        "PHYS": [
+          "PHYS 141",
+          "PHYS 142",
+          "PHYS 143"
+        ],
+        "STAT": [
+          "STAT 321"
+        ]
+      }
+    },
+    "2026-2028": {
+      "program_version_id": "MFGE_BS__2026_2028",
+      "catalog_code": "2026-2028",
+      "term_system": "SEMESTER",
+      "total_distinct_courses": 72,
+      "total_distinct_subjects": 12,
+      "subjects": [
+        "BMED",
+        "CHEM",
+        "CSC",
+        "EE",
+        "ENGR",
+        "IME",
+        "ITP",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "BMED": [
+          "BMED 3410",
+          "BMED 4434",
+          "BMED 4435"
+        ],
+        "CHEM": [
+          "CHEM 1120"
+        ],
+        "CSC": [
+          "CSC 1032"
+        ],
+        "EE": [
+          "EE 2115",
+          "EE 2115L"
+        ],
+        "ENGR": [
+          "ENGR 2211",
+          "ENGR 2212"
+        ],
+        "IME": [
+          "IME 1101",
+          "IME 1140",
+          "IME 1141",
+          "IME 1142",
+          "IME 1143",
+          "IME 1156",
+          "IME 1223",
+          "IME 2243",
+          "IME 2315",
+          "IME 3302",
+          "IME 3303",
+          "IME 3327",
+          "IME 3330",
+          "IME 3331",
+          "IME 3332",
+          "IME 3336",
+          "IME 3356",
+          "IME 3410",
+          "IME 3420",
+          "IME 3443",
+          "IME 4319",
+          "IME 4400",
+          "IME 4401",
+          "IME 4408",
+          "IME 4415",
+          "IME 4417",
+          "IME 4418",
+          "IME 4428",
+          "IME 4432",
+          "IME 4435",
+          "IME 4441",
+          "IME 4450",
+          "IME 4456",
+          "IME 4460",
+          "IME 4461",
+          "IME 4462",
+          "IME 4470",
+          "IME 4471",
+          "IME 5510",
+          "IME 5520",
+          "IME 5527",
+          "IME 5541",
+          "IME 5543",
+          "IME 5544",
+          "IME 5545"
+        ],
+        "ITP": [
+          "ITP 3341"
+        ],
+        "MATE": [
+          "MATE 1210",
+          "MATE 1215",
+          "MATE 3401"
+        ],
+        "MATH": [
+          "MATH 1151",
+          "MATH 1261",
+          "MATH 1262",
+          "MATH 2263",
+          "MATH 2341"
+        ],
+        "ME": [
+          "ME 3302",
+          "ME 3313",
+          "ME 3315",
+          "ME 3328",
+          "ME 3341",
+          "ME 4480"
+        ],
+        "PHYS": [
+          "PHYS 1141",
+          "PHYS 1143"
+        ],
+        "STAT": [
+          "STAT 3210"
+        ]
+      }
+    }
+  }
+}

@@ -160,7 +160,11 @@ def main() -> None:
         return
 
     catalogs = ["2017-2019", "2019-2020", "2020-2021", "2021-2022", "2022-2026", "2026-2028"]
-    programs = ["math_bs", "me_bs", "bus_bs"]
+    programs = sorted(
+        p.name
+        for p in (ROOT_DIR / "specs").iterdir()
+        if p.is_dir() and p.name != "courses"
+    )
     all_program_specs: list[dict[str, Any]] = []
 
     for prog_slug in programs:
@@ -172,13 +176,14 @@ def main() -> None:
             spec = json.loads(sp.read_text(encoding="utf-8"))
             prog_specs.append(spec)
             all_program_specs.append(spec)
-            single_sql = emit_oracle_seed(spec)
-            n_cnt, m_cnt = verify_sql_loads_cleanly(single_sql)
-            cat_slug = cat.replace("-", "_")
-            out_p = ROOT_DIR / "sql" / "seeds" / f"{prog_slug}_{cat_slug}_seed.sql"
-            out_p.parent.mkdir(parents=True, exist_ok=True)
-            out_p.write_text(single_sql, encoding="utf-8")
-            print(f"[OK] {prog_slug.upper()} {cat}: {n_cnt} req_nodes, {m_cnt} req_node_courses -> {out_p.relative_to(ROOT_DIR)}")
+            if prog_slug in ("math_bs", "me_bs", "bus_bs"):
+                single_sql = emit_oracle_seed(spec)
+                n_cnt, m_cnt = verify_sql_loads_cleanly(single_sql)
+                cat_slug = cat.replace("-", "_")
+                out_p = ROOT_DIR / "sql" / "seeds" / f"{prog_slug}_{cat_slug}_seed.sql"
+                out_p.parent.mkdir(parents=True, exist_ok=True)
+                out_p.write_text(single_sql, encoding="utf-8")
+                print(f"[OK] {prog_slug.upper()} {cat}: {n_cnt} req_nodes, {m_cnt} req_node_courses -> {out_p.relative_to(ROOT_DIR)}")
 
         if prog_specs:
             prog_combined_sql = emit_multi_catalog_oracle_seed(prog_specs)

@@ -1,0 +1,89 @@
+{
+  "program_version_id": "STAT_BS__2022_2026",
+  "catalog_code": "2022-2026",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 57,
+  "total_distinct_subjects": 7,
+  "subjects": [
+    "CPE",
+    "CSC",
+    "DATA",
+    "IME",
+    "ITP",
+    "MATH",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "CPE": [
+      "CPE 101",
+      "CPE 202",
+      "CPE 203"
+    ],
+    "CSC": [
+      "CSC 101",
+      "CSC 202",
+      "CSC 203",
+      "CSC 248",
+      "CSC 349",
+      "CSC 365",
+      "CSC 369"
+    ],
+    "DATA": [
+      "DATA 301"
+    ],
+    "IME": [
+      "IME 430"
+    ],
+    "ITP": [
+      "ITP 303"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 206",
+      "MATH 241",
+      "MATH 242",
+      "MATH 248",
+      "MATH 306",
+      "MATH 334",
+      "MATH 335",
+      "MATH 406",
+      "MATH 412",
+      "MATH 413",
+      "MATH 414",
+      "MATH 437",
+      "MATH 451"
+    ],
+    "STAT": [
+      "STAT 150",
+      "STAT 301",
+      "STAT 302",
+      "STAT 305",
+      "STAT 323",
+      "STAT 330",
+      "STAT 331",
+      "STAT 334",
+      "STAT 365",
+      "STAT 405",
+      "STAT 414",
+      "STAT 415",
+      "STAT 416",
+      "STAT 417",
+      "STAT 418",
+      "STAT 419",
+      "STAT 421",
+      "STAT 423",
+      "STAT 425",
+      "STAT 426",
+      "STAT 427",
+      "STAT 434",
+      "STAT 466",
+      "STAT 541",
+      "STAT 543",
+      "STAT 545",
+      "STAT 550",
+      "STAT 551"
+    ]
+  }
+}

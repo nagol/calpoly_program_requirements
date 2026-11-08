@@ -1,0 +1,4226 @@
+{
+  "program": {
+    "program_version_id": "LIBS_BS__2022_2026",
+    "program_code": "LIBS_BS",
+    "program_title": "Bachelor of Science in Liberal Studies",
+    "catalog_code": "2022-2026",
+    "catalog_unit_basis": "QUARTER",
+    "total_units_required": 180.0,
+    "min_ud_units_required": 60.0,
+    "concentrations": [
+      "GENERAL",
+      "ENGLISH",
+      "ENVIRONMENTAL_EDUCATION",
+      "SOCIAL_SCIENCE",
+      "HUMAN_DEVELOPMENT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "TESOL"
+    ],
+    "source_snapshot_id": "2022-2026__libs_bs__main"
+  },
+  "nodes": [
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "Major Core Courses",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 60.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 10,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.LS_201",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "LS 201: Orientation to Liberal Studies",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 20,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_201",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.LS_211",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "LS 211: Visual Arts in the Elementary Classroom",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 30,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_211",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.LS_214",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "LS 214: Constitutional Issues in the History of U.S. and California Education",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 40,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_214",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.LS_230",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "LS 230: Field Experience in the Elementary Classroom I",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 2.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 50,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_230",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.LS_250",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "LS 250: Field Experience in the Elementary Classroom II",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 2.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 60,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_250",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.LS_ENGL_255",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "LS/ENGL 255: Children's Literature in a Diverse Society (Lower-Division C Elective)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 70,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_255",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_255",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.LS_301",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "LS 301: Liberal Studies Career Preparation",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 80,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_301",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.LS_310",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "LS 310: Storytelling: Modern Applications of Traditional Narrative",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 90,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_310",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.LS_370",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "LS 370: Performing Arts in the Elementary Classroom",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 100,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_370",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.LS_411_OR_LS_412_OR_LS_413",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "LS 411 or LS 412 or LS 413 (Advanced History/Social Sciences Integration for the K-8 Classroom)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 110,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_411",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_412",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_413",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.LS_461_OR_LS_462",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "LS 461 or LS 462 (Senior Project Seminar)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 120,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_461",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_462",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.ASTR_101",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "ASTR 101: Introduction to the Solar System (B1)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 130,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ASTR_101",
+          "subject_code": "ASTR",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.BIO_111",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BIO 111: General Biology (B2 & B3)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 140,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BIO_111",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.BIO_211",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "BIO 211: Biology of Plants and Animals",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 150,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BIO_211",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.ENGL_391",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "ENGL 391: Topics in Applied Linguistics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 160,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_391",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.GEOG_308",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "GEOG 308: Global Geography (Upper-Division D)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 170,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GEOG_308",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.HIST_201",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "HIST 201: United States History to 1865 (D1)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 180,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_201",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.HIST_208",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "HIST 208: Survey of California History (USCP)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 190,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_208",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.HIST_210",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "HIST 210: World History to 1800 (D2)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 200,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement. [2] Students in the History/Social Sciences concentration, may substitute with HIST 221 .",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_210",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.KINE_310",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "KINE 310: Concepts and Applications in Elementary Physical Education",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 210,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:KINE_310",
+          "subject_code": "KINE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.HLTH_443",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "HLTH 443: Health Education for Teachers",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 220,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HLTH_443",
+          "subject_code": "HLTH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.MATH_227",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 227: Mathematics for Elementary Teaching I (B4)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 230,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_227",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.MATH_328",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 328: Mathematics for Elementary Teaching II",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 240,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_328",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.MATH_329",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 329: Mathematics for Elementary Teaching III",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 250,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_329",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.MATH_330",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "MATH 330: Algebraic Thinking with Technology",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 260,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_330",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.PHIL_230_OR_PHIL_231",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "PHIL 230 or PHIL 231 (Philosophical Classics: Knowledge and Reality (C2))",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 270,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PHIL_230",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PHIL_231",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.PSC_101",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "PSC 101: Matter and Energy (GE Electives)",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 280,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSC_101",
+          "subject_code": "PSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.PSC_102",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "PSC 102: Atoms and Molecules",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 290,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSC_102",
+          "subject_code": "PSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.PSC_103",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "PSC 103: The Physical Environment: Earth",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 10,
+      "display_order": 300,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSC_103",
+          "subject_code": "PSC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.PSY_201_OR_PSY_202",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "PSY 201 or PSY 202 (General Psychology (E))",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 310,
+      "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSY_201",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSY_202",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.STAT_130_OR_STAT_217",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "STAT 130 or STAT 217 (Introduction to Statistical Reasoning)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 320,
+      "footnote_notes": "[3] Students considering a Child Development or Psychology minor should consider taking STAT 217 .",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_130",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_217",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "Courses Needed for Multiple Subject Credential",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 330,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_402",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 402: Learning to Teach K-8 Health and Physical Education with Diverse Populations",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 340,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_402",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_429",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 429: Learning to Teach K-8 Literacy in Schools with Diverse Populations",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 350,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_429",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_431",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 431: Learning to Teach K-8 Social Studies with Diverse Populations",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 360,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_431",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_435",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 435: Learning to Teach K-8 Mathematics with Diverse Populations",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 370,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_435",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_436",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 436: Learning to Teach K-8 Science with Diverse Populations",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 380,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_436",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_438",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 438: Multiple Subject Clinical Practice I",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 390,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_438",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_439",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 439: Multiple Subject Clinical Practice Seminar I",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 400,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_439",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_440",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 440: Educating Individuals with Exceptional Needs",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 410,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_440",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_450",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 450: Teaching Performance Assessment Seminar",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 1.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 420,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_450",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_454",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 454: Multiple Subject Clinical Practice II",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 6.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 430,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_454",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_455",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 455: Multiple Subject Clinical Practice Seminar II",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 440,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_455",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_456",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 456: Multiple Subject Clinical Practice III",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 450,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_456",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI.EDUC_457",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.MAJOR_CORE.COURSES_NEEDED_FOR_MULTI",
+      "domain_type": "MAJOR",
+      "concentration_code": null,
+      "label": "EDUC 457: Multiple Subject Clinical Practice Seminar III",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 3.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 20,
+      "display_order": 460,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_457",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.SUPPORT",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "Support Courses",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 20.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 470,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.SUPPORT.CD_EDUC_207",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "CD/EDUC 207: Children's Learning and Development in Educational Settings",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 480,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CD_207",
+          "subject_code": "CD",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_207",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.SUPPORT.EDUC_427",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "EDUC 427: Theories, Methods, and Assessment of First and Second Language Acquisition in Schools",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 490,
+      "footnote_notes": "[4] Prerequisite for Multiple Subject Credential program at Cal Poly. For a credential program elsewhere, check the prerequisites for that institution.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_427",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.SUPPORT.EDUC_428",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.SUPPORT",
+      "domain_type": "SUPPORT",
+      "concentration_code": null,
+      "label": "EDUC 428: Foundations of K-8 Literacy Teaching and Learning in Schools with Diverse Populations",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 15,
+      "display_order": 500,
+      "footnote_notes": "[4] Prerequisite for Multiple Subject Credential program at Cal Poly. For a credential program elsewhere, check the prerequisites for that institution.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:EDUC_428",
+          "subject_code": "EDUC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_ENGLISH",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENGLISH",
+      "label": "English Concentration (21 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 21.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 510,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_ENGLISH.ENGL_311_OR_ENGL_312",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_ENGLISH",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENGLISH",
+      "label": "ENGL 311 or ENGL 312 (Advanced Rhetorical Inquiry and Composing)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 520,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_311",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_312",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_ENGLISH.ENGL_361",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_ENGLISH",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENGLISH",
+      "label": "ENGL 361: Reading Instruction for the Teaching of Young Adult Literature",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 5.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 530,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_361",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_ENGLISH.ENGL_368_OR_ENGL_424",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_ENGLISH",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENGLISH",
+      "label": "ENGL 368 or ENGL 424 (Theory and Practice of Peer-to-Peer Writing Instruction)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 540,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_368",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_424",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_ENGLISH.ELECTIVE_POOL_1",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_ENGLISH",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENGLISH",
+      "label": "Select from the following (8 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 8.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 550,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_330",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_331",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_332",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_333",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_334",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_335",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_339",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_340",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_341",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_342",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_343",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_345",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_346",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_347",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_350",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_351",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_352",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_ENVIRONMENTAL_EDUCATION",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENVIRONMENTAL_EDUCATION",
+      "label": "Environmental Education Concentration (18 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 18.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 560,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_ENVIRONMENTAL_EDUCATION.CULTURAL_GEOGRAPHY",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_ENVIRONMENTAL_EDUCATION",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "ENVIRONMENTAL_EDUCATION",
+      "label": "Cultural Geography (4 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 570,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BOT_311",
+          "subject_code": "BOT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ES_360",
+          "subject_code": "ES",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:NR_360",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GEOG_150",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GEOG_370",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GEOG_380",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BIO_114",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BIO_227",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BOT_326",
+          "subject_code": "BOT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ERSC_250",
+          "subject_code": "ERSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GEOG_250",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:NR_306",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:NR_310",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSC_201",
+          "subject_code": "PSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:COMS_390",
+          "subject_code": "COMS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_380",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MSCI_440",
+          "subject_code": "MSCI",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:NR_328",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:RPTA_328",
+          "subject_code": "RPTA",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ERSC_325",
+          "subject_code": "ERSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GEOG_325",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GEOG_350",
+          "subject_code": "GEOG",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_311",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:NR_323",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PHIL_340",
+          "subject_code": "PHIL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSC_320",
+          "subject_code": "PSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_413",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:SCM_360",
+          "subject_code": "SCM",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_SOCIAL_SCIENCE",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SOCIAL_SCIENCE",
+      "label": "Social Science Concentration (20 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 20.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 580,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_SOCIAL_SCIENCE.HIST_322",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_SOCIAL_SCIENCE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SOCIAL_SCIENCE",
+      "label": "HIST 322: Modern America",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 590,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_322",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_SOCIAL_SCIENCE.ELECTIVE_POOL_1",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_SOCIAL_SCIENCE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SOCIAL_SCIENCE",
+      "label": "Select from the following World History courses (4 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 600,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_221",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_222",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_223",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:POLS_112",
+          "subject_code": "POLS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:POLS_315",
+          "subject_code": "POLS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:POLS_319",
+          "subject_code": "POLS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:POLS_348",
+          "subject_code": "POLS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:POLS_349",
+          "subject_code": "POLS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_307",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_310",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_313",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_316",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_319",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_334",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_335",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_338",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HIST_341",
+          "subject_code": "HIST",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ES_381",
+          "subject_code": "ES",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_350",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:SOC_309",
+          "subject_code": "SOC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:SOC_315",
+          "subject_code": "SOC",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_HUMAN_DEVELOPMENT",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "HUMAN_DEVELOPMENT",
+      "label": "Human Development Concentration (20 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 20.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 610,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_HUMAN_DEVELOPMENT.ELECTIVE_POOL_1",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_HUMAN_DEVELOPMENT",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "HUMAN_DEVELOPMENT",
+      "label": "Select from the following (20 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 20.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 620,
+      "footnote_notes": "[1] Additional courses are required if pursuing a minor in Child Development or Psychology. If you plan to pursue a minor, meet with an advisor early in your degree.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CD_256",
+          "subject_code": "CD",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CD_304",
+          "subject_code": "CD",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CD_305",
+          "subject_code": "CD",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CD_306",
+          "subject_code": "CD",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSY_318",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSY_324",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSY_340",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CD_350",
+          "subject_code": "CD",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CD_351",
+          "subject_code": "CD",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CD_356",
+          "subject_code": "CD",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CD_460",
+          "subject_code": "CD",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSY_320",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSY_325",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSY_350",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSY_357",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:SPED_420",
+          "subject_code": "SPED",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CD_417",
+          "subject_code": "CD",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CD_424",
+          "subject_code": "CD",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_350",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSY_254",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSY_305",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSY_475",
+          "subject_code": "PSY",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_MATHEMATICS",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MATHEMATICS",
+      "label": "Mathematics Concentration (20 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 20.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 630,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_MATHEMATICS.MATH_141",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_MATHEMATICS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MATHEMATICS",
+      "label": "MATH 141: Calculus I",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 640,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_141",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_MATHEMATICS.MATH_142",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_MATHEMATICS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MATHEMATICS",
+      "label": "MATH 142: Calculus II",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 650,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_142",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_MATHEMATICS.MATH_143",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_MATHEMATICS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MATHEMATICS",
+      "label": "MATH 143: Calculus III",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 660,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_143",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_MATHEMATICS.MATH_248",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_MATHEMATICS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MATHEMATICS",
+      "label": "MATH 248: Methods of Proof in Mathematics",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 670,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_248",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_MATHEMATICS.ELECTIVE_POOL_1",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_MATHEMATICS",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "MATHEMATICS",
+      "label": "Select from the following (4 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 680,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_305",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_300",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_334",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_335",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_341",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_419",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MATH_442",
+          "subject_code": "MATH",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:STAT_410",
+          "subject_code": "STAT",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_SCIENCE",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SCIENCE",
+      "label": "Science Concentration (20 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 20.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 690,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_SCIENCE.CHEMISTRY_REQUIREMENT",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_SCIENCE",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "SCIENCE",
+      "label": "Chemistry Requirement (4 units)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 40,
+      "display_order": 700,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CHEM_110",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CHEM_124",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CHEM_127",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PHYS_111",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PHYS_121",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PHYS_141",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSC_320",
+          "subject_code": "PSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ASTR_102",
+          "subject_code": "ASTR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ASTR_324",
+          "subject_code": "ASTR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BIO_114",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BIO_231",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BIO_232",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BIO_302",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BIO_305",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BIO_308",
+          "subject_code": "BIO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CHEM_308",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BOT_121",
+          "subject_code": "BOT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BOT_311",
+          "subject_code": "BOT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:BOT_326",
+          "subject_code": "BOT",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CHEM_125",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CHEM_126",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CHEM_128",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CHEM_129",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CHEM_312",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CHEM_314",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CHEM_349",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:CHEM_377",
+          "subject_code": "CHEM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ERSC_223",
+          "subject_code": "ERSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GEOL_102",
+          "subject_code": "GEOL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GEOL_203",
+          "subject_code": "GEOL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GEOL_206",
+          "subject_code": "GEOL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:GEOL_305",
+          "subject_code": "GEOL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:LS_305",
+          "subject_code": "LS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MCRO_221",
+          "subject_code": "MCRO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MCRO_342",
+          "subject_code": "MCRO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MCRO_421",
+          "subject_code": "MCRO",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MSCI_111",
+          "subject_code": "MSCI",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MSCI_330",
+          "subject_code": "MSCI",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:MSCI_440",
+          "subject_code": "MSCI",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:NR_306",
+          "subject_code": "NR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PHYS_122",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PHYS_123",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PHYS_142",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PHYS_143",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PHYS_330",
+          "subject_code": "PHYS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:PSC_201",
+          "subject_code": "PSC",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:SCM_302",
+          "subject_code": "SCM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGR_322",
+          "subject_code": "ENGR",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:HNRS_302",
+          "subject_code": "HNRS",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:SCM_360",
+          "subject_code": "SCM",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:SCM_368",
+          "subject_code": "SCM",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_TESOL",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "TESOL",
+      "label": "Tesol Concentration (18 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 18.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 710,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_TESOL.COMS_316",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_TESOL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "TESOL",
+      "label": "COMS 316: Intercultural Communication",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 720,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:COMS_316",
+          "subject_code": "COMS",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_TESOL.ENGL_290_OR_ENGL_390",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_TESOL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "TESOL",
+      "label": "ENGL 290 or ENGL 390 (Introduction to Linguistics)",
+      "rule_type": "ONE_OF_COURSES",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 30,
+      "display_order": 730,
+      "footnote_notes": "[1] Both ENGL 290 and ENGL 390 are required for the TESOL certification.",
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_290",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        },
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_390",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_TESOL.ENGL_497",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_TESOL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "TESOL",
+      "label": "ENGL 497: Theories of Language Learning and Teaching",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 740,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_497",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_TESOL.ENGL_498",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_TESOL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "TESOL",
+      "label": "ENGL 498: Approaches to Teaching English to Speakers of Other Languages",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 750,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_498",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_TESOL.ENGL_499",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_TESOL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "TESOL",
+      "label": "ENGL 499: Practicum in Teaching English to Speakers of Other Languages",
+      "rule_type": "SINGLE_COURSE",
+      "required_count": 1,
+      "required_units": 2.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "MAJOR_PROGRAM",
+      "allocation_priority": 25,
+      "display_order": 760,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "EXACT_COURSE",
+          "offering_course_key": "Q:ENGL_499",
+          "subject_code": "ENGL",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_GENERAL",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "General Curriculum (Courses satisfied in Major Core & Support)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 0.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 30,
+      "display_order": 770,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.CONC_GENERAL.CORE_REF",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.CONC_GENERAL",
+      "domain_type": "CONCENTRATION",
+      "concentration_code": "GENERAL",
+      "label": "General Curriculum in Major Core",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": null,
+      "required_units": 0.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 30,
+      "display_order": 780,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "ALL_BACCALAUREATE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "General Education (2022-2026 Template \u2014 72 total units, 16 in Major)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 72.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 790,
+      "footnote_notes": "Required in Major or Support; also satisfies General Education (GE) requirement.",
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_A",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area A: English Language Communication and Critical Thinking (12 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 800,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_A.A1",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_A",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE A1: Oral Communication (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 810,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "A1",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_A.A2",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_A",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE A2: Written Communication (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 820,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "A2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_A.A3",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_A",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE A3: Critical Thinking (C- or better)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 830,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "A3",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_B",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area B: Scientific Inquiry and Quantitative Reasoning (16 units + Lab)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 16.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 840,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_B.B1",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_B",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE B1: Physical Science (satisfied in Major by PHYS 142/143)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 850,
+      "footnote_notes": "Double-counts with Major Support.",
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "B1",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_B.B2",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_B",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE B2: Life Science",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 860,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "B2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_B.B4",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_B",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE B4: Mathematics/Quantitative Reasoning (satisfied in Major by MATH 141)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "C-",
+      "allow_cr_nc": "N",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 870,
+      "footnote_notes": "Golden Four: C- or better.",
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "B4",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_B.UD_B",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_B",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE UD-B: Upper-Division B (satisfied in Major by MATH 334)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 880,
+      "footnote_notes": "Double-counts with Major MATH 334.",
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-B",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_B.B3_LAB",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_B",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE B3: Laboratory Activity (taken with B1 or B2; satisfied by PHYS 142/143)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 0.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 55,
+      "display_order": 890,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "B3",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_C",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area C: Arts and Humanities (16 units)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 16.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 50,
+      "display_order": 900,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_C.LD",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_C",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Lower-Division Area C (12 units from >=3 distinct subject prefixes)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 3,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 910,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_C.LD.C1",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_C.LD",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE C1: Arts (Arts, Cinema, Dance, Music, Theater)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 920,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "C1",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_C.LD.C2",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_C.LD",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE C2: Humanities (Literature, Philosophy, Languages)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 930,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "C2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_C.LD.LD_C_ELEC",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_C.LD",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE LD_C_ELEC: Lower-Division C Elective (C1 or C2)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 58,
+      "display_order": 940,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "C1,C2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_C.UD_C",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_C",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Upper-Division C (4 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 950,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-C",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_D",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area D: Social Sciences (12 units from >=2 distinct subject prefixes)",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": 12.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 2,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 960,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_D.D1",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_D",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE D1: American Institutions (Title 5)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 970,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "D1",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_D.D2",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_D",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE D2: Lower-Division D",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 980,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "D2",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_D.UD_D",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE.AREA_D",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE UD-D: Upper-Division D",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 990,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "UD-D",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_E",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area E: Lifelong Learning and Self-Development (4 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1000,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "E",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.AREA_F",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "Area F: Ethnic Studies (4 units)",
+      "rule_type": "COURSE_POOL",
+      "required_count": 1,
+      "required_units": 4.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 52,
+      "display_order": 1010,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "F",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.GE.GE_ELECTIVES_BCD",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.GE",
+      "domain_type": "GE",
+      "concentration_code": null,
+      "label": "GE Electives in Areas B, C, and D (8 units across >=2 areas; MATH 142 satisfies 4u B)",
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
+      "required_units": 8.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 2,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": "GE_PROGRAM",
+      "allocation_priority": 70,
+      "display_order": 1020,
+      "footnote_notes": "4 units satisfied in Major by MATH 142 (Area B); remaining 4 units must come from Area C or D.",
+      "course_matchers": [
+        {
+          "course_match_type": "GE_AREA_TAG",
+          "ge_area_tag": "B,C,D",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.UNIV_GRADUATION",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": null,
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "University Minimum Graduation Requirements & 180-Unit Total",
+      "rule_type": "ALL_OF",
+      "required_count": null,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 90,
+      "display_order": 1030,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.UNIV_GRADUATION.TOTAL_180_UNITS",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 180 Baccalaureate Units (determines remaining Free Electives)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": null,
+      "required_units": 180.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1040,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "ALL_BACCALAUREATE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.UNIV_GRADUATION.UD_60_UNITS",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 60 Upper-Division Units (300-400 / 3000-4000 level)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": null,
+      "required_units": 60.0,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 60.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1050,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "UD_BACCALAUREATE",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.UNIV_GRADUATION.USCP",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "U.S. Cultural Pluralism (USCP)",
+      "rule_type": "UNIT_OVERLAY",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1060,
+      "footnote_notes": null,
+      "course_matchers": [
+        {
+          "course_match_type": "USCP_TAG",
+          "is_excluded": "N"
+        }
+      ]
+    },
+    {
+      "node_id": "LIBS_BS_22_26.UNIV_GRADUATION.GWR",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Graduation Writing Requirement (GWR)",
+      "rule_type": "MILESTONE",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1070,
+      "footnote_notes": null,
+      "course_matchers": []
+    },
+    {
+      "node_id": "LIBS_BS_22_26.UNIV_GRADUATION.GPA_MIN_2_0",
+      "program_version_id": "LIBS_BS__2022_2026",
+      "parent_node_id": "LIBS_BS_22_26.UNIV_GRADUATION",
+      "domain_type": "UNIV_OVERLAY",
+      "concentration_code": null,
+      "label": "Minimum 2.00 GPA (Cal Poly, Cumulative, and Major)",
+      "rule_type": "MILESTONE",
+      "required_count": 1,
+      "required_units": null,
+      "child_group_tag": null,
+      "required_tagged_tag": null,
+      "min_tagged_children": 0,
+      "min_ud_courses": 0,
+      "min_ud_units": 0.0,
+      "min_distinct_prefixes": 0,
+      "min_distinct_ge_areas": 0,
+      "min_grade": "D-",
+      "allow_cr_nc": "Y",
+      "exclusive_pool_group": null,
+      "allocation_priority": 95,
+      "display_order": 1080,
+      "footnote_notes": null,
+      "course_matchers": []
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "program_version_id": "BIO_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 115,
+  "total_distinct_subjects": 26,
+  "subjects": [
+    "ANT",
+    "ASCI",
+    "BIO",
+    "BMED",
+    "BOT",
+    "CHEM",
+    "COMS",
+    "CSC",
+    "ENGR",
+    "ES",
+    "FSN",
+    "GEOG",
+    "LA",
+    "MATH",
+    "MCRO",
+    "MSCI",
+    "NR",
+    "NUTR",
+    "PHIL",
+    "PHYS",
+    "PSC",
+    "PSY",
+    "SCM",
+    "SS",
+    "STAT",
+    "WGQS"
+  ],
+  "courses_by_subject": {
+    "ANT": [
+      "ANT 4401"
+    ],
+    "ASCI": [
+      "ASCI 2239",
+      "ASCI 4403"
+    ],
+    "BIO": [
+      "BIO 1150",
+      "BIO 1151",
+      "BIO 2252",
+      "BIO 2253",
+      "BIO 2255",
+      "BIO 3300",
+      "BIO 3321",
+      "BIO 3322",
+      "BIO 3323",
+      "BIO 3324",
+      "BIO 3325",
+      "BIO 3326",
+      "BIO 3327",
+      "BIO 3333",
+      "BIO 3343",
+      "BIO 3351",
+      "BIO 3352",
+      "BIO 3360",
+      "BIO 4400",
+      "BIO 4413",
+      "BIO 4414",
+      "BIO 4429",
+      "BIO 4431",
+      "BIO 4432",
+      "BIO 4433",
+      "BIO 4434",
+      "BIO 4436",
+      "BIO 4437",
+      "BIO 4442",
+      "BIO 4444",
+      "BIO 4450",
+      "BIO 4451",
+      "BIO 4452",
+      "BIO 4455",
+      "BIO 4456",
+      "BIO 4457",
+      "BIO 4461",
+      "BIO 4462",
+      "BIO 4463"
+    ],
+    "BMED": [
+      "BMED 3360",
+      "BMED 4480"
+    ],
+    "BOT": [
+      "BOT 3313",
+      "BOT 3326",
+      "BOT 4433"
+    ],
+    "CHEM": [
+      "CHEM 1120",
+      "CHEM 1122",
+      "CHEM 2240",
+      "CHEM 2242",
+      "CHEM 2244",
+      "CHEM 3330",
+      "CHEM 3350",
+      "CHEM 3352",
+      "CHEM 3354",
+      "CHEM 3372",
+      "CHEM 4450",
+      "CHEM 4454",
+      "CHEM 4457",
+      "CHEM 4458"
+    ],
+    "COMS": [
+      "COMS 4418"
+    ],
+    "CSC": [
+      "CSC 1001",
+      "CSC 1001L"
+    ],
+    "ENGR": [
+      "ENGR 3302"
+    ],
+    "ES": [
+      "ES 3350"
+    ],
+    "FSN": [
+      "FSN 2202"
+    ],
+    "GEOG": [
+      "GEOG 2218",
+      "GEOG 2250",
+      "GEOG 4441"
+    ],
+    "LA": [
+      "LA 2218"
+    ],
+    "MATH": [
+      "MATH 1151",
+      "MATH 1262",
+      "MATH 1264",
+      "MATH 1265"
+    ],
+    "MCRO": [
+      "MCRO 2224",
+      "MCRO 2227",
+      "MCRO 4402"
+    ],
+    "MSCI": [
+      "MSCI 3300",
+      "MSCI 3324",
+      "MSCI 4439"
+    ],
+    "NR": [
+      "NR 1141",
+      "NR 1142",
+      "NR 2218",
+      "NR 4404",
+      "NR 4418",
+      "NR 4442",
+      "NR 4445"
+    ],
+    "NUTR": [
+      "NUTR 3310",
+      "NUTR 3315",
+      "NUTR 3331"
+    ],
+    "PHIL": [
+      "PHIL 3323",
+      "PHIL 3339",
+      "PHIL 3340",
+      "PHIL 3341"
+    ],
+    "PHYS": [
+      "PHYS 1121",
+      "PHYS 1123",
+      "PHYS 1141",
+      "PHYS 1143"
+    ],
+    "PSC": [
+      "PSC 2201"
+    ],
+    "PSY": [
+      "PSY 2240",
+      "PSY 3320"
+    ],
+    "SCM": [
+      "SCM 3302"
+    ],
+    "SS": [
+      "SS 1120",
+      "SS 3321"
+    ],
+    "STAT": [
+      "STAT 1110",
+      "STAT 1810",
+      "STAT 3430",
+      "STAT 3520",
+      "STAT 3530",
+      "STAT 3800",
+      "STAT 3820",
+      "STAT 4760",
+      "STAT 4790"
+    ],
+    "WGQS": [
+      "WGQS 3350"
+    ]
+  }
+}

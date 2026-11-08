@@ -1,0 +1,118 @@
+{
+  "program_version_id": "IE_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 74,
+  "total_distinct_subjects": 11,
+  "subjects": [
+    "CHEM",
+    "CSC",
+    "EE",
+    "ENGR",
+    "IME",
+    "MATE",
+    "MATH",
+    "ME",
+    "PHYS",
+    "PSY",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "CHEM": [
+      "CHEM 1120"
+    ],
+    "CSC": [
+      "CSC 1032"
+    ],
+    "EE": [
+      "EE 2115",
+      "EE 2115L",
+      "EE 2201",
+      "EE 2241"
+    ],
+    "ENGR": [
+      "ENGR 2211"
+    ],
+    "IME": [
+      "IME 1101",
+      "IME 1140",
+      "IME 1141",
+      "IME 1142",
+      "IME 1143",
+      "IME 1156",
+      "IME 1223",
+      "IME 2212",
+      "IME 2315",
+      "IME 3302",
+      "IME 3303",
+      "IME 3326",
+      "IME 3331",
+      "IME 3332",
+      "IME 3356",
+      "IME 3410",
+      "IME 3420",
+      "IME 3443",
+      "IME 4319",
+      "IME 4372",
+      "IME 4400",
+      "IME 4401",
+      "IME 4403",
+      "IME 4408",
+      "IME 4415",
+      "IME 4417",
+      "IME 4418",
+      "IME 4421",
+      "IME 4424",
+      "IME 4428",
+      "IME 4432",
+      "IME 4435",
+      "IME 4441",
+      "IME 4456",
+      "IME 4460",
+      "IME 4461",
+      "IME 4462",
+      "IME 4470",
+      "IME 4471",
+      "IME 5510",
+      "IME 5520",
+      "IME 5527",
+      "IME 5535",
+      "IME 5541",
+      "IME 5543",
+      "IME 5544",
+      "IME 5545",
+      "IME 5565",
+      "IME 5577"
+    ],
+    "MATE": [
+      "MATE 1215",
+      "MATE 1220"
+    ],
+    "MATH": [
+      "MATH 1151",
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2263",
+      "MATH 2341"
+    ],
+    "ME": [
+      "ME 3302"
+    ],
+    "PHYS": [
+      "PHYS 1141",
+      "PHYS 1143"
+    ],
+    "PSY": [
+      "PSY 2201",
+      "PSY 3350"
+    ],
+    "STAT": [
+      "STAT 3210",
+      "STAT 3430",
+      "STAT 3800",
+      "STAT 4740",
+      "STAT 4760",
+      "STAT 4790"
+    ]
+  }
+}

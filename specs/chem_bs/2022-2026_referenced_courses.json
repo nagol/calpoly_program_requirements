@@ -1,0 +1,118 @@
+{
+  "program_version_id": "CHEM_BS__2022_2026",
+  "catalog_code": "2022-2026",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 77,
+  "total_distinct_subjects": 10,
+  "subjects": [
+    "BIO",
+    "CHEM",
+    "CSC",
+    "ENGR",
+    "ENVE",
+    "MATE",
+    "MATH",
+    "PHYS",
+    "SCM",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "BIO": [
+      "BIO 161",
+      "BIO 308",
+      "BIO 441",
+      "BIO 475"
+    ],
+    "CHEM": [
+      "CHEM 124",
+      "CHEM 125",
+      "CHEM 126",
+      "CHEM 203",
+      "CHEM 216",
+      "CHEM 217",
+      "CHEM 218",
+      "CHEM 221",
+      "CHEM 302",
+      "CHEM 303",
+      "CHEM 308",
+      "CHEM 324",
+      "CHEM 331",
+      "CHEM 341",
+      "CHEM 349",
+      "CHEM 351",
+      "CHEM 352",
+      "CHEM 353",
+      "CHEM 356",
+      "CHEM 357",
+      "CHEM 369",
+      "CHEM 372",
+      "CHEM 373",
+      "CHEM 377",
+      "CHEM 401",
+      "CHEM 403",
+      "CHEM 405",
+      "CHEM 414",
+      "CHEM 418",
+      "CHEM 420",
+      "CHEM 428",
+      "CHEM 432",
+      "CHEM 439",
+      "CHEM 441",
+      "CHEM 444",
+      "CHEM 445",
+      "CHEM 446",
+      "CHEM 447",
+      "CHEM 448",
+      "CHEM 449",
+      "CHEM 450",
+      "CHEM 451",
+      "CHEM 454",
+      "CHEM 458",
+      "CHEM 463",
+      "CHEM 465",
+      "CHEM 466",
+      "CHEM 470",
+      "CHEM 474",
+      "CHEM 475",
+      "CHEM 477",
+      "CHEM 481",
+      "CHEM 484",
+      "CHEM 485",
+      "CHEM 495"
+    ],
+    "CSC": [
+      "CSC 232",
+      "CSC 234"
+    ],
+    "ENGR": [
+      "ENGR 322"
+    ],
+    "ENVE": [
+      "ENVE 324"
+    ],
+    "MATE": [
+      "MATE 446"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 206",
+      "MATH 241",
+      "MATH 244"
+    ],
+    "PHYS": [
+      "PHYS 141",
+      "PHYS 142",
+      "PHYS 143"
+    ],
+    "SCM": [
+      "SCM 302",
+      "SCM 360"
+    ],
+    "STAT": [
+      "STAT 218",
+      "STAT 312"
+    ]
+  }
+}

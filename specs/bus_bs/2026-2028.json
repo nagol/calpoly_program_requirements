@@ -502,8 +502,8 @@
       "domain_type": "MAJOR",
       "concentration_code": null,
       "label": "Technology Management (3 units)",
-      "rule_type": "ONE_OF_COURSES",
-      "required_count": 1,
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
       "required_units": 3.0,
       "child_group_tag": null,
       "required_tagged_tag": null,
@@ -542,33 +542,7 @@
           "offering_course_key": "S:ITP_3371",
           "subject_code": "ITP",
           "is_excluded": "N"
-        }
-      ]
-    },
-    {
-      "node_id": "BUS_BS_26_28.MAJOR_CORE.INTERNATIONAL_BUSINESS",
-      "program_version_id": "BUS_BS__2026_2028",
-      "parent_node_id": "BUS_BS_26_28.MAJOR_CORE",
-      "domain_type": "MAJOR",
-      "concentration_code": null,
-      "label": "International Business (3-4 units)",
-      "rule_type": "COURSE_POOL",
-      "required_count": null,
-      "required_units": 3.0,
-      "child_group_tag": null,
-      "required_tagged_tag": null,
-      "min_tagged_children": 0,
-      "min_ud_courses": 0,
-      "min_ud_units": 0.0,
-      "min_distinct_prefixes": 0,
-      "min_distinct_ge_areas": 0,
-      "min_grade": "D-",
-      "allow_cr_nc": "N",
-      "exclusive_pool_group": "MAJOR_PROGRAM",
-      "allocation_priority": 25,
-      "display_order": 170,
-      "footnote_notes": null,
-      "course_matchers": [
+        },
         {
           "course_match_type": "EXACT_COURSE",
           "offering_course_key": "S:BUS_3302",
@@ -612,33 +586,7 @@
           "offering_course_key": "S:ECON_3061",
           "subject_code": "ECON",
           "is_excluded": "N"
-        }
-      ]
-    },
-    {
-      "node_id": "BUS_BS_26_28.MAJOR_CORE.SENIOR_PROJECT",
-      "program_version_id": "BUS_BS__2026_2028",
-      "parent_node_id": "BUS_BS_26_28.MAJOR_CORE",
-      "domain_type": "MAJOR",
-      "concentration_code": null,
-      "label": "Senior Project (3-4 units)",
-      "rule_type": "COURSE_POOL",
-      "required_count": null,
-      "required_units": 3.0,
-      "child_group_tag": null,
-      "required_tagged_tag": null,
-      "min_tagged_children": 0,
-      "min_ud_courses": 0,
-      "min_ud_units": 0.0,
-      "min_distinct_prefixes": 0,
-      "min_distinct_ge_areas": 0,
-      "min_grade": "D-",
-      "allow_cr_nc": "N",
-      "exclusive_pool_group": "MAJOR_PROGRAM",
-      "allocation_priority": 25,
-      "display_order": 180,
-      "footnote_notes": null,
-      "course_matchers": [
+        },
         {
           "course_match_type": "EXACT_COURSE",
           "offering_course_key": "S:BUS_4461",
@@ -712,7 +660,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 15,
-      "display_order": 190,
+      "display_order": 170,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -737,7 +685,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 15,
-      "display_order": 200,
+      "display_order": 180,
       "footnote_notes": "[4] Required in Major or Support; also satisfies General Education (GE) requirement.",
       "course_matchers": [
         {
@@ -769,7 +717,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 210,
+      "display_order": 190,
       "footnote_notes": "[4] Required in Major or Support; also satisfies General Education (GE) requirement. [5] MATH 1264 is recommended for those pursuing the Cross-Disciplinary Studies Data Science Minor or Actuarial Preparation Minor.",
       "course_matchers": [
         {
@@ -807,7 +755,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 15,
-      "display_order": 220,
+      "display_order": 200,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -839,7 +787,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 15,
-      "display_order": 230,
+      "display_order": 210,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -871,7 +819,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 240,
+      "display_order": 220,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -896,7 +844,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 250,
+      "display_order": 230,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -928,7 +876,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 260,
+      "display_order": 240,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -960,7 +908,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 270,
+      "display_order": 250,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -992,7 +940,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 280,
+      "display_order": 260,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1024,7 +972,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 290,
+      "display_order": 270,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1050,33 +998,7 @@
           "offering_course_key": "S:BUS_4489A",
           "subject_code": "BUS",
           "is_excluded": "N"
-        }
-      ]
-    },
-    {
-      "node_id": "BUS_BS_26_28.CONC_GENERAL.APPROVED_ELECTIVES",
-      "program_version_id": "BUS_BS__2026_2028",
-      "parent_node_id": "BUS_BS_26_28.CONC_GENERAL",
-      "domain_type": "CONCENTRATION",
-      "concentration_code": "GENERAL",
-      "label": "Approved Electives (6-7 units)",
-      "rule_type": "COURSE_POOL",
-      "required_count": null,
-      "required_units": 6.0,
-      "child_group_tag": null,
-      "required_tagged_tag": null,
-      "min_tagged_children": 0,
-      "min_ud_courses": 0,
-      "min_ud_units": 0.0,
-      "min_distinct_prefixes": 0,
-      "min_distinct_ge_areas": 0,
-      "min_grade": "D-",
-      "allow_cr_nc": "N",
-      "exclusive_pool_group": "MAJOR_PROGRAM",
-      "allocation_priority": 40,
-      "display_order": 300,
-      "footnote_notes": "[1] Courses taken to meet a major course requirement cannot be double-counted in the concentration. [2] Units in excess of total will be applied towards major's free electives.",
-      "course_matchers": [
+        },
         {
           "course_match_type": "EXACT_COURSE",
           "offering_course_key": "S:BUS_3310",
@@ -1166,7 +1088,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 310,
+      "display_order": 280,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -1191,7 +1113,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 320,
+      "display_order": 290,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1223,7 +1145,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 330,
+      "display_order": 300,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1255,7 +1177,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 340,
+      "display_order": 310,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1287,7 +1209,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 350,
+      "display_order": 320,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1319,7 +1241,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 360,
+      "display_order": 330,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1351,7 +1273,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 370,
+      "display_order": 340,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1407,7 +1329,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 380,
+      "display_order": 350,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -1432,7 +1354,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 390,
+      "display_order": 360,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1464,7 +1386,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 400,
+      "display_order": 370,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1496,7 +1418,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 410,
+      "display_order": 380,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1528,7 +1450,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 420,
+      "display_order": 390,
       "footnote_notes": "[1] Courses taken to meet a major course requirement cannot be double-counted in the concentration.",
       "course_matchers": [
         {
@@ -1560,7 +1482,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 430,
+      "display_order": 400,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1592,7 +1514,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 440,
+      "display_order": 410,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1624,7 +1546,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 450,
+      "display_order": 420,
       "footnote_notes": "[1] Courses taken to meet a major course requirement cannot be double-counted in the concentration.",
       "course_matchers": [
         {
@@ -1704,7 +1626,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 460,
+      "display_order": 430,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -1729,7 +1651,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 470,
+      "display_order": 440,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1761,7 +1683,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 480,
+      "display_order": 450,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1793,7 +1715,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 490,
+      "display_order": 460,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1825,7 +1747,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 500,
+      "display_order": 470,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1863,7 +1785,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 510,
+      "display_order": 480,
       "footnote_notes": "[1] Units in excess of total will be applied towards major's free electives. [2] Courses taken to meet a major course requirement cannot be double-counted in the concentration.",
       "course_matchers": [
         {
@@ -1963,7 +1885,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 520,
+      "display_order": 490,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -1988,7 +1910,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 530,
+      "display_order": 500,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2020,7 +1942,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 540,
+      "display_order": 510,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2052,7 +1974,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 550,
+      "display_order": 520,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2084,7 +2006,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 560,
+      "display_order": 530,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2122,7 +2044,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 35,
-      "display_order": 570,
+      "display_order": 540,
       "footnote_notes": "[2] Courses taken to meet a major course requirement cannot be double-counted in the concentration. Units in excess of total will be applied towards major's free electives.",
       "course_matchers": []
     },
@@ -2147,7 +2069,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 37,
-      "display_order": 580,
+      "display_order": 550,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2209,7 +2131,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 37,
-      "display_order": 590,
+      "display_order": 560,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2283,7 +2205,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 37,
-      "display_order": 600,
+      "display_order": 570,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2345,7 +2267,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 610,
+      "display_order": 580,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -2370,7 +2292,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 620,
+      "display_order": 590,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2402,7 +2324,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 630,
+      "display_order": 600,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2434,7 +2356,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 640,
+      "display_order": 610,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2466,7 +2388,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 650,
+      "display_order": 620,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2498,7 +2420,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 660,
+      "display_order": 630,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2530,7 +2452,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 670,
+      "display_order": 640,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2562,33 +2484,7 @@
           "offering_course_key": "S:BUS_4497A",
           "subject_code": "BUS",
           "is_excluded": "N"
-        }
-      ]
-    },
-    {
-      "node_id": "BUS_BS_26_28.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES",
-      "program_version_id": "BUS_BS__2026_2028",
-      "parent_node_id": "BUS_BS_26_28.CONC_INFORMATION_SYSTEMS",
-      "domain_type": "CONCENTRATION",
-      "concentration_code": "INFORMATION_SYSTEMS",
-      "label": "Approved electives (3 units)",
-      "rule_type": "ONE_OF_COURSES",
-      "required_count": 1,
-      "required_units": 3.0,
-      "child_group_tag": null,
-      "required_tagged_tag": null,
-      "min_tagged_children": 0,
-      "min_ud_courses": 0,
-      "min_ud_units": 0.0,
-      "min_distinct_prefixes": 0,
-      "min_distinct_ge_areas": 0,
-      "min_grade": "D-",
-      "allow_cr_nc": "N",
-      "exclusive_pool_group": "MAJOR_PROGRAM",
-      "allocation_priority": 40,
-      "display_order": 680,
-      "footnote_notes": null,
-      "course_matchers": [
+        },
         {
           "course_match_type": "EXACT_COURSE",
           "offering_course_key": "S:BUS_3395",
@@ -2660,7 +2556,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 690,
+      "display_order": 650,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -2685,7 +2581,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 700,
+      "display_order": 660,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2717,7 +2613,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 710,
+      "display_order": 670,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2749,7 +2645,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 720,
+      "display_order": 680,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2781,7 +2677,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 730,
+      "display_order": 690,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2813,7 +2709,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 740,
+      "display_order": 700,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2839,33 +2735,7 @@
           "offering_course_key": "S:BUS_4489A",
           "subject_code": "BUS",
           "is_excluded": "N"
-        }
-      ]
-    },
-    {
-      "node_id": "BUS_BS_26_28.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES",
-      "program_version_id": "BUS_BS__2026_2028",
-      "parent_node_id": "BUS_BS_26_28.CONC_MANAGEMENT_HR",
-      "domain_type": "CONCENTRATION",
-      "concentration_code": "MANAGEMENT_HR",
-      "label": "Approved Electives (6-7 units)",
-      "rule_type": "COURSE_POOL",
-      "required_count": null,
-      "required_units": 6.0,
-      "child_group_tag": null,
-      "required_tagged_tag": null,
-      "min_tagged_children": 0,
-      "min_ud_courses": 0,
-      "min_ud_units": 0.0,
-      "min_distinct_prefixes": 0,
-      "min_distinct_ge_areas": 0,
-      "min_grade": "D-",
-      "allow_cr_nc": "N",
-      "exclusive_pool_group": "MAJOR_PROGRAM",
-      "allocation_priority": 40,
-      "display_order": 750,
-      "footnote_notes": "[1] Courses taken to meet a major course requirement cannot be double-counted in the concentration. [2] Units in excess of total will be applied towards major's free electives.",
-      "course_matchers": [
+        },
         {
           "course_match_type": "EXACT_COURSE",
           "offering_course_key": "S:BUS_3310",
@@ -2955,7 +2825,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 760,
+      "display_order": 710,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -2980,7 +2850,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 770,
+      "display_order": 720,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -3005,7 +2875,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 780,
+      "display_order": 730,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3037,7 +2907,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 790,
+      "display_order": 740,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3069,7 +2939,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 800,
+      "display_order": 750,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -3094,7 +2964,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 810,
+      "display_order": 760,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3126,7 +2996,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 820,
+      "display_order": 770,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3158,7 +3028,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 830,
+      "display_order": 780,
       "footnote_notes": "[1] Courses taken to meet a major course requirement cannot be double-counted in the concentration.",
       "course_matchers": [
         {
@@ -3308,7 +3178,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 840,
+      "display_order": 790,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -3333,7 +3203,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 850,
+      "display_order": 800,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3365,7 +3235,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 860,
+      "display_order": 810,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3397,7 +3267,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 870,
+      "display_order": 820,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3429,7 +3299,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 880,
+      "display_order": 830,
       "footnote_notes": "[3] Courses taken to meet a major course requirement cannot be double-counted in the concentration.",
       "course_matchers": [
         {
@@ -3509,7 +3379,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 890,
+      "display_order": 840,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -3534,7 +3404,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 900,
+      "display_order": 850,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3566,7 +3436,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 910,
+      "display_order": 860,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3598,7 +3468,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 920,
+      "display_order": 870,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3630,7 +3500,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 930,
+      "display_order": 880,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3662,7 +3532,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 940,
+      "display_order": 890,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3694,7 +3564,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 950,
+      "display_order": 900,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3726,33 +3596,7 @@
           "offering_course_key": "S:BUS_4497A",
           "subject_code": "BUS",
           "is_excluded": "N"
-        }
-      ]
-    },
-    {
-      "node_id": "BUS_BS_26_28.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES",
-      "program_version_id": "BUS_BS__2026_2028",
-      "parent_node_id": "BUS_BS_26_28.CONC_QUANTITATIVE_ANALYSIS",
-      "domain_type": "CONCENTRATION",
-      "concentration_code": "QUANTITATIVE_ANALYSIS",
-      "label": "Approved electives (3 units)",
-      "rule_type": "ONE_OF_COURSES",
-      "required_count": 1,
-      "required_units": 3.0,
-      "child_group_tag": null,
-      "required_tagged_tag": null,
-      "min_tagged_children": 0,
-      "min_ud_courses": 0,
-      "min_ud_units": 0.0,
-      "min_distinct_prefixes": 0,
-      "min_distinct_ge_areas": 0,
-      "min_grade": "D-",
-      "allow_cr_nc": "N",
-      "exclusive_pool_group": "MAJOR_PROGRAM",
-      "allocation_priority": 40,
-      "display_order": 960,
-      "footnote_notes": null,
-      "course_matchers": [
+        },
         {
           "course_match_type": "EXACT_COURSE",
           "offering_course_key": "S:BUS_3395",
@@ -3824,7 +3668,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 970,
+      "display_order": 910,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -3849,7 +3693,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 980,
+      "display_order": 920,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3881,7 +3725,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 990,
+      "display_order": 930,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3913,7 +3757,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 1000,
+      "display_order": 940,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3945,7 +3789,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 1010,
+      "display_order": 950,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3977,7 +3821,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 1020,
+      "display_order": 960,
       "footnote_notes": "[1] Courses taken to meet a major course requirement cannot be double-counted in the concentration.",
       "course_matchers": [
         {
@@ -4009,7 +3853,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 1030,
+      "display_order": 970,
       "footnote_notes": "[1] Courses taken to meet a major course requirement cannot be double-counted in the concentration.",
       "course_matchers": [
         {
@@ -4041,7 +3885,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 1040,
+      "display_order": 980,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4073,7 +3917,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 1050,
+      "display_order": 990,
       "footnote_notes": "[1] Courses taken to meet a major course requirement cannot be double-counted in the concentration.",
       "course_matchers": [
         {
@@ -4123,7 +3967,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1060,
+      "display_order": 1000,
       "footnote_notes": "BUS 3343 is a substitute for BUS 1342 . Students interested in the Financial Management and/or Real Estate Finance concentrations are strongly recommended to take BUS 3343 . Students interested in the Entrepreneurship concentration are recommended to take BUS 1342 .",
       "course_matchers": []
     },
@@ -4148,7 +3992,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1070,
+      "display_order": 1010,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4173,7 +4017,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1080,
+      "display_order": 1020,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4204,7 +4048,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1090,
+      "display_order": 1030,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4235,7 +4079,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1100,
+      "display_order": 1040,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4266,7 +4110,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1110,
+      "display_order": 1050,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4291,7 +4135,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1120,
+      "display_order": 1060,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4322,7 +4166,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1130,
+      "display_order": 1070,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4353,7 +4197,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1140,
+      "display_order": 1080,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4378,7 +4222,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1150,
+      "display_order": 1090,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4409,7 +4253,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1160,
+      "display_order": 1100,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4440,7 +4284,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1170,
+      "display_order": 1110,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4471,7 +4315,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1180,
+      "display_order": 1120,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4496,7 +4340,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1190,
+      "display_order": 1130,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4527,7 +4371,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1200,
+      "display_order": 1140,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4558,7 +4402,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1210,
+      "display_order": 1150,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4589,7 +4433,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1220,
+      "display_order": 1160,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4614,7 +4458,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1230,
+      "display_order": 1170,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4645,7 +4489,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1240,
+      "display_order": 1180,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4676,7 +4520,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 55,
-      "display_order": 1250,
+      "display_order": 1190,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4707,7 +4551,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1260,
+      "display_order": 1200,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4738,7 +4582,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 90,
-      "display_order": 1270,
+      "display_order": 1210,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4763,7 +4607,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 95,
-      "display_order": 1280,
+      "display_order": 1220,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4793,7 +4637,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 95,
-      "display_order": 1290,
+      "display_order": 1230,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4823,7 +4667,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 95,
-      "display_order": 1300,
+      "display_order": 1240,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4853,7 +4697,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 95,
-      "display_order": 1310,
+      "display_order": 1250,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4878,7 +4722,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 95,
-      "display_order": 1320,
+      "display_order": 1260,
       "footnote_notes": null,
       "course_matchers": []
     }

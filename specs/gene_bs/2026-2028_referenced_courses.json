@@ -1,0 +1,68 @@
+{
+  "program_version_id": "GENE_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 24,
+  "total_distinct_subjects": 11,
+  "subjects": [
+    "CHEM",
+    "CSC",
+    "EE",
+    "ENGR",
+    "IME",
+    "MATE",
+    "MATH",
+    "ME",
+    "PHYS",
+    "STAT",
+    "WGQS"
+  ],
+  "courses_by_subject": {
+    "CHEM": [
+      "CHEM 1120"
+    ],
+    "CSC": [
+      "CSC 1032"
+    ],
+    "EE": [
+      "EE 2115",
+      "EE 2115L"
+    ],
+    "ENGR": [
+      "ENGR 1110",
+      "ENGR 2211",
+      "ENGR 2212",
+      "ENGR 3310",
+      "ENGR 4460",
+      "ENGR 4461"
+    ],
+    "IME": [
+      "IME 1140",
+      "IME 1143",
+      "IME 2315"
+    ],
+    "MATE": [
+      "MATE 1215",
+      "MATE 1220"
+    ],
+    "MATH": [
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2263"
+    ],
+    "ME": [
+      "ME 3302"
+    ],
+    "PHYS": [
+      "PHYS 1141",
+      "PHYS 1143"
+    ],
+    "STAT": [
+      "STAT 3210"
+    ],
+    "WGQS": [
+      "WGQS 3350",
+      "WGQS 3351"
+    ]
+  }
+}

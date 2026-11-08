@@ -265,6 +265,25 @@ class TestAuditAndPlannerSQL(unittest.TestCase):
         self.assertEqual(opts["S:BUS_2215"]["prereq_eligibility"], "ELIGIBLE_NOW")
         self.assertEqual(opts["S:BUS_2207"]["prereq_eligibility"], "ELIGIBLE_NOW")
 
+    def test_all_160_program_versions_and_zero_orphaned_course_keys_in_sql(self) -> None:
+        """All 30 undergraduate programs (15 CENG, 14 COSAM, 1 BUS) across 160 catalog versions are seeded cleanly."""
+        prog_cnt = self.conn.execute("SELECT COUNT(DISTINCT program_code) FROM req_programs").fetchone()[0]
+        ver_cnt = self.conn.execute("SELECT COUNT(*) FROM req_programs").fetchone()[0]
+        self.assertEqual(prog_cnt, 30)
+        self.assertEqual(ver_cnt, 160)
+
+        orphans = self.conn.execute(
+            """
+            SELECT COUNT(*)
+            FROM req_node_courses rnc
+            WHERE rnc.offering_course_key IS NOT NULL
+              AND NOT EXISTS (
+                  SELECT 1 FROM cat_courses c WHERE c.offering_course_key = rnc.offering_course_key
+              )
+            """
+        ).fetchone()[0]
+        self.assertEqual(orphans, 0)
+
 
 if __name__ == "__main__":
     unittest.main()

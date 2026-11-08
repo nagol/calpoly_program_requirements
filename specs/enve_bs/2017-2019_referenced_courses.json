@@ -1,0 +1,151 @@
+{
+  "program_version_id": "ENVE_BS__2017_2019",
+  "catalog_code": "2017-2019",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 77,
+  "total_distinct_subjects": 21,
+  "subjects": [
+    "BIO",
+    "BRAE",
+    "CE",
+    "CHEM",
+    "CRP",
+    "ENGL",
+    "ENGR",
+    "ENVE",
+    "ERSC",
+    "GEOG",
+    "IME",
+    "LA",
+    "MATH",
+    "MCRO",
+    "ME",
+    "MSCI",
+    "NR",
+    "PHYS",
+    "PSC",
+    "STAT",
+    "UNIV"
+  ],
+  "courses_by_subject": {
+    "BIO": [
+      "BIO 401"
+    ],
+    "BRAE": [
+      "BRAE 448",
+      "BRAE 532"
+    ],
+    "CE": [
+      "CE 113",
+      "CE 204",
+      "CE 207",
+      "CE 251",
+      "CE 336",
+      "CE 337",
+      "CE 381",
+      "CE 400",
+      "CE 434",
+      "CE 465",
+      "CE 500"
+    ],
+    "CHEM": [
+      "CHEM 124",
+      "CHEM 125",
+      "CHEM 126",
+      "CHEM 312",
+      "CHEM 313",
+      "CHEM 341",
+      "CHEM 350"
+    ],
+    "CRP": [
+      "CRP 404",
+      "CRP 408"
+    ],
+    "ENGL": [
+      "ENGL 149"
+    ],
+    "ENGR": [
+      "ENGR 581"
+    ],
+    "ENVE": [
+      "ENVE 111",
+      "ENVE 264",
+      "ENVE 304",
+      "ENVE 309",
+      "ENVE 325",
+      "ENVE 331",
+      "ENVE 400",
+      "ENVE 405",
+      "ENVE 407",
+      "ENVE 411",
+      "ENVE 421",
+      "ENVE 426",
+      "ENVE 434",
+      "ENVE 436",
+      "ENVE 438",
+      "ENVE 439",
+      "ENVE 443",
+      "ENVE 450",
+      "ENVE 455",
+      "ENVE 466",
+      "ENVE 467",
+      "ENVE 471",
+      "ENVE 480",
+      "ENVE 500",
+      "ENVE 581"
+    ],
+    "ERSC": [
+      "ERSC 414"
+    ],
+    "GEOG": [
+      "GEOG 414"
+    ],
+    "IME": [
+      "IME 314"
+    ],
+    "LA": [
+      "LA 317"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244"
+    ],
+    "MCRO": [
+      "MCRO 221",
+      "MCRO 224",
+      "MCRO 342"
+    ],
+    "ME": [
+      "ME 211"
+    ],
+    "MSCI": [
+      "MSCI 307"
+    ],
+    "NR": [
+      "NR 317",
+      "NR 404",
+      "NR 408"
+    ],
+    "PHYS": [
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141",
+      "PHYS 310",
+      "PHYS 313"
+    ],
+    "PSC": [
+      "PSC 492"
+    ],
+    "STAT": [
+      "STAT 312",
+      "STAT 313",
+      "STAT 323"
+    ],
+    "UNIV": [
+      "UNIV 492"
+    ]
+  }
+}

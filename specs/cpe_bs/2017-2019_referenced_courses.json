@@ -1,0 +1,148 @@
+{
+  "program_version_id": "CPE_BS__2017_2019",
+  "catalog_code": "2017-2019",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 89,
+  "total_distinct_subjects": 16,
+  "subjects": [
+    "BMED",
+    "CHEM",
+    "CPE",
+    "CSC",
+    "DATA",
+    "EE",
+    "ENGL",
+    "ENGR",
+    "HNRS",
+    "IME",
+    "MATE",
+    "MATH",
+    "ME",
+    "PHYS",
+    "STAT",
+    "UNIV"
+  ],
+  "courses_by_subject": {
+    "BMED": [
+      "BMED 432",
+      "BMED 434",
+      "BMED 435"
+    ],
+    "CHEM": [
+      "CHEM 124",
+      "CHEM 125",
+      "CHEM 312"
+    ],
+    "CPE": [
+      "CPE 100",
+      "CPE 101",
+      "CPE 123",
+      "CPE 133",
+      "CPE 202",
+      "CPE 203",
+      "CPE 233",
+      "CPE 315",
+      "CPE 328",
+      "CPE 329",
+      "CPE 350",
+      "CPE 357",
+      "CPE 400",
+      "CPE 450",
+      "CPE 453",
+      "CPE 461",
+      "CPE 462",
+      "CPE 464",
+      "CPE 488"
+    ],
+    "CSC": [
+      "CSC 101",
+      "CSC 123",
+      "CSC 202",
+      "CSC 203",
+      "CSC 300",
+      "CSC 348",
+      "CSC 349",
+      "CSC 357",
+      "CSC 453"
+    ],
+    "DATA": [
+      "DATA 301"
+    ],
+    "EE": [
+      "EE 112",
+      "EE 133",
+      "EE 211",
+      "EE 212",
+      "EE 228",
+      "EE 233",
+      "EE 241",
+      "EE 242",
+      "EE 306",
+      "EE 307",
+      "EE 328",
+      "EE 329",
+      "EE 346",
+      "EE 347",
+      "EE 423"
+    ],
+    "ENGL": [
+      "ENGL 149"
+    ],
+    "ENGR": [
+      "ENGR 551"
+    ],
+    "HNRS": [
+      "HNRS 424"
+    ],
+    "IME": [
+      "IME 156",
+      "IME 157",
+      "IME 301",
+      "IME 303",
+      "IME 314",
+      "IME 319",
+      "IME 401",
+      "IME 457",
+      "IME 458"
+    ],
+    "MATE": [
+      "MATE 210",
+      "MATE 215",
+      "MATE 430",
+      "MATE 435",
+      "MATE 458"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244",
+      "MATH 304",
+      "MATH 408",
+      "MATH 409",
+      "MATH 451"
+    ],
+    "ME": [
+      "ME 211",
+      "ME 405"
+    ],
+    "PHYS": [
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141",
+      "PHYS 211",
+      "PHYS 322",
+      "PHYS 323",
+      "PHYS 408",
+      "PHYS 412",
+      "PHYS 452"
+    ],
+    "STAT": [
+      "STAT 350"
+    ],
+    "UNIV": [
+      "UNIV 424"
+    ]
+  }
+}

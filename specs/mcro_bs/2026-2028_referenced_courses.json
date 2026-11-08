@@ -1,0 +1,125 @@
+{
+  "program_version_id": "MCRO_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 72,
+  "total_distinct_subjects": 14,
+  "subjects": [
+    "ASCI",
+    "BIO",
+    "BRAE",
+    "CHEM",
+    "CSC",
+    "DATA",
+    "DSCI",
+    "FDSC",
+    "FSN",
+    "MATH",
+    "MCRO",
+    "MSCI",
+    "PHYS",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "ASCI": [
+      "ASCI 3303",
+      "ASCI 3321",
+      "ASCI 4403"
+    ],
+    "BIO": [
+      "BIO 1150",
+      "BIO 1151",
+      "BIO 2200",
+      "BIO 2252",
+      "BIO 2253",
+      "BIO 3300",
+      "BIO 3325",
+      "BIO 3352",
+      "BIO 4400",
+      "BIO 4413",
+      "BIO 4414",
+      "BIO 4429",
+      "BIO 4436",
+      "BIO 4450",
+      "BIO 4451",
+      "BIO 4452",
+      "BIO 4456",
+      "BIO 4457",
+      "BIO 4458",
+      "BIO 4461",
+      "BIO 4462",
+      "BIO 4463",
+      "BIO 4466",
+      "BIO 4485",
+      "BIO 4495"
+    ],
+    "BRAE": [
+      "BRAE 4448"
+    ],
+    "CHEM": [
+      "CHEM 1120",
+      "CHEM 1122",
+      "CHEM 2240",
+      "CHEM 2242",
+      "CHEM 3330",
+      "CHEM 3350",
+      "CHEM 3352",
+      "CHEM 3354",
+      "CHEM 3372",
+      "CHEM 3374"
+    ],
+    "CSC": [
+      "CSC 1001",
+      "CSC 1001L"
+    ],
+    "DATA": [
+      "DATA 1264",
+      "DATA 3301"
+    ],
+    "DSCI": [
+      "DSCI 4402"
+    ],
+    "FDSC": [
+      "FDSC 3350",
+      "FDSC 3355"
+    ],
+    "FSN": [
+      "FSN 1111",
+      "FSN 2245",
+      "FSN 3316"
+    ],
+    "MATH": [
+      "MATH 1151",
+      "MATH 1264"
+    ],
+    "MCRO": [
+      "MCRO 1100",
+      "MCRO 2224",
+      "MCRO 2227",
+      "MCRO 3301",
+      "MCRO 3320",
+      "MCRO 3342",
+      "MCRO 3351",
+      "MCRO 3352",
+      "MCRO 4402",
+      "MCRO 4421",
+      "MCRO 4423",
+      "MCRO 4424",
+      "MCRO 4433",
+      "MCRO 4436"
+    ],
+    "MSCI": [
+      "MSCI 4401"
+    ],
+    "PHYS": [
+      "PHYS 1121"
+    ],
+    "STAT": [
+      "STAT 1110",
+      "STAT 3430",
+      "STAT 3520",
+      "STAT 3530",
+      "STAT 3540"
+    ]
+  }
+}

@@ -1,0 +1,896 @@
+{
+  "program_code": "GENE_BS",
+  "college": "CENG",
+  "catalogs": [
+    "2017-2019",
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2026",
+    "2026-2028"
+  ],
+  "subjects": [
+    "BIO",
+    "BMED",
+    "BRAE",
+    "CE",
+    "CHEM",
+    "CPE",
+    "CSC",
+    "EE",
+    "ENGL",
+    "ENGR",
+    "ES",
+    "GEOL",
+    "IME",
+    "MATE",
+    "MATH",
+    "ME",
+    "PHYS",
+    "STAT",
+    "WGQS"
+  ],
+  "quarter_courses_by_subject": {
+    "BIO": [
+      "BIO 213"
+    ],
+    "BMED": [
+      "BMED 213"
+    ],
+    "BRAE": [
+      "BRAE 213"
+    ],
+    "CE": [
+      "CE 204",
+      "CE 207"
+    ],
+    "CHEM": [
+      "CHEM 124",
+      "CHEM 125",
+      "CHEM 126",
+      "CHEM 127",
+      "CHEM 128",
+      "CHEM 129",
+      "CHEM 216",
+      "CHEM 217",
+      "CHEM 220",
+      "CHEM 221",
+      "CHEM 312",
+      "CHEM 313"
+    ],
+    "CPE": [
+      "CPE 101",
+      "CPE 133",
+      "CPE 202",
+      "CPE 329"
+    ],
+    "CSC": [
+      "CSC 101",
+      "CSC 202"
+    ],
+    "EE": [
+      "EE 133",
+      "EE 201",
+      "EE 251",
+      "EE 321",
+      "EE 329",
+      "EE 361"
+    ],
+    "ENGL": [
+      "ENGL 147",
+      "ENGL 149"
+    ],
+    "ENGR": [
+      "ENGR 110",
+      "ENGR 459",
+      "ENGR 460",
+      "ENGR 461"
+    ],
+    "ES": [
+      "ES 350",
+      "ES 351"
+    ],
+    "GEOL": [
+      "GEOL 102",
+      "GEOL 201",
+      "GEOL 205",
+      "GEOL 241",
+      "GEOL 305"
+    ],
+    "IME": [
+      "IME 144",
+      "IME 314",
+      "IME 315",
+      "IME 356",
+      "IME 418"
+    ],
+    "MATE": [
+      "MATE 210",
+      "MATE 215",
+      "MATE 325",
+      "MATE 326",
+      "MATE 327"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244",
+      "MATH 344"
+    ],
+    "ME": [
+      "ME 211",
+      "ME 212",
+      "ME 302",
+      "ME 305",
+      "ME 341",
+      "ME 343",
+      "ME 350"
+    ],
+    "PHYS": [
+      "PHYS 107",
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141",
+      "PHYS 142",
+      "PHYS 143",
+      "PHYS 211",
+      "PHYS 212",
+      "PHYS 323",
+      "PHYS 417"
+    ],
+    "STAT": [
+      "STAT 312",
+      "STAT 350"
+    ]
+  },
+  "semester_courses_by_subject": {
+    "CHEM": [
+      "CHEM 1120"
+    ],
+    "CSC": [
+      "CSC 1032"
+    ],
+    "EE": [
+      "EE 2115",
+      "EE 2115L"
+    ],
+    "ENGR": [
+      "ENGR 1110",
+      "ENGR 2211",
+      "ENGR 2212",
+      "ENGR 3310",
+      "ENGR 4460",
+      "ENGR 4461"
+    ],
+    "IME": [
+      "IME 1140",
+      "IME 1143",
+      "IME 2315"
+    ],
+    "MATE": [
+      "MATE 1215",
+      "MATE 1220"
+    ],
+    "MATH": [
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2263"
+    ],
+    "ME": [
+      "ME 3302"
+    ],
+    "PHYS": [
+      "PHYS 1141",
+      "PHYS 1143"
+    ],
+    "STAT": [
+      "STAT 3210"
+    ],
+    "WGQS": [
+      "WGQS 3350",
+      "WGQS 3351"
+    ]
+  },
+  "by_catalog": {
+    "2017-2019": {
+      "program_version_id": "GENE_BS__2017_2019",
+      "catalog_code": "2017-2019",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 70,
+      "total_distinct_subjects": 17,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BRAE",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "GEOL",
+        "IME",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 213"
+        ],
+        "BMED": [
+          "BMED 213"
+        ],
+        "BRAE": [
+          "BRAE 213"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 126",
+          "CHEM 127",
+          "CHEM 128",
+          "CHEM 129",
+          "CHEM 216",
+          "CHEM 217",
+          "CHEM 220",
+          "CHEM 221",
+          "CHEM 312",
+          "CHEM 313"
+        ],
+        "CPE": [
+          "CPE 101",
+          "CPE 133",
+          "CPE 202",
+          "CPE 329"
+        ],
+        "CSC": [
+          "CSC 101",
+          "CSC 202"
+        ],
+        "EE": [
+          "EE 133",
+          "EE 201",
+          "EE 251",
+          "EE 321",
+          "EE 329",
+          "EE 361"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 110",
+          "ENGR 459",
+          "ENGR 460",
+          "ENGR 461"
+        ],
+        "GEOL": [
+          "GEOL 102",
+          "GEOL 201",
+          "GEOL 205",
+          "GEOL 241",
+          "GEOL 305"
+        ],
+        "IME": [
+          "IME 144",
+          "IME 314",
+          "IME 356",
+          "IME 418"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 325",
+          "MATE 326",
+          "MATE 327"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 344"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 302",
+          "ME 305",
+          "ME 341",
+          "ME 350"
+        ],
+        "PHYS": [
+          "PHYS 107",
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 211",
+          "PHYS 212",
+          "PHYS 323",
+          "PHYS 417"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 350"
+        ]
+      }
+    },
+    "2019-2020": {
+      "program_version_id": "GENE_BS__2019_2020",
+      "catalog_code": "2019-2020",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 71,
+      "total_distinct_subjects": 17,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BRAE",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "GEOL",
+        "IME",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 213"
+        ],
+        "BMED": [
+          "BMED 213"
+        ],
+        "BRAE": [
+          "BRAE 213"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 126",
+          "CHEM 127",
+          "CHEM 128",
+          "CHEM 129",
+          "CHEM 216",
+          "CHEM 217",
+          "CHEM 220",
+          "CHEM 221",
+          "CHEM 312",
+          "CHEM 313"
+        ],
+        "CPE": [
+          "CPE 101",
+          "CPE 133",
+          "CPE 202",
+          "CPE 329"
+        ],
+        "CSC": [
+          "CSC 101",
+          "CSC 202"
+        ],
+        "EE": [
+          "EE 133",
+          "EE 201",
+          "EE 251",
+          "EE 321",
+          "EE 329",
+          "EE 361"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 110",
+          "ENGR 459",
+          "ENGR 460",
+          "ENGR 461"
+        ],
+        "GEOL": [
+          "GEOL 102",
+          "GEOL 201",
+          "GEOL 205",
+          "GEOL 241",
+          "GEOL 305"
+        ],
+        "IME": [
+          "IME 144",
+          "IME 314",
+          "IME 315",
+          "IME 356",
+          "IME 418"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 325",
+          "MATE 326",
+          "MATE 327"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 344"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 302",
+          "ME 305",
+          "ME 341",
+          "ME 350"
+        ],
+        "PHYS": [
+          "PHYS 107",
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 211",
+          "PHYS 212",
+          "PHYS 323",
+          "PHYS 417"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 350"
+        ]
+      }
+    },
+    "2020-2021": {
+      "program_version_id": "GENE_BS__2020_2021",
+      "catalog_code": "2020-2021",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 70,
+      "total_distinct_subjects": 16,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "GEOL",
+        "IME",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 213"
+        ],
+        "BMED": [
+          "BMED 213"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 126",
+          "CHEM 127",
+          "CHEM 128",
+          "CHEM 129",
+          "CHEM 216",
+          "CHEM 217",
+          "CHEM 220",
+          "CHEM 221",
+          "CHEM 312",
+          "CHEM 313"
+        ],
+        "CPE": [
+          "CPE 101",
+          "CPE 133",
+          "CPE 202",
+          "CPE 329"
+        ],
+        "CSC": [
+          "CSC 101",
+          "CSC 202"
+        ],
+        "EE": [
+          "EE 133",
+          "EE 201",
+          "EE 251",
+          "EE 321",
+          "EE 329",
+          "EE 361"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 110",
+          "ENGR 459",
+          "ENGR 460",
+          "ENGR 461"
+        ],
+        "GEOL": [
+          "GEOL 102",
+          "GEOL 201",
+          "GEOL 205",
+          "GEOL 241",
+          "GEOL 305"
+        ],
+        "IME": [
+          "IME 144",
+          "IME 314",
+          "IME 315",
+          "IME 356",
+          "IME 418"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 325",
+          "MATE 326",
+          "MATE 327"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 344"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 302",
+          "ME 305",
+          "ME 341",
+          "ME 350"
+        ],
+        "PHYS": [
+          "PHYS 107",
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 211",
+          "PHYS 212",
+          "PHYS 323",
+          "PHYS 417"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 350"
+        ]
+      }
+    },
+    "2021-2022": {
+      "program_version_id": "GENE_BS__2021_2022",
+      "catalog_code": "2021-2022",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 68,
+      "total_distinct_subjects": 16,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "GEOL",
+        "IME",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 213"
+        ],
+        "BMED": [
+          "BMED 213"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 126",
+          "CHEM 127",
+          "CHEM 128",
+          "CHEM 129",
+          "CHEM 216",
+          "CHEM 217",
+          "CHEM 220",
+          "CHEM 221",
+          "CHEM 312",
+          "CHEM 313"
+        ],
+        "CPE": [
+          "CPE 101",
+          "CPE 133",
+          "CPE 202",
+          "CPE 329"
+        ],
+        "CSC": [
+          "CSC 101",
+          "CSC 202"
+        ],
+        "EE": [
+          "EE 133",
+          "EE 201",
+          "EE 251",
+          "EE 321",
+          "EE 329",
+          "EE 361"
+        ],
+        "ENGL": [
+          "ENGL 147"
+        ],
+        "ENGR": [
+          "ENGR 110",
+          "ENGR 459",
+          "ENGR 460",
+          "ENGR 461"
+        ],
+        "GEOL": [
+          "GEOL 102",
+          "GEOL 201",
+          "GEOL 241",
+          "GEOL 305"
+        ],
+        "IME": [
+          "IME 144",
+          "IME 314",
+          "IME 315",
+          "IME 356",
+          "IME 418"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 325",
+          "MATE 326",
+          "MATE 327"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 344"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 302",
+          "ME 305",
+          "ME 341",
+          "ME 343"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 211",
+          "PHYS 212",
+          "PHYS 323",
+          "PHYS 417"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 350"
+        ]
+      }
+    },
+    "2022-2026": {
+      "program_version_id": "GENE_BS__2022_2026",
+      "catalog_code": "2022-2026",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 56,
+      "total_distinct_subjects": 14,
+      "subjects": [
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "EE",
+        "ENGR",
+        "ES",
+        "GEOL",
+        "IME",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 126",
+          "CHEM 127",
+          "CHEM 128",
+          "CHEM 129"
+        ],
+        "CPE": [
+          "CPE 101",
+          "CPE 133",
+          "CPE 202",
+          "CPE 329"
+        ],
+        "CSC": [
+          "CSC 101",
+          "CSC 202"
+        ],
+        "EE": [
+          "EE 133",
+          "EE 201",
+          "EE 251",
+          "EE 321",
+          "EE 329",
+          "EE 361"
+        ],
+        "ENGR": [
+          "ENGR 110",
+          "ENGR 459",
+          "ENGR 460",
+          "ENGR 461"
+        ],
+        "ES": [
+          "ES 350",
+          "ES 351"
+        ],
+        "GEOL": [
+          "GEOL 102",
+          "GEOL 201",
+          "GEOL 241",
+          "GEOL 305"
+        ],
+        "IME": [
+          "IME 144",
+          "IME 314",
+          "IME 315",
+          "IME 356",
+          "IME 418"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 344"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 302",
+          "ME 305",
+          "ME 341",
+          "ME 343"
+        ],
+        "PHYS": [
+          "PHYS 141",
+          "PHYS 142",
+          "PHYS 143",
+          "PHYS 211",
+          "PHYS 323"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 350"
+        ]
+      }
+    },
+    "2026-2028": {
+      "program_version_id": "GENE_BS__2026_2028",
+      "catalog_code": "2026-2028",
+      "term_system": "SEMESTER",
+      "total_distinct_courses": 24,
+      "total_distinct_subjects": 11,
+      "subjects": [
+        "CHEM",
+        "CSC",
+        "EE",
+        "ENGR",
+        "IME",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT",
+        "WGQS"
+      ],
+      "courses_by_subject": {
+        "CHEM": [
+          "CHEM 1120"
+        ],
+        "CSC": [
+          "CSC 1032"
+        ],
+        "EE": [
+          "EE 2115",
+          "EE 2115L"
+        ],
+        "ENGR": [
+          "ENGR 1110",
+          "ENGR 2211",
+          "ENGR 2212",
+          "ENGR 3310",
+          "ENGR 4460",
+          "ENGR 4461"
+        ],
+        "IME": [
+          "IME 1140",
+          "IME 1143",
+          "IME 2315"
+        ],
+        "MATE": [
+          "MATE 1215",
+          "MATE 1220"
+        ],
+        "MATH": [
+          "MATH 1261",
+          "MATH 1262",
+          "MATH 2263"
+        ],
+        "ME": [
+          "ME 3302"
+        ],
+        "PHYS": [
+          "PHYS 1141",
+          "PHYS 1143"
+        ],
+        "STAT": [
+          "STAT 3210"
+        ],
+        "WGQS": [
+          "WGQS 3350",
+          "WGQS 3351"
+        ]
+      }
+    }
+  }
+}

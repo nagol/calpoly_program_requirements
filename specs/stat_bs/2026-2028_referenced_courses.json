@@ -1,0 +1,85 @@
+{
+  "program_version_id": "STAT_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 59,
+  "total_distinct_subjects": 5,
+  "subjects": [
+    "CSC",
+    "DATA",
+    "ITP",
+    "MATH",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "CSC": [
+      "CSC 1001",
+      "CSC 1001L",
+      "CSC 2001",
+      "CSC 2001L",
+      "CSC 3449",
+      "CSC 3665"
+    ],
+    "DATA": [
+      "DATA 1000",
+      "DATA 1264",
+      "DATA 1265",
+      "DATA 1810",
+      "DATA 3301",
+      "DATA 3302",
+      "DATA 3800",
+      "DATA 3820",
+      "DATA 4401",
+      "DATA 4610",
+      "DATA 4620",
+      "DATA 4810",
+      "DATA 4820",
+      "DATA 5550"
+    ],
+    "ITP": [
+      "ITP 3303"
+    ],
+    "MATH": [
+      "MATH 1151",
+      "MATH 1264",
+      "MATH 1265",
+      "MATH 2031",
+      "MATH 2343",
+      "MATH 2621",
+      "MATH 3051",
+      "MATH 3055",
+      "MATH 3152",
+      "MATH 3651",
+      "MATH 4264",
+      "MATH 4653",
+      "MATH 4911"
+    ],
+    "STAT": [
+      "STAT 1510",
+      "STAT 1810",
+      "STAT 2610",
+      "STAT 3520",
+      "STAT 3530",
+      "STAT 3540",
+      "STAT 3710",
+      "STAT 3800",
+      "STAT 3820",
+      "STAT 4366",
+      "STAT 4460",
+      "STAT 4610",
+      "STAT 4620",
+      "STAT 4740",
+      "STAT 4750",
+      "STAT 4760",
+      "STAT 4770",
+      "STAT 4780",
+      "STAT 4790",
+      "STAT 4810",
+      "STAT 4820",
+      "STAT 5530",
+      "STAT 5550",
+      "STAT 5710",
+      "STAT 5740"
+    ]
+  }
+}

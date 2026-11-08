@@ -222,7 +222,11 @@ def parse_pool_rows_with_exclusions(
 
         if not r.courses:
             continue
-        is_excluded = "Y" if "with the exception of" in c_lower else "N"
+        is_excluded = (
+            "Y"
+            if ("with the exception of" in c_lower or "with the following exceptions" in c_lower)
+            else "N"
+        )
         is_pair = len(r.courses) > 1 and any(c.is_and_continuation for c in r.courses[1:])
         pair_id = None
         if is_pair:
@@ -253,6 +257,29 @@ def _make_unique_node_id(builder: NodeBuilder, candidate: str) -> str:
     return f"{candidate}_{idx}"
 
 
+def _is_ge_or_free_electives_boundary(row: CourseListRow) -> bool:
+    if row.indent_px > 0 or row.courses:
+        return False
+    cl = row.comment_text.strip().lower()
+    return cl.startswith(("general education", "free electives"))
+
+
+def _has_indented_courses_ahead(rows: list[CourseListRow], start_idx: int) -> bool:
+    """Return True if the next course row at or after `start_idx` (before any major section boundary) is indented."""
+    k = start_idx
+    while k < len(rows):
+        rk = rows[k]
+        if rk.is_list_sum or _is_ge_or_free_electives_boundary(rk):
+            return False
+        cl = rk.comment_text.strip().lower()
+        if rk.indent_px == 0 and cl.startswith("support courses"):
+            return False
+        if rk.courses and "with the exception of" not in cl and "no more than" not in cl:
+            return rk.indent_px >= 20
+        k += 1
+    return False
+
+
 def parse_courseleaf_section_rows(
     builder: NodeBuilder,
     rows: list[CourseListRow],
@@ -280,7 +307,7 @@ def parse_courseleaf_section_rows(
         c_lower = c_text.lower()
 
         # 1. Stop if we hit GE or Free Electives in main table
-        if "general education" in c_lower or "free electives" in c_lower:
+        if _is_ge_or_free_electives_boundary(row):
             break
 
         # 2. Skip concentration pointer rows in main table
@@ -391,21 +418,20 @@ def parse_courseleaf_section_rows(
                     break
                 pr_comment = pr.comment_text.strip()
                 pr_lower = pr_comment.lower()
+                if _is_ge_or_free_electives_boundary(pr) or (
+                    pr.indent_px == 0 and pr_lower.startswith("support courses")
+                ):
+                    break
                 # If indent_px >= 20, it belongs to this pool
                 if pr.indent_px >= 20:
                     pool_rows.append(pr)
                     i += 1
                     continue
-                # Some pools (like Quantitative Analysis or 2017-19 Entrepreneurship)
-                # have unindented sub-category headers inside the pool followed by more indented courses
+                # Unindented sub-category headers / notes inside the pool followed by more indented courses
                 if (
                     not pr.courses
-                    and not pr.hours_text.strip()
-                    and i + 1 < len(rows)
-                    and rows[i + 1].indent_px >= 20
-                    and "select from the following" not in pr_lower
-                    and "general education" not in pr_lower
-                    and "support courses" not in pr_lower
+                    and (not pr.hours_text.strip() or "select" in pr_lower)
+                    and _has_indented_courses_ahead(rows, i + 1)
                 ):
                     i += 1
                     continue
@@ -417,6 +443,23 @@ def parse_courseleaf_section_rows(
             pool_id = _make_unique_node_id(builder, f"{parent_id}.{slug_base}")
 
             matchers = parse_pool_rows_with_exclusions(pool_rows, term_sys=term_sys)
+            if not matchers:
+                if row.hours_text.strip():
+                    builder.add(
+                        node_id=pool_id,
+                        parent_node_id=parent_id,
+                        domain_type=domain_type,
+                        concentration_code=concentration_code,
+                        label=f"{label_prefix} ({row.hours_text.strip()} units)",
+                        rule_type="UNIT_OVERLAY",
+                        required_units=units,
+                        exclusive_pool_group="MAJOR_PROGRAM",
+                        allocation_priority=base_priority + 15,
+                        footnote_notes=resolve_footnotes(row.footnote_refs, footnotes),
+                        course_matchers=[{"course_match_type": "UD_BACCALAUREATE", "is_excluded": "N"}],
+                    )
+                continue
+
             has_pairs = any(m.get("pair_group_id") for m in matchers)
             is_single_choice = (units <= default_u) and not has_pairs
 
@@ -443,12 +486,19 @@ def parse_courseleaf_section_rows(
             i += 1
             continue
 
-        # 7. Top-level course row (with optional immediate `orclass` alternatives)
+        # 7. Top-level course row (with optional immediate `orclass` alternatives or standalone `or` row)
         pending_heading = None
         group_rows = [row]
-        while i + 1 < len(rows) and rows[i + 1].is_or_row:
-            i += 1
-            group_rows.append(rows[i])
+        while i + 1 < len(rows):
+            nxt = rows[i + 1]
+            if nxt.is_or_row and nxt.courses:
+                i += 1
+                group_rows.append(nxt)
+            elif not nxt.courses and nxt.comment_text.strip().lower() == "or" and i + 2 < len(rows) and rows[i + 2].courses:
+                i += 2
+                group_rows.append(rows[i])
+            else:
+                break
 
         units = parse_min_units(row.hours_text, default=default_u)
         all_codes: list[str] = []
@@ -570,15 +620,15 @@ def build_main_major_and_support(
     """Split `main_table` at `SUPPORT COURSES` and build `MAJOR_CORE` and `SUPPORT` trees."""
     rows = main_table.rows
     support_idx = next(
-        (idx for idx, r in enumerate(rows) if "support courses" in r.comment_text.lower()),
-        len(rows),
-    )
-    ge_idx = next(
         (
             idx
             for idx, r in enumerate(rows)
-            if "general education" in r.comment_text.lower() or "free electives" in r.comment_text.lower()
+            if r.indent_px == 0 and r.comment_text.strip().lower().startswith("support courses")
         ),
+        len(rows),
+    )
+    ge_idx = next(
+        (idx for idx, r in enumerate(rows) if _is_ge_or_free_electives_boundary(r)),
         len(rows),
     )
 

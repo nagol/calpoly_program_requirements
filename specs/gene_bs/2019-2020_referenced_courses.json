@@ -1,0 +1,133 @@
+{
+  "program_version_id": "GENE_BS__2019_2020",
+  "catalog_code": "2019-2020",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 71,
+  "total_distinct_subjects": 17,
+  "subjects": [
+    "BIO",
+    "BMED",
+    "BRAE",
+    "CE",
+    "CHEM",
+    "CPE",
+    "CSC",
+    "EE",
+    "ENGL",
+    "ENGR",
+    "GEOL",
+    "IME",
+    "MATE",
+    "MATH",
+    "ME",
+    "PHYS",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "BIO": [
+      "BIO 213"
+    ],
+    "BMED": [
+      "BMED 213"
+    ],
+    "BRAE": [
+      "BRAE 213"
+    ],
+    "CE": [
+      "CE 204",
+      "CE 207"
+    ],
+    "CHEM": [
+      "CHEM 124",
+      "CHEM 125",
+      "CHEM 126",
+      "CHEM 127",
+      "CHEM 128",
+      "CHEM 129",
+      "CHEM 216",
+      "CHEM 217",
+      "CHEM 220",
+      "CHEM 221",
+      "CHEM 312",
+      "CHEM 313"
+    ],
+    "CPE": [
+      "CPE 101",
+      "CPE 133",
+      "CPE 202",
+      "CPE 329"
+    ],
+    "CSC": [
+      "CSC 101",
+      "CSC 202"
+    ],
+    "EE": [
+      "EE 133",
+      "EE 201",
+      "EE 251",
+      "EE 321",
+      "EE 329",
+      "EE 361"
+    ],
+    "ENGL": [
+      "ENGL 149"
+    ],
+    "ENGR": [
+      "ENGR 110",
+      "ENGR 459",
+      "ENGR 460",
+      "ENGR 461"
+    ],
+    "GEOL": [
+      "GEOL 102",
+      "GEOL 201",
+      "GEOL 205",
+      "GEOL 241",
+      "GEOL 305"
+    ],
+    "IME": [
+      "IME 144",
+      "IME 314",
+      "IME 315",
+      "IME 356",
+      "IME 418"
+    ],
+    "MATE": [
+      "MATE 210",
+      "MATE 215",
+      "MATE 325",
+      "MATE 326",
+      "MATE 327"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244",
+      "MATH 344"
+    ],
+    "ME": [
+      "ME 211",
+      "ME 212",
+      "ME 302",
+      "ME 305",
+      "ME 341",
+      "ME 350"
+    ],
+    "PHYS": [
+      "PHYS 107",
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141",
+      "PHYS 211",
+      "PHYS 212",
+      "PHYS 323",
+      "PHYS 417"
+    ],
+    "STAT": [
+      "STAT 312",
+      "STAT 350"
+    ]
+  }
+}

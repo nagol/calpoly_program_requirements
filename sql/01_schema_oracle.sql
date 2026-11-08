@@ -97,3 +97,14 @@ CREATE TABLE req_node_courses (
     is_excluded            CHAR(1)       DEFAULT 'N' NOT NULL
 );
 
+-- 7. Performance Indexes for Multi-Program / Multi-Catalog Joins (Oracle & SQLite)
+CREATE INDEX idx_cat_courses_course_id ON cat_courses(course_id);
+CREATE INDEX idx_cat_courses_subj_level ON cat_courses(term_system, subject_code, course_level);
+CREATE INDEX idx_cat_equiv_prior ON cat_course_equivalencies(equiv_type, prior_course_set);
+CREATE INDEX idx_cat_equiv_sem ON cat_course_equivalencies(equiv_type, semester_course_set);
+CREATE INDEX idx_cat_prereq_course ON cat_course_prereq_options(offering_course_key);
+CREATE INDEX idx_req_nodes_pvid ON req_nodes(program_version_id, concentration_code);
+CREATE INDEX idx_req_nodes_parent ON req_nodes(parent_node_id);
+CREATE INDEX idx_req_node_courses_nid ON req_node_courses(node_id, is_excluded);
+CREATE INDEX idx_req_node_courses_okey ON req_node_courses(offering_course_key);
+

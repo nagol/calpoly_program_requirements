@@ -191,36 +191,10 @@ INSERT INTO req_nodes (
     exclusive_pool_group, allocation_priority, display_order, footnote_notes
 ) VALUES (
     'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'BUS_BS__2022_2026', 'BUS_BS_22_26.MAJOR_CORE', 'MAJOR', NULL,
-    'Technology Management - Select from the following (4 units)', 'ONE_OF_COURSES', 1, 4.0, NULL,
+    'Technology Management - Select from the following (4 units)', 'COURSE_POOL', NULL, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
     'MAJOR_PROGRAM', 25, 140, NULL
-);
-INSERT INTO req_nodes (
-    node_id, program_version_id, parent_node_id, domain_type, concentration_code,
-    label, rule_type, required_count, required_units, child_group_tag,
-    required_tagged_tag, min_tagged_children, min_ud_courses, min_ud_units,
-    min_distinct_prefixes, min_distinct_ge_areas, min_grade, allow_cr_nc,
-    exclusive_pool_group, allocation_priority, display_order, footnote_notes
-) VALUES (
-    'BUS_BS_22_26.MAJOR_CORE.INTERNATIONAL_BUSINESS', 'BUS_BS__2022_2026', 'BUS_BS_22_26.MAJOR_CORE', 'MAJOR', NULL,
-    'International Business - Select from the following (4 units)', 'ONE_OF_COURSES', 1, 4.0, NULL,
-    NULL, 0, 0, 0.0,
-    0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 150, NULL
-);
-INSERT INTO req_nodes (
-    node_id, program_version_id, parent_node_id, domain_type, concentration_code,
-    label, rule_type, required_count, required_units, child_group_tag,
-    required_tagged_tag, min_tagged_children, min_ud_courses, min_ud_units,
-    min_distinct_prefixes, min_distinct_ge_areas, min_grade, allow_cr_nc,
-    exclusive_pool_group, allocation_priority, display_order, footnote_notes
-) VALUES (
-    'BUS_BS_22_26.MAJOR_CORE.SENIOR_PROJECT', 'BUS_BS__2022_2026', 'BUS_BS_22_26.MAJOR_CORE', 'MAJOR', NULL,
-    'Senior Project - Select from the following (4 units)', 'COURSE_POOL', NULL, 4.0, NULL,
-    NULL, 0, 0, 0.0,
-    0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 160, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -233,7 +207,7 @@ INSERT INTO req_nodes (
     'Support Courses (20 units)', 'ALL_OF', NULL, 20.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 15, 170, NULL
+    'MAJOR_PROGRAM', 15, 150, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -246,7 +220,7 @@ INSERT INTO req_nodes (
     'ECON 221: Microeconomics', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 15, 180, NULL
+    'MAJOR_PROGRAM', 15, 160, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -259,7 +233,7 @@ INSERT INTO req_nodes (
     'ECON 222: Macroeconomics (D2)', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 15, 190, '[1] Required in Major or Support; also satisfies General Education (GE) requirement.'
+    'MAJOR_PROGRAM', 15, 170, '[1] Required in Major or Support; also satisfies General Education (GE) requirement.'
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -272,7 +246,7 @@ INSERT INTO req_nodes (
     'MATH 221: Calculus for Business and Economics (B4)', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 15, 200, '[1] Required in Major or Support; also satisfies General Education (GE) requirement. [2] Students should follow the advising footnote under the SUPPORT section of the Economics major: “Students pursuing the Quantitative Analysis concentration should take MATH 141 and MATH 142 instead of MATH 221 ”.'
+    'MAJOR_PROGRAM', 15, 180, '[1] Required in Major or Support; also satisfies General Education (GE) requirement. [2] Students should follow the advising footnote under the SUPPORT section of the Economics major: “Students pursuing the Quantitative Analysis concentration should take MATH 141 and MATH 142 instead of MATH 221 ”.'
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -285,7 +259,7 @@ INSERT INTO req_nodes (
     'STAT 251: Statistical Inference for Management I (GE Electives)', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 15, 210, '[1] Required in Major or Support; also satisfies General Education (GE) requirement. [3] STAT 301 (4 units) and STAT 302 (4 units) may be used as a substitute for STAT 251 (4 units) and STAT 252 (5 units). All students must still complete GE Area B requirements. STAT 301 and STAT 302 are not GE courses.'
+    'MAJOR_PROGRAM', 15, 190, '[1] Required in Major or Support; also satisfies General Education (GE) requirement. [3] STAT 301 (4 units) and STAT 302 (4 units) may be used as a substitute for STAT 251 (4 units) and STAT 252 (5 units). All students must still complete GE Area B requirements. STAT 301 and STAT 302 are not GE courses.'
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -298,7 +272,7 @@ INSERT INTO req_nodes (
     'STAT 252: Statistical Inference for Management II', 'SINGLE_COURSE', 1, 5.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 15, 220, '[3] STAT 301 (4 units) and STAT 302 (4 units) may be used as a substitute for STAT 251 (4 units) and STAT 252 (5 units). All students must still complete GE Area B requirements. STAT 301 and STAT 302 are not GE courses.'
+    'MAJOR_PROGRAM', 15, 200, '[3] STAT 301 (4 units) and STAT 302 (4 units) may be used as a substitute for STAT 251 (4 units) and STAT 252 (5 units). All students must still complete GE Area B requirements. STAT 301 and STAT 302 are not GE courses.'
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -311,7 +285,7 @@ INSERT INTO req_nodes (
     'General Business Administration Curriculum (28 units)', 'ALL_OF', NULL, 28.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 230, NULL
+    'MAJOR_PROGRAM', 30, 210, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -324,7 +298,7 @@ INSERT INTO req_nodes (
     'BUS 382: Leadership and Organizations', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 240, NULL
+    'MAJOR_PROGRAM', 25, 220, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -337,7 +311,7 @@ INSERT INTO req_nodes (
     'BUS 384: Human Resources Management', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 250, NULL
+    'MAJOR_PROGRAM', 25, 230, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -350,7 +324,7 @@ INSERT INTO req_nodes (
     'BUS 388: Cultivating Human Capital', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 260, NULL
+    'MAJOR_PROGRAM', 25, 240, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -363,7 +337,7 @@ INSERT INTO req_nodes (
     'BUS 477: Management Consulting and Change Management', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 270, NULL
+    'MAJOR_PROGRAM', 25, 250, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -376,7 +350,7 @@ INSERT INTO req_nodes (
     'BUS 489: Negotiation', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 280, NULL
+    'MAJOR_PROGRAM', 25, 260, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -389,7 +363,7 @@ INSERT INTO req_nodes (
     'Approved Electives (8 units)', 'COURSE_POOL', NULL, 8.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 40, 290, NULL
+    'MAJOR_PROGRAM', 40, 270, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -402,7 +376,7 @@ INSERT INTO req_nodes (
     'Accounting Concentration (28 units)', 'ALL_OF', NULL, 28.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 300, NULL
+    'MAJOR_PROGRAM', 30, 280, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -415,7 +389,7 @@ INSERT INTO req_nodes (
     'BUS 319: Accounting Information Systems', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 310, NULL
+    'MAJOR_PROGRAM', 25, 290, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -428,7 +402,7 @@ INSERT INTO req_nodes (
     'BUS 320: Federal Income Taxation for Individuals', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 320, NULL
+    'MAJOR_PROGRAM', 25, 300, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -441,7 +415,7 @@ INSERT INTO req_nodes (
     'BUS 321: Intermediate Accounting I', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 330, NULL
+    'MAJOR_PROGRAM', 25, 310, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -454,7 +428,7 @@ INSERT INTO req_nodes (
     'BUS 322: Intermediate Accounting II', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 340, NULL
+    'MAJOR_PROGRAM', 25, 320, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -467,7 +441,7 @@ INSERT INTO req_nodes (
     'BUS 424 or BUS 323 or BUS 412 or BUS 417 or BUS 422 or BUS 474 (Accounting Ethics)', 'ONE_OF_COURSES', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 350, NULL
+    'MAJOR_PROGRAM', 30, 330, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -480,7 +454,7 @@ INSERT INTO req_nodes (
     'BUS 425: Auditing', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 360, NULL
+    'MAJOR_PROGRAM', 25, 340, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -493,7 +467,7 @@ INSERT INTO req_nodes (
     'Accounting Elective (4 units)', 'ONE_OF_COURSES', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 40, 370, NULL
+    'MAJOR_PROGRAM', 40, 350, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -506,7 +480,7 @@ INSERT INTO req_nodes (
     'Consumer Packaging Concentration (28 units)', 'ALL_OF', NULL, 28.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 380, NULL
+    'MAJOR_PROGRAM', 30, 360, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -519,7 +493,7 @@ INSERT INTO req_nodes (
     'BUS 396: Consumer Insights', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 390, NULL
+    'MAJOR_PROGRAM', 25, 370, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -532,7 +506,7 @@ INSERT INTO req_nodes (
     'BUS 418: Listening to the Customer', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 400, NULL
+    'MAJOR_PROGRAM', 25, 380, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -545,7 +519,7 @@ INSERT INTO req_nodes (
     'BUS 419: Strategic Marketing Measurement', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 410, NULL
+    'MAJOR_PROGRAM', 25, 390, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -558,7 +532,7 @@ INSERT INTO req_nodes (
     'ITP 234: Packaging Design Fundamentals', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 420, NULL
+    'MAJOR_PROGRAM', 25, 400, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -571,7 +545,7 @@ INSERT INTO req_nodes (
     'ITP 330: Packaging Fundamentals', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 430, NULL
+    'MAJOR_PROGRAM', 25, 410, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -584,7 +558,7 @@ INSERT INTO req_nodes (
     'ITP 475: Distribution Packaging Dynamics', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 440, NULL
+    'MAJOR_PROGRAM', 25, 420, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -597,7 +571,7 @@ INSERT INTO req_nodes (
     'Approved Electives (4 units)', 'ONE_OF_COURSES', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 40, 450, NULL
+    'MAJOR_PROGRAM', 40, 430, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -610,7 +584,7 @@ INSERT INTO req_nodes (
     'Entrepreneurship Concentration (28 units)', 'ALL_OF', NULL, 28.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 460, NULL
+    'MAJOR_PROGRAM', 30, 440, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -623,7 +597,7 @@ INSERT INTO req_nodes (
     'BUS 310: Introduction to Entrepreneurship', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 470, NULL
+    'MAJOR_PROGRAM', 25, 450, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -636,7 +610,7 @@ INSERT INTO req_nodes (
     'BUS 330: Funding and Managing Startup Companies', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 480, NULL
+    'MAJOR_PROGRAM', 25, 460, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -649,7 +623,7 @@ INSERT INTO req_nodes (
     'BUS 418: Listening to the Customer', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 490, NULL
+    'MAJOR_PROGRAM', 25, 470, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -662,7 +636,7 @@ INSERT INTO req_nodes (
     'BUS 488: Building a Startup Skill Set', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 500, NULL
+    'MAJOR_PROGRAM', 25, 480, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -675,7 +649,7 @@ INSERT INTO req_nodes (
     'ITP 428 or ITP 406 or BUS 347 (Commercialization of New Technologies)', 'ONE_OF_COURSES', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 510, NULL
+    'MAJOR_PROGRAM', 30, 490, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -688,7 +662,7 @@ INSERT INTO req_nodes (
     'Approved Electives (8 units)', 'COURSE_POOL', NULL, 8.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 40, 520, NULL
+    'MAJOR_PROGRAM', 40, 500, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -701,7 +675,7 @@ INSERT INTO req_nodes (
     'Financial Management Concentration (28 units)', 'ALL_OF', NULL, 28.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 530, NULL
+    'MAJOR_PROGRAM', 30, 510, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -714,7 +688,7 @@ INSERT INTO req_nodes (
     'BUS 431: Security Analysis and Portfolio Management', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 540, NULL
+    'MAJOR_PROGRAM', 25, 520, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -727,7 +701,7 @@ INSERT INTO req_nodes (
     'BUS 438: Advanced Corporate Finance', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 550, NULL
+    'MAJOR_PROGRAM', 25, 530, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -740,7 +714,7 @@ INSERT INTO req_nodes (
     'BUS 439: Fixed Income Securities Market', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 560, NULL
+    'MAJOR_PROGRAM', 25, 540, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -753,20 +727,7 @@ INSERT INTO req_nodes (
     'Select from the following (12 units)', 'COURSE_POOL', NULL, 12.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 40, 570, NULL
-);
-INSERT INTO req_nodes (
-    node_id, program_version_id, parent_node_id, domain_type, concentration_code,
-    label, rule_type, required_count, required_units, child_group_tag,
-    required_tagged_tag, min_tagged_children, min_ud_courses, min_ud_units,
-    min_distinct_prefixes, min_distinct_ge_areas, min_grade, allow_cr_nc,
-    exclusive_pool_group, allocation_priority, display_order, footnote_notes
-) VALUES (
-    'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'BUS_BS__2022_2026', 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT', 'CONCENTRATION', 'FINANCIAL_MANAGEMENT',
-    'Approved Electives (4 units)', 'ONE_OF_COURSES', 1, 4.0, NULL,
-    NULL, 0, 0, 0.0,
-    0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 40, 580, NULL
+    'MAJOR_PROGRAM', 40, 550, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -779,7 +740,7 @@ INSERT INTO req_nodes (
     'Information Systems Concentration (28 units)', 'ALL_OF', NULL, 28.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 590, NULL
+    'MAJOR_PROGRAM', 30, 560, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -792,7 +753,7 @@ INSERT INTO req_nodes (
     'BUS 392: Business Application Development', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 600, NULL
+    'MAJOR_PROGRAM', 25, 570, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -805,7 +766,7 @@ INSERT INTO req_nodes (
     'BUS 393: Database Systems in Business', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 610, NULL
+    'MAJOR_PROGRAM', 25, 580, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -818,7 +779,7 @@ INSERT INTO req_nodes (
     'BUS 394: Systems Analysis and Design', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 620, NULL
+    'MAJOR_PROGRAM', 25, 590, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -831,7 +792,7 @@ INSERT INTO req_nodes (
     'BUS 399: IT Infrastructure and Security Management', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 630, NULL
+    'MAJOR_PROGRAM', 25, 600, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -844,7 +805,7 @@ INSERT INTO req_nodes (
     'BUS 497: Business Analytics', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 640, NULL
+    'MAJOR_PROGRAM', 25, 610, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -857,7 +818,7 @@ INSERT INTO req_nodes (
     'Approved Electives (8 units)', 'COURSE_POOL', NULL, 8.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 40, 650, NULL
+    'MAJOR_PROGRAM', 40, 620, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -870,7 +831,7 @@ INSERT INTO req_nodes (
     'Management and Human Resources Concentration (28 units)', 'ALL_OF', NULL, 28.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 660, NULL
+    'MAJOR_PROGRAM', 30, 630, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -883,7 +844,7 @@ INSERT INTO req_nodes (
     'BUS 382: Leadership and Organizations', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 670, NULL
+    'MAJOR_PROGRAM', 25, 640, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -896,7 +857,7 @@ INSERT INTO req_nodes (
     'BUS 384: Human Resources Management', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 680, NULL
+    'MAJOR_PROGRAM', 25, 650, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -909,7 +870,7 @@ INSERT INTO req_nodes (
     'BUS 388: Cultivating Human Capital', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 690, NULL
+    'MAJOR_PROGRAM', 25, 660, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -922,7 +883,7 @@ INSERT INTO req_nodes (
     'BUS 477: Management Consulting and Change Management', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 700, NULL
+    'MAJOR_PROGRAM', 25, 670, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -935,7 +896,7 @@ INSERT INTO req_nodes (
     'BUS 489: Negotiation', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 710, NULL
+    'MAJOR_PROGRAM', 25, 680, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -948,7 +909,7 @@ INSERT INTO req_nodes (
     'Approved Electives (8 units)', 'COURSE_POOL', NULL, 8.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 40, 720, NULL
+    'MAJOR_PROGRAM', 40, 690, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -961,7 +922,7 @@ INSERT INTO req_nodes (
     'Marketing Concentration (28 units)', 'ALL_OF', NULL, 28.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 730, NULL
+    'MAJOR_PROGRAM', 30, 700, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -974,7 +935,7 @@ INSERT INTO req_nodes (
     'BUS 396: Consumer Insights', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 740, NULL
+    'MAJOR_PROGRAM', 25, 710, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -987,7 +948,7 @@ INSERT INTO req_nodes (
     'BUS 418: Listening to the Customer', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 750, NULL
+    'MAJOR_PROGRAM', 25, 720, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1000,7 +961,7 @@ INSERT INTO req_nodes (
     'BUS 455: Marketing Strategy', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 760, NULL
+    'MAJOR_PROGRAM', 25, 730, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1013,7 +974,7 @@ INSERT INTO req_nodes (
     'Select from the following (16 units)', 'COURSE_POOL', NULL, 16.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 40, 770, NULL
+    'MAJOR_PROGRAM', 40, 740, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1026,7 +987,7 @@ INSERT INTO req_nodes (
     'Real Estate Finance Concentration (28 units)', 'ALL_OF', NULL, 28.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 780, NULL
+    'MAJOR_PROGRAM', 30, 750, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1039,7 +1000,7 @@ INSERT INTO req_nodes (
     'BUS 434: Real Estate Finance', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 790, NULL
+    'MAJOR_PROGRAM', 25, 760, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1052,7 +1013,7 @@ INSERT INTO req_nodes (
     'BUS 435: Real Estate Investment', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 800, NULL
+    'MAJOR_PROGRAM', 25, 770, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1065,7 +1026,7 @@ INSERT INTO req_nodes (
     'BUS 439: Fixed Income Securities Market', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 810, NULL
+    'MAJOR_PROGRAM', 25, 780, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1078,7 +1039,7 @@ INSERT INTO req_nodes (
     'ECON 434: Urban Economics', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 820, '[1] ECON 434 has a prerequisite of ECON 311 .'
+    'MAJOR_PROGRAM', 25, 790, '[1] ECON 434 has a prerequisite of ECON 311 .'
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1091,7 +1052,7 @@ INSERT INTO req_nodes (
     'Approved Electives (12 units)', 'COURSE_POOL', NULL, 12.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 40, 830, '[1] ECON 434 has a prerequisite of ECON 311 .'
+    'MAJOR_PROGRAM', 40, 800, '[1] ECON 434 has a prerequisite of ECON 311 .'
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1104,7 +1065,7 @@ INSERT INTO req_nodes (
     'Quantitative Analysis Concentration (28 units)', 'ALL_OF', NULL, 28.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 840, NULL
+    'MAJOR_PROGRAM', 30, 810, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1117,7 +1078,7 @@ INSERT INTO req_nodes (
     'ECON 440: Advanced Econometrics', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 850, NULL
+    'MAJOR_PROGRAM', 25, 820, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1130,7 +1091,7 @@ INSERT INTO req_nodes (
     'STAT 331: Statistical Computing with R', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 860, NULL
+    'MAJOR_PROGRAM', 25, 830, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1143,7 +1104,7 @@ INSERT INTO req_nodes (
     'Approved Electives (20 units)', 'COURSE_POOL', NULL, 20.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 40, 870, '[1] Consultation with an advisor is recommended prior to choosing Approved Electives. Courses in Analytics or in Statistics and Decision Analysis provide a focus in analytics. Courses in Statistics and Decision Analysis or in Mathematical Foundations are recommended for students pursuing post-baccalaureate studies.'
+    'MAJOR_PROGRAM', 40, 840, '[1] Consultation with an advisor is recommended prior to choosing Approved Electives. Courses in Analytics or in Statistics and Decision Analysis provide a focus in analytics. Courses in Statistics and Decision Analysis or in Mathematical Foundations are recommended for students pursuing post-baccalaureate studies.'
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1156,7 +1117,7 @@ INSERT INTO req_nodes (
     'Supply Chain and Packaging Concentration (28 units)', 'ALL_OF', NULL, 28.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 30, 880, NULL
+    'MAJOR_PROGRAM', 30, 850, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1169,7 +1130,7 @@ INSERT INTO req_nodes (
     'BUS 396: Consumer Insights', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 890, NULL
+    'MAJOR_PROGRAM', 25, 860, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1182,7 +1143,7 @@ INSERT INTO req_nodes (
     'BUS 418: Listening to the Customer', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 900, NULL
+    'MAJOR_PROGRAM', 25, 870, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1195,7 +1156,7 @@ INSERT INTO req_nodes (
     'BUS 419: Strategic Marketing Measurement', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 910, NULL
+    'MAJOR_PROGRAM', 25, 880, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1208,7 +1169,7 @@ INSERT INTO req_nodes (
     'ITP 234: Packaging Design Fundamentals', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 920, NULL
+    'MAJOR_PROGRAM', 25, 890, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1221,7 +1182,7 @@ INSERT INTO req_nodes (
     'ITP 330: Packaging Fundamentals', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 930, NULL
+    'MAJOR_PROGRAM', 25, 900, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1234,7 +1195,7 @@ INSERT INTO req_nodes (
     'ITP 475: Distribution Packaging Dynamics', 'SINGLE_COURSE', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 25, 940, NULL
+    'MAJOR_PROGRAM', 25, 910, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1247,7 +1208,7 @@ INSERT INTO req_nodes (
     'Approved Electives (4 units)', 'ONE_OF_COURSES', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'N',
-    'MAJOR_PROGRAM', 40, 950, NULL
+    'MAJOR_PROGRAM', 40, 920, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1260,7 +1221,7 @@ INSERT INTO req_nodes (
     'General Education (2022-2026 Template — 72 total units, 16 in Major)', 'ALL_OF', NULL, 72.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 50, 960, 'Required in Major or Support; also satisfies General Education (GE) requirement.'
+    'GE_PROGRAM', 50, 930, 'Required in Major or Support; also satisfies General Education (GE) requirement.'
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1273,7 +1234,7 @@ INSERT INTO req_nodes (
     'Area A: English Language Communication and Critical Thinking (12 units)', 'ALL_OF', NULL, 12.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'C-', 'N',
-    'GE_PROGRAM', 50, 970, NULL
+    'GE_PROGRAM', 50, 940, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1286,7 +1247,7 @@ INSERT INTO req_nodes (
     'GE A1: Oral Communication (C- or better)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'C-', 'N',
-    'GE_PROGRAM', 50, 980, NULL
+    'GE_PROGRAM', 50, 950, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1299,7 +1260,7 @@ INSERT INTO req_nodes (
     'GE A2: Written Communication (C- or better)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'C-', 'N',
-    'GE_PROGRAM', 50, 990, NULL
+    'GE_PROGRAM', 50, 960, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1312,7 +1273,7 @@ INSERT INTO req_nodes (
     'GE A3: Critical Thinking (C- or better)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'C-', 'N',
-    'GE_PROGRAM', 50, 1000, NULL
+    'GE_PROGRAM', 50, 970, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1325,7 +1286,7 @@ INSERT INTO req_nodes (
     'Area B: Scientific Inquiry and Quantitative Reasoning (16 units + Lab)', 'ALL_OF', NULL, 16.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 50, 1010, NULL
+    'GE_PROGRAM', 50, 980, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1338,7 +1299,7 @@ INSERT INTO req_nodes (
     'GE B1: Physical Science (satisfied in Major by PHYS 142/143)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 50, 1020, 'Double-counts with Major Support.'
+    'GE_PROGRAM', 50, 990, 'Double-counts with Major Support.'
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1351,7 +1312,7 @@ INSERT INTO req_nodes (
     'GE B2: Life Science', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 50, 1030, NULL
+    'GE_PROGRAM', 50, 1000, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1364,7 +1325,7 @@ INSERT INTO req_nodes (
     'GE B4: Mathematics/Quantitative Reasoning (satisfied in Major by MATH 141)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'C-', 'N',
-    'GE_PROGRAM', 50, 1040, 'Golden Four: C- or better.'
+    'GE_PROGRAM', 50, 1010, 'Golden Four: C- or better.'
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1377,7 +1338,7 @@ INSERT INTO req_nodes (
     'GE UD-B: Upper-Division B (satisfied in Major by MATH 334)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 50, 1050, 'Double-counts with Major MATH 334.'
+    'GE_PROGRAM', 50, 1020, 'Double-counts with Major MATH 334.'
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1390,7 +1351,7 @@ INSERT INTO req_nodes (
     'GE B3: Laboratory Activity (taken with B1 or B2; satisfied by PHYS 142/143)', 'COURSE_POOL', 1, 0.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    NULL, 55, 1060, NULL
+    NULL, 55, 1030, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1403,7 +1364,7 @@ INSERT INTO req_nodes (
     'Area C: Arts and Humanities (16 units)', 'ALL_OF', NULL, 16.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 50, 1070, NULL
+    'GE_PROGRAM', 50, 1040, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1416,7 +1377,7 @@ INSERT INTO req_nodes (
     'Lower-Division Area C (12 units from >=3 distinct subject prefixes)', 'ALL_OF', NULL, 12.0, NULL,
     NULL, 0, 0, 0.0,
     3, 0, 'D-', 'Y',
-    'GE_PROGRAM', 52, 1080, NULL
+    'GE_PROGRAM', 52, 1050, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1429,7 +1390,7 @@ INSERT INTO req_nodes (
     'GE C1: Arts (Arts, Cinema, Dance, Music, Theater)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 52, 1090, NULL
+    'GE_PROGRAM', 52, 1060, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1442,7 +1403,7 @@ INSERT INTO req_nodes (
     'GE C2: Humanities (Literature, Philosophy, Languages)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 52, 1100, NULL
+    'GE_PROGRAM', 52, 1070, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1455,7 +1416,7 @@ INSERT INTO req_nodes (
     'GE LD_C_ELEC: Lower-Division C Elective (C1 or C2)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 58, 1110, NULL
+    'GE_PROGRAM', 58, 1080, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1468,7 +1429,7 @@ INSERT INTO req_nodes (
     'GE Upper-Division C (4 units)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 52, 1120, NULL
+    'GE_PROGRAM', 52, 1090, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1481,7 +1442,7 @@ INSERT INTO req_nodes (
     'Area D: Social Sciences (12 units from >=2 distinct subject prefixes)', 'ALL_OF', NULL, 12.0, NULL,
     NULL, 0, 0, 0.0,
     2, 0, 'D-', 'Y',
-    'GE_PROGRAM', 52, 1130, NULL
+    'GE_PROGRAM', 52, 1100, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1494,7 +1455,7 @@ INSERT INTO req_nodes (
     'GE D1: American Institutions (Title 5)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 52, 1140, NULL
+    'GE_PROGRAM', 52, 1110, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1507,7 +1468,7 @@ INSERT INTO req_nodes (
     'GE D2: Lower-Division D', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 52, 1150, NULL
+    'GE_PROGRAM', 52, 1120, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1520,7 +1481,7 @@ INSERT INTO req_nodes (
     'GE UD-D: Upper-Division D', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 52, 1160, NULL
+    'GE_PROGRAM', 52, 1130, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1533,7 +1494,7 @@ INSERT INTO req_nodes (
     'Area E: Lifelong Learning and Self-Development (4 units)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 52, 1170, NULL
+    'GE_PROGRAM', 52, 1140, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1546,7 +1507,7 @@ INSERT INTO req_nodes (
     'Area F: Ethnic Studies (4 units)', 'COURSE_POOL', 1, 4.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    'GE_PROGRAM', 52, 1180, NULL
+    'GE_PROGRAM', 52, 1150, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1559,7 +1520,7 @@ INSERT INTO req_nodes (
     'GE Electives in Areas B, C, and D (8 units across >=2 areas; MATH 142 satisfies 4u B)', 'COURSE_POOL', NULL, 8.0, NULL,
     NULL, 0, 0, 0.0,
     0, 2, 'D-', 'Y',
-    'GE_PROGRAM', 70, 1190, '4 units satisfied in Major by MATH 142 (Area B); remaining 4 units must come from Area C or D.'
+    'GE_PROGRAM', 70, 1160, '4 units satisfied in Major by MATH 142 (Area B); remaining 4 units must come from Area C or D.'
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1572,7 +1533,7 @@ INSERT INTO req_nodes (
     'University Minimum Graduation Requirements & 180-Unit Total', 'ALL_OF', NULL, NULL, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    NULL, 90, 1200, NULL
+    NULL, 90, 1170, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1585,7 +1546,7 @@ INSERT INTO req_nodes (
     'Minimum 180 Baccalaureate Units (determines remaining Free Electives)', 'UNIT_OVERLAY', NULL, 180.0, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    NULL, 95, 1210, NULL
+    NULL, 95, 1180, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1598,7 +1559,7 @@ INSERT INTO req_nodes (
     'Minimum 60 Upper-Division Units (300-400 / 3000-4000 level)', 'UNIT_OVERLAY', NULL, 60.0, NULL,
     NULL, 0, 0, 60.0,
     0, 0, 'D-', 'Y',
-    NULL, 95, 1220, NULL
+    NULL, 95, 1190, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1611,7 +1572,7 @@ INSERT INTO req_nodes (
     'U.S. Cultural Pluralism (USCP)', 'UNIT_OVERLAY', 1, NULL, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    NULL, 95, 1230, NULL
+    NULL, 95, 1200, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1624,7 +1585,7 @@ INSERT INTO req_nodes (
     'Graduation Writing Requirement (GWR)', 'MILESTONE', 1, NULL, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    NULL, 95, 1240, NULL
+    NULL, 95, 1210, NULL
 );
 INSERT INTO req_nodes (
     node_id, program_version_id, parent_node_id, domain_type, concentration_code,
@@ -1637,7 +1598,7 @@ INSERT INTO req_nodes (
     'Minimum 2.00 GPA (Cal Poly, Cumulative, and Major)', 'MILESTONE', 1, NULL, NULL,
     NULL, 0, 0, 0.0,
     0, 0, 'D-', 'Y',
-    NULL, 95, 1250, NULL
+    NULL, 95, 1220, NULL
 );
 
 INSERT INTO req_node_courses (
@@ -1756,91 +1717,91 @@ INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    17, 'BUS_BS_22_26.MAJOR_CORE.INTERNATIONAL_BUSINESS', 'EXACT_COURSE', 'Q:BUS_301',
+    17, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:BUS_301',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    18, 'BUS_BS_22_26.MAJOR_CORE.INTERNATIONAL_BUSINESS', 'EXACT_COURSE', 'Q:BUS_302',
+    18, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:BUS_302',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    19, 'BUS_BS_22_26.MAJOR_CORE.INTERNATIONAL_BUSINESS', 'EXACT_COURSE', 'Q:BUS_303',
+    19, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:BUS_303',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    20, 'BUS_BS_22_26.MAJOR_CORE.INTERNATIONAL_BUSINESS', 'EXACT_COURSE', 'Q:BUS_304',
+    20, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:BUS_304',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    21, 'BUS_BS_22_26.MAJOR_CORE.INTERNATIONAL_BUSINESS', 'EXACT_COURSE', 'Q:BUS_410',
+    21, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:BUS_410',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    22, 'BUS_BS_22_26.MAJOR_CORE.INTERNATIONAL_BUSINESS', 'EXACT_COURSE', 'Q:BUS_446',
+    22, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:BUS_446',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    23, 'BUS_BS_22_26.MAJOR_CORE.INTERNATIONAL_BUSINESS', 'EXACT_COURSE', 'Q:ECON_330',
+    23, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:ECON_330',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    24, 'BUS_BS_22_26.MAJOR_CORE.SENIOR_PROJECT', 'EXACT_COURSE', 'Q:BUS_416',
+    24, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:BUS_416',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    25, 'BUS_BS_22_26.MAJOR_CORE.SENIOR_PROJECT', 'EXACT_COURSE', 'Q:BUS_461',
+    25, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:BUS_461',
     'BUS', NULL, 'PAIR_BUS_461_BUS_462', NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    26, 'BUS_BS_22_26.MAJOR_CORE.SENIOR_PROJECT', 'EXACT_COURSE', 'Q:BUS_462',
+    26, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:BUS_462',
     'BUS', NULL, 'PAIR_BUS_461_BUS_462', NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    27, 'BUS_BS_22_26.MAJOR_CORE.SENIOR_PROJECT', 'EXACT_COURSE', 'Q:BUS_463',
+    27, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:BUS_463',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    28, 'BUS_BS_22_26.MAJOR_CORE.SENIOR_PROJECT', 'EXACT_COURSE', 'Q:BUS_464',
+    28, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:BUS_464',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    29, 'BUS_BS_22_26.MAJOR_CORE.SENIOR_PROJECT', 'EXACT_COURSE', 'Q:ECON_464',
+    29, 'BUS_BS_22_26.MAJOR_CORE.TECHNOLOGY_MANAGEMENT', 'EXACT_COURSE', 'Q:ECON_464',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
@@ -2442,1092 +2403,1085 @@ INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    115, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_320',
+    115, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_320',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    116, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_321',
+    116, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_321',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    117, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_322',
+    117, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_322',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    118, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_412',
+    118, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_412',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    119, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_417',
+    119, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_417',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    120, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_425',
+    120, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_425',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    121, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_468',
+    121, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_468',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    122, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_468',
+    122, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:ITP_468',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    123, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_311',
+    123, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:ECON_311',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    124, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_313',
+    124, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:ECON_313',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    125, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_330',
+    125, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:ECON_330',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    126, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_337',
+    126, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:ECON_337',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    127, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_339',
+    127, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:ECON_405',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    128, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_405',
+    128, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:ECON_406',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    129, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_406',
+    129, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:ECON_408',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    130, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_408',
+    130, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:ECON_409',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    131, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_409',
+    131, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:ECON_424',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    132, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_424',
+    132, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:ECON_440',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    133, 'BUS_BS_22_26.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_440',
-    'ECON', NULL, NULL, NULL, NULL, 'N'
-);
-INSERT INTO req_node_courses (
-    node_course_seq, node_id, course_match_type, offering_course_key,
-    subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
-) VALUES (
-    134, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_392', 'EXACT_COURSE', 'Q:BUS_392',
+    133, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_392', 'EXACT_COURSE', 'Q:BUS_392',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    135, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_393', 'EXACT_COURSE', 'Q:BUS_393',
+    134, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_393', 'EXACT_COURSE', 'Q:BUS_393',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    136, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_394', 'EXACT_COURSE', 'Q:BUS_394',
+    135, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_394', 'EXACT_COURSE', 'Q:BUS_394',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    137, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_399', 'EXACT_COURSE', 'Q:BUS_399',
+    136, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_399', 'EXACT_COURSE', 'Q:BUS_399',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    138, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_497', 'EXACT_COURSE', 'Q:BUS_497',
+    137, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.BUS_497', 'EXACT_COURSE', 'Q:BUS_497',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    139, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_395',
+    138, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_395',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    140, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_480',
+    139, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_480',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    141, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_490',
+    140, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_490',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    142, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_491',
+    141, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_491',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    143, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_492',
+    142, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_492',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    144, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_493',
+    143, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_493',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    145, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_495',
+    144, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_495',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    146, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_496',
+    145, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_496',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    147, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_498',
+    146, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_498',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    148, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_499',
+    147, 'BUS_BS_22_26.CONC_INFORMATION_SYSTEMS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_499',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    149, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_382', 'EXACT_COURSE', 'Q:BUS_382',
+    148, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_382', 'EXACT_COURSE', 'Q:BUS_382',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    150, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_384', 'EXACT_COURSE', 'Q:BUS_384',
+    149, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_384', 'EXACT_COURSE', 'Q:BUS_384',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    151, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_388', 'EXACT_COURSE', 'Q:BUS_388',
+    150, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_388', 'EXACT_COURSE', 'Q:BUS_388',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    152, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_477', 'EXACT_COURSE', 'Q:BUS_477',
+    151, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_477', 'EXACT_COURSE', 'Q:BUS_477',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    153, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_489', 'EXACT_COURSE', 'Q:BUS_489',
+    152, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.BUS_489', 'EXACT_COURSE', 'Q:BUS_489',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    154, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_310',
+    153, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_310',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    155, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ENGR_310',
+    154, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ENGR_310',
     'ENGR', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    156, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_471',
+    155, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_471',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    157, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_476',
+    156, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_476',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    158, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_480',
+    157, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_480',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    159, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_497',
+    158, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_497',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    160, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_303',
+    159, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_303',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    161, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_371',
+    160, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_371',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    162, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_403',
+    161, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_403',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    163, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_428',
+    162, 'BUS_BS_22_26.CONC_MANAGEMENT_HR.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_428',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    164, 'BUS_BS_22_26.CONC_MARKETING.BUS_396', 'EXACT_COURSE', 'Q:BUS_396',
+    163, 'BUS_BS_22_26.CONC_MARKETING.BUS_396', 'EXACT_COURSE', 'Q:BUS_396',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    165, 'BUS_BS_22_26.CONC_MARKETING.BUS_418', 'EXACT_COURSE', 'Q:BUS_418',
+    164, 'BUS_BS_22_26.CONC_MARKETING.BUS_418', 'EXACT_COURSE', 'Q:BUS_418',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    166, 'BUS_BS_22_26.CONC_MARKETING.BUS_455', 'EXACT_COURSE', 'Q:BUS_455',
+    165, 'BUS_BS_22_26.CONC_MARKETING.BUS_455', 'EXACT_COURSE', 'Q:BUS_455',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    167, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_347',
+    166, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_347',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    168, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_419',
+    167, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_419',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    169, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_421',
+    168, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_421',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    170, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_423',
+    169, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_423',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    171, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_430',
+    170, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_430',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    172, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_450',
+    171, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_450',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    173, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_451',
+    172, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_451',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    174, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_452',
+    173, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_452',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    175, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_453',
+    174, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_453',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    176, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_454',
+    175, 'BUS_BS_22_26.CONC_MARKETING.ELECTIVE_POOL_1', 'EXACT_COURSE', 'Q:BUS_454',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    177, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.BUS_434', 'EXACT_COURSE', 'Q:BUS_434',
+    176, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.BUS_434', 'EXACT_COURSE', 'Q:BUS_434',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    178, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.BUS_435', 'EXACT_COURSE', 'Q:BUS_435',
+    177, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.BUS_435', 'EXACT_COURSE', 'Q:BUS_435',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    179, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.BUS_439', 'EXACT_COURSE', 'Q:BUS_439',
+    178, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.BUS_439', 'EXACT_COURSE', 'Q:BUS_439',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    180, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.ECON_434', 'EXACT_COURSE', 'Q:ECON_434',
+    179, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.ECON_434', 'EXACT_COURSE', 'Q:ECON_434',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    181, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:AGB_326',
+    180, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:AGB_326',
     'AGB', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    182, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_342',
+    181, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_342',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    183, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_409',
+    182, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_409',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    184, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_443',
+    183, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_443',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    185, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_469',
+    184, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_469',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    186, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:CM_475',
+    185, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:CM_475',
     'CM', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    187, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:CRP_412',
+    186, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:CRP_412',
     'CRP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    188, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:CRP_446',
+    187, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:CRP_446',
     'CRP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    189, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_311',
+    188, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_311',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    190, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_339',
+    189, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_339',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    191, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_435',
+    190, 'BUS_BS_22_26.CONC_REAL_ESTATE_FINANCE.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_435',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    192, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.ECON_440', 'EXACT_COURSE', 'Q:ECON_440',
+    191, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.ECON_440', 'EXACT_COURSE', 'Q:ECON_440',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    193, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.STAT_331', 'EXACT_COURSE', 'Q:STAT_331',
+    192, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.STAT_331', 'EXACT_COURSE', 'Q:STAT_331',
     'STAT', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    194, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_393',
+    193, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_393',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    195, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_421',
+    194, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_421',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    196, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_441',
+    195, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_441',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    197, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_491',
+    196, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_491',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    198, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_339',
+    197, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_339',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    199, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_395',
+    198, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_395',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    200, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_392',
+    199, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:BUS_392',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    201, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:CSC_101',
+    200, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:CSC_101',
     'CSC', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    202, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_406',
+    201, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_406',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    203, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_409',
+    202, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_409',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    204, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:IME_301',
+    203, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:IME_301',
     'IME', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    205, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:IME_305',
+    204, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:IME_305',
     'IME', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    206, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_323',
+    205, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_323',
     'STAT', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    207, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_324',
+    206, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_324',
     'STAT', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    208, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_330',
+    207, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_330',
     'STAT', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    209, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_416',
+    208, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_416',
     'STAT', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    210, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_419',
+    209, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_419',
     'STAT', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    211, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_425',
+    210, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_425',
     'STAT', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    212, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_426',
+    211, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_426',
     'STAT', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    213, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_427',
+    212, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:STAT_427',
     'STAT', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    214, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_408',
+    213, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ECON_408',
     'ECON', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    215, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_142',
+    214, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_142',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    216, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_143',
+    215, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_143',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    217, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_206',
+    216, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_206',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    218, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_241',
+    217, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_241',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    219, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_242',
+    218, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_242',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    220, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_244',
+    219, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_244',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    221, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_248',
+    220, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_248',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    222, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_304',
+    221, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_304',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    223, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_306',
+    222, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_306',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    224, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_344',
+    223, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_344',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    225, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_406',
+    224, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_406',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    226, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_412',
+    225, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_412',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    227, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_413',
+    226, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_413',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    228, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_414',
+    227, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_414',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    229, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_416',
+    228, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_416',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    230, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_418',
+    229, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_418',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    231, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_437',
+    230, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_437',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    232, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_451',
+    231, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_451',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    233, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_452',
+    232, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_452',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    234, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_453',
+    233, 'BUS_BS_22_26.CONC_QUANTITATIVE_ANALYSIS.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:MATH_453',
     'MATH', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    235, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.BUS_396', 'EXACT_COURSE', 'Q:BUS_396',
+    234, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.BUS_396', 'EXACT_COURSE', 'Q:BUS_396',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    236, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.BUS_418', 'EXACT_COURSE', 'Q:BUS_418',
+    235, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.BUS_418', 'EXACT_COURSE', 'Q:BUS_418',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    237, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.BUS_419', 'EXACT_COURSE', 'Q:BUS_419',
+    236, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.BUS_419', 'EXACT_COURSE', 'Q:BUS_419',
     'BUS', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    238, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.ITP_234', 'EXACT_COURSE', 'Q:ITP_234',
+    237, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.ITP_234', 'EXACT_COURSE', 'Q:ITP_234',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    239, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.ITP_330', 'EXACT_COURSE', 'Q:ITP_330',
+    238, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.ITP_330', 'EXACT_COURSE', 'Q:ITP_330',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    240, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.ITP_475', 'EXACT_COURSE', 'Q:ITP_475',
+    239, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.ITP_475', 'EXACT_COURSE', 'Q:ITP_475',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    241, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:GRC_337',
+    240, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:GRC_337',
     'GRC', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    242, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_233',
+    241, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_233',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    243, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_341',
+    242, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_341',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    244, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_408',
+    243, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_408',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    245, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_411',
+    244, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_411',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    246, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_414',
+    245, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_414',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    247, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_415',
+    246, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_415',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    248, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_430',
+    247, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_430',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    249, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_485',
+    248, 'BUS_BS_22_26.CONC_SUPPLY_CHAIN.APPROVED_ELECTIVES', 'EXACT_COURSE', 'Q:ITP_485',
     'ITP', NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    250, 'BUS_BS_22_26.GE.AREA_A.A1', 'GE_AREA_TAG', NULL,
+    249, 'BUS_BS_22_26.GE.AREA_A.A1', 'GE_AREA_TAG', NULL,
     NULL, 'A1', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    251, 'BUS_BS_22_26.GE.AREA_A.A2', 'GE_AREA_TAG', NULL,
+    250, 'BUS_BS_22_26.GE.AREA_A.A2', 'GE_AREA_TAG', NULL,
     NULL, 'A2', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    252, 'BUS_BS_22_26.GE.AREA_A.A3', 'GE_AREA_TAG', NULL,
+    251, 'BUS_BS_22_26.GE.AREA_A.A3', 'GE_AREA_TAG', NULL,
     NULL, 'A3', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    253, 'BUS_BS_22_26.GE.AREA_B.B1', 'GE_AREA_TAG', NULL,
+    252, 'BUS_BS_22_26.GE.AREA_B.B1', 'GE_AREA_TAG', NULL,
     NULL, 'B1', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    254, 'BUS_BS_22_26.GE.AREA_B.B2', 'GE_AREA_TAG', NULL,
+    253, 'BUS_BS_22_26.GE.AREA_B.B2', 'GE_AREA_TAG', NULL,
     NULL, 'B2', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    255, 'BUS_BS_22_26.GE.AREA_B.B4', 'GE_AREA_TAG', NULL,
+    254, 'BUS_BS_22_26.GE.AREA_B.B4', 'GE_AREA_TAG', NULL,
     NULL, 'B4', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    256, 'BUS_BS_22_26.GE.AREA_B.UD_B', 'GE_AREA_TAG', NULL,
+    255, 'BUS_BS_22_26.GE.AREA_B.UD_B', 'GE_AREA_TAG', NULL,
     NULL, 'UD-B', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    257, 'BUS_BS_22_26.GE.AREA_B.B3_LAB', 'GE_AREA_TAG', NULL,
+    256, 'BUS_BS_22_26.GE.AREA_B.B3_LAB', 'GE_AREA_TAG', NULL,
     NULL, 'B3', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    258, 'BUS_BS_22_26.GE.AREA_C.LD.C1', 'GE_AREA_TAG', NULL,
+    257, 'BUS_BS_22_26.GE.AREA_C.LD.C1', 'GE_AREA_TAG', NULL,
     NULL, 'C1', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    259, 'BUS_BS_22_26.GE.AREA_C.LD.C2', 'GE_AREA_TAG', NULL,
+    258, 'BUS_BS_22_26.GE.AREA_C.LD.C2', 'GE_AREA_TAG', NULL,
     NULL, 'C2', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    260, 'BUS_BS_22_26.GE.AREA_C.LD.LD_C_ELEC', 'GE_AREA_TAG', NULL,
+    259, 'BUS_BS_22_26.GE.AREA_C.LD.LD_C_ELEC', 'GE_AREA_TAG', NULL,
     NULL, 'C1,C2', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    261, 'BUS_BS_22_26.GE.AREA_C.UD_C', 'GE_AREA_TAG', NULL,
+    260, 'BUS_BS_22_26.GE.AREA_C.UD_C', 'GE_AREA_TAG', NULL,
     NULL, 'UD-C', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    262, 'BUS_BS_22_26.GE.AREA_D.D1', 'GE_AREA_TAG', NULL,
+    261, 'BUS_BS_22_26.GE.AREA_D.D1', 'GE_AREA_TAG', NULL,
     NULL, 'D1', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    263, 'BUS_BS_22_26.GE.AREA_D.D2', 'GE_AREA_TAG', NULL,
+    262, 'BUS_BS_22_26.GE.AREA_D.D2', 'GE_AREA_TAG', NULL,
     NULL, 'D2', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    264, 'BUS_BS_22_26.GE.AREA_D.UD_D', 'GE_AREA_TAG', NULL,
+    263, 'BUS_BS_22_26.GE.AREA_D.UD_D', 'GE_AREA_TAG', NULL,
     NULL, 'UD-D', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    265, 'BUS_BS_22_26.GE.AREA_E', 'GE_AREA_TAG', NULL,
+    264, 'BUS_BS_22_26.GE.AREA_E', 'GE_AREA_TAG', NULL,
     NULL, 'E', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    266, 'BUS_BS_22_26.GE.AREA_F', 'GE_AREA_TAG', NULL,
+    265, 'BUS_BS_22_26.GE.AREA_F', 'GE_AREA_TAG', NULL,
     NULL, 'F', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    267, 'BUS_BS_22_26.GE.GE_ELECTIVES_BCD', 'GE_AREA_TAG', NULL,
+    266, 'BUS_BS_22_26.GE.GE_ELECTIVES_BCD', 'GE_AREA_TAG', NULL,
     NULL, 'B,C,D', NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    268, 'BUS_BS_22_26.UNIV_GRADUATION.TOTAL_180_UNITS', 'ALL_BACCALAUREATE', NULL,
+    267, 'BUS_BS_22_26.UNIV_GRADUATION.TOTAL_180_UNITS', 'ALL_BACCALAUREATE', NULL,
     NULL, NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    269, 'BUS_BS_22_26.UNIV_GRADUATION.UD_60_UNITS', 'UD_BACCALAUREATE', NULL,
+    268, 'BUS_BS_22_26.UNIV_GRADUATION.UD_60_UNITS', 'UD_BACCALAUREATE', NULL,
     NULL, NULL, NULL, NULL, NULL, 'N'
 );
 INSERT INTO req_node_courses (
     node_course_seq, node_id, course_match_type, offering_course_key,
     subject_code, ge_area_tag, pair_group_id, subpool_cap_group, subpool_max_units, is_excluded
 ) VALUES (
-    270, 'BUS_BS_22_26.UNIV_GRADUATION.USCP', 'USCP_TAG', NULL,
+    269, 'BUS_BS_22_26.UNIV_GRADUATION.USCP', 'USCP_TAG', NULL,
     NULL, NULL, NULL, NULL, NULL, 'N'
 );
 

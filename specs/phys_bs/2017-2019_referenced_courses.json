@@ -1,0 +1,70 @@
+{
+  "program_version_id": "PHYS_BS__2017_2019",
+  "catalog_code": "2017-2019",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 44,
+  "total_distinct_subjects": 5,
+  "subjects": [
+    "ASTR",
+    "CHEM",
+    "CSC",
+    "MATH",
+    "PHYS"
+  ],
+  "courses_by_subject": {
+    "ASTR": [
+      "ASTR 324",
+      "ASTR 444"
+    ],
+    "CHEM": [
+      "CHEM 124",
+      "CHEM 125"
+    ],
+    "CSC": [
+      "CSC 101",
+      "CSC 231",
+      "CSC 234",
+      "CSC 235",
+      "CSC 302",
+      "CSC 310"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244",
+      "MATH 304",
+      "MATH 344",
+      "MATH 418"
+    ],
+    "PHYS": [
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141",
+      "PHYS 202",
+      "PHYS 206",
+      "PHYS 211",
+      "PHYS 212",
+      "PHYS 301",
+      "PHYS 302",
+      "PHYS 322",
+      "PHYS 323",
+      "PHYS 340",
+      "PHYS 341",
+      "PHYS 342",
+      "PHYS 357",
+      "PHYS 405",
+      "PHYS 408",
+      "PHYS 417",
+      "PHYS 422",
+      "PHYS 423",
+      "PHYS 424",
+      "PHYS 452",
+      "PHYS 461",
+      "PHYS 462",
+      "PHYS 463",
+      "PHYS 464"
+    ]
+  }
+}

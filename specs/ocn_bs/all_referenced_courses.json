@@ -1,0 +1,169 @@
+{
+  "program_code": "OCN_BS",
+  "college": "COSAM",
+  "catalogs": [
+    "2026-2028"
+  ],
+  "subjects": [
+    "CHE",
+    "COM",
+    "EGL",
+    "GMA",
+    "GOV",
+    "HIS",
+    "MTH",
+    "OCN",
+    "PE",
+    "PHY"
+  ],
+  "quarter_courses_by_subject": {},
+  "semester_courses_by_subject": {
+    "CHE": [
+      "CHE 1110",
+      "CHE 1110L",
+      "CHE 2210",
+      "CHE 2210L"
+    ],
+    "COM": [
+      "COM 1107",
+      "COM 2210",
+      "COM 2210L"
+    ],
+    "EGL": [
+      "EGL 1100",
+      "EGL 1110",
+      "EGL 2220",
+      "EGL 3301"
+    ],
+    "GMA": [
+      "GMA 1110",
+      "GMA 3320"
+    ],
+    "GOV": [
+      "GOV 2200"
+    ],
+    "HIS": [
+      "HIS 1100",
+      "HIS 1101"
+    ],
+    "MTH": [
+      "MTH 1107",
+      "MTH 2210"
+    ],
+    "OCN": [
+      "OCN 1100",
+      "OCN 1100L",
+      "OCN 1110",
+      "OCN 1110L",
+      "OCN 2200",
+      "OCN 2200L",
+      "OCN 2210",
+      "OCN 2210L",
+      "OCN 3300",
+      "OCN 3305",
+      "OCN 3310",
+      "OCN 3310L",
+      "OCN 3320",
+      "OCN 3330",
+      "OCN 3340",
+      "OCN 3350",
+      "OCN 3360",
+      "OCN 3380",
+      "OCN 3380L"
+    ],
+    "PE": [
+      "PE 1101"
+    ],
+    "PHY": [
+      "PHY 1100",
+      "PHY 1100L",
+      "PHY 1105",
+      "PHY 1105L"
+    ]
+  },
+  "by_catalog": {
+    "2026-2028": {
+      "program_version_id": "OCN_BS__2026_2028",
+      "catalog_code": "2026-2028",
+      "term_system": "SEMESTER",
+      "total_distinct_courses": 42,
+      "total_distinct_subjects": 10,
+      "subjects": [
+        "CHE",
+        "COM",
+        "EGL",
+        "GMA",
+        "GOV",
+        "HIS",
+        "MTH",
+        "OCN",
+        "PE",
+        "PHY"
+      ],
+      "courses_by_subject": {
+        "CHE": [
+          "CHE 1110",
+          "CHE 1110L",
+          "CHE 2210",
+          "CHE 2210L"
+        ],
+        "COM": [
+          "COM 1107",
+          "COM 2210",
+          "COM 2210L"
+        ],
+        "EGL": [
+          "EGL 1100",
+          "EGL 1110",
+          "EGL 2220",
+          "EGL 3301"
+        ],
+        "GMA": [
+          "GMA 1110",
+          "GMA 3320"
+        ],
+        "GOV": [
+          "GOV 2200"
+        ],
+        "HIS": [
+          "HIS 1100",
+          "HIS 1101"
+        ],
+        "MTH": [
+          "MTH 1107",
+          "MTH 2210"
+        ],
+        "OCN": [
+          "OCN 1100",
+          "OCN 1100L",
+          "OCN 1110",
+          "OCN 1110L",
+          "OCN 2200",
+          "OCN 2200L",
+          "OCN 2210",
+          "OCN 2210L",
+          "OCN 3300",
+          "OCN 3305",
+          "OCN 3310",
+          "OCN 3310L",
+          "OCN 3320",
+          "OCN 3330",
+          "OCN 3340",
+          "OCN 3350",
+          "OCN 3360",
+          "OCN 3380",
+          "OCN 3380L"
+        ],
+        "PE": [
+          "PE 1101"
+        ],
+        "PHY": [
+          "PHY 1100",
+          "PHY 1100L",
+          "PHY 1105",
+          "PHY 1105L"
+        ]
+      }
+    }
+  }
+}

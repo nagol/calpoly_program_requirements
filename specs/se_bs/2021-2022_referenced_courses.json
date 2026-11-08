@@ -1,0 +1,260 @@
+{
+  "program_version_id": "SE_BS__2021_2022",
+  "catalog_code": "2021-2022",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 180,
+  "total_distinct_subjects": 23,
+  "subjects": [
+    "AERO",
+    "ART",
+    "BIO",
+    "BMED",
+    "BOT",
+    "BUS",
+    "CHEM",
+    "COMS",
+    "CPE",
+    "CSC",
+    "DATA",
+    "ECON",
+    "EE",
+    "ENVE",
+    "IME",
+    "MATE",
+    "MATH",
+    "MCRO",
+    "ME",
+    "PHIL",
+    "PHYS",
+    "PSY",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "AERO": [
+      "AERO 450"
+    ],
+    "ART": [
+      "ART 376",
+      "ART 384"
+    ],
+    "BIO": [
+      "BIO 111",
+      "BIO 161",
+      "BIO 213"
+    ],
+    "BMED": [
+      "BMED 213"
+    ],
+    "BOT": [
+      "BOT 121"
+    ],
+    "BUS": [
+      "BUS 310"
+    ],
+    "CHEM": [
+      "CHEM 124",
+      "CHEM 125",
+      "CHEM 126",
+      "CHEM 216",
+      "CHEM 217",
+      "CHEM 218",
+      "CHEM 312"
+    ],
+    "COMS": [
+      "COMS 217"
+    ],
+    "CPE": [
+      "CPE 101",
+      "CPE 123",
+      "CPE 202",
+      "CPE 203",
+      "CPE 315",
+      "CPE 321",
+      "CPE 336",
+      "CPE 357",
+      "CPE 400",
+      "CPE 416",
+      "CPE 419",
+      "CPE 425",
+      "CPE 428",
+      "CPE 431",
+      "CPE 453",
+      "CPE 454",
+      "CPE 458",
+      "CPE 464",
+      "CPE 465",
+      "CPE 469",
+      "CPE 471",
+      "CPE 476",
+      "CPE 488",
+      "CPE 515",
+      "CPE 564",
+      "CPE 569"
+    ],
+    "CSC": [
+      "CSC 101",
+      "CSC 123",
+      "CSC 202",
+      "CSC 203",
+      "CSC 225",
+      "CSC 248",
+      "CSC 300",
+      "CSC 305",
+      "CSC 308",
+      "CSC 309",
+      "CSC 313",
+      "CSC 321",
+      "CSC 323",
+      "CSC 325",
+      "CSC 344",
+      "CSC 349",
+      "CSC 357",
+      "CSC 365",
+      "CSC 366",
+      "CSC 369",
+      "CSC 371",
+      "CSC 377",
+      "CSC 378",
+      "CSC 400",
+      "CSC 402",
+      "CSC 405",
+      "CSC 406",
+      "CSC 409",
+      "CSC 422",
+      "CSC 424",
+      "CSC 425",
+      "CSC 429",
+      "CSC 430",
+      "CSC 431",
+      "CSC 436",
+      "CSC 437",
+      "CSC 445",
+      "CSC 448",
+      "CSC 453",
+      "CSC 454",
+      "CSC 458",
+      "CSC 466",
+      "CSC 468",
+      "CSC 469",
+      "CSC 471",
+      "CSC 473",
+      "CSC 474",
+      "CSC 476",
+      "CSC 477",
+      "CSC 478",
+      "CSC 480",
+      "CSC 481",
+      "CSC 482",
+      "CSC 484",
+      "CSC 486",
+      "CSC 487",
+      "CSC 490",
+      "CSC 496",
+      "CSC 497",
+      "CSC 498",
+      "CSC 508",
+      "CSC 509",
+      "CSC 515",
+      "CSC 521",
+      "CSC 524",
+      "CSC 530",
+      "CSC 540",
+      "CSC 549",
+      "CSC 550",
+      "CSC 560",
+      "CSC 564",
+      "CSC 566",
+      "CSC 569",
+      "CSC 570",
+      "CSC 572",
+      "CSC 580",
+      "CSC 581",
+      "CSC 582"
+    ],
+    "DATA": [
+      "DATA 301"
+    ],
+    "ECON": [
+      "ECON 339"
+    ],
+    "EE": [
+      "EE 201",
+      "EE 251",
+      "EE 314",
+      "EE 336",
+      "EE 424",
+      "EE 428"
+    ],
+    "ENVE": [
+      "ENVE 542"
+    ],
+    "IME": [
+      "IME 301",
+      "IME 314",
+      "IME 315",
+      "IME 356",
+      "IME 458"
+    ],
+    "MATE": [
+      "MATE 458"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 206",
+      "MATH 241",
+      "MATH 242",
+      "MATH 244",
+      "MATH 248",
+      "MATH 335",
+      "MATH 336",
+      "MATH 341",
+      "MATH 350",
+      "MATH 412",
+      "MATH 451"
+    ],
+    "MCRO": [
+      "MCRO 221",
+      "MCRO 224"
+    ],
+    "ME": [
+      "ME 211",
+      "ME 212",
+      "ME 405"
+    ],
+    "PHIL": [
+      "PHIL 230",
+      "PHIL 231",
+      "PHIL 323",
+      "PHIL 412",
+      "PHIL 422"
+    ],
+    "PHYS": [
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141"
+    ],
+    "PSY": [
+      "PSY 201",
+      "PSY 202",
+      "PSY 329",
+      "PSY 333",
+      "PSY 350",
+      "PSY 357"
+    ],
+    "STAT": [
+      "STAT 305",
+      "STAT 312",
+      "STAT 323",
+      "STAT 324",
+      "STAT 330",
+      "STAT 331",
+      "STAT 334",
+      "STAT 416",
+      "STAT 418",
+      "STAT 419",
+      "STAT 434"
+    ]
+  }
+}

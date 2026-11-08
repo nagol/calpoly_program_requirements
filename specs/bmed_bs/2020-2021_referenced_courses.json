@@ -1,0 +1,164 @@
+{
+  "program_version_id": "BMED_BS__2020_2021",
+  "catalog_code": "2020-2021",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 105,
+  "total_distinct_subjects": 16,
+  "subjects": [
+    "BIO",
+    "BMED",
+    "BUS",
+    "CE",
+    "CHEM",
+    "CPE",
+    "CSC",
+    "EE",
+    "ENGL",
+    "IME",
+    "MATE",
+    "MATH",
+    "MCRO",
+    "ME",
+    "PHYS",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "BIO": [
+      "BIO 161",
+      "BIO 231",
+      "BIO 232",
+      "BIO 302",
+      "BIO 303",
+      "BIO 351",
+      "BIO 441",
+      "BIO 452"
+    ],
+    "BMED": [
+      "BMED 101",
+      "BMED 102",
+      "BMED 212",
+      "BMED 310",
+      "BMED 330",
+      "BMED 355",
+      "BMED 404",
+      "BMED 410",
+      "BMED 420",
+      "BMED 425",
+      "BMED 430",
+      "BMED 432",
+      "BMED 434",
+      "BMED 435",
+      "BMED 436",
+      "BMED 440",
+      "BMED 445",
+      "BMED 450",
+      "BMED 455",
+      "BMED 456",
+      "BMED 459",
+      "BMED 460",
+      "BMED 510",
+      "BMED 515",
+      "BMED 525",
+      "BMED 530",
+      "BMED 550",
+      "BMED 555"
+    ],
+    "BUS": [
+      "BUS 310"
+    ],
+    "CE": [
+      "CE 204",
+      "CE 207",
+      "CE 404"
+    ],
+    "CHEM": [
+      "CHEM 124",
+      "CHEM 125",
+      "CHEM 312",
+      "CHEM 313",
+      "CHEM 441",
+      "CHEM 446"
+    ],
+    "CPE": [
+      "CPE 328",
+      "CPE 368"
+    ],
+    "CSC": [
+      "CSC 231"
+    ],
+    "EE": [
+      "EE 201",
+      "EE 228",
+      "EE 251",
+      "EE 302",
+      "EE 321",
+      "EE 328",
+      "EE 335",
+      "EE 342",
+      "EE 368",
+      "EE 375"
+    ],
+    "ENGL": [
+      "ENGL 149"
+    ],
+    "IME": [
+      "IME 141",
+      "IME 156",
+      "IME 327",
+      "IME 418",
+      "IME 420",
+      "IME 430",
+      "IME 435",
+      "IME 527"
+    ],
+    "MATE": [
+      "MATE 210",
+      "MATE 215",
+      "MATE 222",
+      "MATE 380",
+      "MATE 401",
+      "MATE 410",
+      "MATE 425",
+      "MATE 430",
+      "MATE 446",
+      "MATE 530"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244",
+      "MATH 344"
+    ],
+    "MCRO": [
+      "MCRO 224"
+    ],
+    "ME": [
+      "ME 211",
+      "ME 212",
+      "ME 228",
+      "ME 251",
+      "ME 302",
+      "ME 305",
+      "ME 318",
+      "ME 326",
+      "ME 328",
+      "ME 341",
+      "ME 401",
+      "ME 402",
+      "ME 403",
+      "ME 404",
+      "ME 410",
+      "ME 412"
+    ],
+    "PHYS": [
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141"
+    ],
+    "STAT": [
+      "STAT 312"
+    ]
+  }
+}

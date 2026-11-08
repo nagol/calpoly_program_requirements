@@ -1,0 +1,119 @@
+{
+  "program_version_id": "MFGE_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 72,
+  "total_distinct_subjects": 12,
+  "subjects": [
+    "BMED",
+    "CHEM",
+    "CSC",
+    "EE",
+    "ENGR",
+    "IME",
+    "ITP",
+    "MATE",
+    "MATH",
+    "ME",
+    "PHYS",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "BMED": [
+      "BMED 3410",
+      "BMED 4434",
+      "BMED 4435"
+    ],
+    "CHEM": [
+      "CHEM 1120"
+    ],
+    "CSC": [
+      "CSC 1032"
+    ],
+    "EE": [
+      "EE 2115",
+      "EE 2115L"
+    ],
+    "ENGR": [
+      "ENGR 2211",
+      "ENGR 2212"
+    ],
+    "IME": [
+      "IME 1101",
+      "IME 1140",
+      "IME 1141",
+      "IME 1142",
+      "IME 1143",
+      "IME 1156",
+      "IME 1223",
+      "IME 2243",
+      "IME 2315",
+      "IME 3302",
+      "IME 3303",
+      "IME 3327",
+      "IME 3330",
+      "IME 3331",
+      "IME 3332",
+      "IME 3336",
+      "IME 3356",
+      "IME 3410",
+      "IME 3420",
+      "IME 3443",
+      "IME 4319",
+      "IME 4400",
+      "IME 4401",
+      "IME 4408",
+      "IME 4415",
+      "IME 4417",
+      "IME 4418",
+      "IME 4428",
+      "IME 4432",
+      "IME 4435",
+      "IME 4441",
+      "IME 4450",
+      "IME 4456",
+      "IME 4460",
+      "IME 4461",
+      "IME 4462",
+      "IME 4470",
+      "IME 4471",
+      "IME 5510",
+      "IME 5520",
+      "IME 5527",
+      "IME 5541",
+      "IME 5543",
+      "IME 5544",
+      "IME 5545"
+    ],
+    "ITP": [
+      "ITP 3341"
+    ],
+    "MATE": [
+      "MATE 1210",
+      "MATE 1215",
+      "MATE 3401"
+    ],
+    "MATH": [
+      "MATH 1151",
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2263",
+      "MATH 2341"
+    ],
+    "ME": [
+      "ME 3302",
+      "ME 3313",
+      "ME 3315",
+      "ME 3328",
+      "ME 3341",
+      "ME 4480"
+    ],
+    "PHYS": [
+      "PHYS 1141",
+      "PHYS 1143"
+    ],
+    "STAT": [
+      "STAT 3210"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "program_version_id": "KINE_BS__2017_2019",
+  "catalog_code": "2017-2019",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 85,
+  "total_distinct_subjects": 12,
+  "subjects": [
+    "BIO",
+    "CHEM",
+    "COMS",
+    "FSN",
+    "IME",
+    "KINE",
+    "MATH",
+    "PHIL",
+    "PHYS",
+    "PSY",
+    "RPTA",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "BIO": [
+      "BIO 161",
+      "BIO 162",
+      "BIO 231",
+      "BIO 232",
+      "BIO 253",
+      "BIO 305"
+    ],
+    "CHEM": [
+      "CHEM 127",
+      "CHEM 128",
+      "CHEM 129",
+      "CHEM 216",
+      "CHEM 217",
+      "CHEM 220",
+      "CHEM 312",
+      "CHEM 313"
+    ],
+    "COMS": [
+      "COMS 212",
+      "COMS 213",
+      "COMS 301",
+      "COMS 316"
+    ],
+    "FSN": [
+      "FSN 310",
+      "FSN 315",
+      "FSN 415",
+      "FSN 416"
+    ],
+    "IME": [
+      "IME 320"
+    ],
+    "KINE": [
+      "KINE 180",
+      "KINE 181",
+      "KINE 250",
+      "KINE 255",
+      "KINE 260",
+      "KINE 265",
+      "KINE 266",
+      "KINE 278",
+      "KINE 297",
+      "KINE 301",
+      "KINE 303",
+      "KINE 304",
+      "KINE 305",
+      "KINE 308",
+      "KINE 319",
+      "KINE 320",
+      "KINE 323",
+      "KINE 324",
+      "KINE 366",
+      "KINE 401",
+      "KINE 402",
+      "KINE 403",
+      "KINE 406",
+      "KINE 407",
+      "KINE 408",
+      "KINE 445",
+      "KINE 446",
+      "KINE 449",
+      "KINE 450",
+      "KINE 451",
+      "KINE 452",
+      "KINE 453",
+      "KINE 454",
+      "KINE 459",
+      "KINE 460",
+      "KINE 461",
+      "KINE 462",
+      "KINE 463"
+    ],
+    "MATH": [
+      "MATH 119",
+      "MATH 141"
+    ],
+    "PHIL": [
+      "PHIL 339"
+    ],
+    "PHYS": [
+      "PHYS 121",
+      "PHYS 122",
+      "PHYS 123"
+    ],
+    "PSY": [
+      "PSY 201",
+      "PSY 202",
+      "PSY 252",
+      "PSY 256",
+      "PSY 302",
+      "PSY 310",
+      "PSY 311",
+      "PSY 318",
+      "PSY 320",
+      "PSY 330",
+      "PSY 340",
+      "PSY 350"
+    ],
+    "RPTA": [
+      "RPTA 160",
+      "RPTA 257",
+      "RPTA 260",
+      "RPTA 275",
+      "RPTA 450"
+    ],
+    "STAT": [
+      "STAT 218"
+    ]
+  }
+}

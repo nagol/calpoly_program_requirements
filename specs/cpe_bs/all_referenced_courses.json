@@ -1,0 +1,1244 @@
+{
+  "program_code": "CPE_BS",
+  "college": "CENG",
+  "catalogs": [
+    "2017-2019",
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2026",
+    "2026-2028"
+  ],
+  "subjects": [
+    "BIO",
+    "BMED",
+    "BOT",
+    "CHEM",
+    "CPE",
+    "CSC",
+    "DATA",
+    "EE",
+    "ENGL",
+    "ENGR",
+    "ES",
+    "HNRS",
+    "IME",
+    "MATE",
+    "MATH",
+    "MCRO",
+    "ME",
+    "PHIL",
+    "PHYS",
+    "STAT",
+    "UNIV",
+    "WGQS"
+  ],
+  "quarter_courses_by_subject": {
+    "BMED": [
+      "BMED 432",
+      "BMED 434",
+      "BMED 435"
+    ],
+    "CHEM": [
+      "CHEM 124",
+      "CHEM 125",
+      "CHEM 312"
+    ],
+    "CPE": [
+      "CPE 100",
+      "CPE 101",
+      "CPE 123",
+      "CPE 133",
+      "CPE 202",
+      "CPE 203",
+      "CPE 233",
+      "CPE 315",
+      "CPE 316",
+      "CPE 321",
+      "CPE 327",
+      "CPE 328",
+      "CPE 329",
+      "CPE 333",
+      "CPE 350",
+      "CPE 357",
+      "CPE 367",
+      "CPE 400",
+      "CPE 422",
+      "CPE 426",
+      "CPE 450",
+      "CPE 453",
+      "CPE 461",
+      "CPE 462",
+      "CPE 464",
+      "CPE 488"
+    ],
+    "CSC": [
+      "CSC 101",
+      "CSC 123",
+      "CSC 202",
+      "CSC 203",
+      "CSC 248",
+      "CSC 300",
+      "CSC 348",
+      "CSC 349",
+      "CSC 357",
+      "CSC 453",
+      "CSC 497",
+      "CSC 498"
+    ],
+    "DATA": [
+      "DATA 301"
+    ],
+    "EE": [
+      "EE 112",
+      "EE 113",
+      "EE 115",
+      "EE 133",
+      "EE 143",
+      "EE 145",
+      "EE 211",
+      "EE 212",
+      "EE 215",
+      "EE 228",
+      "EE 233",
+      "EE 241",
+      "EE 242",
+      "EE 245",
+      "EE 306",
+      "EE 307",
+      "EE 315",
+      "EE 328",
+      "EE 329",
+      "EE 336",
+      "EE 346",
+      "EE 347",
+      "EE 423"
+    ],
+    "ENGL": [
+      "ENGL 149"
+    ],
+    "ENGR": [
+      "ENGR 551"
+    ],
+    "ES": [
+      "ES 350",
+      "ES 351"
+    ],
+    "HNRS": [
+      "HNRS 424"
+    ],
+    "IME": [
+      "IME 156",
+      "IME 157",
+      "IME 301",
+      "IME 303",
+      "IME 314",
+      "IME 315",
+      "IME 319",
+      "IME 401",
+      "IME 457",
+      "IME 458"
+    ],
+    "MATE": [
+      "MATE 210",
+      "MATE 215",
+      "MATE 430",
+      "MATE 435",
+      "MATE 458"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244",
+      "MATH 304",
+      "MATH 408",
+      "MATH 409",
+      "MATH 451"
+    ],
+    "ME": [
+      "ME 211",
+      "ME 405"
+    ],
+    "PHIL": [
+      "PHIL 230",
+      "PHIL 231",
+      "PHIL 323",
+      "PHIL 327",
+      "PHIL 328",
+      "PHIL 339",
+      "PHIL 340"
+    ],
+    "PHYS": [
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141",
+      "PHYS 142",
+      "PHYS 143",
+      "PHYS 211",
+      "PHYS 322",
+      "PHYS 323",
+      "PHYS 408",
+      "PHYS 412",
+      "PHYS 452"
+    ],
+    "STAT": [
+      "STAT 350"
+    ],
+    "UNIV": [
+      "UNIV 424"
+    ]
+  },
+  "semester_courses_by_subject": {
+    "BIO": [
+      "BIO 1111",
+      "BIO 2213"
+    ],
+    "BMED": [
+      "BMED 3410"
+    ],
+    "BOT": [
+      "BOT 1121"
+    ],
+    "CPE": [
+      "CPE 1000",
+      "CPE 1024",
+      "CPE 2050",
+      "CPE 2300",
+      "CPE 2301",
+      "CPE 3160",
+      "CPE 3201",
+      "CPE 3300",
+      "CPE 3345",
+      "CPE 4140",
+      "CPE 4160",
+      "CPE 4180",
+      "CPE 4220",
+      "CPE 4250",
+      "CPE 4260",
+      "CPE 4261",
+      "CPE 4280",
+      "CPE 4300",
+      "CPE 4390",
+      "CPE 4400",
+      "CPE 4420",
+      "CPE 4455",
+      "CPE 4460",
+      "CPE 4461",
+      "CPE 4464",
+      "CPE 4465",
+      "CPE 4491",
+      "CPE 4492",
+      "CPE 4493",
+      "CPE 4495",
+      "CPE 4553",
+      "CPE 4650",
+      "CPE 4669"
+    ],
+    "CSC": [
+      "CSC 1000",
+      "CSC 1001",
+      "CSC 1001L",
+      "CSC 1024",
+      "CSC 2001",
+      "CSC 2001L",
+      "CSC 2050",
+      "CSC 3001",
+      "CSC 3100",
+      "CSC 3201",
+      "CSC 3203",
+      "CSC 3250",
+      "CSC 4210",
+      "CSC 4212",
+      "CSC 4214",
+      "CSC 4230",
+      "CSC 4260",
+      "CSC 4261",
+      "CSC 4270",
+      "CSC 4291",
+      "CSC 4292",
+      "CSC 4293",
+      "CSC 4310",
+      "CSC 4471",
+      "CSC 4472",
+      "CSC 4553",
+      "CSC 4554",
+      "CSC 4888",
+      "CSC 5201",
+      "CSC 5210",
+      "CSC 5220",
+      "CSC 5270",
+      "CSC 5571",
+      "CSC 5572"
+    ],
+    "EE": [
+      "EE 2211",
+      "EE 2212",
+      "EE 2241",
+      "EE 2328",
+      "EE 3302",
+      "EE 3302L",
+      "EE 3306",
+      "EE 3306L",
+      "EE 3308",
+      "EE 3308L",
+      "EE 3335",
+      "EE 3335L",
+      "EE 4412",
+      "EE 4419",
+      "EE 4431",
+      "EE 4452",
+      "EE 4528"
+    ],
+    "ENGR": [
+      "ENGR 2211",
+      "ENGR 2995",
+      "ENGR 4460",
+      "ENGR 4461",
+      "ENGR 4995",
+      "ENGR 5995"
+    ],
+    "IME": [
+      "IME 1156",
+      "IME 4456"
+    ],
+    "MATE": [
+      "MATE 1220",
+      "MATE 3340"
+    ],
+    "MATH": [
+      "MATH 1151",
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2031",
+      "MATH 2263",
+      "MATH 2341",
+      "MATH 2343",
+      "MATH 3051",
+      "MATH 3055",
+      "MATH 3111",
+      "MATH 4911"
+    ],
+    "MCRO": [
+      "MCRO 2221"
+    ],
+    "ME": [
+      "ME 2212",
+      "ME 3313",
+      "ME 3317",
+      "ME 3318",
+      "ME 4416",
+      "ME 4417",
+      "ME 4423"
+    ],
+    "PHIL": [
+      "PHIL 3323"
+    ],
+    "PHYS": [
+      "PHYS 1141",
+      "PHYS 1143",
+      "PHYS 2211",
+      "PHYS 4425"
+    ],
+    "STAT": [
+      "STAT 3210",
+      "STAT 3310"
+    ],
+    "WGQS": [
+      "WGQS 3350",
+      "WGQS 3351"
+    ]
+  },
+  "by_catalog": {
+    "2017-2019": {
+      "program_version_id": "CPE_BS__2017_2019",
+      "catalog_code": "2017-2019",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 89,
+      "total_distinct_subjects": 16,
+      "subjects": [
+        "BMED",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "DATA",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "HNRS",
+        "IME",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BMED": [
+          "BMED 432",
+          "BMED 434",
+          "BMED 435"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 312"
+        ],
+        "CPE": [
+          "CPE 100",
+          "CPE 101",
+          "CPE 123",
+          "CPE 133",
+          "CPE 202",
+          "CPE 203",
+          "CPE 233",
+          "CPE 315",
+          "CPE 328",
+          "CPE 329",
+          "CPE 350",
+          "CPE 357",
+          "CPE 400",
+          "CPE 450",
+          "CPE 453",
+          "CPE 461",
+          "CPE 462",
+          "CPE 464",
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 101",
+          "CSC 123",
+          "CSC 202",
+          "CSC 203",
+          "CSC 300",
+          "CSC 348",
+          "CSC 349",
+          "CSC 357",
+          "CSC 453"
+        ],
+        "DATA": [
+          "DATA 301"
+        ],
+        "EE": [
+          "EE 112",
+          "EE 133",
+          "EE 211",
+          "EE 212",
+          "EE 228",
+          "EE 233",
+          "EE 241",
+          "EE 242",
+          "EE 306",
+          "EE 307",
+          "EE 328",
+          "EE 329",
+          "EE 346",
+          "EE 347",
+          "EE 423"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 551"
+        ],
+        "HNRS": [
+          "HNRS 424"
+        ],
+        "IME": [
+          "IME 156",
+          "IME 157",
+          "IME 301",
+          "IME 303",
+          "IME 314",
+          "IME 319",
+          "IME 401",
+          "IME 457",
+          "IME 458"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 430",
+          "MATE 435",
+          "MATE 458"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 304",
+          "MATH 408",
+          "MATH 409",
+          "MATH 451"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 405"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 211",
+          "PHYS 322",
+          "PHYS 323",
+          "PHYS 408",
+          "PHYS 412",
+          "PHYS 452"
+        ],
+        "STAT": [
+          "STAT 350"
+        ],
+        "UNIV": [
+          "UNIV 424"
+        ]
+      }
+    },
+    "2019-2020": {
+      "program_version_id": "CPE_BS__2019_2020",
+      "catalog_code": "2019-2020",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 97,
+      "total_distinct_subjects": 15,
+      "subjects": [
+        "BMED",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "DATA",
+        "EE",
+        "ENGL",
+        "HNRS",
+        "IME",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BMED": [
+          "BMED 432",
+          "BMED 434",
+          "BMED 435"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 312"
+        ],
+        "CPE": [
+          "CPE 100",
+          "CPE 101",
+          "CPE 123",
+          "CPE 133",
+          "CPE 202",
+          "CPE 203",
+          "CPE 233",
+          "CPE 315",
+          "CPE 316",
+          "CPE 327",
+          "CPE 328",
+          "CPE 329",
+          "CPE 333",
+          "CPE 350",
+          "CPE 357",
+          "CPE 367",
+          "CPE 400",
+          "CPE 450",
+          "CPE 453",
+          "CPE 461",
+          "CPE 462",
+          "CPE 464",
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 101",
+          "CSC 123",
+          "CSC 202",
+          "CSC 203",
+          "CSC 300",
+          "CSC 348",
+          "CSC 349",
+          "CSC 357",
+          "CSC 453",
+          "CSC 497",
+          "CSC 498"
+        ],
+        "DATA": [
+          "DATA 301"
+        ],
+        "EE": [
+          "EE 112",
+          "EE 113",
+          "EE 133",
+          "EE 143",
+          "EE 211",
+          "EE 212",
+          "EE 228",
+          "EE 233",
+          "EE 241",
+          "EE 242",
+          "EE 306",
+          "EE 307",
+          "EE 328",
+          "EE 329",
+          "EE 336",
+          "EE 346",
+          "EE 347",
+          "EE 423"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "HNRS": [
+          "HNRS 424"
+        ],
+        "IME": [
+          "IME 156",
+          "IME 301",
+          "IME 303",
+          "IME 314",
+          "IME 315",
+          "IME 319",
+          "IME 401",
+          "IME 457",
+          "IME 458"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 430",
+          "MATE 435",
+          "MATE 458"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 304",
+          "MATH 408",
+          "MATH 409",
+          "MATH 451"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 405"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 211",
+          "PHYS 322",
+          "PHYS 323",
+          "PHYS 408",
+          "PHYS 412",
+          "PHYS 452"
+        ],
+        "STAT": [
+          "STAT 350"
+        ],
+        "UNIV": [
+          "UNIV 424"
+        ]
+      }
+    },
+    "2020-2021": {
+      "program_version_id": "CPE_BS__2020_2021",
+      "catalog_code": "2020-2021",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 97,
+      "total_distinct_subjects": 15,
+      "subjects": [
+        "BMED",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "DATA",
+        "EE",
+        "ENGL",
+        "HNRS",
+        "IME",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BMED": [
+          "BMED 432",
+          "BMED 434",
+          "BMED 435"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 312"
+        ],
+        "CPE": [
+          "CPE 100",
+          "CPE 101",
+          "CPE 123",
+          "CPE 133",
+          "CPE 202",
+          "CPE 203",
+          "CPE 233",
+          "CPE 315",
+          "CPE 316",
+          "CPE 327",
+          "CPE 328",
+          "CPE 329",
+          "CPE 333",
+          "CPE 350",
+          "CPE 357",
+          "CPE 367",
+          "CPE 400",
+          "CPE 450",
+          "CPE 453",
+          "CPE 461",
+          "CPE 462",
+          "CPE 464",
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 101",
+          "CSC 123",
+          "CSC 202",
+          "CSC 203",
+          "CSC 300",
+          "CSC 348",
+          "CSC 349",
+          "CSC 357",
+          "CSC 453",
+          "CSC 497",
+          "CSC 498"
+        ],
+        "DATA": [
+          "DATA 301"
+        ],
+        "EE": [
+          "EE 112",
+          "EE 113",
+          "EE 133",
+          "EE 143",
+          "EE 211",
+          "EE 212",
+          "EE 228",
+          "EE 233",
+          "EE 241",
+          "EE 242",
+          "EE 306",
+          "EE 307",
+          "EE 328",
+          "EE 329",
+          "EE 336",
+          "EE 346",
+          "EE 347",
+          "EE 423"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "HNRS": [
+          "HNRS 424"
+        ],
+        "IME": [
+          "IME 156",
+          "IME 301",
+          "IME 303",
+          "IME 314",
+          "IME 315",
+          "IME 319",
+          "IME 401",
+          "IME 457",
+          "IME 458"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 430",
+          "MATE 435",
+          "MATE 458"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 304",
+          "MATH 408",
+          "MATH 409",
+          "MATH 451"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 405"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 211",
+          "PHYS 322",
+          "PHYS 323",
+          "PHYS 408",
+          "PHYS 412",
+          "PHYS 452"
+        ],
+        "STAT": [
+          "STAT 350"
+        ],
+        "UNIV": [
+          "UNIV 424"
+        ]
+      }
+    },
+    "2021-2022": {
+      "program_version_id": "CPE_BS__2021_2022",
+      "catalog_code": "2021-2022",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 101,
+      "total_distinct_subjects": 13,
+      "subjects": [
+        "BMED",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "DATA",
+        "EE",
+        "IME",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHIL",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "BMED": [
+          "BMED 432",
+          "BMED 434",
+          "BMED 435"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 312"
+        ],
+        "CPE": [
+          "CPE 100",
+          "CPE 101",
+          "CPE 123",
+          "CPE 133",
+          "CPE 202",
+          "CPE 203",
+          "CPE 233",
+          "CPE 315",
+          "CPE 316",
+          "CPE 327",
+          "CPE 328",
+          "CPE 329",
+          "CPE 333",
+          "CPE 350",
+          "CPE 357",
+          "CPE 367",
+          "CPE 400",
+          "CPE 450",
+          "CPE 453",
+          "CPE 461",
+          "CPE 462",
+          "CPE 464",
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 101",
+          "CSC 123",
+          "CSC 202",
+          "CSC 203",
+          "CSC 248",
+          "CSC 300",
+          "CSC 349",
+          "CSC 357",
+          "CSC 453",
+          "CSC 497",
+          "CSC 498"
+        ],
+        "DATA": [
+          "DATA 301"
+        ],
+        "EE": [
+          "EE 112",
+          "EE 113",
+          "EE 133",
+          "EE 143",
+          "EE 211",
+          "EE 212",
+          "EE 228",
+          "EE 233",
+          "EE 241",
+          "EE 242",
+          "EE 306",
+          "EE 307",
+          "EE 328",
+          "EE 329",
+          "EE 336",
+          "EE 346",
+          "EE 347",
+          "EE 423"
+        ],
+        "IME": [
+          "IME 156",
+          "IME 301",
+          "IME 303",
+          "IME 314",
+          "IME 315",
+          "IME 319",
+          "IME 401",
+          "IME 457",
+          "IME 458"
+        ],
+        "MATE": [
+          "MATE 210",
+          "MATE 215",
+          "MATE 430",
+          "MATE 435",
+          "MATE 458"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 304",
+          "MATH 408",
+          "MATH 409",
+          "MATH 451"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 405"
+        ],
+        "PHIL": [
+          "PHIL 230",
+          "PHIL 231",
+          "PHIL 323",
+          "PHIL 327",
+          "PHIL 328",
+          "PHIL 339",
+          "PHIL 340"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 211",
+          "PHYS 322",
+          "PHYS 323",
+          "PHYS 408",
+          "PHYS 412",
+          "PHYS 452"
+        ],
+        "STAT": [
+          "STAT 350"
+        ]
+      }
+    },
+    "2022-2026": {
+      "program_version_id": "CPE_BS__2022_2026",
+      "catalog_code": "2022-2026",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 61,
+      "total_distinct_subjects": 9,
+      "subjects": [
+        "CHEM",
+        "CPE",
+        "CSC",
+        "EE",
+        "ES",
+        "MATH",
+        "PHIL",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "CHEM": [
+          "CHEM 124"
+        ],
+        "CPE": [
+          "CPE 100",
+          "CPE 101",
+          "CPE 123",
+          "CPE 133",
+          "CPE 202",
+          "CPE 203",
+          "CPE 233",
+          "CPE 315",
+          "CPE 316",
+          "CPE 321",
+          "CPE 327",
+          "CPE 329",
+          "CPE 333",
+          "CPE 350",
+          "CPE 357",
+          "CPE 367",
+          "CPE 400",
+          "CPE 422",
+          "CPE 426",
+          "CPE 450",
+          "CPE 453",
+          "CPE 461",
+          "CPE 462",
+          "CPE 464"
+        ],
+        "CSC": [
+          "CSC 101",
+          "CSC 123",
+          "CSC 202",
+          "CSC 203",
+          "CSC 248",
+          "CSC 357",
+          "CSC 453",
+          "CSC 497",
+          "CSC 498"
+        ],
+        "EE": [
+          "EE 115",
+          "EE 133",
+          "EE 145",
+          "EE 215",
+          "EE 228",
+          "EE 233",
+          "EE 245",
+          "EE 315",
+          "EE 329"
+        ],
+        "ES": [
+          "ES 350",
+          "ES 351"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244"
+        ],
+        "PHIL": [
+          "PHIL 230",
+          "PHIL 231",
+          "PHIL 323",
+          "PHIL 327",
+          "PHIL 328",
+          "PHIL 339",
+          "PHIL 340"
+        ],
+        "PHYS": [
+          "PHYS 141",
+          "PHYS 142",
+          "PHYS 143"
+        ],
+        "STAT": [
+          "STAT 350"
+        ]
+      }
+    },
+    "2026-2028": {
+      "program_version_id": "CPE_BS__2026_2028",
+      "catalog_code": "2026-2028",
+      "term_system": "SEMESTER",
+      "total_distinct_courses": 126,
+      "total_distinct_subjects": 16,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BOT",
+        "CPE",
+        "CSC",
+        "EE",
+        "ENGR",
+        "IME",
+        "MATE",
+        "MATH",
+        "MCRO",
+        "ME",
+        "PHIL",
+        "PHYS",
+        "STAT",
+        "WGQS"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 1111",
+          "BIO 2213"
+        ],
+        "BMED": [
+          "BMED 3410"
+        ],
+        "BOT": [
+          "BOT 1121"
+        ],
+        "CPE": [
+          "CPE 1000",
+          "CPE 1024",
+          "CPE 2050",
+          "CPE 2300",
+          "CPE 2301",
+          "CPE 3160",
+          "CPE 3201",
+          "CPE 3300",
+          "CPE 3345",
+          "CPE 4140",
+          "CPE 4160",
+          "CPE 4180",
+          "CPE 4220",
+          "CPE 4250",
+          "CPE 4260",
+          "CPE 4261",
+          "CPE 4280",
+          "CPE 4300",
+          "CPE 4390",
+          "CPE 4400",
+          "CPE 4420",
+          "CPE 4455",
+          "CPE 4460",
+          "CPE 4461",
+          "CPE 4464",
+          "CPE 4465",
+          "CPE 4491",
+          "CPE 4492",
+          "CPE 4493",
+          "CPE 4495",
+          "CPE 4553",
+          "CPE 4650",
+          "CPE 4669"
+        ],
+        "CSC": [
+          "CSC 1000",
+          "CSC 1001",
+          "CSC 1001L",
+          "CSC 1024",
+          "CSC 2001",
+          "CSC 2001L",
+          "CSC 2050",
+          "CSC 3001",
+          "CSC 3100",
+          "CSC 3201",
+          "CSC 3203",
+          "CSC 3250",
+          "CSC 4210",
+          "CSC 4212",
+          "CSC 4214",
+          "CSC 4230",
+          "CSC 4260",
+          "CSC 4261",
+          "CSC 4270",
+          "CSC 4291",
+          "CSC 4292",
+          "CSC 4293",
+          "CSC 4310",
+          "CSC 4471",
+          "CSC 4472",
+          "CSC 4553",
+          "CSC 4554",
+          "CSC 4888",
+          "CSC 5201",
+          "CSC 5210",
+          "CSC 5220",
+          "CSC 5270",
+          "CSC 5571",
+          "CSC 5572"
+        ],
+        "EE": [
+          "EE 2211",
+          "EE 2212",
+          "EE 2241",
+          "EE 2328",
+          "EE 3302",
+          "EE 3302L",
+          "EE 3306",
+          "EE 3306L",
+          "EE 3308",
+          "EE 3308L",
+          "EE 3335",
+          "EE 3335L",
+          "EE 4412",
+          "EE 4419",
+          "EE 4431",
+          "EE 4452",
+          "EE 4528"
+        ],
+        "ENGR": [
+          "ENGR 2211",
+          "ENGR 2995",
+          "ENGR 4460",
+          "ENGR 4461",
+          "ENGR 4995",
+          "ENGR 5995"
+        ],
+        "IME": [
+          "IME 1156",
+          "IME 4456"
+        ],
+        "MATE": [
+          "MATE 1220",
+          "MATE 3340"
+        ],
+        "MATH": [
+          "MATH 1151",
+          "MATH 1261",
+          "MATH 1262",
+          "MATH 2031",
+          "MATH 2263",
+          "MATH 2341",
+          "MATH 2343",
+          "MATH 3051",
+          "MATH 3055",
+          "MATH 3111",
+          "MATH 4911"
+        ],
+        "MCRO": [
+          "MCRO 2221"
+        ],
+        "ME": [
+          "ME 2212",
+          "ME 3313",
+          "ME 3317",
+          "ME 3318",
+          "ME 4416",
+          "ME 4417",
+          "ME 4423"
+        ],
+        "PHIL": [
+          "PHIL 3323"
+        ],
+        "PHYS": [
+          "PHYS 1141",
+          "PHYS 1143",
+          "PHYS 2211",
+          "PHYS 4425"
+        ],
+        "STAT": [
+          "STAT 3210",
+          "STAT 3310"
+        ],
+        "WGQS": [
+          "WGQS 3350",
+          "WGQS 3351"
+        ]
+      }
+    }
+  }
+}

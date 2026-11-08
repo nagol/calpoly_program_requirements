@@ -1,0 +1,455 @@
+{
+  "program_code": "PHYS_BA",
+  "college": "COSAM",
+  "catalogs": [
+    "2017-2019",
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2026",
+    "2026-2028"
+  ],
+  "subjects": [
+    "ASTR",
+    "CHEM",
+    "CSC",
+    "HIST",
+    "MATH",
+    "PHIL",
+    "PHYS",
+    "SCM"
+  ],
+  "quarter_courses_by_subject": {
+    "ASTR": [
+      "ASTR 444"
+    ],
+    "HIST": [
+      "HIST 350"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 206",
+      "MATH 241",
+      "MATH 242",
+      "MATH 244",
+      "MATH 304"
+    ],
+    "PHIL": [
+      "PHIL 321",
+      "PHIL 323",
+      "PHIL 421"
+    ],
+    "PHYS": [
+      "PHYS 100",
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141",
+      "PHYS 142",
+      "PHYS 143",
+      "PHYS 202",
+      "PHYS 206",
+      "PHYS 211",
+      "PHYS 212",
+      "PHYS 220",
+      "PHYS 301",
+      "PHYS 302",
+      "PHYS 305",
+      "PHYS 320",
+      "PHYS 322",
+      "PHYS 323",
+      "PHYS 340",
+      "PHYS 341",
+      "PHYS 357",
+      "PHYS 405",
+      "PHYS 408",
+      "PHYS 417",
+      "PHYS 422",
+      "PHYS 423",
+      "PHYS 426",
+      "PHYS 428",
+      "PHYS 452",
+      "PHYS 461",
+      "PHYS 463"
+    ],
+    "SCM": [
+      "SCM 451"
+    ]
+  },
+  "semester_courses_by_subject": {
+    "CHEM": [
+      "CHEM 1120"
+    ],
+    "CSC": [
+      "CSC 1001",
+      "CSC 1001L"
+    ],
+    "MATH": [
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2263",
+      "MATH 2341"
+    ],
+    "PHYS": [
+      "PHYS 1100",
+      "PHYS 1141",
+      "PHYS 1143",
+      "PHYS 2211",
+      "PHYS 3301",
+      "PHYS 3305",
+      "PHYS 3316",
+      "PHYS 3320",
+      "PHYS 3339",
+      "PHYS 3340",
+      "PHYS 3341",
+      "PHYS 4405",
+      "PHYS 4408",
+      "PHYS 4461",
+      "PHYS 4462"
+    ]
+  },
+  "by_catalog": {
+    "2017-2019": {
+      "program_version_id": "PHYS_BA__2017_2019",
+      "catalog_code": "2017-2019",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 33,
+      "total_distinct_subjects": 6,
+      "subjects": [
+        "ASTR",
+        "HIST",
+        "MATH",
+        "PHIL",
+        "PHYS",
+        "SCM"
+      ],
+      "courses_by_subject": {
+        "ASTR": [
+          "ASTR 444"
+        ],
+        "HIST": [
+          "HIST 350"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244",
+          "MATH 304"
+        ],
+        "PHIL": [
+          "PHIL 321",
+          "PHIL 421"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 202",
+          "PHYS 206",
+          "PHYS 211",
+          "PHYS 212",
+          "PHYS 301",
+          "PHYS 302",
+          "PHYS 322",
+          "PHYS 323",
+          "PHYS 340",
+          "PHYS 341",
+          "PHYS 357",
+          "PHYS 405",
+          "PHYS 408",
+          "PHYS 417",
+          "PHYS 422",
+          "PHYS 423",
+          "PHYS 452",
+          "PHYS 461",
+          "PHYS 463"
+        ],
+        "SCM": [
+          "SCM 451"
+        ]
+      }
+    },
+    "2019-2020": {
+      "program_version_id": "PHYS_BA__2019_2020",
+      "catalog_code": "2019-2020",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 32,
+      "total_distinct_subjects": 5,
+      "subjects": [
+        "ASTR",
+        "HIST",
+        "MATH",
+        "PHIL",
+        "PHYS"
+      ],
+      "courses_by_subject": {
+        "ASTR": [
+          "ASTR 444"
+        ],
+        "HIST": [
+          "HIST 350"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 206",
+          "MATH 241",
+          "MATH 242"
+        ],
+        "PHIL": [
+          "PHIL 321",
+          "PHIL 323",
+          "PHIL 421"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 202",
+          "PHYS 206",
+          "PHYS 211",
+          "PHYS 212",
+          "PHYS 301",
+          "PHYS 302",
+          "PHYS 320",
+          "PHYS 323",
+          "PHYS 340",
+          "PHYS 341",
+          "PHYS 357",
+          "PHYS 405",
+          "PHYS 408",
+          "PHYS 417",
+          "PHYS 422",
+          "PHYS 423",
+          "PHYS 452",
+          "PHYS 461"
+        ]
+      }
+    },
+    "2020-2021": {
+      "program_version_id": "PHYS_BA__2020_2021",
+      "catalog_code": "2020-2021",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 32,
+      "total_distinct_subjects": 5,
+      "subjects": [
+        "ASTR",
+        "HIST",
+        "MATH",
+        "PHIL",
+        "PHYS"
+      ],
+      "courses_by_subject": {
+        "ASTR": [
+          "ASTR 444"
+        ],
+        "HIST": [
+          "HIST 350"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 206",
+          "MATH 241",
+          "MATH 242"
+        ],
+        "PHIL": [
+          "PHIL 321",
+          "PHIL 323",
+          "PHIL 421"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 202",
+          "PHYS 206",
+          "PHYS 211",
+          "PHYS 212",
+          "PHYS 301",
+          "PHYS 302",
+          "PHYS 320",
+          "PHYS 323",
+          "PHYS 340",
+          "PHYS 341",
+          "PHYS 357",
+          "PHYS 405",
+          "PHYS 408",
+          "PHYS 417",
+          "PHYS 422",
+          "PHYS 423",
+          "PHYS 452",
+          "PHYS 461"
+        ]
+      }
+    },
+    "2021-2022": {
+      "program_version_id": "PHYS_BA__2021_2022",
+      "catalog_code": "2021-2022",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 32,
+      "total_distinct_subjects": 5,
+      "subjects": [
+        "ASTR",
+        "HIST",
+        "MATH",
+        "PHIL",
+        "PHYS"
+      ],
+      "courses_by_subject": {
+        "ASTR": [
+          "ASTR 444"
+        ],
+        "HIST": [
+          "HIST 350"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 206",
+          "MATH 241",
+          "MATH 242"
+        ],
+        "PHIL": [
+          "PHIL 321",
+          "PHIL 323",
+          "PHIL 421"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 202",
+          "PHYS 206",
+          "PHYS 211",
+          "PHYS 212",
+          "PHYS 301",
+          "PHYS 305",
+          "PHYS 320",
+          "PHYS 323",
+          "PHYS 340",
+          "PHYS 341",
+          "PHYS 357",
+          "PHYS 405",
+          "PHYS 408",
+          "PHYS 417",
+          "PHYS 422",
+          "PHYS 423",
+          "PHYS 452",
+          "PHYS 461"
+        ]
+      }
+    },
+    "2022-2026": {
+      "program_version_id": "PHYS_BA__2022_2026",
+      "catalog_code": "2022-2026",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 34,
+      "total_distinct_subjects": 5,
+      "subjects": [
+        "ASTR",
+        "HIST",
+        "MATH",
+        "PHIL",
+        "PHYS"
+      ],
+      "courses_by_subject": {
+        "ASTR": [
+          "ASTR 444"
+        ],
+        "HIST": [
+          "HIST 350"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 206",
+          "MATH 241",
+          "MATH 242"
+        ],
+        "PHIL": [
+          "PHIL 321",
+          "PHIL 323",
+          "PHIL 421"
+        ],
+        "PHYS": [
+          "PHYS 100",
+          "PHYS 141",
+          "PHYS 142",
+          "PHYS 143",
+          "PHYS 202",
+          "PHYS 206",
+          "PHYS 211",
+          "PHYS 212",
+          "PHYS 220",
+          "PHYS 301",
+          "PHYS 305",
+          "PHYS 320",
+          "PHYS 323",
+          "PHYS 340",
+          "PHYS 341",
+          "PHYS 357",
+          "PHYS 405",
+          "PHYS 408",
+          "PHYS 422",
+          "PHYS 423",
+          "PHYS 426",
+          "PHYS 428",
+          "PHYS 461"
+        ]
+      }
+    },
+    "2026-2028": {
+      "program_version_id": "PHYS_BA__2026_2028",
+      "catalog_code": "2026-2028",
+      "term_system": "SEMESTER",
+      "total_distinct_courses": 22,
+      "total_distinct_subjects": 4,
+      "subjects": [
+        "CHEM",
+        "CSC",
+        "MATH",
+        "PHYS"
+      ],
+      "courses_by_subject": {
+        "CHEM": [
+          "CHEM 1120"
+        ],
+        "CSC": [
+          "CSC 1001",
+          "CSC 1001L"
+        ],
+        "MATH": [
+          "MATH 1261",
+          "MATH 1262",
+          "MATH 2263",
+          "MATH 2341"
+        ],
+        "PHYS": [
+          "PHYS 1100",
+          "PHYS 1141",
+          "PHYS 1143",
+          "PHYS 2211",
+          "PHYS 3301",
+          "PHYS 3305",
+          "PHYS 3316",
+          "PHYS 3320",
+          "PHYS 3339",
+          "PHYS 3340",
+          "PHYS 3341",
+          "PHYS 4405",
+          "PHYS 4408",
+          "PHYS 4461",
+          "PHYS 4462"
+        ]
+      }
+    }
+  }
+}

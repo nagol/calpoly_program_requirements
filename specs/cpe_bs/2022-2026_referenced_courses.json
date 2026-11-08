@@ -1,0 +1,99 @@
+{
+  "program_version_id": "CPE_BS__2022_2026",
+  "catalog_code": "2022-2026",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 61,
+  "total_distinct_subjects": 9,
+  "subjects": [
+    "CHEM",
+    "CPE",
+    "CSC",
+    "EE",
+    "ES",
+    "MATH",
+    "PHIL",
+    "PHYS",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "CHEM": [
+      "CHEM 124"
+    ],
+    "CPE": [
+      "CPE 100",
+      "CPE 101",
+      "CPE 123",
+      "CPE 133",
+      "CPE 202",
+      "CPE 203",
+      "CPE 233",
+      "CPE 315",
+      "CPE 316",
+      "CPE 321",
+      "CPE 327",
+      "CPE 329",
+      "CPE 333",
+      "CPE 350",
+      "CPE 357",
+      "CPE 367",
+      "CPE 400",
+      "CPE 422",
+      "CPE 426",
+      "CPE 450",
+      "CPE 453",
+      "CPE 461",
+      "CPE 462",
+      "CPE 464"
+    ],
+    "CSC": [
+      "CSC 101",
+      "CSC 123",
+      "CSC 202",
+      "CSC 203",
+      "CSC 248",
+      "CSC 357",
+      "CSC 453",
+      "CSC 497",
+      "CSC 498"
+    ],
+    "EE": [
+      "EE 115",
+      "EE 133",
+      "EE 145",
+      "EE 215",
+      "EE 228",
+      "EE 233",
+      "EE 245",
+      "EE 315",
+      "EE 329"
+    ],
+    "ES": [
+      "ES 350",
+      "ES 351"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244"
+    ],
+    "PHIL": [
+      "PHIL 230",
+      "PHIL 231",
+      "PHIL 323",
+      "PHIL 327",
+      "PHIL 328",
+      "PHIL 339",
+      "PHIL 340"
+    ],
+    "PHYS": [
+      "PHYS 141",
+      "PHYS 142",
+      "PHYS 143"
+    ],
+    "STAT": [
+      "STAT 350"
+    ]
+  }
+}

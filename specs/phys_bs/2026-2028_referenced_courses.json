@@ -1,0 +1,54 @@
+{
+  "program_version_id": "PHYS_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 28,
+  "total_distinct_subjects": 5,
+  "subjects": [
+    "ASTR",
+    "CHEM",
+    "CSC",
+    "MATH",
+    "PHYS"
+  ],
+  "courses_by_subject": {
+    "ASTR": [
+      "ASTR 4444"
+    ],
+    "CHEM": [
+      "CHEM 1120",
+      "CHEM 1122"
+    ],
+    "CSC": [
+      "CSC 1001",
+      "CSC 1001L",
+      "CSC 2600"
+    ],
+    "MATH": [
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2263",
+      "MATH 2341"
+    ],
+    "PHYS": [
+      "PHYS 1100",
+      "PHYS 1141",
+      "PHYS 1143",
+      "PHYS 2211",
+      "PHYS 3301",
+      "PHYS 3305",
+      "PHYS 3316",
+      "PHYS 3320",
+      "PHYS 3323",
+      "PHYS 3339",
+      "PHYS 3340",
+      "PHYS 3341",
+      "PHYS 4405",
+      "PHYS 4408",
+      "PHYS 4425",
+      "PHYS 4428",
+      "PHYS 4461",
+      "PHYS 4462"
+    ]
+  }
+}

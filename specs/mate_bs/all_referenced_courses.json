@@ -1,0 +1,1465 @@
+{
+  "program_code": "MATE_BS",
+  "college": "CENG",
+  "catalogs": [
+    "2017-2019",
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2026",
+    "2026-2028"
+  ],
+  "subjects": [
+    "BIO",
+    "BMED",
+    "BUS",
+    "CE",
+    "CHEM",
+    "COMS",
+    "CPE",
+    "CSC",
+    "ECON",
+    "EE",
+    "ENGL",
+    "ENGR",
+    "ENVE",
+    "IME",
+    "ITP",
+    "MATE",
+    "MATH",
+    "ME",
+    "NR",
+    "PHYS",
+    "PSC",
+    "SCM",
+    "STAT",
+    "UNIV"
+  ],
+  "quarter_courses_by_subject": {
+    "BIO": [
+      "BIO 231"
+    ],
+    "BMED": [
+      "BMED 212",
+      "BMED 310",
+      "BMED 401",
+      "BMED 420",
+      "BMED 432",
+      "BMED 434",
+      "BMED 435",
+      "BMED 530",
+      "BMED 550"
+    ],
+    "BUS": [
+      "BUS 207",
+      "BUS 212"
+    ],
+    "CE": [
+      "CE 204",
+      "CE 207"
+    ],
+    "CHEM": [
+      "CHEM 124",
+      "CHEM 125",
+      "CHEM 312",
+      "CHEM 444",
+      "CHEM 446",
+      "CHEM 447",
+      "CHEM 466"
+    ],
+    "CPE": [
+      "CPE 488"
+    ],
+    "CSC": [
+      "CSC 231",
+      "CSC 235"
+    ],
+    "ECON": [
+      "ECON 221"
+    ],
+    "EE": [
+      "EE 201",
+      "EE 251",
+      "EE 422"
+    ],
+    "ENGL": [
+      "ENGL 149"
+    ],
+    "ENGR": [
+      "ENGR 322",
+      "ENGR 334",
+      "ENGR 451",
+      "ENGR 470",
+      "ENGR 471"
+    ],
+    "ENVE": [
+      "ENVE 490"
+    ],
+    "IME": [
+      "IME 144",
+      "IME 223",
+      "IME 303",
+      "IME 314",
+      "IME 315",
+      "IME 326",
+      "IME 331",
+      "IME 421",
+      "IME 458"
+    ],
+    "ITP": [
+      "ITP 341"
+    ],
+    "MATE": [
+      "MATE 110",
+      "MATE 120",
+      "MATE 130",
+      "MATE 210",
+      "MATE 215",
+      "MATE 222",
+      "MATE 225",
+      "MATE 232",
+      "MATE 235",
+      "MATE 245",
+      "MATE 280",
+      "MATE 300",
+      "MATE 310",
+      "MATE 320",
+      "MATE 325",
+      "MATE 326",
+      "MATE 327",
+      "MATE 330",
+      "MATE 340",
+      "MATE 350",
+      "MATE 360",
+      "MATE 370",
+      "MATE 380",
+      "MATE 390",
+      "MATE 400",
+      "MATE 401",
+      "MATE 402",
+      "MATE 403",
+      "MATE 410",
+      "MATE 420",
+      "MATE 422",
+      "MATE 425",
+      "MATE 430",
+      "MATE 435",
+      "MATE 440",
+      "MATE 445",
+      "MATE 446",
+      "MATE 450",
+      "MATE 456",
+      "MATE 458",
+      "MATE 460",
+      "MATE 465",
+      "MATE 470",
+      "MATE 471",
+      "MATE 480",
+      "MATE 482",
+      "MATE 483",
+      "MATE 484",
+      "MATE 485",
+      "MATE 490",
+      "MATE 500",
+      "MATE 510",
+      "MATE 522",
+      "MATE 530",
+      "MATE 550",
+      "MATE 570",
+      "MATE 571",
+      "MATE 590"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244"
+    ],
+    "ME": [
+      "ME 211",
+      "ME 212",
+      "ME 341",
+      "ME 343",
+      "ME 350"
+    ],
+    "NR": [
+      "NR 434"
+    ],
+    "PHYS": [
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141",
+      "PHYS 142",
+      "PHYS 143",
+      "PHYS 211",
+      "PHYS 412",
+      "PHYS 413",
+      "PHYS 422",
+      "PHYS 425",
+      "PHYS 427"
+    ],
+    "PSC": [
+      "PSC 392",
+      "PSC 492"
+    ],
+    "SCM": [
+      "SCM 302"
+    ],
+    "STAT": [
+      "STAT 312",
+      "STAT 321"
+    ],
+    "UNIV": [
+      "UNIV 392",
+      "UNIV 424",
+      "UNIV 492"
+    ]
+  },
+  "semester_courses_by_subject": {
+    "BIO": [
+      "BIO 2231",
+      "BIO 2232"
+    ],
+    "BMED": [
+      "BMED 2310",
+      "BMED 2311",
+      "BMED 4434",
+      "BMED 4435",
+      "BMED 4460",
+      "BMED 5530",
+      "BMED 5550"
+    ],
+    "BUS": [
+      "BUS 2207",
+      "BUS 2212",
+      "BUS 3302"
+    ],
+    "CE": [
+      "CE 2259",
+      "CE 3352",
+      "CE 3355"
+    ],
+    "CHEM": [
+      "CHEM 1120",
+      "CHEM 1122",
+      "CHEM 2240",
+      "CHEM 3380",
+      "CHEM 4480",
+      "CHEM 4481"
+    ],
+    "COMS": [
+      "COMS 3301",
+      "COMS 3395"
+    ],
+    "ECON": [
+      "ECON 2030",
+      "ECON 3015"
+    ],
+    "EE": [
+      "EE 2201",
+      "EE 2241"
+    ],
+    "ENGL": [
+      "ENGL 1148"
+    ],
+    "ENGR": [
+      "ENGR 2211"
+    ],
+    "ENVE": [
+      "ENVE 2331",
+      "ENVE 3309",
+      "ENVE 4439"
+    ],
+    "IME": [
+      "IME 1140",
+      "IME 1142",
+      "IME 2315",
+      "IME 3303",
+      "IME 3326",
+      "IME 4401",
+      "IME 4421",
+      "IME 4435"
+    ],
+    "ITP": [
+      "ITP 2211",
+      "ITP 2234",
+      "ITP 3303",
+      "ITP 3330",
+      "ITP 3341",
+      "ITP 3371",
+      "ITP 4404",
+      "ITP 4411"
+    ],
+    "MATE": [
+      "MATE 1110",
+      "MATE 1210",
+      "MATE 1215",
+      "MATE 2190",
+      "MATE 2225",
+      "MATE 2235",
+      "MATE 2245",
+      "MATE 2280",
+      "MATE 3232",
+      "MATE 3310",
+      "MATE 3340",
+      "MATE 3360",
+      "MATE 3401",
+      "MATE 3403",
+      "MATE 3480",
+      "MATE 4300",
+      "MATE 4390",
+      "MATE 4400",
+      "MATE 4402",
+      "MATE 4410",
+      "MATE 4420",
+      "MATE 4422",
+      "MATE 4425",
+      "MATE 4440",
+      "MATE 4450",
+      "MATE 4456",
+      "MATE 4461",
+      "MATE 4462",
+      "MATE 4470",
+      "MATE 4471",
+      "MATE 4481",
+      "MATE 4490"
+    ],
+    "MATH": [
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2263",
+      "MATH 2341"
+    ],
+    "ME": [
+      "ME 2212",
+      "ME 2240",
+      "ME 3234",
+      "ME 3341",
+      "ME 4380",
+      "ME 4451"
+    ],
+    "PHYS": [
+      "PHYS 1141",
+      "PHYS 1143",
+      "PHYS 4425"
+    ],
+    "STAT": [
+      "STAT 3210",
+      "STAT 3800"
+    ]
+  },
+  "by_catalog": {
+    "2017-2019": {
+      "program_version_id": "MATE_BS__2017_2019",
+      "catalog_code": "2017-2019",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 108,
+      "total_distinct_subjects": 22,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BUS",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "ECON",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "IME",
+        "ITP",
+        "MATE",
+        "MATH",
+        "ME",
+        "NR",
+        "PHYS",
+        "PSC",
+        "SCM",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 231"
+        ],
+        "BMED": [
+          "BMED 310",
+          "BMED 401",
+          "BMED 420",
+          "BMED 432",
+          "BMED 434",
+          "BMED 435",
+          "BMED 530",
+          "BMED 550"
+        ],
+        "BUS": [
+          "BUS 207",
+          "BUS 212"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 312",
+          "CHEM 444",
+          "CHEM 446",
+          "CHEM 447",
+          "CHEM 466"
+        ],
+        "CPE": [
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 231",
+          "CSC 235"
+        ],
+        "ECON": [
+          "ECON 221"
+        ],
+        "EE": [
+          "EE 201",
+          "EE 251",
+          "EE 422"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 322",
+          "ENGR 451",
+          "ENGR 470",
+          "ENGR 471"
+        ],
+        "IME": [
+          "IME 144",
+          "IME 223",
+          "IME 303",
+          "IME 314",
+          "IME 326",
+          "IME 421",
+          "IME 458"
+        ],
+        "ITP": [
+          "ITP 341"
+        ],
+        "MATE": [
+          "MATE 110",
+          "MATE 120",
+          "MATE 130",
+          "MATE 210",
+          "MATE 215",
+          "MATE 222",
+          "MATE 225",
+          "MATE 232",
+          "MATE 235",
+          "MATE 310",
+          "MATE 325",
+          "MATE 326",
+          "MATE 327",
+          "MATE 330",
+          "MATE 340",
+          "MATE 350",
+          "MATE 360",
+          "MATE 370",
+          "MATE 380",
+          "MATE 400",
+          "MATE 401",
+          "MATE 410",
+          "MATE 425",
+          "MATE 430",
+          "MATE 435",
+          "MATE 440",
+          "MATE 445",
+          "MATE 446",
+          "MATE 450",
+          "MATE 458",
+          "MATE 460",
+          "MATE 470",
+          "MATE 471",
+          "MATE 482",
+          "MATE 483",
+          "MATE 484",
+          "MATE 500",
+          "MATE 510",
+          "MATE 522",
+          "MATE 530",
+          "MATE 550",
+          "MATE 570",
+          "MATE 571",
+          "MATE 590"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 341",
+          "ME 350"
+        ],
+        "NR": [
+          "NR 434"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 211",
+          "PHYS 412",
+          "PHYS 413",
+          "PHYS 422"
+        ],
+        "PSC": [
+          "PSC 392",
+          "PSC 492"
+        ],
+        "SCM": [
+          "SCM 302"
+        ],
+        "STAT": [
+          "STAT 312"
+        ],
+        "UNIV": [
+          "UNIV 392",
+          "UNIV 424",
+          "UNIV 492"
+        ]
+      }
+    },
+    "2019-2020": {
+      "program_version_id": "MATE_BS__2019_2020",
+      "catalog_code": "2019-2020",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 114,
+      "total_distinct_subjects": 23,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BUS",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "ECON",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "ENVE",
+        "IME",
+        "ITP",
+        "MATE",
+        "MATH",
+        "ME",
+        "NR",
+        "PHYS",
+        "PSC",
+        "SCM",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 231"
+        ],
+        "BMED": [
+          "BMED 310",
+          "BMED 401",
+          "BMED 420",
+          "BMED 432",
+          "BMED 434",
+          "BMED 435",
+          "BMED 530",
+          "BMED 550"
+        ],
+        "BUS": [
+          "BUS 207",
+          "BUS 212"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 312",
+          "CHEM 444",
+          "CHEM 446",
+          "CHEM 447",
+          "CHEM 466"
+        ],
+        "CPE": [
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 231",
+          "CSC 235"
+        ],
+        "ECON": [
+          "ECON 221"
+        ],
+        "EE": [
+          "EE 201",
+          "EE 251",
+          "EE 422"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 322",
+          "ENGR 470",
+          "ENGR 471"
+        ],
+        "ENVE": [
+          "ENVE 490"
+        ],
+        "IME": [
+          "IME 144",
+          "IME 223",
+          "IME 303",
+          "IME 315",
+          "IME 326",
+          "IME 421",
+          "IME 458"
+        ],
+        "ITP": [
+          "ITP 341"
+        ],
+        "MATE": [
+          "MATE 110",
+          "MATE 120",
+          "MATE 130",
+          "MATE 210",
+          "MATE 215",
+          "MATE 225",
+          "MATE 232",
+          "MATE 235",
+          "MATE 280",
+          "MATE 310",
+          "MATE 320",
+          "MATE 325",
+          "MATE 326",
+          "MATE 327",
+          "MATE 340",
+          "MATE 350",
+          "MATE 360",
+          "MATE 370",
+          "MATE 400",
+          "MATE 401",
+          "MATE 402",
+          "MATE 403",
+          "MATE 410",
+          "MATE 420",
+          "MATE 422",
+          "MATE 425",
+          "MATE 430",
+          "MATE 435",
+          "MATE 440",
+          "MATE 445",
+          "MATE 446",
+          "MATE 450",
+          "MATE 456",
+          "MATE 458",
+          "MATE 460",
+          "MATE 465",
+          "MATE 470",
+          "MATE 471",
+          "MATE 480",
+          "MATE 482",
+          "MATE 483",
+          "MATE 484",
+          "MATE 485",
+          "MATE 490",
+          "MATE 500",
+          "MATE 530",
+          "MATE 550",
+          "MATE 570",
+          "MATE 571"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 341",
+          "ME 350"
+        ],
+        "NR": [
+          "NR 434"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 211",
+          "PHYS 412",
+          "PHYS 413",
+          "PHYS 422"
+        ],
+        "PSC": [
+          "PSC 392",
+          "PSC 492"
+        ],
+        "SCM": [
+          "SCM 302"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 321"
+        ],
+        "UNIV": [
+          "UNIV 392",
+          "UNIV 424",
+          "UNIV 492"
+        ]
+      }
+    },
+    "2020-2021": {
+      "program_version_id": "MATE_BS__2020_2021",
+      "catalog_code": "2020-2021",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 114,
+      "total_distinct_subjects": 23,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BUS",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "ECON",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "ENVE",
+        "IME",
+        "ITP",
+        "MATE",
+        "MATH",
+        "ME",
+        "NR",
+        "PHYS",
+        "PSC",
+        "SCM",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 231"
+        ],
+        "BMED": [
+          "BMED 310",
+          "BMED 401",
+          "BMED 420",
+          "BMED 432",
+          "BMED 434",
+          "BMED 435",
+          "BMED 530",
+          "BMED 550"
+        ],
+        "BUS": [
+          "BUS 207",
+          "BUS 212"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 312",
+          "CHEM 444",
+          "CHEM 446",
+          "CHEM 447",
+          "CHEM 466"
+        ],
+        "CPE": [
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 231",
+          "CSC 235"
+        ],
+        "ECON": [
+          "ECON 221"
+        ],
+        "EE": [
+          "EE 201",
+          "EE 251",
+          "EE 422"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 322",
+          "ENGR 470",
+          "ENGR 471"
+        ],
+        "ENVE": [
+          "ENVE 490"
+        ],
+        "IME": [
+          "IME 144",
+          "IME 223",
+          "IME 303",
+          "IME 315",
+          "IME 326",
+          "IME 421",
+          "IME 458"
+        ],
+        "ITP": [
+          "ITP 341"
+        ],
+        "MATE": [
+          "MATE 110",
+          "MATE 120",
+          "MATE 130",
+          "MATE 210",
+          "MATE 215",
+          "MATE 225",
+          "MATE 232",
+          "MATE 235",
+          "MATE 280",
+          "MATE 310",
+          "MATE 320",
+          "MATE 325",
+          "MATE 326",
+          "MATE 327",
+          "MATE 340",
+          "MATE 350",
+          "MATE 360",
+          "MATE 370",
+          "MATE 400",
+          "MATE 401",
+          "MATE 402",
+          "MATE 403",
+          "MATE 410",
+          "MATE 420",
+          "MATE 422",
+          "MATE 425",
+          "MATE 430",
+          "MATE 435",
+          "MATE 440",
+          "MATE 445",
+          "MATE 446",
+          "MATE 450",
+          "MATE 456",
+          "MATE 458",
+          "MATE 460",
+          "MATE 465",
+          "MATE 470",
+          "MATE 471",
+          "MATE 480",
+          "MATE 482",
+          "MATE 483",
+          "MATE 484",
+          "MATE 485",
+          "MATE 490",
+          "MATE 500",
+          "MATE 530",
+          "MATE 550",
+          "MATE 570",
+          "MATE 571"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 341",
+          "ME 350"
+        ],
+        "NR": [
+          "NR 434"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 211",
+          "PHYS 412",
+          "PHYS 413",
+          "PHYS 422"
+        ],
+        "PSC": [
+          "PSC 392",
+          "PSC 492"
+        ],
+        "SCM": [
+          "SCM 302"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 321"
+        ],
+        "UNIV": [
+          "UNIV 392",
+          "UNIV 424",
+          "UNIV 492"
+        ]
+      }
+    },
+    "2021-2022": {
+      "program_version_id": "MATE_BS__2021_2022",
+      "catalog_code": "2021-2022",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 112,
+      "total_distinct_subjects": 22,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BUS",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "ECON",
+        "EE",
+        "ENGR",
+        "ENVE",
+        "IME",
+        "ITP",
+        "MATE",
+        "MATH",
+        "ME",
+        "NR",
+        "PHYS",
+        "PSC",
+        "SCM",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 231"
+        ],
+        "BMED": [
+          "BMED 310",
+          "BMED 401",
+          "BMED 420",
+          "BMED 432",
+          "BMED 434",
+          "BMED 435",
+          "BMED 530",
+          "BMED 550"
+        ],
+        "BUS": [
+          "BUS 207",
+          "BUS 212"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 312",
+          "CHEM 444",
+          "CHEM 446",
+          "CHEM 447",
+          "CHEM 466"
+        ],
+        "CPE": [
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 231",
+          "CSC 235"
+        ],
+        "ECON": [
+          "ECON 221"
+        ],
+        "EE": [
+          "EE 201",
+          "EE 251",
+          "EE 422"
+        ],
+        "ENGR": [
+          "ENGR 322",
+          "ENGR 470",
+          "ENGR 471"
+        ],
+        "ENVE": [
+          "ENVE 490"
+        ],
+        "IME": [
+          "IME 144",
+          "IME 223",
+          "IME 303",
+          "IME 315",
+          "IME 326",
+          "IME 421",
+          "IME 458"
+        ],
+        "ITP": [
+          "ITP 341"
+        ],
+        "MATE": [
+          "MATE 110",
+          "MATE 120",
+          "MATE 130",
+          "MATE 210",
+          "MATE 215",
+          "MATE 225",
+          "MATE 232",
+          "MATE 235",
+          "MATE 280",
+          "MATE 310",
+          "MATE 320",
+          "MATE 325",
+          "MATE 326",
+          "MATE 327",
+          "MATE 340",
+          "MATE 350",
+          "MATE 360",
+          "MATE 370",
+          "MATE 400",
+          "MATE 401",
+          "MATE 402",
+          "MATE 403",
+          "MATE 410",
+          "MATE 420",
+          "MATE 422",
+          "MATE 425",
+          "MATE 430",
+          "MATE 435",
+          "MATE 440",
+          "MATE 445",
+          "MATE 446",
+          "MATE 450",
+          "MATE 456",
+          "MATE 458",
+          "MATE 460",
+          "MATE 465",
+          "MATE 470",
+          "MATE 471",
+          "MATE 480",
+          "MATE 482",
+          "MATE 483",
+          "MATE 484",
+          "MATE 485",
+          "MATE 490",
+          "MATE 500",
+          "MATE 530",
+          "MATE 550",
+          "MATE 570",
+          "MATE 571"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 341",
+          "ME 343"
+        ],
+        "NR": [
+          "NR 434"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 211",
+          "PHYS 412",
+          "PHYS 413",
+          "PHYS 422"
+        ],
+        "PSC": [
+          "PSC 392",
+          "PSC 492"
+        ],
+        "SCM": [
+          "SCM 302"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 321"
+        ],
+        "UNIV": [
+          "UNIV 392",
+          "UNIV 492"
+        ]
+      }
+    },
+    "2022-2026": {
+      "program_version_id": "MATE_BS__2022_2026",
+      "catalog_code": "2022-2026",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 112,
+      "total_distinct_subjects": 22,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BUS",
+        "CE",
+        "CHEM",
+        "CPE",
+        "CSC",
+        "ECON",
+        "EE",
+        "ENGR",
+        "ENVE",
+        "IME",
+        "ITP",
+        "MATE",
+        "MATH",
+        "ME",
+        "NR",
+        "PHYS",
+        "PSC",
+        "SCM",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 231"
+        ],
+        "BMED": [
+          "BMED 212",
+          "BMED 310",
+          "BMED 401",
+          "BMED 420",
+          "BMED 432",
+          "BMED 434",
+          "BMED 435",
+          "BMED 530",
+          "BMED 550"
+        ],
+        "BUS": [
+          "BUS 207",
+          "BUS 212"
+        ],
+        "CE": [
+          "CE 204",
+          "CE 207"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 312",
+          "CHEM 444",
+          "CHEM 446",
+          "CHEM 447",
+          "CHEM 466"
+        ],
+        "CPE": [
+          "CPE 488"
+        ],
+        "CSC": [
+          "CSC 231"
+        ],
+        "ECON": [
+          "ECON 221"
+        ],
+        "EE": [
+          "EE 201",
+          "EE 251",
+          "EE 422"
+        ],
+        "ENGR": [
+          "ENGR 322",
+          "ENGR 334",
+          "ENGR 470",
+          "ENGR 471"
+        ],
+        "ENVE": [
+          "ENVE 490"
+        ],
+        "IME": [
+          "IME 144",
+          "IME 223",
+          "IME 303",
+          "IME 315",
+          "IME 326",
+          "IME 331",
+          "IME 421",
+          "IME 458"
+        ],
+        "ITP": [
+          "ITP 341"
+        ],
+        "MATE": [
+          "MATE 110",
+          "MATE 120",
+          "MATE 210",
+          "MATE 215",
+          "MATE 225",
+          "MATE 232",
+          "MATE 235",
+          "MATE 245",
+          "MATE 280",
+          "MATE 300",
+          "MATE 310",
+          "MATE 325",
+          "MATE 340",
+          "MATE 350",
+          "MATE 360",
+          "MATE 370",
+          "MATE 390",
+          "MATE 400",
+          "MATE 401",
+          "MATE 402",
+          "MATE 403",
+          "MATE 410",
+          "MATE 420",
+          "MATE 422",
+          "MATE 425",
+          "MATE 430",
+          "MATE 435",
+          "MATE 440",
+          "MATE 445",
+          "MATE 446",
+          "MATE 450",
+          "MATE 456",
+          "MATE 458",
+          "MATE 460",
+          "MATE 465",
+          "MATE 470",
+          "MATE 471",
+          "MATE 480",
+          "MATE 482",
+          "MATE 483",
+          "MATE 484",
+          "MATE 485",
+          "MATE 490",
+          "MATE 500",
+          "MATE 530",
+          "MATE 550",
+          "MATE 570",
+          "MATE 571"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244"
+        ],
+        "ME": [
+          "ME 211",
+          "ME 212",
+          "ME 341"
+        ],
+        "NR": [
+          "NR 434"
+        ],
+        "PHYS": [
+          "PHYS 141",
+          "PHYS 142",
+          "PHYS 143",
+          "PHYS 211",
+          "PHYS 422",
+          "PHYS 425",
+          "PHYS 427"
+        ],
+        "PSC": [
+          "PSC 392",
+          "PSC 492"
+        ],
+        "SCM": [
+          "SCM 302"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 321"
+        ],
+        "UNIV": [
+          "UNIV 392",
+          "UNIV 492"
+        ]
+      }
+    },
+    "2026-2028": {
+      "program_version_id": "MATE_BS__2026_2028",
+      "catalog_code": "2026-2028",
+      "term_system": "SEMESTER",
+      "total_distinct_courses": 95,
+      "total_distinct_subjects": 18,
+      "subjects": [
+        "BIO",
+        "BMED",
+        "BUS",
+        "CE",
+        "CHEM",
+        "COMS",
+        "ECON",
+        "EE",
+        "ENGL",
+        "ENGR",
+        "ENVE",
+        "IME",
+        "ITP",
+        "MATE",
+        "MATH",
+        "ME",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 2231",
+          "BIO 2232"
+        ],
+        "BMED": [
+          "BMED 2310",
+          "BMED 2311",
+          "BMED 4434",
+          "BMED 4435",
+          "BMED 4460",
+          "BMED 5530",
+          "BMED 5550"
+        ],
+        "BUS": [
+          "BUS 2207",
+          "BUS 2212",
+          "BUS 3302"
+        ],
+        "CE": [
+          "CE 2259",
+          "CE 3352",
+          "CE 3355"
+        ],
+        "CHEM": [
+          "CHEM 1120",
+          "CHEM 1122",
+          "CHEM 2240",
+          "CHEM 3380",
+          "CHEM 4480",
+          "CHEM 4481"
+        ],
+        "COMS": [
+          "COMS 3301",
+          "COMS 3395"
+        ],
+        "ECON": [
+          "ECON 2030",
+          "ECON 3015"
+        ],
+        "EE": [
+          "EE 2201",
+          "EE 2241"
+        ],
+        "ENGL": [
+          "ENGL 1148"
+        ],
+        "ENGR": [
+          "ENGR 2211"
+        ],
+        "ENVE": [
+          "ENVE 2331",
+          "ENVE 3309",
+          "ENVE 4439"
+        ],
+        "IME": [
+          "IME 1140",
+          "IME 1142",
+          "IME 2315",
+          "IME 3303",
+          "IME 3326",
+          "IME 4401",
+          "IME 4421",
+          "IME 4435"
+        ],
+        "ITP": [
+          "ITP 2211",
+          "ITP 2234",
+          "ITP 3303",
+          "ITP 3330",
+          "ITP 3341",
+          "ITP 3371",
+          "ITP 4404",
+          "ITP 4411"
+        ],
+        "MATE": [
+          "MATE 1110",
+          "MATE 1210",
+          "MATE 1215",
+          "MATE 2190",
+          "MATE 2225",
+          "MATE 2235",
+          "MATE 2245",
+          "MATE 2280",
+          "MATE 3232",
+          "MATE 3310",
+          "MATE 3340",
+          "MATE 3360",
+          "MATE 3401",
+          "MATE 3403",
+          "MATE 3480",
+          "MATE 4300",
+          "MATE 4390",
+          "MATE 4400",
+          "MATE 4402",
+          "MATE 4410",
+          "MATE 4420",
+          "MATE 4422",
+          "MATE 4425",
+          "MATE 4440",
+          "MATE 4450",
+          "MATE 4456",
+          "MATE 4461",
+          "MATE 4462",
+          "MATE 4470",
+          "MATE 4471",
+          "MATE 4481",
+          "MATE 4490"
+        ],
+        "MATH": [
+          "MATH 1261",
+          "MATH 1262",
+          "MATH 2263",
+          "MATH 2341"
+        ],
+        "ME": [
+          "ME 2212",
+          "ME 2240",
+          "ME 3234",
+          "ME 3341",
+          "ME 4380",
+          "ME 4451"
+        ],
+        "PHYS": [
+          "PHYS 1141",
+          "PHYS 1143",
+          "PHYS 4425"
+        ],
+        "STAT": [
+          "STAT 3210",
+          "STAT 3800"
+        ]
+      }
+    }
+  }
+}

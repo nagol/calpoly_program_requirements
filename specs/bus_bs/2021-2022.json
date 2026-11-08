@@ -375,8 +375,8 @@
       "domain_type": "MAJOR",
       "concentration_code": null,
       "label": "Technology Management - Select from the following (4 units)",
-      "rule_type": "ONE_OF_COURSES",
-      "required_count": 1,
+      "rule_type": "COURSE_POOL",
+      "required_count": null,
       "required_units": 4.0,
       "child_group_tag": null,
       "required_tagged_tag": null,
@@ -421,33 +421,7 @@
           "offering_course_key": "Q:ITP_371",
           "subject_code": "ITP",
           "is_excluded": "N"
-        }
-      ]
-    },
-    {
-      "node_id": "BUS_BS_21_22.MAJOR_CORE.INTERNATIONAL_BUSINESS",
-      "program_version_id": "BUS_BS__2021_2022",
-      "parent_node_id": "BUS_BS_21_22.MAJOR_CORE",
-      "domain_type": "MAJOR",
-      "concentration_code": null,
-      "label": "International Business - Select from the following (4 units)",
-      "rule_type": "ONE_OF_COURSES",
-      "required_count": 1,
-      "required_units": 4.0,
-      "child_group_tag": null,
-      "required_tagged_tag": null,
-      "min_tagged_children": 0,
-      "min_ud_courses": 0,
-      "min_ud_units": 0.0,
-      "min_distinct_prefixes": 0,
-      "min_distinct_ge_areas": 0,
-      "min_grade": "D-",
-      "allow_cr_nc": "N",
-      "exclusive_pool_group": "MAJOR_PROGRAM",
-      "allocation_priority": 25,
-      "display_order": 130,
-      "footnote_notes": null,
-      "course_matchers": [
+        },
         {
           "course_match_type": "EXACT_COURSE",
           "offering_course_key": "Q:BUS_301",
@@ -489,33 +463,7 @@
           "offering_course_key": "Q:ECON_330",
           "subject_code": "ECON",
           "is_excluded": "N"
-        }
-      ]
-    },
-    {
-      "node_id": "BUS_BS_21_22.MAJOR_CORE.SENIOR_PROJECT",
-      "program_version_id": "BUS_BS__2021_2022",
-      "parent_node_id": "BUS_BS_21_22.MAJOR_CORE",
-      "domain_type": "MAJOR",
-      "concentration_code": null,
-      "label": "Senior Project - Select from the following (4 units)",
-      "rule_type": "COURSE_POOL",
-      "required_count": null,
-      "required_units": 4.0,
-      "child_group_tag": null,
-      "required_tagged_tag": null,
-      "min_tagged_children": 0,
-      "min_ud_courses": 0,
-      "min_ud_units": 0.0,
-      "min_distinct_prefixes": 0,
-      "min_distinct_ge_areas": 0,
-      "min_grade": "D-",
-      "allow_cr_nc": "N",
-      "exclusive_pool_group": "MAJOR_PROGRAM",
-      "allocation_priority": 25,
-      "display_order": 140,
-      "footnote_notes": null,
-      "course_matchers": [
+        },
         {
           "course_match_type": "EXACT_COURSE",
           "offering_course_key": "Q:BUS_416",
@@ -577,7 +525,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 15,
-      "display_order": 150,
+      "display_order": 130,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -602,7 +550,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 15,
-      "display_order": 160,
+      "display_order": 140,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -634,7 +582,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 15,
-      "display_order": 170,
+      "display_order": 150,
       "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement.",
       "course_matchers": [
         {
@@ -666,7 +614,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 15,
-      "display_order": 180,
+      "display_order": 160,
       "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement. [2] Students should follow the advising footnote under the SUPPORT section of the Economics major: \u201cStudents pursuing the Quantitative Analysis concentration should take MATH 141 and MATH 142 instead of MATH 221 \u201d.",
       "course_matchers": [
         {
@@ -698,7 +646,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 15,
-      "display_order": 190,
+      "display_order": 170,
       "footnote_notes": "[1] Required in Major or Support; also satisfies General Education (GE) requirement. [3] STAT 301 (4 units) and STAT 302 (4 units) may be used as a substitute for STAT 251 (4 units) and STAT 252 (5 units). All students must still complete GE Area B requirements. STAT 301 and STAT 302 are not GE courses.",
       "course_matchers": [
         {
@@ -730,7 +678,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 15,
-      "display_order": 200,
+      "display_order": 180,
       "footnote_notes": "[3] STAT 301 (4 units) and STAT 302 (4 units) may be used as a substitute for STAT 251 (4 units) and STAT 252 (5 units). All students must still complete GE Area B requirements. STAT 301 and STAT 302 are not GE courses.",
       "course_matchers": [
         {
@@ -762,7 +710,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 210,
+      "display_order": 190,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -787,7 +735,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 220,
+      "display_order": 200,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -819,7 +767,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 230,
+      "display_order": 210,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -851,7 +799,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 240,
+      "display_order": 220,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -883,7 +831,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 250,
+      "display_order": 230,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -915,7 +863,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 260,
+      "display_order": 240,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -947,7 +895,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 270,
+      "display_order": 250,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1033,7 +981,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 280,
+      "display_order": 260,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -1058,7 +1006,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 290,
+      "display_order": 270,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1090,7 +1038,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 300,
+      "display_order": 280,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1122,7 +1070,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 310,
+      "display_order": 290,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1154,7 +1102,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 320,
+      "display_order": 300,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1186,7 +1134,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 330,
+      "display_order": 310,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1218,7 +1166,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 340,
+      "display_order": 320,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1250,7 +1198,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 350,
+      "display_order": 330,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1306,7 +1254,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 360,
+      "display_order": 340,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -1331,7 +1279,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 370,
+      "display_order": 350,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1363,7 +1311,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 380,
+      "display_order": 360,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1395,7 +1343,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 390,
+      "display_order": 370,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1427,7 +1375,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 400,
+      "display_order": 380,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1459,7 +1407,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 410,
+      "display_order": 390,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1491,7 +1439,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 420,
+      "display_order": 400,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1523,7 +1471,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 430,
+      "display_order": 410,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1603,7 +1551,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 440,
+      "display_order": 420,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -1628,7 +1576,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 450,
+      "display_order": 430,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1660,7 +1608,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 460,
+      "display_order": 440,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1692,7 +1640,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 470,
+      "display_order": 450,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1730,7 +1678,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 480,
+      "display_order": 460,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1762,7 +1710,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 490,
+      "display_order": 470,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1806,7 +1754,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 500,
+      "display_order": 480,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1904,7 +1852,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 510,
+      "display_order": 490,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -1929,7 +1877,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 520,
+      "display_order": 500,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1961,7 +1909,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 530,
+      "display_order": 510,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -1993,7 +1941,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 540,
+      "display_order": 520,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2025,7 +1973,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 550,
+      "display_order": 530,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2099,33 +2047,7 @@
           "offering_course_key": "Q:ECON_339",
           "subject_code": "ECON",
           "is_excluded": "N"
-        }
-      ]
-    },
-    {
-      "node_id": "BUS_BS_21_22.CONC_FINANCIAL_MANAGEMENT.APPROVED_ELECTIVES",
-      "program_version_id": "BUS_BS__2021_2022",
-      "parent_node_id": "BUS_BS_21_22.CONC_FINANCIAL_MANAGEMENT",
-      "domain_type": "CONCENTRATION",
-      "concentration_code": "FINANCIAL_MANAGEMENT",
-      "label": "Approved Electives (4 units)",
-      "rule_type": "ONE_OF_COURSES",
-      "required_count": 1,
-      "required_units": 4.0,
-      "child_group_tag": null,
-      "required_tagged_tag": null,
-      "min_tagged_children": 0,
-      "min_ud_courses": 0,
-      "min_ud_units": 0.0,
-      "min_distinct_prefixes": 0,
-      "min_distinct_ge_areas": 0,
-      "min_grade": "D-",
-      "allow_cr_nc": "N",
-      "exclusive_pool_group": "MAJOR_PROGRAM",
-      "allocation_priority": 40,
-      "display_order": 560,
-      "footnote_notes": null,
-      "course_matchers": [
+        },
         {
           "course_match_type": "EXACT_COURSE",
           "offering_course_key": "Q:BUS_320",
@@ -2200,12 +2122,6 @@
         },
         {
           "course_match_type": "EXACT_COURSE",
-          "offering_course_key": "Q:ECON_339",
-          "subject_code": "ECON",
-          "is_excluded": "N"
-        },
-        {
-          "course_match_type": "EXACT_COURSE",
           "offering_course_key": "Q:ECON_405",
           "subject_code": "ECON",
           "is_excluded": "N"
@@ -2263,7 +2179,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 570,
+      "display_order": 540,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -2288,7 +2204,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 580,
+      "display_order": 550,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2320,7 +2236,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 590,
+      "display_order": 560,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2352,7 +2268,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 600,
+      "display_order": 570,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2384,7 +2300,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 610,
+      "display_order": 580,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2416,7 +2332,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 620,
+      "display_order": 590,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2490,7 +2406,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 630,
+      "display_order": 600,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -2515,7 +2431,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 640,
+      "display_order": 610,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2547,7 +2463,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 650,
+      "display_order": 620,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2579,7 +2495,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 660,
+      "display_order": 630,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2611,7 +2527,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 670,
+      "display_order": 640,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2643,7 +2559,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 680,
+      "display_order": 650,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2675,7 +2591,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 690,
+      "display_order": 660,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2761,7 +2677,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 700,
+      "display_order": 670,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -2786,7 +2702,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 710,
+      "display_order": 680,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2818,7 +2734,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 720,
+      "display_order": 690,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2850,7 +2766,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 730,
+      "display_order": 700,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2882,7 +2798,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 740,
+      "display_order": 710,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -2968,7 +2884,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 750,
+      "display_order": 720,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -2993,7 +2909,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 760,
+      "display_order": 730,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3025,7 +2941,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 770,
+      "display_order": 740,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3057,7 +2973,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 780,
+      "display_order": 750,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3089,7 +3005,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 790,
+      "display_order": 760,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3121,7 +3037,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 800,
+      "display_order": 770,
       "footnote_notes": "[1] If a course is taken to meet a Major or Support requirement, it cannot be double-counted in the concentration.",
       "course_matchers": [
         {
@@ -3207,7 +3123,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 810,
+      "display_order": 780,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -3232,7 +3148,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 820,
+      "display_order": 790,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3264,7 +3180,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 830,
+      "display_order": 800,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3296,7 +3212,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 840,
+      "display_order": 810,
       "footnote_notes": "[1] Consultation with an advisor is recommended prior to choosing Approved Electives. Courses in Analytics or in Statistics and Decision Analysis provide a focus in analytics. Courses in Statistics and Decision Analysis or in Mathematical Foundations are recommended for students pursuing post-baccalaureate studies.",
       "course_matchers": [
         {
@@ -3568,7 +3484,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 30,
-      "display_order": 850,
+      "display_order": 820,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -3593,7 +3509,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 860,
+      "display_order": 830,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3625,7 +3541,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 870,
+      "display_order": 840,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3657,7 +3573,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 880,
+      "display_order": 850,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3689,7 +3605,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 890,
+      "display_order": 860,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3721,7 +3637,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 900,
+      "display_order": 870,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3753,7 +3669,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 25,
-      "display_order": 910,
+      "display_order": 880,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3785,7 +3701,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "MAJOR_PROGRAM",
       "allocation_priority": 40,
-      "display_order": 920,
+      "display_order": 890,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3865,7 +3781,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 930,
+      "display_order": 900,
       "footnote_notes": "Required in Major or Support; also satisfies General Education (GE) requirement.",
       "course_matchers": []
     },
@@ -3890,7 +3806,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 940,
+      "display_order": 910,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -3915,7 +3831,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 950,
+      "display_order": 920,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3946,7 +3862,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 960,
+      "display_order": 930,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -3977,7 +3893,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 970,
+      "display_order": 940,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4008,7 +3924,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 980,
+      "display_order": 950,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4033,7 +3949,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 990,
+      "display_order": 960,
       "footnote_notes": "Double-counts with Major Support.",
       "course_matchers": [
         {
@@ -4064,7 +3980,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1000,
+      "display_order": 970,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4095,7 +4011,7 @@
       "allow_cr_nc": "N",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1010,
+      "display_order": 980,
       "footnote_notes": "Golden Four: C- or better.",
       "course_matchers": [
         {
@@ -4126,7 +4042,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1020,
+      "display_order": 990,
       "footnote_notes": "Double-counts with Major MATH 334.",
       "course_matchers": [
         {
@@ -4157,7 +4073,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 55,
-      "display_order": 1030,
+      "display_order": 1000,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4188,7 +4104,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 50,
-      "display_order": 1040,
+      "display_order": 1010,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4213,7 +4129,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1050,
+      "display_order": 1020,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4238,7 +4154,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1060,
+      "display_order": 1030,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4269,7 +4185,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1070,
+      "display_order": 1040,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4300,7 +4216,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 58,
-      "display_order": 1080,
+      "display_order": 1050,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4331,7 +4247,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1090,
+      "display_order": 1060,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4362,7 +4278,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1100,
+      "display_order": 1070,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4387,7 +4303,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1110,
+      "display_order": 1080,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4418,7 +4334,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1120,
+      "display_order": 1090,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4449,7 +4365,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1130,
+      "display_order": 1100,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4480,7 +4396,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1140,
+      "display_order": 1110,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4511,7 +4427,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 52,
-      "display_order": 1150,
+      "display_order": 1120,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4542,7 +4458,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": "GE_PROGRAM",
       "allocation_priority": 70,
-      "display_order": 1160,
+      "display_order": 1130,
       "footnote_notes": "4 units satisfied in Major by MATH 142 (Area B); remaining 4 units must come from Area C or D.",
       "course_matchers": [
         {
@@ -4573,7 +4489,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 90,
-      "display_order": 1170,
+      "display_order": 1140,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4598,7 +4514,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 95,
-      "display_order": 1180,
+      "display_order": 1150,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4628,7 +4544,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 95,
-      "display_order": 1190,
+      "display_order": 1160,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4658,7 +4574,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 95,
-      "display_order": 1200,
+      "display_order": 1170,
       "footnote_notes": null,
       "course_matchers": [
         {
@@ -4688,7 +4604,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 95,
-      "display_order": 1210,
+      "display_order": 1180,
       "footnote_notes": null,
       "course_matchers": []
     },
@@ -4713,7 +4629,7 @@
       "allow_cr_nc": "Y",
       "exclusive_pool_group": null,
       "allocation_priority": 95,
-      "display_order": 1220,
+      "display_order": 1190,
       "footnote_notes": null,
       "course_matchers": []
     }

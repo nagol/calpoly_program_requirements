@@ -1,0 +1,154 @@
+{
+  "program_version_id": "KINE_BS__2022_2026",
+  "catalog_code": "2022-2026",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 98,
+  "total_distinct_subjects": 15,
+  "subjects": [
+    "BIO",
+    "BMED",
+    "CHEM",
+    "COMS",
+    "FSN",
+    "HLTH",
+    "IME",
+    "KINE",
+    "MATH",
+    "ME",
+    "PHIL",
+    "PHYS",
+    "PSY",
+    "RPTA",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "BIO": [
+      "BIO 161",
+      "BIO 162",
+      "BIO 231",
+      "BIO 232",
+      "BIO 253",
+      "BIO 305"
+    ],
+    "BMED": [
+      "BMED 409"
+    ],
+    "CHEM": [
+      "CHEM 127",
+      "CHEM 128",
+      "CHEM 129",
+      "CHEM 216",
+      "CHEM 217",
+      "CHEM 220",
+      "CHEM 312",
+      "CHEM 314"
+    ],
+    "COMS": [
+      "COMS 211",
+      "COMS 213",
+      "COMS 301",
+      "COMS 313",
+      "COMS 316"
+    ],
+    "FSN": [
+      "FSN 310",
+      "FSN 315",
+      "FSN 415",
+      "FSN 416"
+    ],
+    "HLTH": [
+      "HLTH 250",
+      "HLTH 255",
+      "HLTH 260",
+      "HLTH 265",
+      "HLTH 297",
+      "HLTH 298",
+      "HLTH 305",
+      "HLTH 320",
+      "HLTH 334",
+      "HLTH 405",
+      "HLTH 410",
+      "HLTH 434",
+      "HLTH 450",
+      "HLTH 453"
+    ],
+    "IME": [
+      "IME 320"
+    ],
+    "KINE": [
+      "KINE 180",
+      "KINE 181",
+      "KINE 201",
+      "KINE 266",
+      "KINE 278",
+      "KINE 301",
+      "KINE 303",
+      "KINE 304",
+      "KINE 307",
+      "KINE 308",
+      "KINE 312",
+      "KINE 319",
+      "KINE 323",
+      "KINE 324",
+      "KINE 349",
+      "KINE 366",
+      "KINE 382",
+      "KINE 400",
+      "KINE 401",
+      "KINE 403",
+      "KINE 406",
+      "KINE 408",
+      "KINE 409",
+      "KINE 412",
+      "KINE 445",
+      "KINE 446",
+      "KINE 449",
+      "KINE 451",
+      "KINE 454",
+      "KINE 459",
+      "KINE 460",
+      "KINE 461",
+      "KINE 462",
+      "KINE 463"
+    ],
+    "MATH": [
+      "MATH 119",
+      "MATH 141"
+    ],
+    "ME": [
+      "ME 409"
+    ],
+    "PHIL": [
+      "PHIL 339"
+    ],
+    "PHYS": [
+      "PHYS 121",
+      "PHYS 122",
+      "PHYS 123"
+    ],
+    "PSY": [
+      "PSY 201",
+      "PSY 202",
+      "PSY 252",
+      "PSY 256",
+      "PSY 302",
+      "PSY 310",
+      "PSY 318",
+      "PSY 320",
+      "PSY 330",
+      "PSY 340",
+      "PSY 350",
+      "PSY 405"
+    ],
+    "RPTA": [
+      "RPTA 160",
+      "RPTA 255",
+      "RPTA 260",
+      "RPTA 275",
+      "RPTA 450"
+    ],
+    "STAT": [
+      "STAT 218"
+    ]
+  }
+}

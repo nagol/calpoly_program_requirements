@@ -1,0 +1,62 @@
+{
+  "program_version_id": "PHYS_BA__2017_2019",
+  "catalog_code": "2017-2019",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 33,
+  "total_distinct_subjects": 6,
+  "subjects": [
+    "ASTR",
+    "HIST",
+    "MATH",
+    "PHIL",
+    "PHYS",
+    "SCM"
+  ],
+  "courses_by_subject": {
+    "ASTR": [
+      "ASTR 444"
+    ],
+    "HIST": [
+      "HIST 350"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244",
+      "MATH 304"
+    ],
+    "PHIL": [
+      "PHIL 321",
+      "PHIL 421"
+    ],
+    "PHYS": [
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141",
+      "PHYS 202",
+      "PHYS 206",
+      "PHYS 211",
+      "PHYS 212",
+      "PHYS 301",
+      "PHYS 302",
+      "PHYS 322",
+      "PHYS 323",
+      "PHYS 340",
+      "PHYS 341",
+      "PHYS 357",
+      "PHYS 405",
+      "PHYS 408",
+      "PHYS 417",
+      "PHYS 422",
+      "PHYS 423",
+      "PHYS 452",
+      "PHYS 461",
+      "PHYS 463"
+    ],
+    "SCM": [
+      "SCM 451"
+    ]
+  }
+}

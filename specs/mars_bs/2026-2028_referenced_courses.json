@@ -1,0 +1,157 @@
+{
+  "program_version_id": "MARS_BS__2026_2028",
+  "catalog_code": "2026-2028",
+  "term_system": "SEMESTER",
+  "total_distinct_courses": 104,
+  "total_distinct_subjects": 14,
+  "subjects": [
+    "BIO",
+    "CHEM",
+    "COMS",
+    "CSC",
+    "ENGR",
+    "ENVE",
+    "GEOL",
+    "MATH",
+    "MCRO",
+    "MSCI",
+    "PHYS",
+    "PSC",
+    "SCM",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "BIO": [
+      "BIO 1150",
+      "BIO 1151",
+      "BIO 2200",
+      "BIO 2253",
+      "BIO 2255",
+      "BIO 3300",
+      "BIO 3322",
+      "BIO 3326",
+      "BIO 3327",
+      "BIO 3351",
+      "BIO 3352",
+      "BIO 4400",
+      "BIO 4413",
+      "BIO 4414",
+      "BIO 4422",
+      "BIO 4442",
+      "BIO 4443",
+      "BIO 4444",
+      "BIO 4446",
+      "BIO 4449",
+      "BIO 4450",
+      "BIO 4451",
+      "BIO 4452",
+      "BIO 4457",
+      "BIO 4461",
+      "BIO 4462",
+      "BIO 4463",
+      "BIO 4466",
+      "BIO 4470",
+      "BIO 4471",
+      "BIO 4472",
+      "BIO 4485",
+      "BIO 4495"
+    ],
+    "CHEM": [
+      "CHEM 1120",
+      "CHEM 1122",
+      "CHEM 2201",
+      "CHEM 2240",
+      "CHEM 2242",
+      "CHEM 2244",
+      "CHEM 3330",
+      "CHEM 3350",
+      "CHEM 3352",
+      "CHEM 3354",
+      "CHEM 3370",
+      "CHEM 3372"
+    ],
+    "COMS": [
+      "COMS 3390",
+      "COMS 3395"
+    ],
+    "CSC": [
+      "CSC 1001",
+      "CSC 1001L",
+      "CSC 1031",
+      "CSC 1032",
+      "CSC 2001",
+      "CSC 2001L"
+    ],
+    "ENGR": [
+      "ENGR 3302",
+      "ENGR 4400"
+    ],
+    "ENVE": [
+      "ENVE 2331",
+      "ENVE 3434",
+      "ENVE 4400"
+    ],
+    "GEOL": [
+      "GEOL 2200",
+      "GEOL 2240",
+      "GEOL 2241",
+      "GEOL 3330",
+      "GEOL 4400"
+    ],
+    "MATH": [
+      "MATH 1151",
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 1264",
+      "MATH 1265",
+      "MATH 2263",
+      "MATH 2341"
+    ],
+    "MCRO": [
+      "MCRO 1100",
+      "MCRO 2224",
+      "MCRO 4436"
+    ],
+    "MSCI": [
+      "MSCI 1100",
+      "MSCI 1111",
+      "MSCI 1112",
+      "MSCI 3300",
+      "MSCI 3301",
+      "MSCI 3303",
+      "MSCI 3324",
+      "MSCI 4401",
+      "MSCI 4403",
+      "MSCI 4410",
+      "MSCI 4437",
+      "MSCI 4438",
+      "MSCI 4439",
+      "MSCI 4440"
+    ],
+    "PHYS": [
+      "PHYS 1121",
+      "PHYS 1123",
+      "PHYS 1141",
+      "PHYS 1143",
+      "PHYS 2200",
+      "PHYS 3314",
+      "PHYS 4400"
+    ],
+    "PSC": [
+      "PSC 2201"
+    ],
+    "SCM": [
+      "SCM 3302"
+    ],
+    "STAT": [
+      "STAT 1110",
+      "STAT 1810",
+      "STAT 3430",
+      "STAT 3520",
+      "STAT 3530",
+      "STAT 3540",
+      "STAT 3800",
+      "STAT 4760"
+    ]
+  }
+}

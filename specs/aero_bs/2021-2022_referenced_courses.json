@@ -1,0 +1,137 @@
+{
+  "program_version_id": "AERO_BS__2021_2022",
+  "catalog_code": "2021-2022",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 96,
+  "total_distinct_subjects": 10,
+  "subjects": [
+    "AERO",
+    "CE",
+    "CHEM",
+    "EE",
+    "IME",
+    "MATE",
+    "MATH",
+    "ME",
+    "PHYS",
+    "STAT"
+  ],
+  "courses_by_subject": {
+    "AERO": [
+      "AERO 121",
+      "AERO 215",
+      "AERO 220",
+      "AERO 299",
+      "AERO 300",
+      "AERO 302",
+      "AERO 303",
+      "AERO 306",
+      "AERO 307",
+      "AERO 320",
+      "AERO 321",
+      "AERO 331",
+      "AERO 350",
+      "AERO 351",
+      "AERO 355",
+      "AERO 356",
+      "AERO 360",
+      "AERO 401",
+      "AERO 402",
+      "AERO 405",
+      "AERO 406",
+      "AERO 407",
+      "AERO 408",
+      "AERO 409",
+      "AERO 420",
+      "AERO 421",
+      "AERO 425",
+      "AERO 431",
+      "AERO 432",
+      "AERO 433",
+      "AERO 434",
+      "AERO 435",
+      "AERO 443",
+      "AERO 444",
+      "AERO 445",
+      "AERO 446",
+      "AERO 447",
+      "AERO 448",
+      "AERO 449",
+      "AERO 450",
+      "AERO 452",
+      "AERO 455",
+      "AERO 460",
+      "AERO 465",
+      "AERO 470",
+      "AERO 471",
+      "AERO 512",
+      "AERO 513",
+      "AERO 515",
+      "AERO 517",
+      "AERO 519",
+      "AERO 522",
+      "AERO 525",
+      "AERO 526",
+      "AERO 528",
+      "AERO 532",
+      "AERO 533",
+      "AERO 534",
+      "AERO 535",
+      "AERO 540",
+      "AERO 541",
+      "AERO 542",
+      "AERO 546",
+      "AERO 548",
+      "AERO 549",
+      "AERO 553",
+      "AERO 557",
+      "AERO 560",
+      "AERO 561",
+      "AERO 562",
+      "AERO 565",
+      "AERO 566",
+      "AERO 567",
+      "AERO 568",
+      "AERO 569",
+      "AERO 570",
+      "AERO 571"
+    ],
+    "CE": [
+      "CE 204",
+      "CE 207",
+      "CE 208"
+    ],
+    "CHEM": [
+      "CHEM 124"
+    ],
+    "EE": [
+      "EE 201",
+      "EE 251"
+    ],
+    "IME": [
+      "IME 144"
+    ],
+    "MATE": [
+      "MATE 210"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244"
+    ],
+    "ME": [
+      "ME 211",
+      "ME 212"
+    ],
+    "PHYS": [
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141"
+    ],
+    "STAT": [
+      "STAT 312"
+    ]
+  }
+}

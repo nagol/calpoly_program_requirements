@@ -1,0 +1,311 @@
+{
+  "program_version_id": "LIBS_BS__2019_2020",
+  "catalog_code": "2019-2020",
+  "term_system": "QUARTER",
+  "total_distinct_courses": 201,
+  "total_distinct_subjects": 33,
+  "subjects": [
+    "ASTR",
+    "BIO",
+    "BOT",
+    "CD",
+    "CHEM",
+    "COMS",
+    "EDUC",
+    "ENGL",
+    "ENGR",
+    "ERSC",
+    "ES",
+    "GEOG",
+    "GEOL",
+    "HIST",
+    "HLTH",
+    "HNRS",
+    "KINE",
+    "LS",
+    "MATH",
+    "MCRO",
+    "MSCI",
+    "NR",
+    "PHIL",
+    "PHYS",
+    "POLS",
+    "PSC",
+    "PSY",
+    "SCM",
+    "SOC",
+    "SPAN",
+    "SPED",
+    "STAT",
+    "WLC"
+  ],
+  "courses_by_subject": {
+    "ASTR": [
+      "ASTR 101",
+      "ASTR 102",
+      "ASTR 324"
+    ],
+    "BIO": [
+      "BIO 111",
+      "BIO 114",
+      "BIO 211",
+      "BIO 231",
+      "BIO 232",
+      "BIO 302",
+      "BIO 305",
+      "BIO 308",
+      "BIO 335"
+    ],
+    "BOT": [
+      "BOT 311",
+      "BOT 326"
+    ],
+    "CD": [
+      "CD 207",
+      "CD 305",
+      "CD 306",
+      "CD 350",
+      "CD 351",
+      "CD 356",
+      "CD 417",
+      "CD 424",
+      "CD 460"
+    ],
+    "CHEM": [
+      "CHEM 110",
+      "CHEM 124",
+      "CHEM 125",
+      "CHEM 126",
+      "CHEM 127",
+      "CHEM 128",
+      "CHEM 129",
+      "CHEM 308",
+      "CHEM 312",
+      "CHEM 313",
+      "CHEM 349",
+      "CHEM 377"
+    ],
+    "COMS": [
+      "COMS 316"
+    ],
+    "EDUC": [
+      "EDUC 207",
+      "EDUC 402",
+      "EDUC 405",
+      "EDUC 427",
+      "EDUC 428",
+      "EDUC 429",
+      "EDUC 431",
+      "EDUC 435",
+      "EDUC 436",
+      "EDUC 438",
+      "EDUC 439",
+      "EDUC 440",
+      "EDUC 450",
+      "EDUC 454",
+      "EDUC 455",
+      "EDUC 456",
+      "EDUC 457"
+    ],
+    "ENGL": [
+      "ENGL 260",
+      "ENGL 290",
+      "ENGL 311",
+      "ENGL 312",
+      "ENGL 330",
+      "ENGL 331",
+      "ENGL 332",
+      "ENGL 333",
+      "ENGL 334",
+      "ENGL 335",
+      "ENGL 339",
+      "ENGL 340",
+      "ENGL 341",
+      "ENGL 342",
+      "ENGL 343",
+      "ENGL 345",
+      "ENGL 346",
+      "ENGL 347",
+      "ENGL 350",
+      "ENGL 351",
+      "ENGL 352",
+      "ENGL 361",
+      "ENGL 368",
+      "ENGL 390",
+      "ENGL 391",
+      "ENGL 424",
+      "ENGL 497",
+      "ENGL 498",
+      "ENGL 499"
+    ],
+    "ENGR": [
+      "ENGR 322"
+    ],
+    "ERSC": [
+      "ERSC 223"
+    ],
+    "ES": [
+      "ES 381"
+    ],
+    "GEOG": [
+      "GEOG 308"
+    ],
+    "GEOL": [
+      "GEOL 102",
+      "GEOL 203",
+      "GEOL 205",
+      "GEOL 206"
+    ],
+    "HIST": [
+      "HIST 201",
+      "HIST 208",
+      "HIST 210",
+      "HIST 221",
+      "HIST 222",
+      "HIST 223",
+      "HIST 307",
+      "HIST 310",
+      "HIST 313",
+      "HIST 316",
+      "HIST 319",
+      "HIST 322",
+      "HIST 334",
+      "HIST 335",
+      "HIST 338",
+      "HIST 341"
+    ],
+    "HLTH": [
+      "HLTH 443"
+    ],
+    "HNRS": [
+      "HNRS 302"
+    ],
+    "KINE": [
+      "KINE 310",
+      "KINE 443"
+    ],
+    "LS": [
+      "LS 201",
+      "LS 211",
+      "LS 214",
+      "LS 230",
+      "LS 250",
+      "LS 260",
+      "LS 301",
+      "LS 305",
+      "LS 310",
+      "LS 370",
+      "LS 411",
+      "LS 412",
+      "LS 413",
+      "LS 461",
+      "LS 462"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 227",
+      "MATH 248",
+      "MATH 300",
+      "MATH 328",
+      "MATH 329",
+      "MATH 330",
+      "MATH 335",
+      "MATH 336",
+      "MATH 341",
+      "MATH 419",
+      "MATH 442"
+    ],
+    "MCRO": [
+      "MCRO 221",
+      "MCRO 342",
+      "MCRO 421"
+    ],
+    "MSCI": [
+      "MSCI 307",
+      "MSCI 330",
+      "MSCI 440"
+    ],
+    "NR": [
+      "NR 306"
+    ],
+    "PHIL": [
+      "PHIL 230",
+      "PHIL 231"
+    ],
+    "PHYS": [
+      "PHYS 107",
+      "PHYS 111",
+      "PHYS 121",
+      "PHYS 122",
+      "PHYS 123",
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141",
+      "PHYS 330"
+    ],
+    "POLS": [
+      "POLS 112",
+      "POLS 315",
+      "POLS 319",
+      "POLS 348",
+      "POLS 349"
+    ],
+    "PSC": [
+      "PSC 101",
+      "PSC 102",
+      "PSC 103",
+      "PSC 201",
+      "PSC 320"
+    ],
+    "PSY": [
+      "PSY 201",
+      "PSY 202",
+      "PSY 306",
+      "PSY 417",
+      "PSY 460"
+    ],
+    "SCM": [
+      "SCM 302",
+      "SCM 360"
+    ],
+    "SOC": [
+      "SOC 309",
+      "SOC 315",
+      "SOC 316"
+    ],
+    "SPAN": [
+      "SPAN 202",
+      "SPAN 203",
+      "SPAN 206",
+      "SPAN 233",
+      "SPAN 301",
+      "SPAN 302",
+      "SPAN 303",
+      "SPAN 305",
+      "SPAN 307",
+      "SPAN 340",
+      "SPAN 350",
+      "SPAN 351",
+      "SPAN 390",
+      "SPAN 402",
+      "SPAN 410",
+      "SPAN 416",
+      "SPAN 470"
+    ],
+    "SPED": [
+      "SPED 420"
+    ],
+    "STAT": [
+      "STAT 130",
+      "STAT 217",
+      "STAT 410"
+    ],
+    "WLC": [
+      "WLC 310",
+      "WLC 312",
+      "WLC 470"
+    ]
+  }
+}

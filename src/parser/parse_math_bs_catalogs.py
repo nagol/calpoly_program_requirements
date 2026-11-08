@@ -2056,6 +2056,8 @@ def verify_zero_dropped_html_courses(
     for _fname, tables in all_tables:
         for t in tables:
             for r in t.rows:
+                if r.comment_text.strip().lower().startswith("free electives"):
+                    continue
                 for cref in r.courses:
                     for code in cref.canonical_codes:
                         html_codes.add(code)

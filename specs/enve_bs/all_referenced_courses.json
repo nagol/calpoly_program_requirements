@@ -1,0 +1,1073 @@
+{
+  "program_code": "ENVE_BS",
+  "college": "CENG",
+  "catalogs": [
+    "2017-2019",
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2026",
+    "2026-2028"
+  ],
+  "subjects": [
+    "BIO",
+    "BRAE",
+    "CE",
+    "CHEM",
+    "CRP",
+    "ENGL",
+    "ENGR",
+    "ENVE",
+    "ERSC",
+    "GEOG",
+    "IME",
+    "LA",
+    "MATH",
+    "MCRO",
+    "ME",
+    "MSCI",
+    "NR",
+    "PHYS",
+    "PSC",
+    "STAT",
+    "UNIV"
+  ],
+  "quarter_courses_by_subject": {
+    "BIO": [
+      "BIO 363",
+      "BIO 401"
+    ],
+    "BRAE": [
+      "BRAE 448",
+      "BRAE 532"
+    ],
+    "CE": [
+      "CE 113",
+      "CE 204",
+      "CE 207",
+      "CE 208",
+      "CE 251",
+      "CE 336",
+      "CE 337",
+      "CE 381",
+      "CE 400",
+      "CE 433",
+      "CE 434",
+      "CE 435",
+      "CE 440",
+      "CE 465",
+      "CE 500"
+    ],
+    "CHEM": [
+      "CHEM 124",
+      "CHEM 125",
+      "CHEM 126",
+      "CHEM 312",
+      "CHEM 313",
+      "CHEM 314",
+      "CHEM 341",
+      "CHEM 350"
+    ],
+    "CRP": [
+      "CRP 404",
+      "CRP 408"
+    ],
+    "ENGL": [
+      "ENGL 149"
+    ],
+    "ENGR": [
+      "ENGR 581"
+    ],
+    "ENVE": [
+      "ENVE 111",
+      "ENVE 264",
+      "ENVE 304",
+      "ENVE 309",
+      "ENVE 325",
+      "ENVE 331",
+      "ENVE 400",
+      "ENVE 405",
+      "ENVE 407",
+      "ENVE 411",
+      "ENVE 421",
+      "ENVE 426",
+      "ENVE 434",
+      "ENVE 436",
+      "ENVE 438",
+      "ENVE 439",
+      "ENVE 443",
+      "ENVE 450",
+      "ENVE 455",
+      "ENVE 466",
+      "ENVE 467",
+      "ENVE 471",
+      "ENVE 480",
+      "ENVE 500",
+      "ENVE 581"
+    ],
+    "ERSC": [
+      "ERSC 414"
+    ],
+    "GEOG": [
+      "GEOG 414"
+    ],
+    "IME": [
+      "IME 314",
+      "IME 315"
+    ],
+    "LA": [
+      "LA 317"
+    ],
+    "MATH": [
+      "MATH 141",
+      "MATH 142",
+      "MATH 143",
+      "MATH 241",
+      "MATH 244"
+    ],
+    "MCRO": [
+      "MCRO 221",
+      "MCRO 224",
+      "MCRO 342"
+    ],
+    "ME": [
+      "ME 211"
+    ],
+    "MSCI": [
+      "MSCI 307"
+    ],
+    "NR": [
+      "NR 317",
+      "NR 404",
+      "NR 408"
+    ],
+    "PHYS": [
+      "PHYS 132",
+      "PHYS 133",
+      "PHYS 141",
+      "PHYS 142",
+      "PHYS 143",
+      "PHYS 310",
+      "PHYS 313"
+    ],
+    "PSC": [
+      "PSC 492"
+    ],
+    "STAT": [
+      "STAT 312",
+      "STAT 313",
+      "STAT 323"
+    ],
+    "UNIV": [
+      "UNIV 492"
+    ]
+  },
+  "semester_courses_by_subject": {
+    "CE": [
+      "CE 1112",
+      "CE 2251",
+      "CE 3321",
+      "CE 3336",
+      "CE 3337",
+      "CE 3352",
+      "CE 3375",
+      "CE 3381",
+      "CE 3465",
+      "CE 4400",
+      "CE 4413",
+      "CE 4433",
+      "CE 4434",
+      "CE 4435",
+      "CE 4440",
+      "CE 4474",
+      "CE 4475",
+      "CE 5536",
+      "CE 5537",
+      "CE 5538",
+      "CE 5539",
+      "CE 5541"
+    ],
+    "CHEM": [
+      "CHEM 1120",
+      "CHEM 1122"
+    ],
+    "ENGR": [
+      "ENGR 2211"
+    ],
+    "ENVE": [
+      "ENVE 1111",
+      "ENVE 1112",
+      "ENVE 2251",
+      "ENVE 2325",
+      "ENVE 2331",
+      "ENVE 3309",
+      "ENVE 3336",
+      "ENVE 3337",
+      "ENVE 3421",
+      "ENVE 3434",
+      "ENVE 3438",
+      "ENVE 3450",
+      "ENVE 3465",
+      "ENVE 4437",
+      "ENVE 4439",
+      "ENVE 4466",
+      "ENVE 4467",
+      "ENVE 5500",
+      "ENVE 5591",
+      "ENVE 5592",
+      "ENVE 5597",
+      "ENVE 5599"
+    ],
+    "MATH": [
+      "MATH 1261",
+      "MATH 1262",
+      "MATH 2341"
+    ],
+    "MCRO": [
+      "MCRO 2221"
+    ],
+    "PHYS": [
+      "PHYS 1141",
+      "PHYS 1143"
+    ],
+    "STAT": [
+      "STAT 3210"
+    ]
+  },
+  "by_catalog": {
+    "2017-2019": {
+      "program_version_id": "ENVE_BS__2017_2019",
+      "catalog_code": "2017-2019",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 77,
+      "total_distinct_subjects": 21,
+      "subjects": [
+        "BIO",
+        "BRAE",
+        "CE",
+        "CHEM",
+        "CRP",
+        "ENGL",
+        "ENGR",
+        "ENVE",
+        "ERSC",
+        "GEOG",
+        "IME",
+        "LA",
+        "MATH",
+        "MCRO",
+        "ME",
+        "MSCI",
+        "NR",
+        "PHYS",
+        "PSC",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 401"
+        ],
+        "BRAE": [
+          "BRAE 448",
+          "BRAE 532"
+        ],
+        "CE": [
+          "CE 113",
+          "CE 204",
+          "CE 207",
+          "CE 251",
+          "CE 336",
+          "CE 337",
+          "CE 381",
+          "CE 400",
+          "CE 434",
+          "CE 465",
+          "CE 500"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 126",
+          "CHEM 312",
+          "CHEM 313",
+          "CHEM 341",
+          "CHEM 350"
+        ],
+        "CRP": [
+          "CRP 404",
+          "CRP 408"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 581"
+        ],
+        "ENVE": [
+          "ENVE 111",
+          "ENVE 264",
+          "ENVE 304",
+          "ENVE 309",
+          "ENVE 325",
+          "ENVE 331",
+          "ENVE 400",
+          "ENVE 405",
+          "ENVE 407",
+          "ENVE 411",
+          "ENVE 421",
+          "ENVE 426",
+          "ENVE 434",
+          "ENVE 436",
+          "ENVE 438",
+          "ENVE 439",
+          "ENVE 443",
+          "ENVE 450",
+          "ENVE 455",
+          "ENVE 466",
+          "ENVE 467",
+          "ENVE 471",
+          "ENVE 480",
+          "ENVE 500",
+          "ENVE 581"
+        ],
+        "ERSC": [
+          "ERSC 414"
+        ],
+        "GEOG": [
+          "GEOG 414"
+        ],
+        "IME": [
+          "IME 314"
+        ],
+        "LA": [
+          "LA 317"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244"
+        ],
+        "MCRO": [
+          "MCRO 221",
+          "MCRO 224",
+          "MCRO 342"
+        ],
+        "ME": [
+          "ME 211"
+        ],
+        "MSCI": [
+          "MSCI 307"
+        ],
+        "NR": [
+          "NR 317",
+          "NR 404",
+          "NR 408"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 310",
+          "PHYS 313"
+        ],
+        "PSC": [
+          "PSC 492"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 313",
+          "STAT 323"
+        ],
+        "UNIV": [
+          "UNIV 492"
+        ]
+      }
+    },
+    "2019-2020": {
+      "program_version_id": "ENVE_BS__2019_2020",
+      "catalog_code": "2019-2020",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 77,
+      "total_distinct_subjects": 21,
+      "subjects": [
+        "BIO",
+        "BRAE",
+        "CE",
+        "CHEM",
+        "CRP",
+        "ENGL",
+        "ENGR",
+        "ENVE",
+        "ERSC",
+        "GEOG",
+        "IME",
+        "LA",
+        "MATH",
+        "MCRO",
+        "ME",
+        "MSCI",
+        "NR",
+        "PHYS",
+        "PSC",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 363"
+        ],
+        "BRAE": [
+          "BRAE 448",
+          "BRAE 532"
+        ],
+        "CE": [
+          "CE 113",
+          "CE 204",
+          "CE 207",
+          "CE 251",
+          "CE 336",
+          "CE 337",
+          "CE 381",
+          "CE 400",
+          "CE 434",
+          "CE 465",
+          "CE 500"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 126",
+          "CHEM 312",
+          "CHEM 313",
+          "CHEM 341"
+        ],
+        "CRP": [
+          "CRP 404",
+          "CRP 408"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 581"
+        ],
+        "ENVE": [
+          "ENVE 111",
+          "ENVE 264",
+          "ENVE 304",
+          "ENVE 309",
+          "ENVE 325",
+          "ENVE 331",
+          "ENVE 400",
+          "ENVE 405",
+          "ENVE 407",
+          "ENVE 411",
+          "ENVE 421",
+          "ENVE 426",
+          "ENVE 434",
+          "ENVE 436",
+          "ENVE 438",
+          "ENVE 439",
+          "ENVE 443",
+          "ENVE 450",
+          "ENVE 455",
+          "ENVE 466",
+          "ENVE 467",
+          "ENVE 471",
+          "ENVE 480",
+          "ENVE 500",
+          "ENVE 581"
+        ],
+        "ERSC": [
+          "ERSC 414"
+        ],
+        "GEOG": [
+          "GEOG 414"
+        ],
+        "IME": [
+          "IME 314",
+          "IME 315"
+        ],
+        "LA": [
+          "LA 317"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244"
+        ],
+        "MCRO": [
+          "MCRO 221",
+          "MCRO 224",
+          "MCRO 342"
+        ],
+        "ME": [
+          "ME 211"
+        ],
+        "MSCI": [
+          "MSCI 307"
+        ],
+        "NR": [
+          "NR 317",
+          "NR 404",
+          "NR 408"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 310",
+          "PHYS 313"
+        ],
+        "PSC": [
+          "PSC 492"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 313",
+          "STAT 323"
+        ],
+        "UNIV": [
+          "UNIV 492"
+        ]
+      }
+    },
+    "2020-2021": {
+      "program_version_id": "ENVE_BS__2020_2021",
+      "catalog_code": "2020-2021",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 78,
+      "total_distinct_subjects": 21,
+      "subjects": [
+        "BIO",
+        "BRAE",
+        "CE",
+        "CHEM",
+        "CRP",
+        "ENGL",
+        "ENGR",
+        "ENVE",
+        "ERSC",
+        "GEOG",
+        "IME",
+        "LA",
+        "MATH",
+        "MCRO",
+        "ME",
+        "MSCI",
+        "NR",
+        "PHYS",
+        "PSC",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 363"
+        ],
+        "BRAE": [
+          "BRAE 448",
+          "BRAE 532"
+        ],
+        "CE": [
+          "CE 113",
+          "CE 204",
+          "CE 207",
+          "CE 208",
+          "CE 251",
+          "CE 336",
+          "CE 337",
+          "CE 381",
+          "CE 400",
+          "CE 434",
+          "CE 465",
+          "CE 500"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 126",
+          "CHEM 312",
+          "CHEM 313",
+          "CHEM 341"
+        ],
+        "CRP": [
+          "CRP 404",
+          "CRP 408"
+        ],
+        "ENGL": [
+          "ENGL 149"
+        ],
+        "ENGR": [
+          "ENGR 581"
+        ],
+        "ENVE": [
+          "ENVE 111",
+          "ENVE 264",
+          "ENVE 304",
+          "ENVE 309",
+          "ENVE 325",
+          "ENVE 331",
+          "ENVE 400",
+          "ENVE 405",
+          "ENVE 407",
+          "ENVE 411",
+          "ENVE 421",
+          "ENVE 426",
+          "ENVE 434",
+          "ENVE 436",
+          "ENVE 438",
+          "ENVE 439",
+          "ENVE 443",
+          "ENVE 450",
+          "ENVE 455",
+          "ENVE 466",
+          "ENVE 467",
+          "ENVE 471",
+          "ENVE 480",
+          "ENVE 500",
+          "ENVE 581"
+        ],
+        "ERSC": [
+          "ERSC 414"
+        ],
+        "GEOG": [
+          "GEOG 414"
+        ],
+        "IME": [
+          "IME 314",
+          "IME 315"
+        ],
+        "LA": [
+          "LA 317"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244"
+        ],
+        "MCRO": [
+          "MCRO 221",
+          "MCRO 224",
+          "MCRO 342"
+        ],
+        "ME": [
+          "ME 211"
+        ],
+        "MSCI": [
+          "MSCI 307"
+        ],
+        "NR": [
+          "NR 317",
+          "NR 404",
+          "NR 408"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 310",
+          "PHYS 313"
+        ],
+        "PSC": [
+          "PSC 492"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 313",
+          "STAT 323"
+        ],
+        "UNIV": [
+          "UNIV 492"
+        ]
+      }
+    },
+    "2021-2022": {
+      "program_version_id": "ENVE_BS__2021_2022",
+      "catalog_code": "2021-2022",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 76,
+      "total_distinct_subjects": 19,
+      "subjects": [
+        "BIO",
+        "BRAE",
+        "CE",
+        "CHEM",
+        "CRP",
+        "ENGR",
+        "ENVE",
+        "ERSC",
+        "GEOG",
+        "IME",
+        "LA",
+        "MATH",
+        "MCRO",
+        "ME",
+        "NR",
+        "PHYS",
+        "PSC",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 363"
+        ],
+        "BRAE": [
+          "BRAE 448",
+          "BRAE 532"
+        ],
+        "CE": [
+          "CE 113",
+          "CE 204",
+          "CE 207",
+          "CE 208",
+          "CE 251",
+          "CE 336",
+          "CE 337",
+          "CE 381",
+          "CE 400",
+          "CE 434",
+          "CE 465",
+          "CE 500"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 126",
+          "CHEM 312",
+          "CHEM 313",
+          "CHEM 341"
+        ],
+        "CRP": [
+          "CRP 404",
+          "CRP 408"
+        ],
+        "ENGR": [
+          "ENGR 581"
+        ],
+        "ENVE": [
+          "ENVE 111",
+          "ENVE 264",
+          "ENVE 304",
+          "ENVE 309",
+          "ENVE 325",
+          "ENVE 331",
+          "ENVE 400",
+          "ENVE 405",
+          "ENVE 407",
+          "ENVE 411",
+          "ENVE 421",
+          "ENVE 426",
+          "ENVE 434",
+          "ENVE 436",
+          "ENVE 438",
+          "ENVE 439",
+          "ENVE 443",
+          "ENVE 450",
+          "ENVE 455",
+          "ENVE 466",
+          "ENVE 467",
+          "ENVE 471",
+          "ENVE 480",
+          "ENVE 500",
+          "ENVE 581"
+        ],
+        "ERSC": [
+          "ERSC 414"
+        ],
+        "GEOG": [
+          "GEOG 414"
+        ],
+        "IME": [
+          "IME 314",
+          "IME 315"
+        ],
+        "LA": [
+          "LA 317"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244"
+        ],
+        "MCRO": [
+          "MCRO 221",
+          "MCRO 224",
+          "MCRO 342"
+        ],
+        "ME": [
+          "ME 211"
+        ],
+        "NR": [
+          "NR 317",
+          "NR 404",
+          "NR 408"
+        ],
+        "PHYS": [
+          "PHYS 132",
+          "PHYS 133",
+          "PHYS 141",
+          "PHYS 310",
+          "PHYS 313"
+        ],
+        "PSC": [
+          "PSC 492"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 313",
+          "STAT 323"
+        ],
+        "UNIV": [
+          "UNIV 492"
+        ]
+      }
+    },
+    "2022-2026": {
+      "program_version_id": "ENVE_BS__2022_2026",
+      "catalog_code": "2022-2026",
+      "term_system": "QUARTER",
+      "total_distinct_courses": 79,
+      "total_distinct_subjects": 19,
+      "subjects": [
+        "BIO",
+        "BRAE",
+        "CE",
+        "CHEM",
+        "CRP",
+        "ENGR",
+        "ENVE",
+        "ERSC",
+        "GEOG",
+        "IME",
+        "LA",
+        "MATH",
+        "MCRO",
+        "ME",
+        "NR",
+        "PHYS",
+        "PSC",
+        "STAT",
+        "UNIV"
+      ],
+      "courses_by_subject": {
+        "BIO": [
+          "BIO 363"
+        ],
+        "BRAE": [
+          "BRAE 448",
+          "BRAE 532"
+        ],
+        "CE": [
+          "CE 113",
+          "CE 204",
+          "CE 207",
+          "CE 208",
+          "CE 251",
+          "CE 336",
+          "CE 337",
+          "CE 381",
+          "CE 400",
+          "CE 433",
+          "CE 434",
+          "CE 435",
+          "CE 440",
+          "CE 465",
+          "CE 500"
+        ],
+        "CHEM": [
+          "CHEM 124",
+          "CHEM 125",
+          "CHEM 126",
+          "CHEM 312",
+          "CHEM 314",
+          "CHEM 341"
+        ],
+        "CRP": [
+          "CRP 404",
+          "CRP 408"
+        ],
+        "ENGR": [
+          "ENGR 581"
+        ],
+        "ENVE": [
+          "ENVE 111",
+          "ENVE 264",
+          "ENVE 304",
+          "ENVE 309",
+          "ENVE 325",
+          "ENVE 331",
+          "ENVE 400",
+          "ENVE 405",
+          "ENVE 407",
+          "ENVE 411",
+          "ENVE 421",
+          "ENVE 426",
+          "ENVE 434",
+          "ENVE 436",
+          "ENVE 438",
+          "ENVE 439",
+          "ENVE 443",
+          "ENVE 450",
+          "ENVE 455",
+          "ENVE 466",
+          "ENVE 467",
+          "ENVE 471",
+          "ENVE 480",
+          "ENVE 500",
+          "ENVE 581"
+        ],
+        "ERSC": [
+          "ERSC 414"
+        ],
+        "GEOG": [
+          "GEOG 414"
+        ],
+        "IME": [
+          "IME 314",
+          "IME 315"
+        ],
+        "LA": [
+          "LA 317"
+        ],
+        "MATH": [
+          "MATH 141",
+          "MATH 142",
+          "MATH 143",
+          "MATH 241",
+          "MATH 244"
+        ],
+        "MCRO": [
+          "MCRO 221",
+          "MCRO 224",
+          "MCRO 342"
+        ],
+        "ME": [
+          "ME 211"
+        ],
+        "NR": [
+          "NR 317",
+          "NR 404",
+          "NR 408"
+        ],
+        "PHYS": [
+          "PHYS 141",
+          "PHYS 142",
+          "PHYS 143",
+          "PHYS 310",
+          "PHYS 313"
+        ],
+        "PSC": [
+          "PSC 492"
+        ],
+        "STAT": [
+          "STAT 312",
+          "STAT 313",
+          "STAT 323"
+        ],
+        "UNIV": [
+          "UNIV 492"
+        ]
+      }
+    },
+    "2026-2028": {
+      "program_version_id": "ENVE_BS__2026_2028",
+      "catalog_code": "2026-2028",
+      "term_system": "SEMESTER",
+      "total_distinct_courses": 54,
+      "total_distinct_subjects": 8,
+      "subjects": [
+        "CE",
+        "CHEM",
+        "ENGR",
+        "ENVE",
+        "MATH",
+        "MCRO",
+        "PHYS",
+        "STAT"
+      ],
+      "courses_by_subject": {
+        "CE": [
+          "CE 1112",
+          "CE 2251",
+          "CE 3321",
+          "CE 3336",
+          "CE 3337",
+          "CE 3352",
+          "CE 3375",
+          "CE 3381",
+          "CE 3465",
+          "CE 4400",
+          "CE 4413",
+          "CE 4433",
+          "CE 4434",
+          "CE 4435",
+          "CE 4440",
+          "CE 4474",
+          "CE 4475",
+          "CE 5536",
+          "CE 5537",
+          "CE 5538",
+          "CE 5539",
+          "CE 5541"
+        ],
+        "CHEM": [
+          "CHEM 1120",
+          "CHEM 1122"
+        ],
+        "ENGR": [
+          "ENGR 2211"
+        ],
+        "ENVE": [
+          "ENVE 1111",
+          "ENVE 1112",
+          "ENVE 2251",
+          "ENVE 2325",
+          "ENVE 2331",
+          "ENVE 3309",
+          "ENVE 3336",
+          "ENVE 3337",
+          "ENVE 3421",
+          "ENVE 3434",
+          "ENVE 3438",
+          "ENVE 3450",
+          "ENVE 3465",
+          "ENVE 4437",
+          "ENVE 4439",
+          "ENVE 4466",
+          "ENVE 4467",
+          "ENVE 5500",
+          "ENVE 5591",
+          "ENVE 5592",
+          "ENVE 5597",
+          "ENVE 5599"
+        ],
+        "MATH": [
+          "MATH 1261",
+          "MATH 1262",
+          "MATH 2341"
+        ],
+        "MCRO": [
+          "MCRO 2221"
+        ],
+        "PHYS": [
+          "PHYS 1141",
+          "PHYS 1143"
+        ],
+        "STAT": [
+          "STAT 3210"
+        ]
+      }
+    }
+  }
+}
